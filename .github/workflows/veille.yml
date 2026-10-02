@@ -1,0 +1,66 @@
+name: Veille quotidienne
+
+on:
+  schedule:
+    # Tous les jours vers 7 h (heure de Paris en hiver, 8 h en été).
+    # GitHub peut décaler l'exécution de quelques dizaines de minutes.
+    - cron: "0 6 * * *"
+  # Bouton "Run workflow" dans l'onglet Actions, pour lancer à la main.
+  workflow_dispatch:
+  # Après une modification de la config, du code ou de la page : régénère.
+  push:
+    branches: [main]
+    paths: ["config.yaml", "veille/**", "templates/**", "assets/**"]
+
+permissions:
+  contents: write   # enregistrer data/ (l'historique) dans le dépôt
+  pages: write      # publier le site
+  id-token: write
+
+concurrency:
+  group: veille
+  cancel-in-progress: false
+
+jobs:
+  veille:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    environment:
+      name: github-pages
+      url: ${{ steps.deploiement.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Installer les dépendances
+        run: pip install -r requirements.txt
+
+      - name: Collecter, résumer et générer le site
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
+        run: python -m veille
+
+      - name: Enregistrer l'historique dans le dépôt
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "Rien de nouveau"
+          else
+            git commit -m "Veille du $(date +%F)"
+            git pull --rebase
+            git push
+          fi
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: site
+      - id: deploiement
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,11 @@
+# Secrets (en local uniquement ; sur GitHub ils sont dans Settings > Secrets)
+.env
+
+# Environnement Python
+.venv/
+__pycache__/
+*.pyc
+
+# Site généré à chaque passage et publié directement sur GitHub Pages par le
+# workflow : inutile de le versionner. data/ (l'historique), lui, est versionné.
+site/

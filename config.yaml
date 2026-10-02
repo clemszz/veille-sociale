@@ -1,0 +1,430 @@
+# =============================================================================
+#  Veille juridique sociale — AIPALS
+#  Ce fichier se modifie directement sur GitHub (icône crayon) : chaque
+#  enregistrement relance la veille et met le site à jour en quelques minutes.
+# =============================================================================
+
+site:
+  titre: "Veille juridique sociale"
+  sous_titre: "Service social AIPALS : droit social et protection sociale, mis à jour chaque matin"
+  # Adresse publique du site (sert au flux RSS), à compléter après activation de GitHub Pages.
+  url: ""
+  # Durée de conservation de l'historique.
+  conserver_jours: 365
+
+collecte:
+  # Au tout premier passage, on remonte ce nombre de jours en arrière...
+  premiere_collecte_jours: 45
+  # ...puis on ignore les éléments plus anciens que ceci (évite qu'un flux qui
+  # republie de vieux articles ne pollue la veille).
+  fenetre_jours: 21
+
+ia:
+  # Nombre d'éléments envoyés à Gemini par appel, et pause entre deux appels :
+  # réglés pour rester sous les limites de l'offre gratuite.
+  taille_lot: 6
+  pause_entre_appels_s: 8
+  max_elements_par_passage: 90
+  # Au-delà de ce nombre d'échecs, un élément reste affiché sans résumé IA.
+  essais_max: 3
+
+# -----------------------------------------------------------------------------
+#  THÈMES ET MOTS-CLÉS
+#  Un élément est retenu s'il contient au moins un mot-clé (titre ou extrait).
+#  - accents et majuscules ignorés ;  mot* = préfixe (handicap* -> handicapés)
+#  - mot-clé ENTIÈREMENT EN MAJUSCULES = sigle, casse respectée (AME ≠ âme)
+#  Ne pas renommer les clés (maintien_emploi, ...) : seulement les listes.
+# -----------------------------------------------------------------------------
+themes:
+  maintien_emploi:
+    libelle: "Maintien dans l'emploi"
+    mots_cles:
+      - maintien dans l'emploi
+      - maintien en emploi
+      - désinsertion professionnelle
+      - PDP
+      - inaptitude
+      - inapte
+      - reclassement
+      - temps partiel thérapeutique
+      - mi-temps thérapeutique
+      - TPT
+      - pré-reprise
+      - visite de reprise
+      - rendez-vous de liaison
+      - essai encadré
+      - rééducation professionnelle
+      - CRPE
+      - projet de transition professionnelle
+      - Transitions Pro
+      - santé au travail
+      - médecine du travail
+      - médecin du travail
+      - service de prévention et de santé au travail
+      - SPSTI
+      - SPST
+      - aménagement de poste
+      - aménagement du poste
+      - reprise du travail
+      - reprise d'activité
+      - risques psychosociaux
+      - burn-out
+      - épuisement professionnel
+      - harcèlement moral
+      - usure professionnelle
+      - pénibilité
+      - compte professionnel de prévention
+      - C2P
+      - proche aidant
+      - congé de proche aidant
+      - AJPA
+      - présence parentale
+      - AJPP
+      - licenciement pour inaptitude
+      - arrêt de travail
+
+  protection_sociale:
+    libelle: "Protection sociale"
+    mots_cles:
+      - arrêt de travail
+      - arrêt maladie
+      - indemnités journalières
+      - IJ
+      - IJSS
+      - délai de carence
+      - jour de carence
+      - subrogation
+      - affection de longue durée
+      - ALD
+      - invalidité
+      - pension d'invalidité
+      - accident du travail
+      - maladie professionnelle
+      - AT-MP
+      - AT/MP
+      - incapacité permanente
+      - rente
+      - prévoyance
+      - portabilité
+      - retraite
+      - départ anticipé
+      - carrière longue
+      - cumul emploi-retraite
+      - pension de réversion
+      - ASPA
+      - minimum vieillesse
+      - assurance maladie
+      - CPAM
+      - Carsat
+      - PLFSS
+      - LFSS
+      - financement de la sécurité sociale
+      - médecin conseil
+      - contrôle médical
+      - assurance chômage
+      - allocation chômage
+      - ARE
+      - France Travail
+      - congé maternité
+      - congé de maternité
+      - congé paternité
+      - congé de naissance
+      - capital décès
+
+  handicap:
+    libelle: "Handicap"
+    mots_cles:
+      - handicap*
+      - RQTH
+      - travailleur handicapé
+      - MDPH
+      - maison départementale des personnes handicapées
+      - CDAPH
+      - AAH
+      - allocation aux adultes handicapés
+      - PCH
+      - prestation de compensation
+      - Agefiph
+      - FIPHFP
+      - Cap emploi
+      - OETH
+      - obligation d'emploi
+      - ESAT
+      - entreprise adaptée
+      - emploi accompagné
+      - carte mobilité inclusion
+      - CMI
+      - AEEH
+      - perte d'autonomie
+      - allocation personnalisée d'autonomie
+      - APA
+      - branche autonomie
+      - CNSA
+      - aidant
+
+  aides_sociales:
+    libelle: "Aides sociales et accès aux droits"
+    mots_cles:
+      - RSA
+      - revenu de solidarité active
+      - prime d'activité
+      - Caf   # écrit "Caf" ou "CAF" selon les sites : pas de casse imposée
+      - caisse d'allocations familiales
+      - allocations familiales
+      - prestations familiales
+      - prestations sociales
+      - MSA
+      - APL
+      - aide personnalisée au logement
+      - aides au logement
+      - allocation de logement
+      - logement social
+      - HLM
+      - DALO
+      - expulsion
+      - trêve hivernale
+      - hébergement d'urgence
+      - FSL
+      - fonds de solidarité pour le logement
+      - chèque énergie
+      - surendettement
+      - microcrédit
+      - C2S
+      - complémentaire santé solidaire
+      - complémentaire santé
+      - mutuelle
+      - aide médicale de l'État
+      - AME
+      - protection universelle maladie
+      - PUMa
+      - minima sociaux
+      - ASS
+      - allocation de solidarité spécifique
+      - solidarité à la source
+      - allocation sociale unique
+      - accès aux droits
+      - non-recours
+      - aide sociale
+      - action sociale
+      - CCAS
+      - France Services
+      - pension alimentaire
+      - ARIPA
+      - allocation de soutien familial
+      - ASF
+      - complément familial
+      - garde d'enfant
+      - CMG
+      - pauvreté
+      - précarité
+      - violences conjugales
+      - aide universelle d'urgence
+      - tutelle
+      - curatelle
+      - protection juridique des majeurs
+      - aide juridictionnelle
+      - Smic
+      - revalorisation
+
+# -----------------------------------------------------------------------------
+#  SOURCES
+#  type     : rss (flux RSS/Atom) ou html (page liste + sélecteurs CSS)
+#  filtrer  : true = ne garder que les éléments qui contiennent un mot-clé ;
+#             false = tout garder (source déjà 100 % ciblée)
+#  lire_page: true = l'IA lit la page complète (extrait du flux trop court)
+#  actif    : false pour désactiver une source sans la supprimer
+# -----------------------------------------------------------------------------
+sources:
+  # --- Sources officielles généralistes ---------------------------------------
+  - id: sp-particuliers
+    nom: "Service-Public.fr (particuliers)"
+    type: rss
+    url: https://www.service-public.gouv.fr/abonnements/rss/actu-actualites-particuliers.rss
+    site: https://www.service-public.gouv.fr/particuliers/actualites
+    lire_page: true
+
+  - id: sp-pro
+    nom: "Service-Public.fr (professionnels)"
+    type: rss
+    url: https://www.service-public.gouv.fr/abonnements/rss/actu-actu-pro.rss
+    site: https://entreprendre.service-public.gouv.fr/actualites
+    lire_page: true
+
+  - id: jo
+    nom: "Journal officiel (Lois et décrets)"
+    type: dila
+    fonds: JORFSIMPLE
+    site: https://www.legifrance.gouv.fr/jorf/jo
+    # Archives des N derniers jours relues à chaque passage (rattrape un passage manqué).
+    jours: 5
+    exclure:
+      - portant nomination
+      - nomination
+      - cessation de fonctions
+      - tableau d'avancement
+      - liste d'aptitude
+      - concours
+      - examen professionnel
+      - délégation de signature
+      - titre professionnel
+      - handicap naturel
+      - handicaps naturels
+      - élection
+      - médaille
+      - promotion
+      - admission à la retraite
+      - radiation
+      - spécialités pharmaceutiques
+      - prises en charge en sus
+      - produits et prestations
+      - dispositifs médicaux
+      - tarification
+      - prix de
+      - autorisées à exercer
+      - L. 165-1
+      - L. 162-16
+      - L. 162-17
+      - avis de recrutement
+      - portant extension
+      - portant agrément
+      - armées
+
+  - id: vie-publique-lois
+    nom: "Vie-publique.fr (lois)"
+    type: rss
+    url: https://www.vie-publique.fr/lois-feeds.xml
+    site: https://www.vie-publique.fr/lois
+
+  - id: vie-publique-actu
+    nom: "Vie-publique.fr (actualités)"
+    type: rss
+    url: https://www.vie-publique.fr/actualites-feeds.xml
+    site: https://www.vie-publique.fr/en-bref
+
+  # --- Ministères ------------------------------------------------------------
+  - id: travail-emploi
+    nom: "Ministère du Travail"
+    type: rss
+    url: https://travail-emploi.gouv.fr/rss.xml
+    site: https://travail-emploi.gouv.fr
+    lire_page: true
+
+  - id: solidarites
+    nom: "Ministère des Solidarités"
+    type: rss
+    url: https://solidarites.gouv.fr/rss.xml
+    site: https://solidarites.gouv.fr
+    lire_page: true
+
+  - id: handicap-gouv
+    nom: "Handicap.gouv.fr"
+    type: rss
+    url: https://handicap.gouv.fr/rss.xml
+    site: https://handicap.gouv.fr
+    lire_page: true
+
+  - id: dreets-occitanie
+    nom: "DREETS Occitanie"
+    type: rss
+    url: https://occitanie.dreets.gouv.fr/spip.php?page=backend
+    site: https://occitanie.dreets.gouv.fr
+
+  # --- Organismes de protection sociale ---------------------------------------
+  - id: ameli-assure
+    nom: "ameli.fr (assurés)"
+    type: html
+    url: https://www.ameli.fr/assure/actualites
+    delai_s: 10          # imposé par le robots.txt d'ameli
+    lire_page: true
+    selecteurs:
+      item: div.wrapper-actualite
+      titre: h2.titre-actus
+      lien: h2.titre-actus a
+      date: p.date-actus
+
+  - id: ameli-medecin
+    nom: "ameli.fr (médecins : arrêts de travail, ALD...)"
+    type: html
+    url: https://www.ameli.fr/medecin/actualites
+    delai_s: 10
+    lire_page: true
+    selecteurs:
+      item: div.wrapper-actualite
+      titre: h2.titre-actus
+      lien: h2.titre-actus a
+      date: p.date-actus
+
+  - id: assurance-retraite
+    nom: "L'Assurance retraite"
+    type: html
+    url: https://www.lassuranceretraite.fr/portail-info/hors-menu/toutes-les-actualites.html
+    lire_page: true
+    selecteurs:
+      item: a.card.js-filterable
+      titre: h3.title-carte
+
+  - id: agirc-arrco
+    nom: "Agirc-Arrco"
+    type: rss
+    url: https://www.agirc-arrco.fr/feed/?post_type=post
+    site: https://www.agirc-arrco.fr
+
+  - id: c2s
+    nom: "Complémentaire santé solidaire"
+    type: rss
+    url: https://www.complementaire-sante-solidaire.gouv.fr/rss.xml
+    site: https://www.complementaire-sante-solidaire.gouv.fr
+
+  # --- Handicap et santé au travail ------------------------------------------
+  - id: agefiph
+    nom: "Agefiph"
+    type: rss
+    url: https://www.agefiph.fr/rss.xml
+    site: https://www.agefiph.fr/actualites
+
+  - id: cnsa
+    nom: "CNSA"
+    type: rss
+    url: https://www.cnsa.fr/flux-rss.xml/article
+    site: https://www.cnsa.fr
+
+  - id: presanse
+    nom: "Présanse (fédération des SPSTI)"
+    type: rss
+    url: https://www.presanse.fr/feed/?post_type=actualite
+    site: https://www.presanse.fr
+
+  # --- Jurisprudence ------------------------------------------------------------
+  - id: cassation
+    nom: "Cour de cassation (chambre sociale et 2e civile)"
+    type: dila
+    fonds: CASS
+    site: https://www.courdecassation.fr
+    # Dépôt environ hebdomadaire : on relit les archives des 15 derniers jours.
+    jours: 15
+    chambres: [CHAMBRE_SOCIALE, CHAMBRE_CIVILE_2]
+
+  - id: conseil-etat
+    nom: "Conseil d'État (analyses de jurisprudence)"
+    type: rss
+    url: https://www.conseil-etat.fr/rss/analyses-de-jurisprudence-rss
+    site: https://www.conseil-etat.fr
+
+  - id: defenseur-droits
+    nom: "Défenseur des droits"
+    type: rss
+    url: https://www.defenseurdesdroits.fr/rss/actualites
+    site: https://www.defenseurdesdroits.fr
+
+  # --- Presse spécialisée (titres et chapôs seulement, articles parfois payants)
+  - id: ash
+    nom: "ASH (Actualités sociales hebdomadaires)"
+    type: rss
+    url: https://www.ash.tm.fr/rss.xml
+    site: https://www.ash.tm.fr
+
+  - id: tissot-sante-securite
+    nom: "Éditions Tissot (santé-sécurité au travail)"
+    type: rss
+    url: https://www.editions-tissot.fr/actualite/feeds/sante-securite/last_news.atom
+    site: https://www.editions-tissot.fr/actualite/sante-securite
