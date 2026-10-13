@@ -67,8 +67,12 @@ def date_fr(texte: str) -> date | None:
 
 
 def collecter_rss(source: dict) -> list[dict]:
+    r = http.get(source["url"])
+    if r.headers.get("Content-Type", "").startswith("text/html") and b"<rss" not in r.content[:2000]:
+        raise ValueError("le site a renvoyé une page web au lieu du flux (blocage anti-robots, "
+                         "souvent temporaire)")
     # lstrip : certains flux (ex. Présanse) ont des espaces avant <?xml.
-    flux = feedparser.parse(http.get(source["url"]).content.lstrip())
+    flux = feedparser.parse(r.content.lstrip())
     if flux.bozo and not flux.entries:
         raise ValueError(f"flux illisible : {flux.bozo_exception}")
     elements = []

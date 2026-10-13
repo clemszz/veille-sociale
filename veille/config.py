@@ -40,8 +40,10 @@ GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "").strip()
 # Modèle principal, puis replis si le modèle n'existe plus/n'est pas ouvert à
 # l'offre gratuite du projet Google (voir ia.py). Surchargeable sans toucher au
 # code via la variable de dépôt GEMINI_MODEL.
-GEMINI_MODEL = os.getenv("GEMINI_MODEL", "").strip() or "gemini-3.8-flash"
-GEMINI_MODELES_REPLI = ["gemini-flash-latest", "gemini-3.5-flash-lite"]
+# Flash-Lite par défaut : rapide et au quota gratuit le plus large (Flash
+# n'autorise que 20 requêtes/jour en offre gratuite).
+GEMINI_MODEL = os.getenv("GEMINI_MODEL", "").strip() or "gemini-3.5-flash-lite"
+GEMINI_MODELES_REPLI = ["gemini-3.8-flash", "gemini-flash-latest"]
 
 USER_AGENT = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "

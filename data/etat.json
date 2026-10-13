@@ -1,0 +1,142 @@
+{
+ "derniere_execution": "2026-10-13T10:05:11+00:00",
+ "sources": {
+  "sp-particuliers": {
+   "nom": "Service-Public.fr (particuliers)",
+   "ok": true,
+   "lus": 10,
+   "nouveaux": 0
+  },
+  "sp-pro": {
+   "nom": "Service-Public.fr (professionnels)",
+   "ok": true,
+   "lus": 236,
+   "nouveaux": 0
+  },
+  "jo": {
+   "nom": "Journal officiel (Lois et décrets)",
+   "ok": true,
+   "lus": 365,
+   "nouveaux": 0
+  },
+  "vie-publique-lois": {
+   "nom": "Vie-publique.fr (lois)",
+   "ok": true,
+   "lus": 100,
+   "nouveaux": 0
+  },
+  "vie-publique-actu": {
+   "nom": "Vie-publique.fr (actualités)",
+   "ok": true,
+   "lus": 10,
+   "nouveaux": 0
+  },
+  "travail-emploi": {
+   "nom": "Ministère du Travail",
+   "ok": true,
+   "lus": 50,
+   "nouveaux": 0
+  },
+  "solidarites": {
+   "nom": "Ministère des Solidarités",
+   "ok": false,
+   "erreur": "flux illisible : <unknown>:18:55: not well-formed (invalid token)"
+  },
+  "handicap-gouv": {
+   "nom": "Handicap.gouv.fr",
+   "ok": false,
+   "erreur": "flux illisible : <unknown>:18:55: not well-formed (invalid token)"
+  },
+  "dreets-occitanie": {
+   "nom": "DREETS Occitanie",
+   "ok": true,
+   "lus": 10,
+   "nouveaux": 0
+  },
+  "ameli-assure": {
+   "nom": "ameli.fr (assurés)",
+   "ok": true,
+   "lus": 10,
+   "nouveaux": 0
+  },
+  "ameli-medecin": {
+   "nom": "ameli.fr (médecins : arrêts de travail, ALD...)",
+   "ok": true,
+   "lus": 10,
+   "nouveaux": 0
+  },
+  "assurance-retraite": {
+   "nom": "L'Assurance retraite",
+   "ok": true,
+   "lus": 188,
+   "nouveaux": 0
+  },
+  "agirc-arrco": {
+   "nom": "Agirc-Arrco",
+   "ok": true,
+   "lus": 10,
+   "nouveaux": 0
+  },
+  "c2s": {
+   "nom": "Complémentaire santé solidaire",
+   "ok": true,
+   "lus": 10,
+   "nouveaux": 0
+  },
+  "agefiph": {
+   "nom": "Agefiph",
+   "ok": true,
+   "lus": 10,
+   "nouveaux": 0
+  },
+  "cnsa": {
+   "nom": "CNSA",
+   "ok": true,
+   "lus": 20,
+   "nouveaux": 0
+  },
+  "presanse": {
+   "nom": "Présanse (fédération des SPSTI)",
+   "ok": true,
+   "lus": 10,
+   "nouveaux": 0
+  },
+  "cassation": {
+   "nom": "Cour de cassation (chambre sociale et 2e civile)",
+   "ok": true,
+   "lus": 70,
+   "nouveaux": 0
+  },
+  "conseil-etat": {
+   "nom": "Conseil d'État (analyses de jurisprudence)",
+   "ok": true,
+   "lus": 20,
+   "nouveaux": 0
+  },
+  "defenseur-droits": {
+   "nom": "Défenseur des droits",
+   "ok": true,
+   "lus": 10,
+   "nouveaux": 0
+  },
+  "ash": {
+   "nom": "ASH (Actualités sociales hebdomadaires)",
+   "ok": true,
+   "lus": 10,
+   "nouveaux": 0
+  },
+  "tissot-sante-securite": {
+   "nom": "Éditions Tissot (santé-sécurité au travail)",
+   "ok": true,
+   "lus": 10,
+   "nouveaux": 1
+  }
+ },
+ "ia": {
+  "active": true,
+  "traites": 57,
+  "restants": 0,
+  "modele": "gemini-3.5-flash-lite"
+ },
+ "nouveaux": 1
+}

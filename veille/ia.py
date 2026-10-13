@@ -109,43 +109,59 @@ class ClientGemini:
         self.avec_schema = True
         self._dernier_appel = 0.0
 
-    def _appel(self, modele: str, corps: dict) -> requests.Response:
+    def _appel(self, modele: str, corps: dict) -> requests.Response | None:
+        """None si Gemini n'a pas répondu à temps (modèle surchargé)."""
         attente = self.pause_s - (time.monotonic() - self._dernier_appel)
         if attente > 0:
             time.sleep(attente)
-        self._dernier_appel = time.monotonic()
-        return requests.post(
-            API_URL.format(modele=modele),
-            headers={"x-goog-api-key": GEMINI_API_KEY, "Content-Type": "application/json"},
-            json=corps,
-            timeout=180,
-        )
+        try:
+            return requests.post(
+                API_URL.format(modele=modele),
+                headers={"x-goog-api-key": GEMINI_API_KEY, "Content-Type": "application/json"},
+                json=corps,
+                timeout=120,
+            )
+        except requests.Timeout:
+            return None
+        finally:
+            self._dernier_appel = time.monotonic()
 
     def _generer(self, corps: dict) -> str:
-        """Essaie les modèles dans l'ordre ; un modèle introuvable ou fermé à
-        l'offre gratuite est écarté pour le reste du passage."""
+        """Essaie les modèles dans l'ordre. Un modèle introuvable, fermé à
+        l'offre gratuite ou dont le quota du JOUR est épuisé (chaque modèle a
+        son propre quota) est écarté pour le reste du passage."""
+        quota_jour_epuise = False
         while self.modeles:
             modele = self.modeles[0]
+            raison = ""
             for tentative in range(3):
                 r = self._appel(modele, corps)
+                if r is None:
+                    raison = "délai dépassé"
+                    if tentative < 1:
+                        continue
+                    raise RuntimeError(f"Gemini ({modele}) ne répond pas à temps")
                 if r.status_code == 200:
                     self.modele_actif = modele
                     return _texte_reponse(r.json())
-                # Modèle retiré, ou hors offre gratuite (Google répond alors
-                # 429 avec un quota "limit: 0") : inutile d'insister dessus.
+                raison = f"HTTP {r.status_code}"
                 if r.status_code == 404 or (r.status_code == 429 and "limit: 0" in r.text):
                     break
-                if r.status_code == 429:
-                    if tentative == 2:
-                        raise QuotaAtteint(r.text[:300])
+                if r.status_code == 429 and "PerDay" in r.text:
+                    quota_jour_epuise = True
+                    raison = "quota gratuit du jour épuisé"
+                    break
+                if r.status_code == 429 and tentative < 2:  # limite par minute : on patiente
                     time.sleep(30 * (tentative + 1))
                     continue
                 if r.status_code >= 500 and tentative < 2:
                     time.sleep(10)
                     continue
                 raise RuntimeError(f"Gemini HTTP {r.status_code} : {r.text[:300]}")
-            print(f"  [IA] modèle {modele} indisponible ({r.status_code}), repli sur le suivant")
+            print(f"  [IA] modèle {modele} écarté ({raison}), repli sur le suivant")
             self.modeles.pop(0)
+        if quota_jour_epuise:
+            raise QuotaAtteint("quota gratuit du jour épuisé sur tous les modèles")
         raise RuntimeError("Aucun modèle Gemini disponible (voir GEMINI_MODEL)")
 
     def rediger_fiches(self, elements: list[dict]) -> dict[str, dict]:

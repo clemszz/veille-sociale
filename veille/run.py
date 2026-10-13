@@ -144,7 +144,7 @@ def rediger_avec_ia(config: dict, items: dict, etat: dict) -> None:
                 "source": source.get("nom", item["source"]),
                 "date": item["date"],
                 "titre": item["titre_officiel"],
-                "texte": texte or item["extrait"] or "(pas d'extrait)",
+                "texte": (texte or item["extrait"] or "(pas d'extrait)")[:3000],
             })
         try:
             fiches = client.rediger_fiches(entrees)

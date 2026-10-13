@@ -22,7 +22,7 @@ collecte:
 ia:
   # Nombre d'éléments envoyés à Gemini par appel, et pause entre deux appels :
   # réglés pour rester sous les limites de l'offre gratuite.
-  taille_lot: 6
+  taille_lot: 4
   pause_entre_appels_s: 8
   max_elements_par_passage: 90
   # Au-delà de ce nombre d'échecs, un élément reste affiché sans résumé IA.

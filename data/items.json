@@ -1,0 +1,2171 @@
+[
+ {
+  "id": "85077bf1a1951e54",
+  "url": "https://www.editions-tissot.fr/actualite/sante-securite/plfss-2027-les-propositions-pour-prevenir-la-desinsertion-professionnelle-des-salaries-en-arrets-maladie-de-longue-duree",
+  "source": "tissot-sante-securite",
+  "date": "2026-10-13",
+  "collecte": "2026-10-13T10:05:11+00:00",
+  "titre_officiel": "PLFSS 2027 : les propositions pour prévenir la désinsertion professionnelle des salariés en arrêts maladie de longue durée",
+  "extrait": "Le projet de loi de financement de la Sécurité sociale (PLFSS) pour 2027 prévoit de renforcer la coordination entre les professionnels de santé intervenant auprès des salariés en arrêt de travail de longue durée. En cas de risque de désinsertion professionnelle, une réunion de concertation pourrait être organisée entre le médecin traitant, le médecin conseil et le médecin du travail. Le dispositif entrerait en vigueur le 1er juillet 2027.",
+  "themes": [
+   "maintien_emploi",
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "arrêt de travail",
+   "arrêt maladie",
+   "désinsertion professionnelle",
+   "financement de la sécurité sociale",
+   "médecin conseil",
+   "médecin du travail",
+   "PLFSS"
+  ],
+  "score": 10,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": true,
+   "importance": 2,
+   "themes": [
+    "maintien_emploi",
+    "protection_sociale"
+   ],
+   "type": "Projet de loi / réforme",
+   "titre": "PLFSS 2027 : renforcement de la coordination pour prévenir la désinsertion professionnelle",
+   "resume": "Le projet de loi de financement de la Sécurité sociale pour 2027 prévoit d'instaurer une réunion de concertation entre le médecin traitant, le médecin conseil et le médecin du travail pour les salariés en arrêt maladie de longue durée présentant un risque de désinsertion professionnelle. Ce dispositif entrerait en vigueur le 1er juillet 2027.",
+   "a_retenir": "Anticiper l'impact de ce nouveau dispositif de concertation pluriprofessionnelle pour les salariés en arrêt long dès sa mise en œuvre.",
+   "date_effet": "2027-07-01"
+  }
+ },
+ {
+  "id": "08983592e8f1d8bb",
+  "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054977578",
+  "source": "jo",
+  "date": "2026-10-13",
+  "collecte": "2026-10-13T09:28:29+00:00",
+  "titre_officiel": "Décret n° 2026-948 du 12 octobre 2026 définissant les modalités d'application de la majoration de durée d'assurance pour l'exercice d'un mandat local",
+  "extrait": "Publics concernés : anciens élus locaux demandant l'entrée en jouissance d'une pension de retraite de base. Objet : le décret définit les modalités d'application de la majoration de durée d'assurance instituée au bénéfice des anciens élus locaux ayant exercé une fonction au sein d'un organe exécutif. Entrée en vigueur : le texte entre en vigueur le lendemain de sa publication, dans les conditions précisées à son article 8. Application : le présent décret est pris en application de l'article 5 de la loi n° 2025-1249 du 22 décembre 2025 portant création d'un statut de l'élu local.",
+  "themes": [
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "retraite"
+  ],
+  "score": 1,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "protection_sociale"
+   ],
+   "type": "Décret",
+   "titre": "Modalités d'application de la majoration de durée d'assurance pour mandat local",
+   "resume": "Ce décret précise les conditions d'attribution de la majoration de durée d'assurance pour les anciens élus locaux ayant exercé un mandat exécutif. Il s'applique aux demandes de pension de retraite de base.",
+   "a_retenir": "",
+   "date_effet": "2026-10-14"
+  }
+ },
+ {
+  "id": "2be17beeaa9ff65c",
+  "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054977804",
+  "source": "jo",
+  "date": "2026-10-13",
+  "collecte": "2026-10-13T09:28:29+00:00",
+  "titre_officiel": "Avis relatif à l'extension d'un accord régional sur la mise en place d'un régime de prévoyance des entreprises de travaux et services agricoles ruraux des Hauts-de-France au profit des salaries ne relevant pas des articles 2.1 et 2.2 de l'accord national interprofessionnel relatif a la prévoyance des cadres du 17 novembre 2017",
+  "extrait": "",
+  "themes": [
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "prévoyance"
+  ],
+  "score": 4,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": true,
+   "importance": 2,
+   "themes": [
+    "protection_sociale"
+   ],
+   "type": "Actualité",
+   "titre": "Extension envisagée d'un accord de prévoyance en agriculture dans les Hauts-de-France",
+   "resume": "Un projet d'arrêté envisage de rendre obligatoire un accord régional du 13 août 2026 instaurant un régime de prévoyance pour les salariés non-cadres des entreprises de travaux et services agricoles des Hauts-de-France. Une consultation est en cours.",
+   "a_retenir": "Informer les salariés agricoles non-cadres de la région concernée de la future généralisation de ce régime de prévoyance.",
+   "date_effet": ""
+  }
+ },
+ {
+  "id": "1910f44fccb89d1e",
+  "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054977810",
+  "source": "jo",
+  "date": "2026-10-13",
+  "collecte": "2026-10-13T09:28:29+00:00",
+  "titre_officiel": "Avis relatif à l'extension d'un accord régional sur la mise en place d'un régime frais de santé des entreprises de travaux et services agricoles ruraux des Hauts-de-France au profit des salaries ne relevant pas des articles 2.1 et 2.2 de l'accord national interprofessionnel relatif à la prévoyance des cadres du 17 novembre 2017",
+  "extrait": "",
+  "themes": [
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "prévoyance"
+  ],
+  "score": 4,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": true,
+   "importance": 2,
+   "themes": [
+    "protection_sociale"
+   ],
+   "type": "Actualité",
+   "titre": "Extension envisagée d'un accord frais de santé en agriculture dans les Hauts-de-France",
+   "resume": "Un projet d'arrêté vise à étendre à l'ensemble des employeurs et salariés non-cadres des entreprises de travaux et services agricoles des Hauts-de-France un accord sur les frais de santé conclu le 13 août 2026. Des observations peuvent être émises dans un délai de quinze jours.",
+   "a_retenir": "Vérifier la couverture des frais de santé des salariés agricoles non-cadres de ce secteur géographique au regard de cette future extension.",
+   "date_effet": ""
+  }
+ },
+ {
+  "id": "8f4ecb21385370ad",
+  "url": "https://www.ash.tm.fr/insertion/unccas-cette-enquete-qui-revele-la-massification-de-la-pauvrete-975329.php",
+  "source": "ash",
+  "date": "2026-10-13",
+  "collecte": "2026-10-13T09:28:29+00:00",
+  "titre_officiel": "Unccas : cette enquête qui révèle la massification de la pauvreté",
+  "extrait": "Les 12 et 13 octobre 2026 se tenaient les journées de célébration des 100 ans de l’Union nationale des centres communaux d’action sociale (Unccas). Un événement dont la fédération a profité pour dévoiler les premières conclusions d’une enquête en cours. L’institution promet également un baromètre de l’action sociale locale qui permettra de mesurer l’engagement des présidentiables et sera dévoilé lors de son congrès en février 2027.",
+  "themes": [
+   "aides_sociales"
+  ],
+  "mots_cles": [
+   "action sociale",
+   "pauvreté"
+  ],
+  "score": 5,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "aides_sociales"
+   ],
+   "type": "Actualité",
+   "titre": "Enquête de l'Unccas sur la massification de la pauvreté",
+   "resume": "À l'occasion de son centenaire, l'Unccas a présenté les premiers résultats d'une enquête sur la pauvreté et annonce la parution d'un baromètre de l'action sociale locale pour février 2027.",
+   "a_retenir": "",
+   "date_effet": ""
+  }
+ },
+ {
+  "id": "8c99e5faeab234c4",
+  "url": "https://www.ash.tm.fr/autonomie/handicap-les-beneficiaires-de-la-pch-en-augmentation-de-16-975274.php",
+  "source": "ash",
+  "date": "2026-10-12",
+  "collecte": "2026-10-13T09:28:29+00:00",
+  "titre_officiel": "Handicap : les bénéficiaires de la PCH en augmentation de 16 %",
+  "extrait": "Le 8 octobre 2026, la Drees a publié les résultats de deux études sur la prestation de compensation du handicap (PCH). Des travaux qui ont notamment permis de dessiner les profils des différents bénéficiaires, ainsi que d'identifier la répartition des types d’aides comprises dans la prestation.",
+  "themes": [
+   "handicap",
+   "aides_sociales"
+  ],
+  "mots_cles": [
+   "handicap",
+   "PCH",
+   "prestation de compensation"
+  ],
+  "score": 6,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": true,
+   "importance": 1,
+   "themes": [
+    "handicap",
+    "aides_sociales"
+   ],
+   "type": "Actualité",
+   "titre": "Études de la Drees sur l'augmentation et les profils des bénéficiaires de la PCH",
+   "resume": "La Drees a publié le 8 octobre 2026 deux études dressant le profil des bénéficiaires de la prestation de compensation du handicap et analysant la répartition des aides, suite à une augmentation de 16 % du nombre de bénéficiaires.",
+   "a_retenir": "",
+   "date_effet": ""
+  }
+ },
+ {
+  "id": "21ee13c9949fc907",
+  "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054966038",
+  "source": "jo",
+  "date": "2026-10-09",
+  "collecte": "2026-10-13T09:28:29+00:00",
+  "titre_officiel": "Avis relatif à l'extension d'un avenant à un accord interbranche instituant des garanties collectives de prévoyance au profit des salariés intermittents du spectacle",
+  "extrait": "",
+  "themes": [
+   "protection_sociale",
+   "maintien_emploi"
+  ],
+  "mots_cles": [
+   "prévoyance"
+  ],
+  "score": 4,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": true,
+   "importance": 2,
+   "themes": [
+    "protection_sociale",
+    "maintien_emploi"
+   ],
+   "type": "Actualité",
+   "titre": "Projet d'extension d'un avenant sur la prévoyance des intermittents du spectacle",
+   "resume": "Un avis ministériel envisage d'étendre à l'ensemble des employeurs et salariés concernés l'avenant n° 9 relatif aux garanties collectives de prévoyance des intermittents du spectacle. Une période d'observations et d'opposition est ouverte auprès du ministère du travail.",
+   "a_retenir": "Vérifier la couverture prévoyance des salariés intermittents du spectacle concernés par cet accord étendu.",
+   "date_effet": ""
+  }
+ },
+ {
+  "id": "6383a80056e1a183",
+  "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054966214",
+  "source": "jo",
+  "date": "2026-10-09",
+  "collecte": "2026-10-13T09:28:29+00:00",
+  "titre_officiel": "Avis relatif à une fusion avec transfert de portefeuille de bulletins d'adhésion à des règlements et de contrats d'une mutuelle",
+  "extrait": "",
+  "themes": [
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "mutuelle"
+  ],
+  "score": 4,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "protection_sociale"
+   ],
+   "type": "Actualité",
+   "titre": "Fusion et transfert de portefeuille entre mutuelles à La Réunion",
+   "resume": "Extrait insuffisant : consulter la source.",
+   "a_retenir": "",
+   "date_effet": ""
+  }
+ },
+ {
+  "id": "14a13cb5a6738687",
+  "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054961035",
+  "source": "jo",
+  "date": "2026-10-08",
+  "collecte": "2026-10-13T09:28:29+00:00",
+  "titre_officiel": "Décret n° 2026-931 du 6 octobre 2026 fixant la valeur de service du point de retraite dans le régime de retraite complémentaire obligatoire des non-salariés agricoles",
+  "extrait": "Publics concernés : non-salariés des professions agricoles. Objet : valeur de service du point de retraite dans le régime de retraite complémentaire obligatoire des non-salariés agricoles. Entrée en vigueur : le texte entre en vigueur le lendemain de sa publication. Application : ce décret est un texte autonome qui modifie l'article D. 732-166 du code rural et de la pêche maritime.",
+  "themes": [
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "retraite"
+  ],
+  "score": 4,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "protection_sociale"
+   ],
+   "type": "Décret",
+   "titre": "Revalorisation de la valeur de service du point de retraite complémentaire agricole",
+   "resume": "Extrait insuffisant : consulter la source.",
+   "a_retenir": "",
+   "date_effet": "2026-10-09"
+  }
+ },
+ {
+  "id": "15f18b4727673394",
+  "url": "https://www.lassuranceretraite.fr/portail-info/sites/pub/hors-menu/actualites-nationales/retraite/2026/decouvrez-le-journal-de-sante-de.html",
+  "source": "assurance-retraite",
+  "date": "2026-10-08",
+  "collecte": "2026-10-13T09:28:29+00:00",
+  "titre_officiel": "Découvrez le journal de santé des aidants retraités !",
+  "extrait": "",
+  "themes": [
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "aidant",
+   "retraite"
+  ],
+  "score": 5,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": true,
+   "importance": 1,
+   "themes": [
+    "protection_sociale"
+   ],
+   "type": "Démarche / info pratique",
+   "titre": "L'Assurance retraite lance un journal de santé pour les aidants retraités",
+   "resume": "L'Assurance retraite met à disposition des retraités aidants un nouveau support d'information, conçu avec l'association Avec nos proches, pour les accompagner, prendre du recul et connaître leurs droits. Ce journal propose des conseils, des quizz et un récapitulatif des ressources existantes.",
+   "a_retenir": "Orienter les salariés retraités ou en fin de carrière qui soutiennent un proche vers ce support d'information de l'Assurance retraite.",
+   "date_effet": ""
+  }
+ },
+ {
+  "id": "077b9918eabfc798",
+  "url": "https://www.service-public.gouv.fr/particuliers/actualites/A19080?xtor=RSS-111",
+  "source": "sp-particuliers",
+  "date": "2026-10-07",
+  "collecte": "2026-10-13T09:28:29+00:00",
+  "titre_officiel": "Accidents du travail et maladies professionnelles : baisse du plafond servant au calcul des indemnités journalières",
+  "extrait": "Un décret du 30 septembre 2026 fixe un nouveau plafond de rémunération annuelle pour le calcul des indemnités journalières en cas d’accident du travail ou de maladie professionnelle. Service Public vous informe.",
+  "themes": [
+   "protection_sociale",
+   "maintien_emploi"
+  ],
+  "mots_cles": [
+   "accident du travail",
+   "indemnités journalières",
+   "maladie professionnelle"
+  ],
+  "score": 6,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": true,
+   "importance": 3,
+   "themes": [
+    "protection_sociale",
+    "maintien_emploi"
+   ],
+   "type": "Décret",
+   "titre": "Baisse du plafond de calcul des IJSS en cas d'accident du travail ou de maladie professionnelle",
+   "resume": "Un décret du 30 septembre 2026 modifie le mode de calcul du plafond des indemnités journalières pour accident du travail ou maladie professionnelle, qui passe de 0,834 % à 0,226 % du PASS (soit 1,8 fois le Smic). Cette baisse des IJSS pour les salaires supérieurs à 1,8 Smic entraîne une hausse du complément de salaire à la charge de l'employeur à partir du 1er novembre 2026.",
+   "a_retenir": "Vérifier l'impact de la baisse des IJSS AT/MP sur le montant net perçu par les salariés gagnant plus de 1,8 Smic et sur le complément employeur à compter du 1er novembre 2026.",
+   "date_effet": "2026-11-01"
+  }
+ },
+ {
+  "id": "ce40732f1050a111",
+  "url": "https://www.cnsa.fr/actualites/mobilisation-pour-lhabitat-intermediaire-la-cnsa-recrute-5-territoires-pilotes-pour",
+  "source": "cnsa",
+  "date": "2026-10-07",
+  "collecte": "2026-10-13T09:28:29+00:00",
+  "titre_officiel": "Mobilisation pour l’habitat intermédiaire : la CNSA recrute 5 territoires pilotes pour accélérer le développement de l’offre",
+  "extrait": "Pour répondre au vieillissement de la population, un quasi-doublement de l’offre d’habitat intermédiaire serait nécessaire dès 2040. Dans cette perspective, la CNSA amplifie son accompagnement des conseils départementaux, au-delà du soutien à l’investissement, en les aidant à structurer leur stratégie territoriale de programmation et de développement. Lancé le 7 octobre 2026, en partenariat avec la Caisse des dépôts et consignations (CDC), l’appel à manifestation d’intérêt « Mobilisation pour l’habitat intermédiaire » permettra de sélectionner et d’accompagner cinq départements pilotes et contribuera à produire des méthodes et des outils qui pourront bénéficier à l’ensemble des territoires.",
+  "themes": [
+   "aides_sociales"
+  ],
+  "mots_cles": [
+   "aidant",
+   "CNSA"
+  ],
+  "score": 5,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "aides_sociales"
+   ],
+   "type": "Actualité",
+   "titre": "Appel à manifestation d'intérêt de la CNSA pour l'habitat intermédiaire",
+   "resume": "Extrait insuffisant : consulter la source.",
+   "a_retenir": "",
+   "date_effet": ""
+  }
+ },
+ {
+  "id": "a1c9c0303f930958",
+  "url": "https://www.ash.tm.fr/autonomie/presidentielle-2027-trouver-de-largent-pour-le-social-oui-mais-comment-975231.php",
+  "source": "ash",
+  "date": "2026-10-07",
+  "collecte": "2026-10-13T09:28:29+00:00",
+  "titre_officiel": "Présidentielle 2027 : trouver de l’argent pour le social… oui, mais comment ?",
+  "extrait": "Décalage de l’âge du départ à la retraite, taxation des successions, augmentation de la CSG, recours aux assurances privées… Les équipes de campagne des différents candidats à la présidentielle ont commencé à plancher sur leurs propositions de financement du social. À l’invitation de l’Uniopss, de la CFDT et de l’Udes, certains ont dévoilé leurs stratégies.",
+  "themes": [
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "retraite"
+  ],
+  "score": 1,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "protection_sociale"
+   ],
+   "type": "Actualité",
+   "titre": "Débats sur le financement du social en vue de l'élection présidentielle 2027",
+   "resume": "Les équipes de campagne des candidats à l'élection présidentielle élaborent leurs propositions concernant le financement du social, évoquant notamment l'âge de départ à la retraite, la taxation ou la CSG.",
+   "a_retenir": "",
+   "date_effet": ""
+  }
+ },
+ {
+  "id": "e9f7f6b2b90a47dd",
+  "url": "https://www.editions-tissot.fr/actualite/sante-securite/plf-2027-la-fiscalite-des-indemnites-journalieres-pourrait-se-durcir",
+  "source": "tissot-sante-securite",
+  "date": "2026-10-07",
+  "collecte": "2026-10-13T09:28:29+00:00",
+  "titre_officiel": "PLF 2027 : la fiscalité des indemnités journalières pourrait se durcir",
+  "extrait": "Après plusieurs mesures visant à maîtriser les dépenses en matière d’indemnités journalières de Sécurité sociale (IJSS), le Gouvernement poursuit dans cette voie. Le projet de loi de finances pour 2027 prévoit de rendre les IJSS AT-MP intégralement imposables et de fiscaliser à 50 % celles versées au titre des affections de longue durée (ALD). Le taux de CSG applicable aux IJSS maladie et AT-MP serait également relevé.",
+  "themes": [
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "affection de longue durée",
+   "ALD",
+   "AT-MP",
+   "IJSS",
+   "indemnités journalières"
+  ],
+  "score": 8,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": true,
+   "importance": 3,
+   "themes": [
+    "protection_sociale"
+   ],
+   "type": "Projet de loi / réforme",
+   "titre": "Projet de modification de la fiscalité des indemnités journalières pour 2027",
+   "resume": "Le projet de loi de finances pour 2027 prévoit de rendre les IJSS AT-MP intégralement imposables, de fiscaliser à 50 % celles liées aux affections de longue durée et d'augmenter le taux de CSG applicable aux IJSS maladie et AT-MP.",
+   "a_retenir": "Informer les salariés concernés par un arrêt long ou AT-MP d'un possible durcissement de la fiscalité et des prélèvements sur leurs indemnités journalières si le projet est adopté.",
+   "date_effet": "2027-01-01"
+  }
+ },
+ {
+  "id": "0427ea5915062a4a",
+  "url": "https://www.editions-tissot.fr/actualite/sante-securite/calcul-du-montant-des-cotisations-versees-au-spsti-le-cout-moyen-national-de-lensemble-socle-de-services-pour-2025-est-connu",
+  "source": "tissot-sante-securite",
+  "date": "2026-10-07",
+  "collecte": "2026-10-13T09:28:29+00:00",
+  "titre_officiel": "Calcul du montant des cotisations versées au SPSTI : le coût moyen national de l’ensemble socle de services pour 2027 est connu",
+  "extrait": "Le montant des cotisations versées aux SPSTI devra, à compter du 1er janvier 2027, se situer entre 80 % et 120 % du coût moyen national de l’ensemble socle de services. La publication de ce montant est intervenue le 30 septembre.",
+  "themes": [
+   "maintien_emploi"
+  ],
+  "mots_cles": [
+   "SPSTI"
+  ],
+  "score": 4,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": true,
+   "importance": 2,
+   "themes": [
+    "maintien_emploi"
+   ],
+   "type": "Démarche / info pratique",
+   "titre": "Publication du coût moyen national de l'ensemble socle de services des SPSTI pour 2027",
+   "resume": "Le coût moyen national de l'ensemble socle de services des SPSTI a été publié le 30 septembre et encadre le montant des cotisations versées par les employeurs à compter du 1er janvier 2027.",
+   "a_retenir": "Prendre en compte le nouveau cadre de calcul des cotisations applicables aux employeurs adhérents auprès du SPSTI pour l'exercice 2027.",
+   "date_effet": "2027-01-01"
+  }
+ },
+ {
+  "id": "e98e158350fed4ee",
+  "url": "https://www.cnsa.fr/actualites/la-cnsa-mobilise-la-branche-autonomie-et-ses-partenaires-pour-accelerer-et-renforcer-le",
+  "source": "cnsa",
+  "date": "2026-10-06",
+  "collecte": "2026-10-13T09:28:29+00:00",
+  "titre_officiel": "La CNSA mobilise la branche Autonomie et ses partenaires pour accélérer et renforcer le soutien aux aidants dans les territoires",
+  "extrait": "Tout au long de l’année, la CNSA soutient les acteurs de la branche Autonomie et les partenaires associatifs qui agissent dans les territoires pour mieux repérer et accompagner les aidants, prévenir leur épuisement et développer des solutions de répit et de relayage adaptées.",
+  "themes": [
+   "handicap",
+   "maintien_emploi"
+  ],
+  "mots_cles": [
+   "aidant",
+   "branche autonomie",
+   "CNSA"
+  ],
+  "score": 6,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": true,
+   "importance": 2,
+   "themes": [
+    "handicap",
+    "maintien_emploi"
+   ],
+   "type": "Actualité",
+   "titre": "Renforcement du soutien aux aidants et développement des solutions de répit par la CNSA",
+   "resume": "La CNSA mobilise la branche Autonomie et ses partenaires territoriaux pour intensifier le repérage et l'accompagnement des aidants, prévenir leur épuisement et proposer des solutions de répit et de relayage adaptées.",
+   "a_retenir": "Orienter les salariés aidants vers les acteurs locaux et les solutions de répit et de relayage soutenus par la branche Autonomie.",
+   "date_effet": ""
+  }
+ },
+ {
+  "id": "2417a50e544e129c",
+  "url": "https://www.ameli.fr/medecin/actualites/medicaments-faible-smr-prescrits-pour-une-ald-fin-de-l-exoneration-du-ticket-moderateur",
+  "source": "ameli-medecin",
+  "date": "2026-10-05",
+  "collecte": "2026-10-13T09:28:29+00:00",
+  "titre_officiel": "Médicaments à faible SMR prescrits pour une ALD : fin de l’exonération du ticket modérateur",
+  "extrait": "",
+  "themes": [
+   "protection_sociale",
+   "aides_sociales"
+  ],
+  "mots_cles": [
+   "ALD"
+  ],
+  "score": 4,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": true,
+   "importance": 2,
+   "themes": [
+    "protection_sociale",
+    "aides_sociales"
+   ],
+   "type": "Décret",
+   "titre": "Fin de l’exonération du ticket modérateur pour les médicaments à faible SMR en ALD",
+   "resume": "Depuis le 1er octobre 2026, la prise en charge à 100 % des médicaments à service médical rendu (SMR) faible prescrits dans le cadre d'une affection de longue durée (ALD) est supprimée. Ils sont désormais remboursés à 15 % pour les assurés en ALD, selon les règles du droit commun. Le reste à charge peut être couvert par les organismes complémentaires de santé.",
+   "a_retenir": "Informer les salariés en ALD que les médicaments à SMR faible ne sont plus remboursés à 100 % et vérifier la prise en charge par leur mutuelle.",
+   "date_effet": "2026-10-01"
+  }
+ },
+ {
+  "id": "031ba2cb50f7bde6",
+  "url": "https://www.agirc-arrco.fr/nous-connaitre/nos-actualites/prix-semaine-bleue-agirc-arrco-2026-bravo-a-la-commune-du-vauclin/",
+  "source": "agirc-arrco",
+  "date": "2026-10-05",
+  "collecte": "2026-10-13T09:28:29+00:00",
+  "titre_officiel": "Prix Semaine bleue Agirc-Arrco 2026 : bravo à la commune du Vauclin !",
+  "extrait": "Le Prix Semaine bleue Agirc-Arrco 2026 a été décerné au CCAS de la commune martiniquaise du Vauclin.",
+  "themes": [
+   "aides_sociales"
+  ],
+  "mots_cles": [
+   "CCAS"
+  ],
+  "score": 1,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "aides_sociales"
+   ],
+   "type": "Actualité",
+   "titre": "Prix Semaine bleue Agirc-Arrco 2026",
+   "resume": "Extrait insuffisant : consulter la source.",
+   "a_retenir": "",
+   "date_effet": ""
+  }
+ },
+ {
+  "id": "cab93c27b9d3fb36",
+  "url": "https://www.ameli.fr/assure/actualites/proche-aidant-tout-savoir-sur-l-accompagnement-de-l-assurance-maladie",
+  "source": "ameli-assure",
+  "date": "2026-10-02",
+  "collecte": "2026-10-13T09:28:29+00:00",
+  "titre_officiel": "Proche aidant : tout savoir sur l’accompagnement de l’Assurance Maladie",
+  "extrait": "",
+  "themes": [
+   "aides_sociales",
+   "maintien_emploi"
+  ],
+  "mots_cles": [
+   "aidant",
+   "assurance maladie",
+   "proche aidant"
+  ],
+  "score": 6,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": true,
+   "importance": 2,
+   "themes": [
+    "aides_sociales",
+    "maintien_emploi"
+   ],
+   "type": "Démarche / info pratique",
+   "titre": "Dispositifs d'accompagnement de l'Assurance Maladie pour les proches aidants",
+   "resume": "L'Assurance Maladie rappelle l'ensemble des services proposés aux proches aidants pour les soutenir au quotidien et éviter la désinsertion professionnelle. Sont notamment proposés : un bilan des droits, un examen de prévention, un accompagnement par le service social et une orientation vers des solutions de répit.",
+   "a_retenir": "Orienter les salariés aidants vers l'Assurance Maladie pour bénéficier d'un accompagnement personnalisé et éviter les risques de désinsertion professionnelle.",
+   "date_effet": ""
+  }
+ },
+ {
+  "id": "9bc70979b674385c",
+  "url": "https://www.agirc-arrco.fr/nous-connaitre/nos-actualites/paris-un-evenement-pour-aider-les-aidants/",
+  "source": "agirc-arrco",
+  "date": "2026-10-02",
+  "collecte": "2026-10-13T09:28:29+00:00",
+  "titre_officiel": "Paris : Un événement pour aider les aidants",
+  "extrait": "Vous êtes Parisien ou Francilien et vous vous occupez régulièrement de l’un de vos proches âgé, malade ou en situation de handicap ? Le 6 octobre, à l’occasion de la Journée des aidants, la Mairie de Paris organise une matinée-forum à votre intention.",
+  "themes": [
+   "aides_sociales"
+  ],
+  "mots_cles": [
+   "aidant",
+   "handicap"
+  ],
+  "score": 5,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "aides_sociales"
+   ],
+   "type": "Actualité",
+   "titre": "Événement à Paris pour les aidants à l'occasion de leur journée",
+   "resume": "Extrait insuffisant : consulter la source.",
+   "a_retenir": "",
+   "date_effet": ""
+  }
+ },
+ {
+  "id": "dc2333282d00beb4",
+  "url": "https://www.editions-tissot.fr/actualite/sante-securite/maladies-professionnelles-les-modalites-detablissement-du-diagnostic-evoluent",
+  "source": "tissot-sante-securite",
+  "date": "2026-10-02",
+  "collecte": "2026-10-13T09:28:29+00:00",
+  "titre_officiel": "Maladies professionnelles : les modalités d’établissement du diagnostic évoluent",
+  "extrait": "Depuis le 30 septembre 2026, les modalités d’établissement du diagnostic des maladies professionnelles évoluent. Les examens complémentaires ne sont plus systématiquement déterminés par les tableaux : ils sont désormais exigés uniquement lorsqu’ils sont nécessaires pour établir le diagnostic de la maladie, et doivent s’appuyer sur les connaissances médicales actuelles. En conséquence, de nombreux tableaux de maladies professionnelles ont été adaptés.",
+  "themes": [
+   "protection_sociale",
+   "maintien_emploi"
+  ],
+  "mots_cles": [
+   "maladie professionnelle"
+  ],
+  "score": 4,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": true,
+   "importance": 2,
+   "themes": [
+    "protection_sociale",
+    "maintien_emploi"
+   ],
+   "type": "Décret",
+   "titre": "Évolution des modalités d'établissement du diagnostic des maladies professionnelles",
+   "resume": "Depuis le 30 septembre 2026, les examens complémentaires pour établir une maladie professionnelle ne sont plus systématiquement fixés par les tableaux mais exigés selon les besoins médicaux actuels, entraînant l'adaptation de nombreux tableaux.",
+   "a_retenir": "Vérifier les nouvelles conditions des tableaux de maladies professionnelles lors de l'accompagnement des salariés en reconnaissance AT/MP.",
+   "date_effet": "2026-09-30"
+  }
+ },
+ {
+  "id": "22b43239a07fc67b",
+  "url": "https://www.vie-publique.fr/loi/304797-budget-2027-projet-de-loi-de-finances-plf?egn-publisher=dila_vp&egn-name=informer_rss_lois",
+  "source": "vie-publique-lois",
+  "date": "2026-10-01",
+  "collecte": "2026-10-13T09:28:29+00:00",
+  "titre_officiel": "Projet de loi de finances pour 2027",
+  "extrait": "Maîtrise des dépenses de l’État hors Défense, plafond de l'abattement fiscal de 10% sur les retraites abaissé, nouveau prêt à taux zéro natalité, mise à contribution des grandes entreprises... Que contient le projet de loi de finances (PLF) qui entend contenir le déficit public à 5% du PIB en 2027 ?",
+  "themes": [
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "retraite"
+  ],
+  "score": 1,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "protection_sociale"
+   ],
+   "type": "Projet de loi / réforme",
+   "titre": "Présentation du projet de loi de finances pour 2027",
+   "resume": "Le projet de loi de finances pour 2027 présente les mesures de maîtrise des dépenses de l'État, la modification de l'abattement fiscal sur les retraites et la création d'un prêt à taux zéro natalité.",
+   "a_retenir": "",
+   "date_effet": ""
+  }
+ },
+ {
+  "id": "59f87594a220d265",
+  "url": "https://www.vie-publique.fr/loi/304803-projet-de-loi-de-financement-de-la-securite-sociale-pour-plfss-2027?egn-publisher=dila_vp&egn-name=informer_rss_lois",
+  "source": "vie-publique-lois",
+  "date": "2026-10-01",
+  "collecte": "2026-10-13T09:28:29+00:00",
+  "titre_officiel": "Projet de loi de financement de la sécurité sociale pour 2027",
+  "extrait": "Réduction de presque la moitié du déficit de la sécurité sociale, gel des allocations familiales et de certaines pensions de retraite, baisse du remboursement de certains soins, prorogation de la contribution exceptionnelle des organismes complémentaires... Que contient le projet de loi de financement de la sécurité sociale pour 2027 ?",
+  "themes": [
+   "protection_sociale",
+   "aides_sociales"
+  ],
+  "mots_cles": [
+   "allocations familiales",
+   "financement de la sécurité sociale",
+   "retraite"
+  ],
+  "score": 6,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": true,
+   "importance": 3,
+   "themes": [
+    "protection_sociale",
+    "aides_sociales"
+   ],
+   "type": "Projet de loi / réforme",
+   "titre": "Présentation du projet de loi de financement de la sécurité sociale pour 2027",
+   "resume": "Le projet de loi de financement de la sécurité sociale pour 2027 prévoit notamment la réduction du déficit, le gel des allocations familiales et de certaines pensions, ainsi que la baisse du remboursement de certains soins.",
+   "a_retenir": "Informer les salariés concernés des évolutions potentielles sur les pensions et les remboursements de soins prévues dans le cadre du PLFSS 2027.",
+   "date_effet": ""
+  }
+ },
+ {
+  "id": "ba4f310e66ab3259",
+  "url": "https://www.agirc-arrco.fr/nous-connaitre/nos-actualites/journee-regionale-de-la-retraite-et-de-la-transmission/",
+  "source": "agirc-arrco",
+  "date": "2026-10-01",
+  "collecte": "2026-10-13T09:28:29+00:00",
+  "titre_officiel": "Journée régionale de la retraite et de la transmission",
+  "extrait": "Le 12 octobre 2026, l’Agirc-Arrco, la CCI Provence-Alpes-Côte-d’Azur et la CMA Provence-Alpes-Côte-d’Azur s’associent pour proposer la journée régionale de la retraite et de la transmission.",
+  "themes": [
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "retraite"
+  ],
+  "score": 4,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "protection_sociale"
+   ],
+   "type": "Actualité",
+   "titre": "Journée régionale de la retraite et de la transmission en Provence-Alpes-Côte-d'Azur",
+   "resume": "L'Agirc-Arrco et les chambres consulaires organisent le 12 octobre 2026 une journée régionale dédiée à la retraite et à la transmission.",
+   "a_retenir": "",
+   "date_effet": "2026-10-12"
+  }
+ },
+ {
+  "id": "a8489ab883b533f9",
+  "url": "https://www.agefiph.fr/espace-presse/tous-les-documents-presse/la-france-mutualiste-renforce-son-engagement-pour-lemploi",
+  "source": "agefiph",
+  "date": "2026-10-01",
+  "collecte": "2026-10-13T09:28:29+00:00",
+  "titre_officiel": "La France Mutualiste renforce son engagement pour l’emploi des personnes handicapées aux côtés de l'Agefiph",
+  "extrait": "La France Mutualiste renforce son engagement pour l’emploi des personnes handicapées aux côtés de l'Agefiph v-florentin@ag…",
+  "themes": [
+   "handicap"
+  ],
+  "mots_cles": [
+   "Agefiph",
+   "handicap"
+  ],
+  "score": 5,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "handicap"
+   ],
+   "type": "Actualité",
+   "titre": "Partenariat entre La France Mutualiste et l'Agefiph",
+   "resume": "Extrait insuffisant : consulter la source.",
+   "a_retenir": "",
+   "date_effet": ""
+  }
+ },
+ {
+  "id": "10ea737573e6275b",
+  "url": "https://travail-emploi.gouv.fr/la-reforme-des-retraites-de-2023",
+  "source": "travail-emploi",
+  "date": "2026-09-30",
+  "collecte": "2026-10-13T09:28:29+00:00",
+  "titre_officiel": "La réforme des retraites de 2023",
+  "extrait": "Le Gouvernement a présenté en janvier 2023 son projet pour l’avenir du système de retraite français.",
+  "themes": [
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "retraite"
+  ],
+  "score": 4,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "protection_sociale"
+   ],
+   "type": "Projet de loi / réforme",
+   "titre": "Présentation du projet de réforme des retraites de 2023",
+   "resume": "Extrait insuffisant : consulter la source.",
+   "a_retenir": "",
+   "date_effet": ""
+  }
+ },
+ {
+  "id": "0d9f552efa606fdc",
+  "url": "https://www.ameli.fr/medecin/actualites/suppression-de-l-ald-non-exonerante-des-motifs-de-prise-en-charge-des-transports",
+  "source": "ameli-medecin",
+  "date": "2026-09-30",
+  "collecte": "2026-10-13T09:28:29+00:00",
+  "titre_officiel": "Suppression de l’ALD non exonérante des motifs de prise en charge des transports",
+  "extrait": "",
+  "themes": [
+   "protection_sociale",
+   "handicap"
+  ],
+  "mots_cles": [
+   "ALD"
+  ],
+  "score": 4,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": true,
+   "importance": 2,
+   "themes": [
+    "protection_sociale",
+    "handicap"
+   ],
+   "type": "Décret",
+   "titre": "Suppression de l'ALD non exonérante comme motif de prise en charge des transports",
+   "resume": "Le décret du 21 août 2026 supprime le motif de prise en charge des transports lié aux affections de longue durée non exonérantes, sauf exceptions notamment pour certains mineurs en situation de handicap ou de soins continus. Cette modification s'applique aux transports prescrits à compter du 1er octobre 2026.",
+   "a_retenir": "Vérifier pour les salariés ou enfants de salariés concernés que le motif de transport ne repose plus sur une ALD non exonérante, hors situations de mineurs en situation de handicap ou de soins prolongés.",
+   "date_effet": "2026-10-01"
+  }
+ },
+ {
+  "id": "98025a0dbbd1d161",
+  "url": "https://www.agirc-arrco.fr/nous-connaitre/nos-actualites/avec-cotisations-lagirc-arrco-offre-un-pilotage-360-des-obligations-declaratives/",
+  "source": "agirc-arrco",
+  "date": "2026-09-30",
+  "collecte": "2026-10-13T09:28:29+00:00",
+  "titre_officiel": "Avec Cotisations, l’Agirc-Arrco offre un pilotage 360 des obligations déclaratives",
+  "extrait": "L’Agirc-Arrco et les caisses de retraite complémentaire mettent à la disposition des employeurs et tiers-déclarants le service en ligne Cotisations. Objectif : suivre en temps réel l’état précis du solde des cotisations Agirc-Arrco d’une entreprise.",
+  "themes": [
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "retraite"
+  ],
+  "score": 1,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "protection_sociale"
+   ],
+   "type": "Démarche / info pratique",
+   "titre": "Lancement du service en ligne Cotisations par l'Agirc-Arrco",
+   "resume": "Extrait insuffisant : consulter la source.",
+   "a_retenir": "",
+   "date_effet": ""
+  }
+ },
+ {
+  "id": "3997ead3167d316e",
+  "url": "https://www.legifrance.gouv.fr/juri/id/JURITEXT000054339871",
+  "source": "cassation",
+  "date": "2026-09-30",
+  "collecte": "2026-10-13T09:28:29+00:00",
+  "titre_officiel": "Cour de cassation, civile, Chambre civile 2, 25 juin 2026, 23-22.278, Publié au bulletin",
+  "extrait": "SECURITE SOCIALE, ACCIDENT DU TRAVAIL",
+  "themes": [
+   "protection_sociale",
+   "maintien_emploi"
+  ],
+  "mots_cles": [
+   "accident du travail"
+  ],
+  "score": 1,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": true,
+   "importance": 2,
+   "themes": [
+    "protection_sociale",
+    "maintien_emploi"
+   ],
+   "type": "Jurisprudence",
+   "titre": "Faute inexcusable : la victime doit prouver l'exposition au risque chez l'employeur",
+   "resume": "La Cour de cassation rappelle que la décision de prise en charge d'une maladie professionnelle par la Caisse ne crée aucune présomption d'exposition au risque chez un employeur particulier. Il appartient au salarié ou à ses ayants droit de prouver qu'il a été exposé au risque de cette maladie au service de l'employeur poursuivi pour faute inexcusable.",
+   "a_retenir": "Rappeler aux salariés agissant en reconnaissance de faute inexcusable qu'ils doivent impérativement apporter la preuve de leur exposition au risque dans l'entreprise concernée.",
+   "date_effet": ""
+  }
+ },
+ {
+  "id": "258e72f292dc4ade",
+  "url": "https://www.legifrance.gouv.fr/juri/id/JURITEXT000054339879",
+  "source": "cassation",
+  "date": "2026-09-30",
+  "collecte": "2026-10-13T09:28:29+00:00",
+  "titre_officiel": "Cour de cassation, civile, Chambre civile 2, 25 juin 2026, 23-20.587, Publié au bulletin",
+  "extrait": "SECURITE SOCIALE, ACCIDENT DU TRAVAIL",
+  "themes": [
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "accident du travail"
+  ],
+  "score": 1,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "protection_sociale"
+   ],
+   "type": "Jurisprudence",
+   "titre": "Contestation du classement des risques AT/MP et délai de recours pour l'employeur",
+   "resume": "Extrait insuffisant : consulter la source.",
+   "a_retenir": "",
+   "date_effet": ""
+  }
+ },
+ {
+  "id": "272bc14a1aba251b",
+  "url": "https://www.legifrance.gouv.fr/juri/id/JURITEXT000054929456",
+  "source": "cassation",
+  "date": "2026-09-30",
+  "collecte": "2026-10-13T09:28:29+00:00",
+  "titre_officiel": "Cour de cassation, civile, Chambre civile 2, 17 septembre 2026, 24-17.365 24-18.000, Publié au bulletin",
+  "extrait": "SUBROGATION",
+  "themes": [
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "subrogation"
+  ],
+  "score": 1,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "protection_sociale"
+   ],
+   "type": "Jurisprudence",
+   "titre": "Litige commercial et évaluation d'un préjudice par la cour d'appel",
+   "resume": "Extrait insuffisant : consulter la source.",
+   "a_retenir": "",
+   "date_effet": ""
+  }
+ },
+ {
+  "id": "f7bd809a331ac388",
+  "url": "https://www.legifrance.gouv.fr/juri/id/JURITEXT000054838524",
+  "source": "cassation",
+  "date": "2026-09-30",
+  "collecte": "2026-10-13T09:28:29+00:00",
+  "titre_officiel": "Cour de cassation, civile, Chambre civile 2, 3 septembre 2026, 23-22.988, Publié au bulletin",
+  "extrait": "SECURITE SOCIALE, ACCIDENT DU TRAVAIL",
+  "themes": [
+   "protection_sociale",
+   "maintien_emploi"
+  ],
+  "mots_cles": [
+   "accident du travail"
+  ],
+  "score": 1,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": true,
+   "importance": 2,
+   "themes": [
+    "protection_sociale",
+    "maintien_emploi"
+   ],
+   "type": "Jurisprudence",
+   "titre": "Faute inexcusable et évaluation du déficit fonctionnel permanent par le juge",
+   "resume": "La Cour de cassation juge que le taux d'incapacité permanente fixé par la Caisse ne s'impose pas au juge lorsqu'il évalue le déficit fonctionnel permanent dans le cadre d'une action en faute inexcusable. Le juge peut déterminer souverainement le montant de ce préjudice sans être lié par le taux de la sécurité sociale.",
+   "a_retenir": "Noter que pour l'indemnisation du déficit fonctionnel permanent en cas de faute inexcusable, le juge n'est pas lié par le taux d'incapacité fixé initialement par la CPAM.",
+   "date_effet": ""
+  }
+ },
+ {
+  "id": "6a01e5a060d8fa34",
+  "url": "https://www.legifrance.gouv.fr/juri/id/JURITEXT000054838526",
+  "source": "cassation",
+  "date": "2026-09-30",
+  "collecte": "2026-10-13T09:28:29+00:00",
+  "titre_officiel": "Cour de cassation, civile, Chambre civile 2, 3 septembre 2026, 23-23.281, Publié au bulletin",
+  "extrait": "SECURITE SOCIALE, ACCIDENT DU TRAVAIL",
+  "themes": [
+   "protection_sociale",
+   "maintien_emploi"
+  ],
+  "mots_cles": [
+   "accident du travail"
+  ],
+  "score": 1,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": true,
+   "importance": 2,
+   "themes": [
+    "protection_sociale",
+    "maintien_emploi"
+   ],
+   "type": "Jurisprudence",
+   "titre": "Faute inexcusable : le juge évalue souverainement le déficit fonctionnel permanent sans être lié par le taux de la caisse",
+   "resume": "En cas de reconnaissance d'une faute inexcusable de l'employeur, la juridiction de sécurité sociale évalue souverainement le préjudice au titre du déficit fonctionnel permanent. Elle n'est pas liée par le taux d'incapacité permanente fixé par la caisse, la rente AT/MP ne réparant pas ce poste de préjudice.",
+   "a_retenir": "Rappeler qu'en cas de faute inexcusable, l'indemnisation du déficit fonctionnel permanent devant le pôle social ne se limite pas strictement au taux d'incapacité fixé initialement par la CPAM.",
+   "date_effet": ""
+  }
+ },
+ {
+  "id": "559b1ffbb6e0e2a8",
+  "url": "https://www.legifrance.gouv.fr/juri/id/JURITEXT000054838532",
+  "source": "cassation",
+  "date": "2026-09-30",
+  "collecte": "2026-10-13T09:28:29+00:00",
+  "titre_officiel": "Cour de cassation, civile, Chambre civile 2, 3 septembre 2026, 24-10.786, Publié au bulletin",
+  "extrait": "SECURITE SOCIALE, PRESTATIONS FAMILIALES",
+  "themes": [
+   "aides_sociales",
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "prestations familiales"
+  ],
+  "score": 1,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": true,
+   "importance": 2,
+   "themes": [
+    "aides_sociales",
+    "protection_sociale"
+   ],
+   "type": "Jurisprudence",
+   "titre": "Complément de libre choix du mode de garde (CMG) et résidence alternée des parents",
+   "resume": "La Cour de cassation rappelle qu'en cas de résidence alternée effective et équivalente, l'attribution du complément de libre choix du mode de garde (CMG) ne peut être refusée à un parent au seul motif que l'autre parent en bénéficie déjà ou qu'il n'est pas l'allocataire unique.",
+   "a_retenir": "Informer les parents en garde alternée qu'ils peuvent prétendre au CMG indépendamment du statut d'allocataire unique de l'autre parent, sous réserve des conditions d'exercice effectif de la garde.",
+   "date_effet": ""
+  }
+ },
+ {
+  "id": "d105a4dcd73da854",
+  "url": "https://www.legifrance.gouv.fr/juri/id/JURITEXT000054422743",
+  "source": "cassation",
+  "date": "2026-09-30",
+  "collecte": "2026-10-13T09:28:29+00:00",
+  "titre_officiel": "Cour de cassation, civile, Chambre civile 2, 9 juillet 2026, 25-10.598, Publié au bulletin",
+  "extrait": "ACCIDENT DU TRAVAIL",
+  "themes": [
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "accident du travail"
+  ],
+  "score": 1,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "protection_sociale"
+   ],
+   "type": "Jurisprudence",
+   "titre": "Précisions sur les délais d'offre d'indemnisation et le doublement de l'intérêt légal",
+   "resume": "Extrait insuffisant : consulter la source.",
+   "a_retenir": "",
+   "date_effet": ""
+  }
+ },
+ {
+  "id": "79435979341d3aa3",
+  "url": "https://www.legifrance.gouv.fr/juri/id/JURITEXT000053765321",
+  "source": "cassation",
+  "date": "2026-09-30",
+  "collecte": "2026-10-13T09:28:29+00:00",
+  "titre_officiel": "Cour de cassation, civile, Chambre civile 2, 19 mars 2026, 24-10.728, Publié au bulletin",
+  "extrait": "SECURITE SOCIALE, ACCIDENT DU TRAVAIL",
+  "themes": [
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "accident du travail"
+  ],
+  "score": 1,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "protection_sociale"
+   ],
+   "type": "Jurisprudence",
+   "titre": "Compétence exclusive du contentieux de la tarification AT/MP pour les demandes d'inscription au compte spécial",
+   "resume": "Les demandes d'un employeur visant à retirer des dépenses de maladies professionnelles de son compte ou à les inscrire au compte spécial relèvent exclusivement de la juridiction du contentieux de la tarification.",
+   "a_retenir": "",
+   "date_effet": ""
+  }
+ },
+ {
+  "id": "d30e00c7ac1a031c",
+  "url": "https://www.legifrance.gouv.fr/juri/id/JURITEXT000054929168",
+  "source": "cassation",
+  "date": "2026-09-30",
+  "collecte": "2026-10-13T09:28:29+00:00",
+  "titre_officiel": "Cour de cassation, civile, Chambre sociale, 9 septembre 2026, 25-14.356, Publié au bulletin",
+  "extrait": "CONTRAT DE TRAVAIL, EXECUTION - Employeur - Discrimination fondée sur l'état de santé ou le handicap - Elément matériel - Cas - Licenciement prononcé pour désorganisation de l'entreprise - Désorganisation engendrée par l'absence prolongée ou les absences répétées du salarié nécessitant son remplacement définitif - Elément suffisant (non) CONTRAT DE TRAVAIL, RUPTURE - Licenciement - Cause - Cause réelle et sérieuse - Défaut - Applications diverses - Maladie du salarié - Désorganisation de l'entreprise engendrée par l'absence prolongée ou les absences répétées du salarié - Remplacement du salarié dans un délai raisonnable - Preuve des deux éléments par l'employeur - Absence CONTRAT DE…",
+  "themes": [
+   "maintien_emploi",
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "handicap"
+  ],
+  "score": 1,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": true,
+   "importance": 2,
+   "themes": [
+    "maintien_emploi",
+    "protection_sociale"
+   ],
+   "type": "Jurisprudence",
+   "titre": "Licenciement pour désorganisation et absence de présomption de discrimination liée à la santé",
+   "resume": "La Cour de cassation précise qu'un licenciement fondé sur la désorganisation de l'entreprise due à l'absence prolongée ou répétée d'un salarié ne suffit pas à faire présumer une discrimination liée à l'état de santé. Si l'employeur ne prouve ni la désorganisation ni le remplacement définitif dans un délai raisonnable, le licenciement est sans cause réelle et sérieuse mais n'est pas nul.",
+   "a_retenir": "Vérifier, en cas de contestation d'un licenciement pour absence prolongée, si l'employeur démontre à la fois la désorganisation réelle et un remplacement définitif dans un délai raisonnable.",
+   "date_effet": ""
+  }
+ },
+ {
+  "id": "8c1c085697e4e4e3",
+  "url": "https://www.legifrance.gouv.fr/juri/id/JURITEXT000054929246",
+  "source": "cassation",
+  "date": "2026-09-30",
+  "collecte": "2026-10-13T09:28:29+00:00",
+  "titre_officiel": "Cour de cassation, civile, Chambre sociale, 9 septembre 2026, 25-11.901, Publié au bulletin",
+  "extrait": "TRAVAIL REGLEMENTATION, SANTE ET SECURITE - Employeur - Obligations - Sécurité des salariés - Obligation de sécurité - Applications diverses - Proposition de mesures individuelles faites par le médecin du travail - Prise en considération par l'employeur - Défaut - Effets - Droit à réparation - Conditions - Preuve d'un préjudice - Exclusion - Portée TRAVAIL REGLEMENTATION, SANTE ET SECURITE - Services de santé au travail - Examens médicaux - Proposition de mesures individuelles - Mesures d'aménagement, d'adaptation ou de transformation du poste de travail - Prise en considération par l'employeur - Défaut - Effets - Atteinte à la sécurité et à la santé du salarié - Droit à réparation -…",
+  "themes": [
+   "maintien_emploi",
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "médecin du travail",
+   "santé au travail"
+  ],
+  "score": 2,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": true,
+   "importance": 3,
+   "themes": [
+    "maintien_emploi",
+    "protection_sociale"
+   ],
+   "type": "Jurisprudence",
+   "titre": "Droit à réparation automatique pour non-respect des préconisations du médecin du travail",
+   "resume": "La Cour de cassation juge désormais que le seul constat du non-respect par l'employeur des mesures individuelles d'aménagement ou de transformation de poste préconisées par le médecin du travail engendre inévitablement une atteinte à la santé et ouvre droit à réparation, sans que le salarié ait à prouver un préjudice distinct.",
+   "a_retenir": "Informer les salariés dont l'employeur ignore les aménagements de poste préconisés par le médecin du travail qu'ils peuvent prétendre à des dommages et intérêts du seul fait de cette carence.",
+   "date_effet": ""
+  }
+ },
+ {
+  "id": "a96ffc9d305dd59d",
+  "url": "https://www.legifrance.gouv.fr/juri/id/JURITEXT000054929221",
+  "source": "cassation",
+  "date": "2026-09-30",
+  "collecte": "2026-10-13T09:28:29+00:00",
+  "titre_officiel": "Cour de cassation, civile, Chambre sociale, 9 septembre 2026, 25-12.320, Publié au bulletin",
+  "extrait": "EMPLOI - Travailleurs handicapés - Orientation des travailleurs handicapés - Orientation vers le marché du travail - Recrutement par une entreprise adaptée - Mise à disposition provisoire d'un autre employeur - Conditions - Prêt de main-d'œuvre à but non lucratif - Portée Il résulte des articles L. 5213-16, D. 5213-81 et L. 8241-2 du code du travail que les travailleurs handicapés des entreprises adaptées ne peuvent être mis à disposition provisoire d'un autre employeur que dans le cadre d'un prêt de main-d'oeuvre à but non lucratif PROTECTION DES DROITS DE LA PERSONNE - Libertés fondamentales - Liberté d'expression - Exercice - Droit d'expression des salariés - Atteinte - Appréciation -…",
+  "themes": [
+   "handicap",
+   "maintien_emploi"
+  ],
+  "mots_cles": [
+   "entreprise adaptée",
+   "handicap",
+   "travailleur handicapé"
+  ],
+  "score": 3,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": true,
+   "importance": 2,
+   "themes": [
+    "handicap",
+    "maintien_emploi"
+   ],
+   "type": "Jurisprudence",
+   "titre": "Mise à disposition des travailleurs handicapés en entreprise adaptée et prêt de main-d'œuvre",
+   "resume": "La Cour de cassation rappelle que les travailleurs handicapés employés dans une entreprise adaptée ne peuvent être mis à disposition provisoire d'un autre employeur que dans le cadre strict d'un prêt de main-d'œuvre à but non lucratif. La décision aborde également les critères de proportionnalité entre la liberté d'expression du salarié et le pouvoir disciplinaire de l'employeur.",
+   "a_retenir": "S'assurer que toute mise à disposition d'un salarié issu d'une entreprise adaptée respecte les règles du prêt de main-d'œuvre à but non lucratif.",
+   "date_effet": ""
+  }
+ },
+ {
+  "id": "b63078d0a70d66c7",
+  "url": "https://www.legifrance.gouv.fr/juri/id/JURITEXT000054929442",
+  "source": "cassation",
+  "date": "2026-09-30",
+  "collecte": "2026-10-13T09:28:29+00:00",
+  "titre_officiel": "Cour de cassation, civile, Chambre sociale, 16 septembre 2026, 25-14.826, Publié au bulletin",
+  "extrait": "TRAVAIL REGLEMENTATION, DUREE DU TRAVAIL L'action en paiement d'une indemnité compensatrice de congé payé correspondant à la fraction de congé dont le salarié n'a pu bénéficier en raison de la rupture du contrat de travail se prescrit par trois ans à compter de la rupture du contrat de travail. Le salarié, qui a acquis, en application des articles L. 3141-5, 7° et L. 3141-5-1 du code du travail, des congés payés pendant un arrêt de travail pour accident ou maladie n'ayant pas un caractère professionnel ou qui a été dans l'impossibilité de prendre ses congés payés acquis pour cette raison, a droit à une indemnité compensatrice de congé payé au titre des congés payés acquis depuis le 1er…",
+  "themes": [
+   "protection_sociale",
+   "maintien_emploi"
+  ],
+  "mots_cles": [
+   "arrêt de travail"
+  ],
+  "score": 1,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": true,
+   "importance": 3,
+   "themes": [
+    "protection_sociale",
+    "maintien_emploi"
+   ],
+   "type": "Jurisprudence",
+   "titre": "Prescription de l'indemnité compensatrice de congés payés acquis pendant un arrêt maladie",
+   "resume": "La Cour de cassation précise les règles relatives à l'action en paiement de l'indemnité compensatrice de congés payés non pris en raison d'un arrêt maladie. L'action en justice se prescrit par trois ans à compter de la rupture du contrat de travail pour les congés acquis et reportés conformément aux dispositions légales.",
+   "a_retenir": "Vérifier les droits aux congés payés acquis pendant des arrêts de travail antérieurs en tenant compte des règles de report et du délai de prescription de trois ans suivant la rupture du contrat.",
+   "date_effet": ""
+  }
+ },
+ {
+  "id": "97216562ccce4e78",
+  "url": "https://www.editions-tissot.fr/actualite/sante-securite/referent-handicap-des-evolutions-a-venir-pour-lexercice-de-sa-fonction",
+  "source": "tissot-sante-securite",
+  "date": "2026-09-30",
+  "collecte": "2026-10-13T09:28:29+00:00",
+  "titre_officiel": "Référent handicap : des évolutions à venir pour l’exercice de sa fonction",
+  "extrait": "Les entreprises d’au moins 250 salariés doivent désigner un référent handicap. Si son rôle est aujourd’hui défini de manière générale par le Code du travail, un projet de décret vient préciser ses missions et les modalités d’exercice de sa fonction. Son entrée en vigueur est prévue au 1er janvier 2027.",
+  "themes": [
+   "handicap",
+   "maintien_emploi"
+  ],
+  "mots_cles": [
+   "handicap"
+  ],
+  "score": 4,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": true,
+   "importance": 2,
+   "themes": [
+    "handicap",
+    "maintien_emploi"
+   ],
+   "type": "Projet de loi / réforme",
+   "titre": "Précision des missions du référent handicap en entreprise à partir de 2027",
+   "resume": "Un projet de décret précise les missions et les modalités d'exercice du référent handicap pour les entreprises d'au moins 250 salariés. Ce texte entrera en vigueur le 1er janvier 2027.",
+   "a_retenir": "Anticiper l'évolution des missions du référent handicap dans les entreprises de plus de 250 salariés en vue de sa mise en application prochaine.",
+   "date_effet": "2027-01-01"
+  }
+ },
+ {
+  "id": "b4332c1e534a2ddc",
+  "url": "https://www.editions-tissot.fr/actualite/sante-securite/ijss-at-mp-un-projet-de-decret-confirme-la-baisse-du-plafond-envisagee",
+  "source": "tissot-sante-securite",
+  "date": "2026-09-30",
+  "collecte": "2026-10-13T09:28:29+00:00",
+  "titre_officiel": "IJSS AT-MP : le nouveau plafond est fixé à 1,8 SMIC",
+  "extrait": "L’abaissement du plafond de rémunération servant au calcul des indemnités journalières de Sécurité sociale (IJSS) AT-MP est désormais acté. Un décret publié au Journal officiel du 1er octobre 2026 fixe ce nouveau plafond à 1,8 SMIC et confirme son application aux accidents du travail et maladies professionnelles qui surviendront à compter du 1er novembre 2026.",
+  "themes": [
+   "protection_sociale",
+   "maintien_emploi"
+  ],
+  "mots_cles": [
+   "accident du travail",
+   "AT-MP",
+   "IJSS",
+   "indemnités journalières",
+   "maladie professionnelle",
+   "Smic"
+  ],
+  "score": 9,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": true,
+   "importance": 3,
+   "themes": [
+    "protection_sociale",
+    "maintien_emploi"
+   ],
+   "type": "Décret",
+   "titre": "Abaissement du plafond des indemnités journalières AT-MP à 1,8 SMIC",
+   "resume": "Un décret fixe le nouveau plafond de rémunération pour le calcul des IJSS en cas d'accident du travail ou de maladie professionnelle à 1,8 SMIC. Cette mesure s'applique aux sinistres survenant à compter du 1er novembre 2026.",
+   "a_retenir": "Vérifier l'impact de ce nouveau plafond sur le calcul des indemnités journalières pour les salariés en arrêt pour AT ou MP.",
+   "date_effet": "2026-11-01"
+  }
+ },
+ {
+  "id": "8354328253a223b5",
+  "url": "https://www.presanse.fr/actualites/parution-dun-arrete-relatif-aux-nombres-de-postes-ouverts-en-medecine-et-sante-au-travail/",
+  "source": "presanse",
+  "date": "2026-09-29",
+  "collecte": "2026-10-13T09:28:29+00:00",
+  "titre_officiel": "Parution d’un arrêté relatif aux nombres de postes ouverts en médecine et santé au travail",
+  "extrait": "Un arrêté publié au Journal officiel du 5 aout 2026 fixe à 118 le nombre… The post Parution d’un arrêté relatif aux nombres de postes ouverts en médecine et santé au travail appeared first on Presanse .",
+  "themes": [
+   "maintien_emploi"
+  ],
+  "mots_cles": [
+   "santé au travail"
+  ],
+  "score": 4,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "maintien_emploi"
+   ],
+   "type": "Arrêté",
+   "titre": "Parution d'un arrêté fixant les postes ouverts en médecine et santé au travail",
+   "resume": "Extrait insuffisant : consulter la source.",
+   "a_retenir": "",
+   "date_effet": ""
+  }
+ },
+ {
+  "id": "76fe80d5e8b99a3e",
+  "url": "https://www.agirc-arrco.fr/nous-connaitre/nos-actualites/un-guide-pour-les-aidants-qui-travaillent/",
+  "source": "agirc-arrco",
+  "date": "2026-09-28",
+  "collecte": "2026-10-13T09:28:29+00:00",
+  "titre_officiel": "Un guide pour les aidants qui travaillent",
+  "extrait": "A l’occasion de la Journée des aidants du 6 octobre, l’Agirc-Arrco publie son guide “Salariés aidants 2026”. Ce guide est destiné aux aidants en activité professionnelle et vise à faciliter leur quotidien en regroupant des informations essentielles sur divers besoins.",
+  "themes": [
+   "maintien_emploi",
+   "aides_sociales"
+  ],
+  "mots_cles": [
+   "aidant"
+  ],
+  "score": 4,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.8-flash",
+   "pertinent": true,
+   "importance": 1,
+   "themes": [
+    "maintien_emploi",
+    "aides_sociales"
+   ],
+   "type": "Démarche / info pratique",
+   "titre": "Publication du guide Agirc-Arrco 2026 pour les salariés aidants",
+   "resume": "L'Agirc-Arrco publie une nouvelle édition de son guide dédié aux salariés en situation d'aidant professionnel. Ce document regroupe des informations pratiques pour faciliter leur vie quotidienne et soutenir leurs démarches.",
+   "a_retenir": "Orienter les salariés ayant un proche dépendant vers ce guide pour identifier les aides disponibles.",
+   "date_effet": ""
+  }
+ },
+ {
+  "id": "de77021790f4593d",
+  "url": "https://travail-emploi.gouv.fr/questions-reponses-quels-recours-contre-un-avis-dinaptitude",
+  "source": "travail-emploi",
+  "date": "2026-09-24",
+  "collecte": "2026-10-13T09:28:29+00:00",
+  "titre_officiel": "Questions-réponses | Quels recours contre un avis d’inaptitude ?",
+  "extrait": "",
+  "themes": [
+   "maintien_emploi"
+  ],
+  "mots_cles": [
+   "inaptitude"
+  ],
+  "score": 4,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.8-flash",
+   "pertinent": true,
+   "importance": 1,
+   "themes": [
+    "maintien_emploi"
+   ],
+   "type": "Démarche / info pratique",
+   "titre": "Questions-réponses ministériel sur les voies de recours contre l'inaptitude",
+   "resume": "Extrait insuffisant : consulter la source.",
+   "a_retenir": "",
+   "date_effet": ""
+  }
+ },
+ {
+  "id": "a0ccbc88f9acfdef",
+  "url": "https://www.lassuranceretraite.fr/portail-info/sites/pub/hors-menu/actualites-nationales/retraite/2026/des-aides-et-conseils-pour-votre.html",
+  "source": "assurance-retraite",
+  "date": "2026-09-24",
+  "collecte": "2026-10-13T09:28:29+00:00",
+  "titre_officiel": "Des aides et conseils pour votre retraite : retour sur le webinaire",
+  "extrait": "",
+  "themes": [
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "retraite"
+  ],
+  "score": 4,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.8-flash",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "protection_sociale"
+   ],
+   "type": "Actualité",
+   "titre": "Ressources de l'Assurance retraite sur la prévention et le bien-vieillir",
+   "resume": "L'Assurance retraite présente des offres de prévention pour les personnes déjà retraitées, notamment des ateliers thématiques et le programme ICOPE. Des outils sont également mis à disposition pour aménager le logement afin de préserver l'autonomie.",
+   "a_retenir": "",
+   "date_effet": ""
+  }
+ },
+ {
+  "id": "46c672a2fdbdc7bb",
+  "url": "https://www.lassuranceretraite.fr/portail-info/sites/pub/hors-menu/actualites-nationales/actif/2026/cumuler-emploi-et-retraite.html",
+  "source": "assurance-retraite",
+  "date": "2026-09-24",
+  "collecte": "2026-10-13T09:28:29+00:00",
+  "titre_officiel": "Cumuler emploi et retraite : les règles changent",
+  "extrait": "",
+  "themes": [
+   "protection_sociale",
+   "maintien_emploi"
+  ],
+  "mots_cles": [
+   "retraite"
+  ],
+  "score": 4,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.8-flash",
+   "pertinent": true,
+   "importance": 3,
+   "themes": [
+    "protection_sociale",
+    "maintien_emploi"
+   ],
+   "type": "Projet de loi / réforme",
+   "titre": "Réforme des conditions du cumul emploi-retraite dès le 1er janvier 2027",
+   "resume": "À compter du 1er janvier 2027, les règles du cumul emploi-retraite évoluent pour les nouveaux pensionnés en fonction de leur âge de départ. Les revenus d'activité réduiront la pension ou seront soumis à un plafond avant 67 ans sans créer de nouveaux droits, tandis qu'un cumul intégral générateur de droits reste prévu après 67 ans.",
+   "a_retenir": "Informer les salariés préparant leur retraite qu'un départ à compter de 2027 encadre plus strictement la reprise d'activité.",
+   "date_effet": "2027-01-01"
+  }
+ },
+ {
+  "id": "7b3a62d79d6e9368",
+  "url": "https://occitanie.dreets.gouv.fr/Lancement-du-Plan-Regional-de-Sante-au-Travail-2026-2030-une-feuille-de-route",
+  "source": "dreets-occitanie",
+  "date": "2026-09-23",
+  "collecte": "2026-10-13T09:28:29+00:00",
+  "titre_officiel": "Lancement du Plan Régional de Santé au Travail 2026-2030 : une feuille de route ambitieuse pour l'Occitanie",
+  "extrait": "La DREETS Occitanie a officiellement lancé, le 22 septembre 2026, à Montpellier, le Plan Régional de Santé au Travail (PRST) 2026-2030 - Santé et sécurité au travail - PRST / slide , Entreprise, emploi, économie",
+  "themes": [
+   "maintien_emploi"
+  ],
+  "mots_cles": [
+   "santé au travail"
+  ],
+  "score": 4,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.8-flash",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "maintien_emploi"
+   ],
+   "type": "Actualité",
+   "titre": "Lancement du Plan Régional de Santé au Travail 2026-2030 en Occitanie",
+   "resume": "La DREETS Occitanie a officialisé le lancement du Plan Régional de Santé au Travail pour la période 2026-2030 le 22 septembre 2026. Cette feuille de route territoriale cadre les priorités institutionnelles en matière de santé et sécurité au travail.",
+   "a_retenir": "",
+   "date_effet": ""
+  }
+ },
+ {
+  "id": "f051486102a655f0",
+  "url": "https://www.ameli.fr/medecin/actualites/inaptitude-la-pratique-de-l-eps-en-milieu-scolaire-un-nouveau-modele-de-certificat-medical",
+  "source": "ameli-medecin",
+  "date": "2026-09-23",
+  "collecte": "2026-10-13T09:28:29+00:00",
+  "titre_officiel": "Inaptitude à la pratique de l’EPS en milieu scolaire : un nouveau modèle de certificat médical",
+  "extrait": "",
+  "themes": [
+   "maintien_emploi"
+  ],
+  "mots_cles": [
+   "inaptitude"
+  ],
+  "score": 4,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.8-flash",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "maintien_emploi"
+   ],
+   "type": "Démarche / info pratique",
+   "titre": "Nouveau certificat médical d'inaptitude à l'EPS en milieu scolaire",
+   "resume": "Un modèle actualisé de certificat médical est désormais mis en place pour constater l'inaptitude partielle ou totale des élèves à l'EPS. Il permet d'adapter les cours aux limitations fonctionnelles constatées par le médecin.",
+   "a_retenir": "",
+   "date_effet": ""
+  }
+ },
+ {
+  "id": "484e20dc38df070e",
+  "url": "https://www.lassuranceretraite.fr/portail-info/sites/pub/hors-menu/actualites-nationales/institutionnel/2026/bien-vieillir-autonomie-senior.html",
+  "source": "assurance-retraite",
+  "date": "2026-09-22",
+  "collecte": "2026-10-13T09:28:29+00:00",
+  "titre_officiel": "L’Assurance retraite participe aux Assises nationales du bien-vieillir 2026",
+  "extrait": "",
+  "themes": [
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "retraite"
+  ],
+  "score": 4,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "protection_sociale"
+   ],
+   "type": "Actualité",
+   "titre": "Participation de l'Assurance retraite aux Assises nationales du bien-vieillir 2026",
+   "resume": "Extrait insuffisant : consulter la source.",
+   "a_retenir": "",
+   "date_effet": ""
+  }
+ },
+ {
+  "id": "7bb6a5671ea9df9d",
+  "url": "https://www.agirc-arrco.fr/nous-connaitre/nos-actualites/semaine-des-aidants-2026-des-evenements-partout-en-france/",
+  "source": "agirc-arrco",
+  "date": "2026-09-22",
+  "collecte": "2026-10-13T09:28:29+00:00",
+  "titre_officiel": "Semaine des aidants 2026 : des événements partout en France",
+  "extrait": "Du 5 au 11 octobre, l’Agirc-Arrco s’associe à la Journée nationale des aidants et part à la rencontre de ceux d’entre nous qui aident un proche âgé, malade ou en situation de handicap.",
+  "themes": [
+   "maintien_emploi"
+  ],
+  "mots_cles": [
+   "aidant",
+   "handicap"
+  ],
+  "score": 5,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "maintien_emploi"
+   ],
+   "type": "Actualité",
+   "titre": "Semaine des aidants 2026 : événements d'information Agirc-Arrco",
+   "resume": "Extrait insuffisant : consulter la source.",
+   "a_retenir": "",
+   "date_effet": ""
+  }
+ },
+ {
+  "id": "c00c788e33d11f4c",
+  "url": "https://travail-emploi.gouv.fr/le-conge-dadoption",
+  "source": "travail-emploi",
+  "date": "2026-09-21",
+  "collecte": "2026-10-13T09:28:29+00:00",
+  "titre_officiel": "Le congé d'adoption",
+  "extrait": "Les salariés qui adoptent un enfant, ou plusieurs, dans le cadre des procédures légales, peuvent bénéficier d’un congé d’adoption pendant lequel leur contrat de travail est suspendu. La durée de ce congé dépend, le cas échéant, du nombre d’enfants vivant au foyer et du nombre d’enfants adoptés. Pendant leur congé d’adoption, les salarié(e)s bénéficient, sous réserve de remplir les conditions fixées par le Code de la Sécurité sociale, d’indemnités journalières versées par la Sécurité sociale ; sur ce point, il convient de se renseigner auprès de sa CPAM ou de consulter le site de l’Assurance maladie.",
+  "themes": [
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "assurance maladie",
+   "CPAM",
+   "indemnités journalières"
+  ],
+  "score": 3,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": true,
+   "importance": 1,
+   "themes": [
+    "protection_sociale"
+   ],
+   "type": "Démarche / info pratique",
+   "titre": "Rappel sur le congé d'adoption et ses conditions d'indemnisation",
+   "resume": "Les salariés adoptant un enfant bénéficient d'une suspension de leur contrat de travail et peuvent percevoir des indemnités journalières de la Sécurité sociale selon leur situation. La durée varie en fonction du nombre d'enfants adoptés et déjà présents au foyer.",
+   "a_retenir": "Orienter le salarié vers sa CPAM pour vérifier l'ouverture des droits aux indemnités journalières lors d'un projet d'adoption.",
+   "date_effet": ""
+  }
+ },
+ {
+  "id": "0bb8e7294152da76",
+  "url": "https://travail-emploi.gouv.fr/le-conge-de-maternite",
+  "source": "travail-emploi",
+  "date": "2026-09-21",
+  "collecte": "2026-10-13T09:28:29+00:00",
+  "titre_officiel": "Le congé de maternité",
+  "extrait": "Les femmes salariées bénéficient, avant et après l'accouchement, d'un congé de maternité pendant lequel leur contrat de travail est suspendu. La durée de ce congé dépend, le cas échéant, du nombre d'enfants vivant au foyer et du nombre de naissances attendues.",
+  "themes": [
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "congé de maternité"
+  ],
+  "score": 4,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "protection_sociale"
+   ],
+   "type": "Démarche / info pratique",
+   "titre": "Rappel sur les principes généraux du congé de maternité",
+   "resume": "Extrait insuffisant : consulter la source.",
+   "a_retenir": "",
+   "date_effet": ""
+  }
+ },
+ {
+  "id": "68a2dca58013f56a",
+  "url": "https://www.agefiph.fr/espace-presse/tous-les-documents-presse/mondial-relay-inpost-et-lagefiph-signent-une-convention-de",
+  "source": "agefiph",
+  "date": "2026-09-21",
+  "collecte": "2026-10-13T09:28:29+00:00",
+  "titre_officiel": "Mondial Relay by InPost et l’Agefiph signent une convention de développement de l’emploi",
+  "extrait": "Mondial Relay by InPost et l’Agefiph signent une convention de développement de l’emploi v-florentin@ag…",
+  "themes": [
+   "handicap"
+  ],
+  "mots_cles": [
+   "Agefiph"
+  ],
+  "score": 4,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "handicap"
+   ],
+   "type": "Actualité",
+   "titre": "Signature d'une convention Agefiph et Mondial Relay by InPost",
+   "resume": "Extrait insuffisant : consulter la source.",
+   "a_retenir": "",
+   "date_effet": ""
+  }
+ },
+ {
+  "id": "64bd05bc463cd4da",
+  "url": "https://travail-emploi.gouv.fr/le-comite-national-de-prevention-et-de-sante-au-travail-cnpst-presentation-et-travaux",
+  "source": "travail-emploi",
+  "date": "2026-09-17",
+  "collecte": "2026-10-13T09:28:29+00:00",
+  "titre_officiel": "Le Comité national de prévention et de santé au travail (CNPST) | Présentation et travaux",
+  "extrait": "",
+  "themes": [
+   "maintien_emploi"
+  ],
+  "mots_cles": [
+   "santé au travail"
+  ],
+  "score": 4,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "maintien_emploi"
+   ],
+   "type": "Actualité",
+   "titre": "Comite national de prevention et de sante au travail",
+   "resume": "Extrait insuffisant : consulter la source.",
+   "a_retenir": "",
+   "date_effet": ""
+  }
+ },
+ {
+  "id": "d2070346eb6d62bf",
+  "url": "https://www.ameli.fr/assure/actualites/avec-l-appli-compte-ameli-peut-desormais-transmettre-ses-feuilles-de-soins-papier-sa-cpam",
+  "source": "ameli-assure",
+  "date": "2026-09-17",
+  "collecte": "2026-10-13T09:28:29+00:00",
+  "titre_officiel": "Avec l’appli Compte ameli, on peut désormais transmettre ses feuilles de soins papier à sa CPAM",
+  "extrait": "",
+  "themes": [
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "CPAM"
+  ],
+  "score": 4,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": true,
+   "importance": 2,
+   "themes": [
+    "protection_sociale"
+   ],
+   "type": "Démarche / info pratique",
+   "titre": "Transmission des feuilles de soins papier via l'application Compte ameli",
+   "resume": "Depuis le 7 septembre 2026, un nouveau téléservice permet aux assurés de transmettre directement via l'application mobile Compte ameli leurs feuilles de soins papier émises par un médecin pour un montant inférieur ou égal à 100 euros. Cette démarche est limitée à 5 demandes par période de 30 jours et évite l'envoi postal ou le dépôt en CPAM.",
+   "a_retenir": "Informer les salariés qu'ils peuvent transmettre leurs feuilles de soins de médecin de moins de 100 euros directement via l'application Compte ameli.",
+   "date_effet": "2026-09-07"
+  }
+ },
+ {
+  "id": "71eb37be6a2f6863",
+  "url": "https://travail-emploi.gouv.fr/conference-sur-le-travail-lemploi-et-les-retraites-synthese-et-document-final",
+  "source": "travail-emploi",
+  "date": "2026-09-16",
+  "collecte": "2026-10-13T09:28:29+00:00",
+  "titre_officiel": "Conférence sur le travail, l’emploi et les retraites | Synthèse et document final",
+  "extrait": "Après plusieurs mois de travaux, la Conférence sur le travail, l'emploi et les retraites (CTER) s'est achevée en septembre 2026 avec la publication de son Document final.",
+  "themes": [
+   "maintien_emploi"
+  ],
+  "mots_cles": [
+   "retraite"
+  ],
+  "score": 4,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "maintien_emploi"
+   ],
+   "type": "Actualité",
+   "titre": "Fin de la Conference sur le travail, l'emploi et les retraites",
+   "resume": "Extrait insuffisant : consulter la source.",
+   "a_retenir": "",
+   "date_effet": ""
+  }
+ },
+ {
+  "id": "290bd2af74e2970e",
+  "url": "https://www.lassuranceretraite.fr/portail-info/sites/pub/hors-menu/actualites-nationales/actif/2026/accessibilite-services.html",
+  "source": "assurance-retraite",
+  "date": "2026-09-16",
+  "collecte": "2026-10-13T09:28:29+00:00",
+  "titre_officiel": "Personnes sourdes ou malentendantes : contactez plus facilement l’Assurance retraite",
+  "extrait": "",
+  "themes": [
+   "handicap",
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "retraite"
+  ],
+  "score": 4,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": true,
+   "importance": 2,
+   "themes": [
+    "handicap",
+    "protection_sociale"
+   ],
+   "type": "Démarche / info pratique",
+   "titre": "Nouveau service d'accessibilité pour les assurés sourds ou malentendants à l'Assurance retraite",
+   "resume": "L'Assurance retraite met en place un service gratuit et accessible via la plateforme Elioz pour permettre aux personnes sourdes ou malentendantes de contacter ses conseillers grâce à un opérateur-relai spécialisé en LSF, transcription en temps réel ou langue française parlée complétée.",
+   "a_retenir": "Orienter les salariés sourds ou malentendants vers la plateforme Elioz pour faciliter leurs démarches auprès de l'Assurance retraite.",
+   "date_effet": ""
+  }
+ },
+ {
+  "id": "b1b8b7cc1b4cfe28",
+  "url": "https://www.vie-publique.fr/loi/304588-projet-de-loi-casseur-payeur-reparation-dommages-saisie-allocations?egn-publisher=dila_vp&egn-name=informer_rss_lois",
+  "source": "vie-publique-lois",
+  "date": "2026-09-15",
+  "collecte": "2026-10-13T09:28:29+00:00",
+  "titre_officiel": "Projet de loi relatif à la réparation des dommages résultant de violences ou de dégradations commises dans l'espace public et au recouvrement des dommages et intérêts",
+  "extrait": "Le projet de loi vise à mieux indemniser les victimes de dégradations commises par des groupes violents ou lors de rassemblements : nouvelle responsabilité civile solidaire des participants, réparation individuelle des dommages, saisie des allocations familiales et aides personnelles au logement (APL) sous certaines conditions...",
+  "themes": [
+   "aides_sociales"
+  ],
+  "mots_cles": [
+   "allocations familiales",
+   "APL"
+  ],
+  "score": 2,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "aides_sociales"
+   ],
+   "type": "Projet de loi / réforme",
+   "titre": "Projet de loi sur l'indemnisation des dommages et la saisie des prestations",
+   "resume": "Extrait insuffisant : consulter la source.",
+   "a_retenir": "",
+   "date_effet": ""
+  }
+ },
+ {
+  "id": "cf1834db1a8c378d",
+  "url": "https://www.lassuranceretraite.fr/portail-info/sites/pub/hors-menu/actualites-nationales/actif/2026/des-changements-dans-le-calcul.html",
+  "source": "assurance-retraite",
+  "date": "2026-09-15",
+  "collecte": "2026-10-13T09:28:29+00:00",
+  "titre_officiel": "Des changements dans le calcul de la retraite des parents",
+  "extrait": "",
+  "themes": [
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "retraite"
+  ],
+  "score": 4,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": true,
+   "importance": 3,
+   "themes": [
+    "protection_sociale"
+   ],
+   "type": "Actualité",
+   "titre": "Nouveau mode de calcul de la retraite pour les parents avec des majorations",
+   "resume": "Depuis le 1er septembre 2026, le calcul du revenu annuel moyen de la retraite prend en compte les 24 meilleures années pour un enfant et les 23 meilleures années pour deux enfants ou plus. Cette mesure s'adresse aux parents bénéficiant de majorations de durée d'assurance. Les régulations informatiques interviendront en 2027 avec un versement rétroactif si besoin.",
+   "a_retenir": "Informer les futurs retraités concernés par des majorations d'enfants que le calcul de leurs 23 ou 24 meilleures années s'appliquera rétroactivement en 2027.",
+   "date_effet": "2026-09-01"
+  }
+ },
+ {
+  "id": "fd967be62ca4b840",
+  "url": "https://www.presanse.fr/actualites/note-juridique-relative-aux-delegations-de-mission-par-les-medecins-du-travail-aux-infirmiers-de-sante-au-travail/",
+  "source": "presanse",
+  "date": "2026-09-15",
+  "collecte": "2026-10-13T09:28:29+00:00",
+  "titre_officiel": "Note juridique relative aux « délégations de mission par les médecins du travail aux infirmiers de santé au travail »",
+  "extrait": "La loi du 2 août 2021 pour renforcer la prévention en santé au travail a… The post Note juridique relative aux « délégations de mission par les médecins du travail aux infirmiers de santé au travail » appeared first on Presanse .",
+  "themes": [
+   "maintien_emploi"
+  ],
+  "mots_cles": [
+   "médecin du travail",
+   "santé au travail"
+  ],
+  "score": 5,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "maintien_emploi"
+   ],
+   "type": "Circulaire / instruction",
+   "titre": "Note juridique sur les délégations de mission aux infirmiers de santé au travail",
+   "resume": "Extrait insuffisant : consulter la source.",
+   "a_retenir": "",
+   "date_effet": ""
+  }
+ },
+ {
+  "id": "58b3b3fe2955f9e0",
+  "url": "https://www.lassuranceretraite.fr/portail-info/sites/pub/hors-menu/actualites-nationales/institutionnel/2026/pro-outils-senior-aide-domicile.html",
+  "source": "assurance-retraite",
+  "date": "2026-09-14",
+  "collecte": "2026-10-13T09:28:29+00:00",
+  "titre_officiel": "Des outils à disposition des professionnels pour renforcer l’accompagnement des retraités sur les territoires",
+  "extrait": "",
+  "themes": [
+   "protection_sociale",
+   "aides_sociales"
+  ],
+  "mots_cles": [
+   "retraite"
+  ],
+  "score": 4,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.8-flash",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "protection_sociale",
+    "aides_sociales"
+   ],
+   "type": "Démarche / info pratique",
+   "titre": "Outils de l'Assurance retraite pour l'accompagnement des retraités et des aidants",
+   "resume": "L'Assurance retraite met à disposition des professionnels divers outils, portails et fiches thématiques pour faciliter l'accès aux aides et l'orientation des retraités dans le cadre du Service public départemental de l'autonomie. Ces ressources portent notamment sur l'adaptation du logement, le maintien à domicile et le soutien aux aidants. Elles intègrent un catalogue d'aides existantes telles que MaPrimeAdapt' ou MaPrimeRénov'.",
+   "a_retenir": "",
+   "date_effet": ""
+  }
+ },
+ {
+  "id": "ef009f3ab3111f35",
+  "url": "https://www.lassuranceretraite.fr/portail-info/sites/pub/hors-menu/actualites-nationales/institutionnel/2026/service-public-departemental.html",
+  "source": "assurance-retraite",
+  "date": "2026-09-14",
+  "collecte": "2026-10-13T09:28:29+00:00",
+  "titre_officiel": "Service public départemental de l'autonomie : l'Assurance retraite simplifie les parcours et facilite l'accès aux droits",
+  "extrait": "",
+  "themes": [
+   "aides_sociales",
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "accès aux droits",
+   "retraite"
+  ],
+  "score": 5,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.8-flash",
+   "pertinent": true,
+   "importance": 2,
+   "themes": [
+    "aides_sociales",
+    "protection_sociale"
+   ],
+   "type": "Démarche / info pratique",
+   "titre": "Formulaire unique d'aide à l'autonomie et déploiement de l'évaluation pour tous",
+   "resume": "Dans le cadre du Service public départemental de l'autonomie, un formulaire commun et un téléservice permettent de demander simultanément les aides des caisses de retraite et l'allocation personnalisée d'autonomie. L'Assurance retraite élargit également l'évaluation globale des besoins à domicile à l'ensemble des retraités demandeurs, indépendamment de leur niveau de fragilité initiale, avec une généralisation prévue d'ici fin 2027.",
+   "a_retenir": "Utiliser le formulaire ou le téléservice unique pour orienter les personnes vers les aides à domicile caisse de retraite ou APA sans multiplier les démarches.",
+   "date_effet": ""
+  }
+ },
+ {
+  "id": "4276ce1901ea7a8d",
+  "url": "https://www.agirc-arrco.fr/nous-connaitre/nos-actualites/forum-la-retraite-est-a-vous-a-ales/",
+  "source": "agirc-arrco",
+  "date": "2026-09-10",
+  "collecte": "2026-10-13T09:28:29+00:00",
+  "titre_officiel": "Forum « La retraite est à vous » à Alès",
+  "extrait": "Vous habitez Alès ou ses environs et vous vous posez des questions à l’approche de la retraite ? Préparez votre retraite en toute sérénité en réservant votre rendez-vous avec un conseiller retraite.",
+  "themes": [
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "retraite"
+  ],
+  "score": 4,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.8-flash",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "protection_sociale"
+   ],
+   "type": "Actualité",
+   "titre": "Organisation d'un forum retraite Agirc-Arrco à Alès",
+   "resume": "L'Agirc-Arrco organise un forum local d'information intitulé « La retraite est à vous » sur la commune d'Alès. L'événement propose des rendez-vous individuels avec des conseillers retraite.",
+   "a_retenir": "",
+   "date_effet": ""
+  }
+ },
+ {
+  "id": "944d9722fe628698",
+  "url": "https://www.lassuranceretraite.fr/portail-info/sites/pub/hors-menu/actualites-nationales/institutionnel/2026/assurance-retraite-transparence.html",
+  "source": "assurance-retraite",
+  "date": "2026-09-09",
+  "collecte": "2026-10-13T09:28:29+00:00",
+  "titre_officiel": "L’Assurance retraite en toute transparence : les chiffres 2025",
+  "extrait": "",
+  "themes": [
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "retraite"
+  ],
+  "score": 4,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.8-flash",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "protection_sociale"
+   ],
+   "type": "Actualité",
+   "titre": "Publication des indicateurs de satisfaction et de performance 2025 de l'Assurance retraite",
+   "resume": "L'Assurance retraite publie son bilan annuel d'indicateurs de satisfaction des usagers pour 2025 ainsi que ses résultats de performance du deuxième trimestre 2026. Ces données portent sur l'accueil téléphonique et le respect des délais de traitement des retraites personnelles, des pensions de réversion et de l'Aspa.",
+   "a_retenir": "",
+   "date_effet": ""
+  }
+ },
+ {
+  "id": "88cc58b96d5f4959",
+  "url": "https://www.cnsa.fr/actualites/cnh-2026-ecole-inclusive-habitat-partage-formulaire-simplifie-et-systeme-dinformation",
+  "source": "cnsa",
+  "date": "2026-09-09",
+  "collecte": "2026-10-13T09:28:29+00:00",
+  "titre_officiel": "CNH 2026 : école inclusive, habitat partagé, formulaire simplifié et système d’information, plusieurs chantiers majeurs pour la CNSA",
+  "extrait": "Réunie le 4 septembre 2026 à Bobigny, la 7e Conférence nationale du handicap (CNH) a fixé de nouvelles orientations pour améliorer les réponses apportées aux personnes en situation de handicap. Plusieurs chantiers concernent directement la CNSA et les acteurs de la branche Autonomie : école inclusive, transformation de l’offre, habitat partagé, simplification de l’accès aux droits ou encore création d’un système d’information national unifié pour les MDPH.",
+  "themes": [
+   "handicap",
+   "aides_sociales"
+  ],
+  "mots_cles": [
+   "accès aux droits",
+   "branche autonomie",
+   "CNSA",
+   "handicap",
+   "MDPH"
+  ],
+  "score": 8,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.8-flash",
+   "pertinent": true,
+   "importance": 1,
+   "themes": [
+    "handicap",
+    "aides_sociales"
+   ],
+   "type": "Actualité",
+   "titre": "Orientations de la 7e Conférence nationale du handicap pour les MDPH",
+   "resume": "La 7e Conférence nationale du handicap a fixé des orientations prioritaires pour la branche Autonomie et les MDPH. Parmi les chantiers annoncés figurent la simplification de l'accès aux droits, un formulaire simplifié et la mise en place d'un système d'information national unifié.",
+   "a_retenir": "",
+   "date_effet": ""
+  }
+ },
+ {
+  "id": "f4debc2ca1e22c13",
+  "url": "https://www.cnsa.fr/actualites/la-cnsa-selectionne-5-nouveaux-doctorants-pour-son-programme-de-recherche-autonomie",
+  "source": "cnsa",
+  "date": "2026-09-07",
+  "collecte": "2026-10-13T09:28:29+00:00",
+  "titre_officiel": "La CNSA sélectionne 5 nouveaux doctorants pour son programme de recherche « Autonomie, grand âge et handicap »",
+  "extrait": "Leurs recherches portent sur les violences vécues par les femmes sourdes, les conséquences de la maladie de Huntington sur les familles, le travail des femmes migrantes auprès des personnes âgées, les transformations des établissements et services d’aide par le travail (ESAT), ainsi que les parcours professionnels des aides-soignantes.",
+  "themes": [
+   "handicap"
+  ],
+  "mots_cles": [
+   "CNSA",
+   "ESAT",
+   "handicap"
+  ],
+  "score": 6,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.8-flash",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "handicap"
+   ],
+   "type": "Actualité",
+   "titre": "Sélection doctorale de la CNSA sur l'autonomie et le handicap",
+   "resume": "La CNSA a retenu cinq nouveaux projets de recherche doctorale portant sur des sujets médico-sociaux. Les thématiques traitées abordent notamment les violences envers les femmes sourdes, la maladie de Huntington et l'évolution des ESAT.",
+   "a_retenir": "",
+   "date_effet": ""
+  }
+ },
+ {
+  "id": "49b563e403a72590",
+  "url": "https://travail-emploi.gouv.fr/retraites-des-femmes-et-parentalite-de-nouveaux-droits-au-1er-septembre-2026",
+  "source": "travail-emploi",
+  "date": "2026-09-01",
+  "collecte": "2026-10-13T09:28:29+00:00",
+  "titre_officiel": "Retraites des femmes et parentalité : de nouveaux droits au 1er septembre 2026",
+  "extrait": "Les conditions de départ à la retraite et les règles de calcul des pensions de retraite se voient modifiées à compter du 1er septembre 2026 pour mieux prendre en compte la parentalité.",
+  "themes": [
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "retraite"
+  ],
+  "score": 4,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": true,
+   "importance": 2,
+   "themes": [
+    "protection_sociale"
+   ],
+   "type": "Actualité",
+   "titre": "Modification des conditions de retraite et règles de calcul liées à la parentalité",
+   "resume": "À compter du 1er septembre 2026, les règles de calcul des pensions de retraite et les conditions de départ sont modifiées pour mieux prendre en compte la parentalité et les droits des femmes. Ce dispositif impacte les futurs retraités éligibles aux mesures sur la parentalité.",
+   "a_retenir": "Vérifier l'impact des nouvelles règles de prise en compte de la parentalité pour les salariés proches de la retraite accompagnés.",
+   "date_effet": "2026-09-01"
+  }
+ },
+ {
+  "id": "81efae2afc523d9e",
+  "url": "https://www.service-public.gouv.fr/particuliers/actualites/A18962?xtor=RSS-112",
+  "source": "sp-pro",
+  "date": "2026-08-31",
+  "collecte": "2026-10-13T09:28:29+00:00",
+  "titre_officiel": "La durée des arrêts de travail plafonnée depuis le 1er septembre",
+  "extrait": "Un décret du 12 juin 2026 plafonne la durée des arrêts de travail prescrits et prolongés à compter du 1 er septembre 2026. Service Public vous explique.",
+  "themes": [
+   "protection_sociale",
+   "maintien_emploi"
+  ],
+  "mots_cles": [
+   "arrêt de travail"
+  ],
+  "score": 4,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": true,
+   "importance": 3,
+   "themes": [
+    "protection_sociale",
+    "maintien_emploi"
+   ],
+   "type": "Décret",
+   "titre": "Plafonnement de la durée des arrêts de travail et de leurs prolongations à partir de septembre 2026",
+   "resume": "Depuis le 1er septembre 2026, un décret plafonne la durée de la première prescription d'un arrêt maladie à 31 jours et chaque prolongation à 62 jours maximum. Des dérogations et prolongations restent possibles sur justification médicale selon l'état de santé du salarié.",
+   "a_retenir": "Informer les salariés en arrêt que les nouvelles prescriptions initiales sont limitées à 31 jours et les prolongations à 62 jours maximum à compter du 1er septembre 2026.",
+   "date_effet": "2026-09-01"
+  }
+ }
+]

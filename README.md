@@ -93,8 +93,9 @@ crayon) ; chaque enregistrement relance la veille.
   (`actif: false`). L'état de chaque source (✓ / ⚠) est affiché en bas du site.
 - **Modèle Gemini** : variable de dépôt `GEMINI_MODEL` (*Settings > Secrets and
   variables > Actions > Variables*) si le modèle par défaut disparaît. Le code
-  bascule déjà tout seul sur `gemini-flash-latest` puis
-  `gemini-3.5-flash-lite` si besoin.
+  utilise par défaut `gemini-3.5-flash-lite` (rapide, quota gratuit le plus
+  large) et bascule tout seul sur `gemini-3.8-flash` puis `gemini-flash-latest`
+  si besoin (Flash n'autorise que 20 requêtes/jour en gratuit).
 
 ## Lancer en local (pour tester une modification)
 
