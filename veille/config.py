@@ -5,6 +5,7 @@ En local, les secrets peuvent être placés dans un fichier .env à la racine
 (Settings > Secrets and variables > Actions), injectés par le workflow.
 """
 import os
+import sys
 from pathlib import Path
 
 import yaml
@@ -24,7 +25,13 @@ try:
 except ImportError:
     load_dotenv = None
 
-BASE_DIR = Path(__file__).resolve().parent.parent
+# Une fois empaqueté en .exe (PyInstaller, voir lanceur.py), le code est
+# décompressé dans un dossier temporaire : les fichiers de travail (config,
+# .env, data/, site/...) sont ceux du dossier où se trouve l'exe.
+if getattr(sys, "frozen", False):
+    BASE_DIR = Path(sys.executable).resolve().parent
+else:
+    BASE_DIR = Path(__file__).resolve().parent.parent
 DATA_DIR = BASE_DIR / "data"
 SITE_DIR = BASE_DIR / "site"
 TEMPLATES_DIR = BASE_DIR / "templates"

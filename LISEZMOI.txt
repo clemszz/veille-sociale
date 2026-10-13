@@ -1,0 +1,35 @@
+VEILLE JURIDIQUE SOCIALE - AIPALS
+=================================
+
+UTILISATION
+  Double-cliquer sur « Veille juridique.exe ».
+  - Première ouverture de la journée : la veille se met à jour (1 à 5 min,
+    laisser la fenêtre noire ouverte), puis le site s'ouvre dans le navigateur.
+  - Ouvertures suivantes le même jour : le site s'ouvre directement.
+
+  Raccourci sur le Bureau : clic droit sur « Veille juridique.exe »
+  > Afficher d'autres options > Envoyer vers > Bureau (créer un raccourci).
+
+INSTALLATION
+  Décompresser tout le dossier où vous voulez (ex. Documents), sans séparer
+  les fichiers : l'exe a besoin de ceux qui l'accompagnent.
+  Au premier lancement, Windows peut afficher « Windows a protégé votre
+  ordinateur » : cliquer sur « Informations complémentaires » > « Exécuter
+  quand même ».
+
+CONTENU DU DOSSIER
+  Veille juridique.exe   le programme (aucune installation nécessaire)
+  .env                   la clé Gemini (résumés IA) : ne pas diffuser
+  config.yaml            thèmes, mots-clés et sources (modifiable avec le Bloc-notes)
+  data\                  l'historique de la veille
+  templates\, assets\    la mise en page du site
+  site\                  le site généré (créé automatiquement)
+
+BON À SAVOIR
+  - Les résumés sont rédigés par IA (Google Gemini) : toujours vérifier le
+    texte officiel (cliquer sur le titre) avant de s'appuyer dessus.
+  - Une source marquée ⚠ en bas du site n'a pas répondu ce jour-là ; les
+    autres sont tout de même à jour.
+  - Sans clé dans .env, la veille fonctionne sans résumés IA (extraits officiels).
+  - Forcer une nouvelle mise à jour le même jour : lancer l'exe avec l'option
+    --forcer (raccourci > Propriétés > Cible : ajouter  --forcer  à la fin).

@@ -2,6 +2,7 @@
 - site/index.html : la page de veille (données embarquées, filtres côté navigateur) ;
 - site/flux.xml   : flux RSS des éléments retenus, pour s'abonner dans Outlook.
 """
+import base64
 import json
 import shutil
 from datetime import datetime, timezone
@@ -81,6 +82,10 @@ def generer_site(config: dict, items: list[dict], etat: dict) -> None:
         etat=etat,
         sources=[s for s in config["sources"] if s.get("actif") is not False],
         genere_le=datetime.now(timezone.utc).isoformat(timespec="seconds"),
+        # Logo embarqué pour l'en-tête du PDF (un fichier local ne peut pas être
+        # relu par le navigateur depuis une page ouverte en file://).
+        logo_blanc="data:image/png;base64,"
+        + base64.b64encode((ASSETS_DIR / "logo-aipals-blanc.png").read_bytes()).decode(),
         # "</" échappé pour qu'un titre contenant "</script>" ne casse pas la page.
         donnees_json=json.dumps(elements, ensure_ascii=False).replace("</", "<\\/"),
     )

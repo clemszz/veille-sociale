@@ -125,6 +125,8 @@
   footer ul{list-style:none;padding:0;margin:0 0 16px;display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:4px 20px}
   .ok{color:#2F7D4F} .ko{color:var(--orange);font-weight:600}
   .avertissement{background:var(--jaune-pale);border-radius:8px;padding:10px 14px;color:var(--encre)}
+  .credit{margin:18px 0 0;padding-top:14px;border-top:1px solid var(--trait);color:var(--encre-pale)}
+  .credit strong{color:var(--lien)}
   .toast{position:fixed;bottom:20px;left:50%;transform:translateX(-50%);background:var(--violet-fonce);color:#fff;padding:10px 18px;border-radius:999px;font-size:.9rem;opacity:0;transition:opacity .2s;pointer-events:none}
   .toast.visible{opacity:1}
 
@@ -199,7 +201,7 @@
     </div>
     <div class="actions">
       <button class="bouton plein" id="copier-recap">Copier le récap affiché</button>
-      <button class="bouton" id="imprimer">Imprimer / PDF</button>
+      <button class="bouton" id="pdf">Télécharger en PDF</button>
       <button class="bouton" id="tout-lu">Tout marquer comme lu</button>
     </div>
   </aside>
@@ -232,12 +234,14 @@
     <p>
       {% if etat.ia and etat.ia.active and etat.ia.restants %}{{ etat.ia.restants }} élément(s) en attente de résumé. {% endif %}
       {% if etat.ia and etat.ia.message %}{{ etat.ia.message }} {% endif %}
-      S'abonner dans Outlook : clic droit sur le dossier « Flux RSS » &gt; Ajouter un nouveau flux RSS &gt; coller l'adresse <a href="flux.xml">flux.xml</a> de ce site.
+      {% if site.url %}S'abonner dans Outlook : clic droit sur le dossier « Flux RSS » &gt; Ajouter un nouveau flux RSS &gt; coller l'adresse <a href="flux.xml">flux.xml</a> de ce site.{% endif %}
     </p>
+    <p class="credit">Outil réalisé par <strong>Clément Duran</strong> pour le service social de l'AIPALS.</p>
   </div>
 </footer>
 <div class="toast" id="toast" role="status"></div>
 
+<script src="assets/jspdf.umd.min.js"></script>
 <script type="application/json" id="donnees">{{ donnees_json | safe }}</script>
 <script>
 (function(){
@@ -443,7 +447,118 @@
       "\n\n(Résumés automatiques : vérifier le texte officiel via le lien.)";
     copier(texte, "Récap copié : collez-le dans un mail");
   });
-  $("imprimer").addEventListener("click", function(){ window.print(); });
+  // --- Export PDF (jsPDF, embarqué dans assets/) ------------------------------
+  var LOGO_BLANC = "{{ logo_blanc }}";
+  var RVB = {violet:[112,56,132], fonce:[81,40,95], orange:[199,82,39], jaune:[228,175,66], lavande:[191,171,205],
+             encre:[42,31,46], doux:[94,83,99], pale:[138,128,144], fondRetenir:[239,231,243]};
+  var COUL_NIVEAU = {3: RVB.orange, 2: RVB.jaune, 1: RVB.lavande};
+  // Les polices standard des PDF ne couvrent que le Latin-1 : on remplace le reste.
+  function latin1(s){
+    return String(s || "").replace(/[\u2018\u2019\u201B]/g, "'").replace(/[\u201C\u201D]/g, '"')
+      .replace(/[\u2013\u2014]/g, "-").replace(/\u2026/g, "...").replace(/\u0153/g, "oe").replace(/\u0152/g, "OE")
+      .replace(/\u202F|\u2009/g, " ").replace(/\u20AC/g, "EUR").replace(/[^\x00-\xFF]/g, "");
+  }
+  function telechargerPdf(){
+    if (!window.jspdf){ toast("Module PDF indisponible"); return; }
+    if (!affiches.length){ toast("Rien à exporter avec ces filtres"); return; }
+    var doc = new window.jspdf.jsPDF({unit: "mm", format: "a4"});
+    var L = 210, H = 297, M = 15, LARG = L - 2 * M, BAS = H - 18, y;
+    var aujourdhui = new Date().toLocaleDateString("fr-FR");
+    function couleur(c){ doc.setTextColor(c[0], c[1], c[2]); }
+    function hauteurLigne(pt){ return pt * 0.3528 * 1.32; }
+    function bandeau(premiere){
+      var h = premiere ? 34 : 14;
+      doc.setFillColor(81, 40, 95); doc.rect(0, 0, L, h, "F");
+      var t = [[RVB.violet, 0, .5], [RVB.orange, .5, .8], [RVB.jaune, .8, 1]];
+      t.forEach(function(b){ doc.setFillColor(b[0][0], b[0][1], b[0][2]); doc.rect(L * b[1], h, L * (b[2] - b[1]), 1.6, "F"); });
+      if (premiere){
+        if (LOGO_BLANC) doc.addImage(LOGO_BLANC, "PNG", M, 7, 25.8, 20);
+        doc.setFont("helvetica", "bold"); doc.setFontSize(19); couleur([255,255,255]);
+        doc.text("Veille juridique sociale", M + 32, 16);
+        doc.setFont("helvetica", "normal"); doc.setFontSize(9.5); doc.setTextColor(230, 218, 238);
+        doc.text(latin1("Service social AIPALS - récapitulatif du " + aujourdhui + " - " + affiches.length + " élément" + (affiches.length > 1 ? "s" : "")), M + 32, 23);
+        doc.text(latin1(resumeFiltres()), M + 32, 28.5);
+      } else {
+        doc.setFont("helvetica", "bold"); doc.setFontSize(10); couleur([255,255,255]);
+        doc.text(latin1("Veille juridique sociale - AIPALS - " + aujourdhui), M, 9);
+      }
+      return h + 8;
+    }
+    function nouvellePage(){ doc.addPage(); y = bandeau(false); }
+    function place(h){ if (y + h > BAS) nouvellePage(); }
+    function lignes(texte, pt, largeur){ doc.setFontSize(pt); return doc.splitTextToSize(latin1(texte), largeur); }
+
+    y = bandeau(true);
+    var ordre = affiches.slice().sort(function(a, b){ return b.importance - a.importance || (b.date > a.date ? 1 : b.date < a.date ? -1 : 0); });
+    var section = null;
+    ordre.forEach(function(e){
+      if (e.importance !== section){
+        section = e.importance;
+        place(16);
+        var c = COUL_NIVEAU[section];
+        doc.setFont("helvetica", "bold"); doc.setFontSize(11); couleur(RVB.fonce);
+        doc.text(latin1(NIVEAUX[section].toUpperCase()), M, y);
+        doc.setDrawColor(c[0], c[1], c[2]); doc.setLineWidth(.8); doc.line(M, y + 1.8, L - M, y + 1.8);
+        y += 8;
+      }
+      var X = M + 5, W = LARG - 5;
+      doc.setFont("helvetica", "bold"); var lt = lignes(e.titre, 11, W);
+      doc.setFont("helvetica", "normal"); var lr = e.resume ? lignes(e.resume, 9.5, W) : [];
+      var la = e.aRetenir ? lignes("À retenir : " + e.aRetenir, 9.5, W - 6) : [];
+      var meta = [e.type, e.source, court(jour(e.date))].filter(Boolean).join("  -  ") +
+                 (e.dateEffet ? "  -  en vigueur le " + court(jour(e.dateEffet)) : "");
+      var hT = lt.length * hauteurLigne(11), hR = lr.length * hauteurLigne(9.5), hA = la.length ? la.length * hauteurLigne(9.5) + 4 : 0;
+      var total = 5 + hT + (hR ? hR + 2 : 0) + (hA ? hA + 2 : 0) + 6;
+      place(Math.min(total, BAS - 30));
+      var debut = y, c = COUL_NIVEAU[e.importance];
+      doc.setFont("helvetica", "normal"); doc.setFontSize(8); couleur(RVB.pale);
+      doc.text(latin1(meta), X, y); y += 4.5;
+      doc.setFont("helvetica", "bold"); doc.setFontSize(11); couleur(RVB.violet);
+      lt.forEach(function(l){ place(hauteurLigne(11)); doc.text(l, X, y + 3.2); y += hauteurLigne(11); });
+      // Titre cliquable vers le texte officiel.
+      doc.link(X, debut + 1.5, W, y - debut - 1, {url: e.url});
+      if (lr.length){
+        y += 1.5; doc.setFont("helvetica", "normal"); doc.setFontSize(9.5); couleur(RVB.encre);
+        lr.forEach(function(l){ place(hauteurLigne(9.5)); doc.text(l, X, y + 3); y += hauteurLigne(9.5); });
+      }
+      if (la.length){
+        y += 2; place(hA);
+        doc.setFillColor(RVB.fondRetenir[0], RVB.fondRetenir[1], RVB.fondRetenir[2]);
+        doc.roundedRect(X, y, W, hA, 1.5, 1.5, "F");
+        doc.setFontSize(9.5); var yy = y + 2;
+        la.forEach(function(l, i){
+          if (i === 0 && l.indexOf("À retenir :") === 0){
+            doc.setFont("helvetica", "bold"); couleur(RVB.violet); doc.text(latin1("À retenir :"), X + 3, yy + 3);
+            var dec = doc.getTextWidth(latin1("À retenir : "));
+            doc.setFont("helvetica", "normal"); couleur(RVB.encre); doc.text(l.slice(latin1("À retenir : ").length), X + 3 + dec, yy + 3);
+          } else { doc.setFont("helvetica", "normal"); couleur(RVB.encre); doc.text(l, X + 3, yy + 3); }
+          yy += hauteurLigne(9.5);
+        });
+        y += hA;
+      }
+      // Liseret d'importance à gauche (sur la page courante).
+      doc.setFillColor(c[0], c[1], c[2]); doc.rect(M, Math.max(debut - 3, 22), 1.4, y - Math.max(debut - 3, 22), "F");
+      y += 7;
+    });
+
+    var n = doc.getNumberOfPages();
+    for (var i = 1; i <= n; i++){
+      doc.setPage(i);
+      doc.setDrawColor(227, 220, 232); doc.setLineWidth(.3); doc.line(M, H - 13, L - M, H - 13);
+      doc.setFont("helvetica", "normal"); doc.setFontSize(7.5); couleur(RVB.pale);
+      doc.text(latin1("Réalisé par Clément Duran - AIPALS. Résumés rédigés par IA : vérifier le texte officiel (titres cliquables)."), M, H - 8.5);
+      doc.text(i + " / " + n, L - M, H - 8.5, {align: "right"});
+    }
+    doc.save("veille-juridique-" + new Date().toISOString().slice(0, 10) + ".pdf");
+    toast("PDF téléchargé");
+  }
+  function resumeFiltres(){
+    var p = {7: "7 derniers jours", 31: "30 derniers jours", 92: "3 derniers mois", 366: "12 derniers mois"}[etat.periode] || "";
+    var imp = {1: "toutes importances", 2: "Utile et Essentiel", 3: "Essentiel uniquement"}[etat.importance];
+    var th = etat.themes.length === Object.keys(THEMES).length ? "tous thèmes" : etat.themes.map(function(t){ return THEMES[t]; }).join(", ");
+    return etat.favoris ? "Favoris" : [p, imp, th, etat.source, etat.texte ? "recherche : " + etat.texte : ""].filter(Boolean).join(" - ");
+  }
+  $("pdf").addEventListener("click", telechargerPdf);
   $("tout-lu").addEventListener("click", function(){ visitePrecedente = new Date().toISOString(); rafraichir(true); toast("Tout est marqué comme lu"); });
 
   rafraichir();
