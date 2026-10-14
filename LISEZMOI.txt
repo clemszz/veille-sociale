@@ -11,8 +11,10 @@ UTILISATION
   > Afficher d'autres options > Envoyer vers > Bureau (créer un raccourci).
 
 INSTALLATION
-  Décompresser tout le dossier où vous voulez (ex. Documents), sans séparer
-  les fichiers : l'exe a besoin de ceux qui l'accompagnent.
+  Copier le dossier « Veille AIPALS » où vous voulez (ex. Documents), ou
+  l'extraire du zip (clic droit > Extraire tout). Garder les fichiers ensemble.
+  (Lancé seul, par exemple directement depuis le zip, l'exe fonctionne aussi :
+  il range alors ses fichiers dans %LOCALAPPDATA%\Veille juridique AIPALS.)
   Au premier lancement, Windows peut afficher « Windows a protégé votre
   ordinateur » : cliquer sur « Informations complémentaires » > « Exécuter
   quand même ».

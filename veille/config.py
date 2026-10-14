@@ -5,6 +5,7 @@ En local, les secrets peuvent être placés dans un fichier .env à la racine
 (Settings > Secrets and variables > Actions), injectés par le workflow.
 """
 import os
+import shutil
 import sys
 from pathlib import Path
 
@@ -25,13 +26,39 @@ try:
 except ImportError:
     load_dotenv = None
 
-# Une fois empaqueté en .exe (PyInstaller, voir lanceur.py), le code est
-# décompressé dans un dossier temporaire : les fichiers de travail (config,
-# .env, data/, site/...) sont ceux du dossier où se trouve l'exe.
-if getattr(sys, "frozen", False):
-    BASE_DIR = Path(sys.executable).resolve().parent
-else:
-    BASE_DIR = Path(__file__).resolve().parent.parent
+FICHIERS_DE_TRAVAIL = ["config.yaml", ".env", "templates", "assets", "data"]
+
+
+def _dossier_de_travail() -> Path:
+    """Dossier des fichiers de travail (config, .env, data/, site/...).
+
+    - En développement : la racine du projet.
+    - En .exe (PyInstaller, voir lanceur.py) : le dossier de l'exe s'il
+      contient config.yaml (cas normal, dossier décompressé). Sinon l'exe a été
+      lancé seul, typiquement par double-clic DANS le zip : Windows ne copie
+      alors que l'exe dans un dossier temporaire jetable. On travaille dans un
+      dossier stable du profil, initialisé avec les fichiers embarqués dans
+      l'exe (sys._MEIPASS/defaut) sans jamais écraser l'existant.
+    """
+    if not getattr(sys, "frozen", False):
+        return Path(__file__).resolve().parent.parent
+    pres_exe = Path(sys.executable).resolve().parent
+    if (pres_exe / "config.yaml").exists():
+        return pres_exe
+    dossier = Path(os.environ.get("LOCALAPPDATA") or Path.home()) / "Veille juridique AIPALS"
+    defaut = Path(getattr(sys, "_MEIPASS", "")) / "defaut"
+    dossier.mkdir(parents=True, exist_ok=True)
+    for nom in FICHIERS_DE_TRAVAIL:
+        source, cible = defaut / nom, dossier / nom
+        if source.exists() and not cible.exists():
+            if source.is_dir():
+                shutil.copytree(source, cible)
+            else:
+                shutil.copy2(source, cible)
+    return dossier
+
+
+BASE_DIR = _dossier_de_travail()
 DATA_DIR = BASE_DIR / "data"
 SITE_DIR = BASE_DIR / "site"
 TEMPLATES_DIR = BASE_DIR / "templates"
