@@ -47,7 +47,8 @@ l'accompagnement d'un salarié par cette assistante sociale (droits, montants, \
 conditions, démarches, délais, dispositifs, obligations de l'employeur liées à \
 la santé). false s'il est hors sujet pour elle : fonction publique uniquement, \
 fiscalité des entreprises, santé publique sans lien avec les droits sociaux, \
-communication institutionnelle sans contenu juridique, droit étranger.
+communication institutionnelle sans contenu juridique, droit étranger, mesure \
+régionale ou locale qui ne concerne pas l'Occitanie (elle exerce dans l'Hérault).
 - importance : 3 = à connaître absolument (nouveau droit, réforme, changement \
 de conditions, de montants ou de procédure, suppression d'un dispositif) ; \
 2 = utile (précision, revalorisation, nouvelle démarche, jurisprudence \

@@ -114,6 +114,14 @@
   .outil{border:0;background:none;cursor:pointer;padding:4px 8px;border-radius:6px;font-size:.82rem;color:var(--encre-douce)}
   .outil:hover{background:var(--violet-pale);color:var(--lien)}
   .outil[aria-pressed="true"]{color:var(--orange);font-weight:600}
+  .fiche .meta{padding-right:64px}
+  .choix{position:absolute;top:13px;right:14px;display:flex;align-items:center;gap:6px;font-size:.78rem;font-weight:600;color:var(--encre-pale);cursor:pointer;user-select:none}
+  .choix input{accent-color:var(--violet);width:16px;height:16px;margin:0;cursor:pointer}
+  article.fiche.choisi{border-color:var(--violet);box-shadow:0 0 0 2px var(--violet-pale)}
+  article.fiche.choisi .choix{color:var(--lien)}
+  .selection{font-size:.85rem;line-height:1.45;color:var(--encre-douce);background:var(--carte);border:1px solid var(--trait);border-radius:8px;padding:8px 10px}
+  .selection strong{color:var(--lien)}
+  .lien-bouton{border:0;background:none;padding:0;color:var(--lien);text-decoration:underline;cursor:pointer;font-size:.85rem}
   details.detail{margin-top:8px;font-size:.84rem;color:var(--encre-douce)}
   details.detail summary{cursor:pointer;width:max-content}
   details.detail p{margin:6px 0 0}
@@ -200,8 +208,9 @@
       <label class="bascule"><input type="checkbox" id="voir-ecartes"> Afficher les éléments jugés hors sujet</label>
     </div>
     <div class="actions">
-      <button class="bouton plein" id="copier-recap">Copier le récap affiché</button>
-      <button class="bouton" id="pdf">Télécharger en PDF</button>
+      <div class="selection" id="selection"></div>
+      <button class="bouton plein" id="pdf">Télécharger en PDF</button>
+      <button class="bouton" id="copier-recap">Copier le récap</button>
       <button class="bouton" id="tout-lu">Tout marquer comme lu</button>
     </div>
   </aside>
@@ -258,6 +267,9 @@
   function ecrire(cle, v){ try { localStorage.setItem(cle, JSON.stringify(v)); } catch(e){} }
 
   var favoris = new Set(lire("veille.favoris", []));
+  // Sélection pour l'export (PDF, récap), comme la case "Garder" de StratIA.
+  var connus = new Set(ELEMENTS.map(function(e){ return e.id; }));
+  var selection = new Set(lire("veille.selection", []).filter(function(id){ return connus.has(id); }));
   var visitePrecedente = lire("veille.derniereVisite", null);
   ecrire("veille.derniereVisite", new Date().toISOString());
   var etat = Object.assign({themes: Object.keys(THEMES), importance: 1, periode: 31, source: "", texte: "", favoris: false, ecartes: false},
@@ -345,8 +357,9 @@
     var themes = e.themes.map(function(t){
       return '<span class="tag"><span class="pastille" style="background:' + (COULEURS[t] || "#BFABCD") + '"></span>' + esc(THEMES[t] || t) + '</span>';
     }).join("");
-    var fav = favoris.has(e.id);
-    return '<article class="fiche imp-' + e.importance + (e.pertinent ? "" : " ecarte") + '" data-id="' + esc(e.id) + '">' +
+    var fav = favoris.has(e.id), choisi = selection.has(e.id);
+    return '<article class="fiche imp-' + e.importance + (e.pertinent ? "" : " ecarte") + (choisi ? " choisi" : "") + '" data-id="' + esc(e.id) + '">' +
+      '<label class="choix" title="Choisir pour le PDF et le récap"><input type="checkbox" data-action="choisir"' + (choisi ? " checked" : "") + '> PDF</label>' +
       '<div class="meta"><span class="niveau">' + NIVEAUX[e.importance] + '</span>' +
         (e.type ? '<span class="type">' + esc(e.type) + '</span>' : "") +
         '<span>' + esc(e.source) + ' · ' + court(jour(e.date)) + '</span>' +
@@ -404,7 +417,32 @@
     }
     $("plus").hidden = affiches.length <= etat.limite;
     synthese();
+    majSelection();
   }
+  function lotExport(){
+    return selection.size ? ELEMENTS.filter(function(e){ return selection.has(e.id); }) : affiches;
+  }
+  function majSelection(){
+    var n = selection.size, s = n > 1 ? "s" : "";
+    $("selection").innerHTML = n
+      ? "<strong>" + n + "</strong> élément" + s + " choisi" + s + " pour l'export. <button class=\"lien-bouton\" data-sel=\"vider\">Vider la sélection</button>"
+      : "Export : les " + affiches.length + " éléments affichés. Cochez « PDF » sur une fiche pour choisir. <button class=\"lien-bouton\" data-sel=\"tout\">Tout cocher</button>";
+    $("pdf").textContent = "Télécharger en PDF (" + lotExport().length + ")";
+  }
+  function enregistrerSelection(){ ecrire("veille.selection", Array.from(selection)); }
+  $("selection").addEventListener("click", function(ev){
+    var b = ev.target.closest("button[data-sel]"); if (!b) return;
+    if (b.dataset.sel === "vider") selection.clear();
+    else affiches.forEach(function(e){ selection.add(e.id); });
+    enregistrerSelection(); rafraichir(true);
+  });
+  $("liste").addEventListener("change", function(ev){
+    if (!ev.target.matches('input[data-action="choisir"]')) return;
+    var article = ev.target.closest("article"), id = article.dataset.id;
+    if (ev.target.checked) selection.add(id); else selection.delete(id);
+    article.classList.toggle("choisi", ev.target.checked);
+    enregistrerSelection(); majSelection();
+  });
   $("plus").addEventListener("click", function(){ etat.limite += PAR_PAGE; rafraichir(true); });
 
   function texteFiche(e){
@@ -440,8 +478,8 @@
     }
   });
   $("copier-recap").addEventListener("click", function(){
-    if (!affiches.length){ toast("Rien à copier avec ces filtres"); return; }
-    var lot = affiches.slice(0, 60);
+    var lot = lotExport().slice(0, 60);
+    if (!lot.length){ toast("Rien à copier avec ces filtres"); return; }
     var texte = TITRE + " — récap du " + new Date().toLocaleDateString("fr-FR") + " (" + lot.length + " élément" + (lot.length > 1 ? "s" : "") + ")\n\n" +
       lot.map(texteFiche).join("\n\n") +
       "\n\n(Résumés automatiques : vérifier le texte officiel via le lien.)";
@@ -460,7 +498,8 @@
   }
   function telechargerPdf(){
     if (!window.jspdf){ toast("Module PDF indisponible"); return; }
-    if (!affiches.length){ toast("Rien à exporter avec ces filtres"); return; }
+    var lot = lotExport();
+    if (!lot.length){ toast("Rien à exporter avec ces filtres"); return; }
     var doc = new window.jspdf.jsPDF({unit: "mm", format: "a4"});
     var L = 210, H = 297, M = 15, LARG = L - 2 * M, BAS = H - 18, y;
     var aujourdhui = new Date().toLocaleDateString("fr-FR");
@@ -476,7 +515,7 @@
         doc.setFont("helvetica", "bold"); doc.setFontSize(19); couleur([255,255,255]);
         doc.text("Veille juridique sociale", M + 32, 16);
         doc.setFont("helvetica", "normal"); doc.setFontSize(9.5); doc.setTextColor(230, 218, 238);
-        doc.text(latin1("Service social AIPALS - récapitulatif du " + aujourdhui + " - " + affiches.length + " élément" + (affiches.length > 1 ? "s" : "")), M + 32, 23);
+        doc.text(latin1("Service social AIPALS - récapitulatif du " + aujourdhui + " - " + lot.length + " élément" + (lot.length > 1 ? "s" : "")), M + 32, 23);
         doc.text(latin1(resumeFiltres()), M + 32, 28.5);
       } else {
         doc.setFont("helvetica", "bold"); doc.setFontSize(10); couleur([255,255,255]);
@@ -489,7 +528,7 @@
     function lignes(texte, pt, largeur){ doc.setFontSize(pt); return doc.splitTextToSize(latin1(texte), largeur); }
 
     y = bandeau(true);
-    var ordre = affiches.slice().sort(function(a, b){ return b.importance - a.importance || (b.date > a.date ? 1 : b.date < a.date ? -1 : 0); });
+    var ordre = lot.slice().sort(function(a, b){ return b.importance - a.importance || (b.date > a.date ? 1 : b.date < a.date ? -1 : 0); });
     var section = null;
     ordre.forEach(function(e){
       if (e.importance !== section){
@@ -553,6 +592,7 @@
     toast("PDF téléchargé");
   }
   function resumeFiltres(){
+    if (selection.size) return "Sélection choisie dans la veille";
     var p = {7: "7 derniers jours", 31: "30 derniers jours", 92: "3 derniers mois", 366: "12 derniers mois"}[etat.periode] || "";
     var imp = {1: "toutes importances", 2: "Utile et Essentiel", 3: "Essentiel uniquement"}[etat.importance];
     var th = etat.themes.length === Object.keys(THEMES).length ? "tous thèmes" : etat.themes.map(function(t){ return THEMES[t]; }).join(", ");
