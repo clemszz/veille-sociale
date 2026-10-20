@@ -154,7 +154,8 @@
    "resume": "L'assurance vieillesse des aidants permet de valider des trimestres pour la retraite lorsqu'on accompagne un proche malade ou en situation de handicap. L'affiliation dépend de la situation du proche et des prestations perçues, certaines démarches étant automatiques tandis que d'autres nécessitent une intervention.",
    "a_retenir": "Vérifier l'affiliation à l'assurance vieillesse des aidants pour les salariés réduisant leur activité ou en congé de proche aidant pour s'assurer qu'ils continuent à cotiser.",
    "date_effet": ""
-  }
+  },
+  "doublons_verifie": true
  },
  {
   "id": "bfdbc7ce56052ebb",
@@ -185,7 +186,9 @@
    "resume": "Les conditions de départ à la retraite et le calcul des pensions sont modifiés pour mieux prendre en compte la parentalité. Cette mesure s'applique à compter du 1er septembre 2026 en application de la loi de financement de la Sécurité sociale pour 2026.",
    "a_retenir": "Informer les salariés s'interrogeant sur leur fin de carrière que de nouvelles règles liées à la parentalité s'appliquent pour le calcul de leur retraite dès septembre 2026.",
    "date_effet": "2026-09-01"
-  }
+  },
+  "doublon_de": "49b563e403a72590",
+  "doublons_verifie": true
  },
  {
   "id": "c43af4b883d540c1",
@@ -250,7 +253,8 @@
    "resume": "Le plafond annuel de la Sécurité sociale est fixé à 48 900 euros en 2027, soit une augmentation de 1,74 % par rapport à 2026. Ce montant sert de base au calcul des indemnités journalières, des pensions d'invalidité et des retraites.",
    "a_retenir": "Tenir compte de la revalorisation du PASS pour estimer le calcul des plafonds d'indemnités journalières et de pensions d'invalidité en 2027.",
    "date_effet": "2027-01-01"
-  }
+  },
+  "doublons_verifie": true
  },
  {
   "id": "5216eb808c6d9ff8",
@@ -286,7 +290,8 @@
    "resume": "La période transitoire permettant à certains bénéficiaires de cumuler l'Allocation aux adultes handicapés (AAH) et l'Allocation de solidarité spécifique (ASS) s'arrêtera définitivement le 31 décembre 2026. L'AAH étant prioritaire, le versement de l'ASS sera interrompu pour les personnes concernées dès lors qu'elles perçoivent l'AAH.",
    "a_retenir": "Verififer si les salariés en situation de handicap accompagnés perçoivent encore simultanément l'ASS et l'AAH afin de les informer de la fin de ce cumul au 31 décembre 2026.",
    "date_effet": "2027-01-01"
-  }
+  },
+  "doublons_verifie": true
  },
  {
   "id": "34f79bc5c43e30ea",
@@ -563,7 +568,8 @@
    "resume": "La Semaine européenne pour la sécurité et la santé au travail se déroule du 19 au 24 octobre 2026 et met l'accent sur la prévention des risques psychosociaux et de la santé mentale. C'est l'occasion pour les employeurs de renforcer leurs actions de sensibilisation et de prévention.",
    "a_retenir": "Utiliser cette semaine thématique pour sensibiliser les employeurs et salariés sur la prévention des risques psychosociaux et de la santé mentale au travail.",
    "date_effet": "2026-10-19"
-  }
+  },
+  "doublons_verifie": true
  },
  {
   "id": "52e9e6c59a4c3640",
@@ -593,7 +599,8 @@
    "resume": "Le ministère du Travail apporte des précisions sur le sort des avantages acquis, comme le véhicule de fonction et la complémentaire santé, pendant la suspension du contrat de travail liée au congé supplémentaire de naissance.",
    "a_retenir": "Vérifier l'impact du congé supplémentaire de naissance sur le maintien de la complémentaire santé et des avantages en nature des salariés concernés.",
    "date_effet": ""
-  }
+  },
+  "doublons_verifie": true
  },
  {
   "id": "93b2e044b327af8d",
@@ -625,7 +632,8 @@
    "resume": "La DREETS Occitanie lance un appel à projets pour labelliser des Points Conseil Budget, qui proposent un accompagnement gratuit aux personnes rencontrant des difficultés financières. Ce dispositif d'aide à la gestion budgétaire et de prévention du surendettement évolue à compter de janvier 2027.",
    "a_retenir": "Orienter les salariés en difficulté financière vers les Points Conseil Budget en Occitanie pour un accompagnement gratuit et confidentiel.",
    "date_effet": "2027-01-01"
-  }
+  },
+  "doublons_verifie": true
  },
  {
   "id": "f5700c88750bb0c6",
@@ -720,7 +728,8 @@
    "resume": "Les pensions de retraite complémentaire Agirc-Arrco des salariés du secteur privé sont revalorisées de 1,4 % à compter du 1er novembre 2026.",
    "a_retenir": "Informer les salariés concernés que leur retraite complémentaire Agirc-Arrco est revalorisée à partir de novembre 2026.",
    "date_effet": "2026-11-01"
-  }
+  },
+  "doublons_verifie": true
  },
  {
   "id": "de4209627ff8077f",
@@ -751,7 +760,8 @@
    "resume": "Une étude de la DARES publiée en septembre 2026 montre que la compensation par les employeurs des trois jours de carence de la Sécurité sociale varie fortement selon la taille de l'entreprise, la branche et les représentants du personnel.",
    "a_retenir": "Vérifier la convention collective et les accords d'entreprise pour connaître les modalités exactes de prise en charge du délai de carence en cas d'arrêt maladie.",
    "date_effet": ""
-  }
+  },
+  "doublons_verifie": true
  },
  {
   "id": "e24c569a4097d662",
@@ -821,7 +831,8 @@
    "resume": "Le projet de loi de financement de la Sécurité sociale pour 2027 prévoit d'instaurer une réunion de concertation entre le médecin traitant, le médecin conseil et le médecin du travail pour les salariés en arrêt maladie de longue durée présentant un risque de désinsertion professionnelle. Ce dispositif entrerait en vigueur le 1er juillet 2027.",
    "a_retenir": "Anticiper l'impact de ce nouveau dispositif de concertation pluriprofessionnelle pour les salariés en arrêt long dès sa mise en œuvre.",
    "date_effet": "2027-07-01"
-  }
+  },
+  "doublons_verifie": true
  },
  {
   "id": "08983592e8f1d8bb",
@@ -881,7 +892,8 @@
    "resume": "Un projet d'arrêté envisage de rendre obligatoire un accord régional du 13 août 2026 instaurant un régime de prévoyance pour les salariés non-cadres des entreprises de travaux et services agricoles des Hauts-de-France. Une consultation est en cours.",
    "a_retenir": "Informer les salariés agricoles non-cadres de la région concernée de la future généralisation de ce régime de prévoyance.",
    "date_effet": ""
-  }
+  },
+  "doublons_verifie": true
  },
  {
   "id": "1910f44fccb89d1e",
@@ -911,7 +923,8 @@
    "resume": "Un projet d'arrêté vise à étendre à l'ensemble des employeurs et salariés non-cadres des entreprises de travaux et services agricoles des Hauts-de-France un accord sur les frais de santé conclu le 13 août 2026. Des observations peuvent être émises dans un délai de quinze jours.",
    "a_retenir": "Vérifier la couverture des frais de santé des salariés agricoles non-cadres de ce secteur géographique au regard de cette future extension.",
    "date_effet": ""
-  }
+  },
+  "doublons_verifie": true
  },
  {
   "id": "8f4ecb21385370ad",
@@ -1006,7 +1019,8 @@
    "resume": "La Drees a publié le 8 octobre 2026 deux études dressant le profil des bénéficiaires de la prestation de compensation du handicap et analysant la répartition des aides, suite à une augmentation de 16 % du nombre de bénéficiaires.",
    "a_retenir": "",
    "date_effet": ""
-  }
+  },
+  "doublons_verifie": true
  },
  {
   "id": "21ee13c9949fc907",
@@ -1038,7 +1052,8 @@
    "resume": "Un avis ministériel envisage d'étendre à l'ensemble des employeurs et salariés concernés l'avenant n° 9 relatif aux garanties collectives de prévoyance des intermittents du spectacle. Une période d'observations et d'opposition est ouverte auprès du ministère du travail.",
    "a_retenir": "Vérifier la couverture prévoyance des salariés intermittents du spectacle concernés par cet accord étendu.",
    "date_effet": ""
-  }
+  },
+  "doublons_verifie": true
  },
  {
   "id": "6383a80056e1a183",
@@ -1129,7 +1144,8 @@
    "resume": "L'Assurance retraite met à disposition des retraités aidants un nouveau support d'information, conçu avec l'association Avec nos proches, pour les accompagner, prendre du recul et connaître leurs droits. Ce journal propose des conseils, des quizz et un récapitulatif des ressources existantes.",
    "a_retenir": "Orienter les salariés retraités ou en fin de carrière qui soutiennent un proche vers ce support d'information de l'Assurance retraite.",
    "date_effet": ""
-  }
+  },
+  "doublons_verifie": true
  },
  {
   "id": "077b9918eabfc798",
@@ -1163,7 +1179,9 @@
    "resume": "Un décret du 30 septembre 2026 modifie le mode de calcul du plafond des indemnités journalières pour accident du travail ou maladie professionnelle, qui passe de 0,834 % à 0,226 % du PASS (soit 1,8 fois le Smic). Cette baisse des IJSS pour les salaires supérieurs à 1,8 Smic entraîne une hausse du complément de salaire à la charge de l'employeur à partir du 1er novembre 2026.",
    "a_retenir": "Vérifier l'impact de la baisse des IJSS AT/MP sur le montant net perçu par les salariés gagnant plus de 1,8 Smic et sur le complément employeur à compter du 1er novembre 2026.",
    "date_effet": "2026-11-01"
-  }
+  },
+  "doublon_de": "b4332c1e534a2ddc",
+  "doublons_verifie": true
  },
  {
   "id": "ce40732f1050a111",
@@ -1258,7 +1276,8 @@
    "resume": "Le projet de loi de finances pour 2027 prévoit de rendre les IJSS AT-MP intégralement imposables, de fiscaliser à 50 % celles liées aux affections de longue durée et d'augmenter le taux de CSG applicable aux IJSS maladie et AT-MP.",
    "a_retenir": "Informer les salariés concernés par un arrêt long ou AT-MP d'un possible durcissement de la fiscalité et des prélèvements sur leurs indemnités journalières si le projet est adopté.",
    "date_effet": "2027-01-01"
-  }
+  },
+  "doublons_verifie": true
  },
  {
   "id": "0427ea5915062a4a",
@@ -1288,7 +1307,8 @@
    "resume": "Le coût moyen national de l'ensemble socle de services des SPSTI a été publié le 30 septembre et encadre le montant des cotisations versées par les employeurs à compter du 1er janvier 2027.",
    "a_retenir": "Prendre en compte le nouveau cadre de calcul des cotisations applicables aux employeurs adhérents auprès du SPSTI pour l'exercice 2027.",
    "date_effet": "2027-01-01"
-  }
+  },
+  "doublons_verifie": true
  },
  {
   "id": "e98e158350fed4ee",
@@ -1322,7 +1342,8 @@
    "resume": "La CNSA mobilise la branche Autonomie et ses partenaires territoriaux pour intensifier le repérage et l'accompagnement des aidants, prévenir leur épuisement et proposer des solutions de répit et de relayage adaptées.",
    "a_retenir": "Orienter les salariés aidants vers les acteurs locaux et les solutions de répit et de relayage soutenus par la branche Autonomie.",
    "date_effet": ""
-  }
+  },
+  "doublons_verifie": true
  },
  {
   "id": "2417a50e544e129c",
@@ -1354,7 +1375,8 @@
    "resume": "Depuis le 1er octobre 2026, la prise en charge à 100 % des médicaments à service médical rendu (SMR) faible prescrits dans le cadre d'une affection de longue durée (ALD) est supprimée. Ils sont désormais remboursés à 15 % pour les assurés en ALD, selon les règles du droit commun. Le reste à charge peut être couvert par les organismes complémentaires de santé.",
    "a_retenir": "Informer les salariés en ALD que les médicaments à SMR faible ne sont plus remboursés à 100 % et vérifier la prise en charge par leur mutuelle.",
    "date_effet": "2026-10-01"
-  }
+  },
+  "doublons_verifie": true
  },
  {
   "id": "031ba2cb50f7bde6",
@@ -1418,7 +1440,8 @@
    "resume": "L'Assurance Maladie rappelle l'ensemble des services proposés aux proches aidants pour les soutenir au quotidien et éviter la désinsertion professionnelle. Sont notamment proposés : un bilan des droits, un examen de prévention, un accompagnement par le service social et une orientation vers des solutions de répit.",
    "a_retenir": "Orienter les salariés aidants vers l'Assurance Maladie pour bénéficier d'un accompagnement personnalisé et éviter les risques de désinsertion professionnelle.",
    "date_effet": ""
-  }
+  },
+  "doublons_verifie": true
  },
  {
   "id": "9bc70979b674385c",
@@ -1481,7 +1504,8 @@
    "resume": "Depuis le 30 septembre 2026, les examens complémentaires pour établir une maladie professionnelle ne sont plus systématiquement fixés par les tableaux mais exigés selon les besoins médicaux actuels, entraînant l'adaptation de nombreux tableaux.",
    "a_retenir": "Vérifier les nouvelles conditions des tableaux de maladies professionnelles lors de l'accompagnement des salariés en reconnaissance AT/MP.",
    "date_effet": "2026-09-30"
-  }
+  },
+  "doublons_verifie": true
  },
  {
   "id": "22b43239a07fc67b",
@@ -1545,7 +1569,8 @@
    "resume": "Le projet de loi de financement de la sécurité sociale pour 2027 prévoit notamment la réduction du déficit, le gel des allocations familiales et de certaines pensions, ainsi que la baisse du remboursement de certains soins.",
    "a_retenir": "Informer les salariés concernés des évolutions potentielles sur les pensions et les remboursements de soins prévues dans le cadre du PLFSS 2027.",
    "date_effet": ""
-  }
+  },
+  "doublons_verifie": true
  },
  {
   "id": "ba4f310e66ab3259",
@@ -1668,7 +1693,8 @@
    "resume": "Le décret du 21 août 2026 supprime le motif de prise en charge des transports lié aux affections de longue durée non exonérantes, sauf exceptions notamment pour certains mineurs en situation de handicap ou de soins continus. Cette modification s'applique aux transports prescrits à compter du 1er octobre 2026.",
    "a_retenir": "Vérifier pour les salariés ou enfants de salariés concernés que le motif de transport ne repose plus sur une ALD non exonérante, hors situations de mineurs en situation de handicap ou de soins prolongés.",
    "date_effet": "2026-10-01"
-  }
+  },
+  "doublons_verifie": true
  },
  {
   "id": "98025a0dbbd1d161",
@@ -1730,7 +1756,8 @@
    "resume": "La Cour de cassation rappelle que la décision de prise en charge d'une maladie professionnelle par la Caisse ne crée aucune présomption d'exposition au risque chez un employeur particulier. Il appartient au salarié ou à ses ayants droit de prouver qu'il a été exposé au risque de cette maladie au service de l'employeur poursuivi pour faute inexcusable.",
    "a_retenir": "Rappeler aux salariés agissant en reconnaissance de faute inexcusable qu'ils doivent impérativement apporter la preuve de leur exposition au risque dans l'entreprise concernée.",
    "date_effet": ""
-  }
+  },
+  "doublons_verifie": true
  },
  {
   "id": "258e72f292dc4ade",
@@ -1822,7 +1849,8 @@
    "resume": "La Cour de cassation juge que le taux d'incapacité permanente fixé par la Caisse ne s'impose pas au juge lorsqu'il évalue le déficit fonctionnel permanent dans le cadre d'une action en faute inexcusable. Le juge peut déterminer souverainement le montant de ce préjudice sans être lié par le taux de la sécurité sociale.",
    "a_retenir": "Noter que pour l'indemnisation du déficit fonctionnel permanent en cas de faute inexcusable, le juge n'est pas lié par le taux d'incapacité fixé initialement par la CPAM.",
    "date_effet": ""
-  }
+  },
+  "doublons_verifie": true
  },
  {
   "id": "6a01e5a060d8fa34",
@@ -1854,7 +1882,8 @@
    "resume": "En cas de reconnaissance d'une faute inexcusable de l'employeur, la juridiction de sécurité sociale évalue souverainement le préjudice au titre du déficit fonctionnel permanent. Elle n'est pas liée par le taux d'incapacité permanente fixé par la caisse, la rente AT/MP ne réparant pas ce poste de préjudice.",
    "a_retenir": "Rappeler qu'en cas de faute inexcusable, l'indemnisation du déficit fonctionnel permanent devant le pôle social ne se limite pas strictement au taux d'incapacité fixé initialement par la CPAM.",
    "date_effet": ""
-  }
+  },
+  "doublons_verifie": true
  },
  {
   "id": "559b1ffbb6e0e2a8",
@@ -1886,7 +1915,8 @@
    "resume": "La Cour de cassation rappelle qu'en cas de résidence alternée effective et équivalente, l'attribution du complément de libre choix du mode de garde (CMG) ne peut être refusée à un parent au seul motif que l'autre parent en bénéficie déjà ou qu'il n'est pas l'allocataire unique.",
    "a_retenir": "Informer les parents en garde alternée qu'ils peuvent prétendre au CMG indépendamment du statut d'allocataire unique de l'autre parent, sous réserve des conditions d'exercice effectif de la garde.",
    "date_effet": ""
-  }
+  },
+  "doublons_verifie": true
  },
  {
   "id": "d105a4dcd73da854",
@@ -1978,7 +2008,8 @@
    "resume": "La Cour de cassation précise qu'un licenciement fondé sur la désorganisation de l'entreprise due à l'absence prolongée ou répétée d'un salarié ne suffit pas à faire présumer une discrimination liée à l'état de santé. Si l'employeur ne prouve ni la désorganisation ni le remplacement définitif dans un délai raisonnable, le licenciement est sans cause réelle et sérieuse mais n'est pas nul.",
    "a_retenir": "Vérifier, en cas de contestation d'un licenciement pour absence prolongée, si l'employeur démontre à la fois la désorganisation réelle et un remplacement définitif dans un délai raisonnable.",
    "date_effet": ""
-  }
+  },
+  "doublons_verifie": true
  },
  {
   "id": "8c1c085697e4e4e3",
@@ -2011,7 +2042,8 @@
    "resume": "La Cour de cassation juge désormais que le seul constat du non-respect par l'employeur des mesures individuelles d'aménagement ou de transformation de poste préconisées par le médecin du travail engendre inévitablement une atteinte à la santé et ouvre droit à réparation, sans que le salarié ait à prouver un préjudice distinct.",
    "a_retenir": "Informer les salariés dont l'employeur ignore les aménagements de poste préconisés par le médecin du travail qu'ils peuvent prétendre à des dommages et intérêts du seul fait de cette carence.",
    "date_effet": ""
-  }
+  },
+  "doublons_verifie": true
  },
  {
   "id": "a96ffc9d305dd59d",
@@ -2045,7 +2077,8 @@
    "resume": "La Cour de cassation rappelle que les travailleurs handicapés employés dans une entreprise adaptée ne peuvent être mis à disposition provisoire d'un autre employeur que dans le cadre strict d'un prêt de main-d'œuvre à but non lucratif. La décision aborde également les critères de proportionnalité entre la liberté d'expression du salarié et le pouvoir disciplinaire de l'employeur.",
    "a_retenir": "S'assurer que toute mise à disposition d'un salarié issu d'une entreprise adaptée respecte les règles du prêt de main-d'œuvre à but non lucratif.",
    "date_effet": ""
-  }
+  },
+  "doublons_verifie": true
  },
  {
   "id": "b63078d0a70d66c7",
@@ -2077,7 +2110,8 @@
    "resume": "La Cour de cassation précise les règles relatives à l'action en paiement de l'indemnité compensatrice de congés payés non pris en raison d'un arrêt maladie. L'action en justice se prescrit par trois ans à compter de la rupture du contrat de travail pour les congés acquis et reportés conformément aux dispositions légales.",
    "a_retenir": "Vérifier les droits aux congés payés acquis pendant des arrêts de travail antérieurs en tenant compte des règles de report et du délai de prescription de trois ans suivant la rupture du contrat.",
    "date_effet": ""
-  }
+  },
+  "doublons_verifie": true
  },
  {
   "id": "97216562ccce4e78",
@@ -2109,7 +2143,8 @@
    "resume": "Un projet de décret précise les missions et les modalités d'exercice du référent handicap pour les entreprises d'au moins 250 salariés. Ce texte entrera en vigueur le 1er janvier 2027.",
    "a_retenir": "Anticiper l'évolution des missions du référent handicap dans les entreprises de plus de 250 salariés en vue de sa mise en application prochaine.",
    "date_effet": "2027-01-01"
-  }
+  },
+  "doublons_verifie": true
  },
  {
   "id": "b4332c1e534a2ddc",
@@ -2146,7 +2181,8 @@
    "resume": "Un décret fixe le nouveau plafond de rémunération pour le calcul des IJSS en cas d'accident du travail ou de maladie professionnelle à 1,8 SMIC. Cette mesure s'applique aux sinistres survenant à compter du 1er novembre 2026.",
    "a_retenir": "Vérifier l'impact de ce nouveau plafond sur le calcul des indemnités journalières pour les salariés en arrêt pour AT ou MP.",
    "date_effet": "2026-11-01"
-  }
+  },
+  "doublons_verifie": true
  },
  {
   "id": "8354328253a223b5",
@@ -2208,7 +2244,8 @@
    "resume": "L'Agirc-Arrco publie une nouvelle édition de son guide dédié aux salariés en situation d'aidant professionnel. Ce document regroupe des informations pratiques pour faciliter leur vie quotidienne et soutenir leurs démarches.",
    "a_retenir": "Orienter les salariés ayant un proche dépendant vers ce guide pour identifier les aides disponibles.",
    "date_effet": ""
-  }
+  },
+  "doublons_verifie": true
  },
  {
   "id": "de77021790f4593d",
@@ -2238,7 +2275,8 @@
    "resume": "Extrait insuffisant : consulter la source.",
    "a_retenir": "",
    "date_effet": ""
-  }
+  },
+  "doublons_verifie": true
  },
  {
   "id": "a0ccbc88f9acfdef",
@@ -2300,7 +2338,8 @@
    "resume": "À compter du 1er janvier 2027, les règles du cumul emploi-retraite évoluent pour les nouveaux pensionnés en fonction de leur âge de départ. Les revenus d'activité réduiront la pension ou seront soumis à un plafond avant 67 ans sans créer de nouveaux droits, tandis qu'un cumul intégral générateur de droits reste prévu après 67 ans.",
    "a_retenir": "Informer les salariés préparant leur retraite qu'un départ à compter de 2027 encadre plus strictement la reprise d'activité.",
    "date_effet": "2027-01-01"
-  }
+  },
+  "doublons_verifie": true
  },
  {
   "id": "7b3a62d79d6e9368",
@@ -2453,7 +2492,8 @@
    "resume": "Les salariés adoptant un enfant bénéficient d'une suspension de leur contrat de travail et peuvent percevoir des indemnités journalières de la Sécurité sociale selon leur situation. La durée varie en fonction du nombre d'enfants adoptés et déjà présents au foyer.",
    "a_retenir": "Orienter le salarié vers sa CPAM pour vérifier l'ouverture des droits aux indemnités journalières lors d'un projet d'adoption.",
    "date_effet": ""
-  }
+  },
+  "doublons_verifie": true
  },
  {
   "id": "0bb8e7294152da76",
@@ -2573,7 +2613,8 @@
    "resume": "Depuis le 7 septembre 2026, un nouveau téléservice permet aux assurés de transmettre directement via l'application mobile Compte ameli leurs feuilles de soins papier émises par un médecin pour un montant inférieur ou égal à 100 euros. Cette démarche est limitée à 5 demandes par période de 30 jours et évite l'envoi postal ou le dépôt en CPAM.",
    "a_retenir": "Informer les salariés qu'ils peuvent transmettre leurs feuilles de soins de médecin de moins de 100 euros directement via l'application Compte ameli.",
    "date_effet": "2026-09-07"
-  }
+  },
+  "doublons_verifie": true
  },
  {
   "id": "71eb37be6a2f6863",
@@ -2635,7 +2676,8 @@
    "resume": "L'Assurance retraite met en place un service gratuit et accessible via la plateforme Elioz pour permettre aux personnes sourdes ou malentendantes de contacter ses conseillers grâce à un opérateur-relai spécialisé en LSF, transcription en temps réel ou langue française parlée complétée.",
    "a_retenir": "Orienter les salariés sourds ou malentendants vers la plateforme Elioz pour faciliter leurs démarches auprès de l'Assurance retraite.",
    "date_effet": ""
-  }
+  },
+  "doublons_verifie": true
  },
  {
   "id": "b1b8b7cc1b4cfe28",
@@ -2696,7 +2738,8 @@
    "resume": "Depuis le 1er septembre 2026, le calcul du revenu annuel moyen de la retraite prend en compte les 24 meilleures années pour un enfant et les 23 meilleures années pour deux enfants ou plus. Cette mesure s'adresse aux parents bénéficiant de majorations de durée d'assurance. Les régulations informatiques interviendront en 2027 avec un versement rétroactif si besoin.",
    "a_retenir": "Informer les futurs retraités concernés par des majorations d'enfants que le calcul de leurs 23 ou 24 meilleures années s'appliquera rétroactivement en 2027.",
    "date_effet": "2026-09-01"
-  }
+  },
+  "doublons_verifie": true
  },
  {
   "id": "fd967be62ca4b840",
@@ -2792,7 +2835,8 @@
    "resume": "Dans le cadre du Service public départemental de l'autonomie, un formulaire commun et un téléservice permettent de demander simultanément les aides des caisses de retraite et l'allocation personnalisée d'autonomie. L'Assurance retraite élargit également l'évaluation globale des besoins à domicile à l'ensemble des retraités demandeurs, indépendamment de leur niveau de fragilité initiale, avec une généralisation prévue d'ici fin 2027.",
    "a_retenir": "Utiliser le formulaire ou le téléservice unique pour orienter les personnes vers les aides à domicile caisse de retraite ou APA sans multiplier les démarches.",
    "date_effet": ""
-  }
+  },
+  "doublons_verifie": true
  },
  {
   "id": "4276ce1901ea7a8d",
@@ -2888,7 +2932,8 @@
    "resume": "La 7e Conférence nationale du handicap a fixé des orientations prioritaires pour la branche Autonomie et les MDPH. Parmi les chantiers annoncés figurent la simplification de l'accès aux droits, un formulaire simplifié et la mise en place d'un système d'information national unifié.",
    "a_retenir": "",
    "date_effet": ""
-  }
+  },
+  "doublons_verifie": true
  },
  {
   "id": "f4debc2ca1e22c13",
@@ -2950,7 +2995,8 @@
    "resume": "À compter du 1er septembre 2026, les règles de calcul des pensions de retraite et les conditions de départ sont modifiées pour mieux prendre en compte la parentalité et les droits des femmes. Ce dispositif impacte les futurs retraités éligibles aux mesures sur la parentalité.",
    "a_retenir": "Vérifier l'impact des nouvelles règles de prise en compte de la parentalité pour les salariés proches de la retraite accompagnés.",
    "date_effet": "2026-09-01"
-  }
+  },
+  "doublons_verifie": true
  },
  {
   "id": "81efae2afc523d9e",
@@ -2982,6 +3028,7 @@
    "resume": "Depuis le 1er septembre 2026, un décret plafonne la durée de la première prescription d'un arrêt maladie à 31 jours et chaque prolongation à 62 jours maximum. Des dérogations et prolongations restent possibles sur justification médicale selon l'état de santé du salarié.",
    "a_retenir": "Informer les salariés en arrêt que les nouvelles prescriptions initiales sont limitées à 31 jours et les prolongations à 62 jours maximum à compter du 1er septembre 2026.",
    "date_effet": "2026-09-01"
-  }
+  },
+  "doublons_verifie": true
  }
 ]
