@@ -63,7 +63,7 @@ Favoris et « dernière visite » sont mémorisés dans son navigateur (pas de c
    git init -b main
    git add .
    git commit -m "Veille juridique sociale"
-   git remote add origin https://github.com/<compte>/veille-sociale-aipals.git
+   git remote add origin https://github.com/clemszz/veille-sociale.git
    git push -u origin main
    ```
 3. **Secret** : dans le dépôt, *Settings > Secrets and variables > Actions >
@@ -71,7 +71,7 @@ Favoris et « dernière visite » sont mémorisés dans son navigateur (pas de c
 4. **Pages** : *Settings > Pages > Build and deployment > Source* : **GitHub Actions**.
 5. **Premier passage** : onglet *Actions > Veille quotidienne > Run workflow*.
    Au bout de quelques minutes l'adresse du site s'affiche dans le résumé du
-   passage (`https://<compte>.github.io/veille-sociale-aipals/`). La recopier
+   passage (`https://clemszz.github.io/veille-sociale/`). La recopier
    dans `config.yaml` (`site.url`) pour le flux RSS.
 
 Ensuite tout est automatique (tous les jours vers 7 h).

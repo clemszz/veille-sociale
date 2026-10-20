@@ -8,7 +8,7 @@ site:
   titre: "Veille juridique sociale"
   sous_titre: "Service social AIPALS : droit social et protection sociale, mis à jour chaque matin"
   # Adresse publique du site (sert au flux RSS), à compléter après activation de GitHub Pages.
-  url: ""
+  url: "https://clemszz.github.io/veille-sociale/"
   # Durée de conservation de l'historique.
   conserver_jours: 365
 
