@@ -1,5 +1,791 @@
 [
  {
+  "id": "7dff4732ffc648c5",
+  "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054999225",
+  "source": "jo",
+  "date": "2026-10-20",
+  "collecte": "2026-10-20T09:56:36+00:00",
+  "titre_officiel": "Arrêté du 5 octobre 2026 fixant le montant du financement exceptionnel de l'Etat pour la prise en charge des mineurs non accompagnés confiés à l'aide sociale à l'enfance sur décision de justice et pris en charge au 31 décembre 2025",
+  "extrait": "",
+  "themes": [
+   "aides_sociales"
+  ],
+  "mots_cles": [
+   "aide sociale"
+  ],
+  "score": 4,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "aides_sociales"
+   ],
+   "type": "Arrêté",
+   "titre": "Financement exceptionnel de l'Etat pour la prise en charge des mineurs non accompagnés par l'aide sociale à l'enfance",
+   "resume": "Cet arrêté fixe le montant du financement exceptionnel attribué par l'Etat aux départements pour les mineurs non accompagnés confiés à l'aide sociale à l'enfance au 31 décembre 2025. Cette mesure concerne les départements ayant accueilli un nombre supplémentaire de jeunes par rapport à l'année précédente.",
+   "a_retenir": "",
+   "date_effet": ""
+  }
+ },
+ {
+  "id": "b1bef7ef3d716077",
+  "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054999238",
+  "source": "jo",
+  "date": "2026-10-20",
+  "collecte": "2026-10-20T09:56:36+00:00",
+  "titre_officiel": "Arrêté du 15 octobre 2026 fixant la liste des établissements de santé qui démarrent en facturation individuelle des prestations de soins hospitaliers aux caisses d'assurance maladie obligatoire, ainsi que le périmètre de facturation concerné par la facturation individuelle pour chacun de ces établissements de santé",
+  "extrait": "",
+  "themes": [
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "assurance maladie"
+  ],
+  "score": 4,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "protection_sociale"
+   ],
+   "type": "Arrêté",
+   "titre": "Liste des établissements de santé démarrant la facturation individuelle des prestations de soins hospitaliers",
+   "resume": "Cet arrêté fixe la liste des établissements de santé concernés par la mise en place de la facturation individuelle des prestations de soins hospitaliers aux caisses d'assurance maladie à compter du 1er janvier 2026. Il précise le périmètre des actes et consultations concernés pour les structures éligibles.",
+   "a_retenir": "",
+   "date_effet": "2026-01-01"
+  }
+ },
+ {
+  "id": "90f9a0adab2052c8",
+  "url": "https://www.lassuranceretraite.fr/portail-info/sites/pub/hors-menu/actualites-nationales/retraite/2026/cumul-emploi-retraite.html",
+  "source": "assurance-retraite",
+  "date": "2026-10-20",
+  "collecte": "2026-10-20T09:56:36+00:00",
+  "titre_officiel": "Cumul emploi-retraite : des changements si vous êtes déjà retraité ?",
+  "extrait": "",
+  "themes": [
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "cumul emploi-retraite",
+   "retraite"
+  ],
+  "score": 5,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "protection_sociale"
+   ],
+   "type": "Actualité",
+   "titre": "Maintien des règles du cumul emploi-retraite pour les assurés déjà retraités avant janvier 2027",
+   "resume": "Les conditions du cumul emploi-retraite évoluent à partir de janvier 2027 pour les nouveaux retraités. Les personnes déjà à la retraite ou partant avant cette date conservent le bénéfice des anciennes conditions, qu'elles reprennent une activité immédiatement ou plus tard.",
+   "a_retenir": "",
+   "date_effet": "2027-01-01"
+  }
+ },
+ {
+  "id": "ade8157243759763",
+  "url": "https://www.ash.tm.fr/autonomie/jean-luc-gleyze-pour-linscription-dans-la-loi-dune-compensation-a-hauteur-de-50-de-lapa-et-la-pch-975398.php",
+  "source": "ash",
+  "date": "2026-10-20",
+  "collecte": "2026-10-20T09:56:36+00:00",
+  "titre_officiel": "Jean-Luc Gleyze pour \"l’inscription dans la loi d’une compensation à hauteur de 50 %\" de l'APA et la PCH",
+  "extrait": "[INTERVIEW] Lors des Assises des Départements de France à Reims, les 15 et 16 octobre 2026, une question a beaucoup divisé les collectivités en fonction de leur couleur politique : les modalités de versement de l'enveloppe de 300 millions que compte débloquer le gouvernement pour l’Allocation personnalisée d'autonomie (APA) dans son PLFSS 2027.",
+  "themes": [
+   "aides_sociales"
+  ],
+  "mots_cles": [
+   "allocation personnalisée d'autonomie",
+   "APA",
+   "PCH",
+   "PLFSS"
+  ],
+  "score": 7,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "aides_sociales"
+   ],
+   "type": "Actualité",
+   "titre": "Débat sur l'inscription dans la loi d'une compensation à hauteur de 50 pour cent de l'APA et de la PCH",
+   "resume": "Lors des Assises des Départements de France, la question des modalités de versement de l'enveloppe de 300 millions d'euros pour l'APA dans le projet de loi de financement de la sécurité sociale (PLFSS) 2027 a fait l'objet de discussions entre collectivités. Une revendication a été portée pour une inscription légale d'une compensation de l'APA et de la PCH à hauteur de 50 pour cent.",
+   "a_retenir": "",
+   "date_effet": ""
+  }
+ },
+ {
+  "id": "d95b621f3ba5fdfe",
+  "url": "https://www.service-public.gouv.fr/particuliers/actualites/A19097?xtor=RSS-111",
+  "source": "sp-particuliers",
+  "date": "2026-10-19",
+  "collecte": "2026-10-20T09:56:36+00:00",
+  "titre_officiel": "Aidants : dans quels cas l’accompagnement d’un proche compte pour la retraite ?",
+  "extrait": "Le rôle d’aidant peut parfois vous amener à réduire votre temps de travail, voire à cesser temporairement d’exercer votre activité professionnelle. Malgré cela, vous pouvez continuer à cotiser pour votre retraite grâce à l’assurance vieillesse des aidants, sous certaines conditions. Service Public vous présente ce dispositif.",
+  "themes": [
+   "handicap",
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "aidant",
+   "retraite"
+  ],
+  "score": 5,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": true,
+   "importance": 2,
+   "themes": [
+    "handicap",
+    "protection_sociale"
+   ],
+   "type": "Démarche / info pratique",
+   "titre": "Assurance vieillesse des aidants : conditions et validation des trimestres",
+   "resume": "L'assurance vieillesse des aidants permet de valider des trimestres pour la retraite lorsqu'on accompagne un proche malade ou en situation de handicap. L'affiliation dépend de la situation du proche et des prestations perçues, certaines démarches étant automatiques tandis que d'autres nécessitent une intervention.",
+   "a_retenir": "Vérifier l'affiliation à l'assurance vieillesse des aidants pour les salariés réduisant leur activité ou en congé de proche aidant pour s'assurer qu'ils continuent à cotiser.",
+   "date_effet": ""
+  }
+ },
+ {
+  "id": "bfdbc7ce56052ebb",
+  "url": "https://travail-emploi.gouv.fr/retraite-et-parentalite",
+  "source": "travail-emploi",
+  "date": "2026-10-19",
+  "collecte": "2026-10-20T09:56:36+00:00",
+  "titre_officiel": "Retraite et parentalité",
+  "extrait": "En application de l’article 104 de la loi de financement de la Sécurité sociale pour 2026, les conditions de départ à la retraite et les règles de calcul des pensions de retraite se voient modifiées à compter du 1er septembre 2026 pour mieux prendre en compte la parentalité.",
+  "themes": [
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "financement de la sécurité sociale",
+   "retraite"
+  ],
+  "score": 5,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": true,
+   "importance": 3,
+   "themes": [
+    "protection_sociale"
+   ],
+   "type": "Loi",
+   "titre": "Modification des conditions de retraite et de parentalité",
+   "resume": "Les conditions de départ à la retraite et le calcul des pensions sont modifiés pour mieux prendre en compte la parentalité. Cette mesure s'applique à compter du 1er septembre 2026 en application de la loi de financement de la Sécurité sociale pour 2026.",
+   "a_retenir": "Informer les salariés s'interrogeant sur leur fin de carrière que de nouvelles règles liées à la parentalité s'appliquent pour le calcul de leur retraite dès septembre 2026.",
+   "date_effet": "2026-09-01"
+  }
+ },
+ {
+  "id": "c43af4b883d540c1",
+  "url": "https://www.ash.tm.fr/management-reseaux/departements-pour-une-decentralisation-reelle-et-assumee-de-laction-sociale-975400.php",
+  "source": "ash",
+  "date": "2026-10-19",
+  "collecte": "2026-10-20T09:56:36+00:00",
+  "titre_officiel": "Départements : pour une \"décentralisation réelle et assumée\" de l'action sociale",
+  "extrait": "Douchés par l’absence du Premier ministre à leurs assises et la présentation d’un projet de budget qui rogne leurs moyens, les départements lancent une adresse à l’ensemble des candidats à la présidentielle. Parmi leurs doléances : une réorganisation des compétences territoriales et le partage à égalité de la prise en charge du coût des prestations sociales avec l’État.",
+  "themes": [
+   "aides_sociales"
+  ],
+  "mots_cles": [
+   "action sociale",
+   "prestations sociales"
+  ],
+  "score": 5,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "aides_sociales"
+   ],
+   "type": "Actualité",
+   "titre": "Revendications des départements sur le financement de l'action sociale",
+   "resume": "Extrait insuffisant : consulter la source.",
+   "a_retenir": "",
+   "date_effet": ""
+  }
+ },
+ {
+  "id": "c6ded3365d23f66e",
+  "url": "https://www.service-public.gouv.fr/particuliers/actualites/A15386?xtor=RSS-111",
+  "source": "sp-particuliers",
+  "date": "2026-10-18",
+  "collecte": "2026-10-20T09:56:36+00:00",
+  "titre_officiel": "Sécurité sociale : quel sera le plafond annuel en 2027 ?",
+  "extrait": "Le plafond de la Sécurité sociale sert de base pour calculer le montant maximal des indemnités journalières pour maladie, accident du travail ou maternité, les pensions d'invalidité, les retraites, etc. Il est réévalué chaque année au 1 er janvier. Le niveau du plafond annuel pour 2027 vient d’être publié sur le site du Bulletin officiel de la Sécurité sociale. Service Public vous informe.",
+  "themes": [
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "accident du travail",
+   "indemnités journalières",
+   "invalidité",
+   "pension d'invalidité",
+   "retraite"
+  ],
+  "score": 5,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": true,
+   "importance": 2,
+   "themes": [
+    "protection_sociale"
+   ],
+   "type": "Revalorisation / barème",
+   "titre": "Plafond annuel de la Sécurité sociale (PASS) pour 2027",
+   "resume": "Le plafond annuel de la Sécurité sociale est fixé à 48 900 euros en 2027, soit une augmentation de 1,74 % par rapport à 2026. Ce montant sert de base au calcul des indemnités journalières, des pensions d'invalidité et des retraites.",
+   "a_retenir": "Tenir compte de la revalorisation du PASS pour estimer le calcul des plafonds d'indemnités journalières et de pensions d'invalidité en 2027.",
+   "date_effet": "2027-01-01"
+  }
+ },
+ {
+  "id": "5216eb808c6d9ff8",
+  "url": "https://www.service-public.gouv.fr/particuliers/actualites/A19095?xtor=RSS-111",
+  "source": "sp-particuliers",
+  "date": "2026-10-18",
+  "collecte": "2026-10-20T09:56:36+00:00",
+  "titre_officiel": "AAH et ASS : le cumul pour certains bénéficiaires prendra fin en 2027",
+  "extrait": "La période transitoire permettant un cumul de l’allocation aux adultes handicapés (AAH) et de l’allocation de solidarité spécifique (ASS) prendra fin au 31 décembre 2026. Service Public vous explique cette échéance.",
+  "themes": [
+   "handicap",
+   "aides_sociales"
+  ],
+  "mots_cles": [
+   "AAH",
+   "allocation aux adultes handicapés",
+   "allocation de solidarité spécifique",
+   "ASS",
+   "handicap"
+  ],
+  "score": 8,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": true,
+   "importance": 2,
+   "themes": [
+    "handicap",
+    "aides_sociales"
+   ],
+   "type": "Actualité",
+   "titre": "Fin du cumul exceptionnel entre l'AAH et l'ASS au 31 décembre 2026",
+   "resume": "La période transitoire permettant à certains bénéficiaires de cumuler l'Allocation aux adultes handicapés (AAH) et l'Allocation de solidarité spécifique (ASS) s'arrêtera définitivement le 31 décembre 2026. L'AAH étant prioritaire, le versement de l'ASS sera interrompu pour les personnes concernées dès lors qu'elles perçoivent l'AAH.",
+   "a_retenir": "Verififer si les salariés en situation de handicap accompagnés perçoivent encore simultanément l'ASS et l'AAH afin de les informer de la fin de ce cumul au 31 décembre 2026.",
+   "date_effet": "2027-01-01"
+  }
+ },
+ {
+  "id": "34f79bc5c43e30ea",
+  "url": "https://www.vie-publique.fr/eclairage/21889-ethique-et-handicap?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
+  "source": "vie-publique-actu",
+  "date": "2026-10-18",
+  "collecte": "2026-10-20T09:56:36+00:00",
+  "titre_officiel": "Éthique et handicap",
+  "extrait": "Des thérapies nouvelles et certaines technologies génétiques posent des questions éthiques inédites. Parce qu'elles permettent la pratique d'un eugénisme, ces techniques et les débats qu'elles suscitent peuvent influer sur l'appréhension du handicap et sur le statut de la personne handicapée. Bref rappel de récents débats sur le sujet.",
+  "themes": [
+   "handicap"
+  ],
+  "mots_cles": [
+   "handicap"
+  ],
+  "score": 4,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "handicap"
+   ],
+   "type": "Actualité",
+   "titre": "Débat éthique et impact des nouvelles thérapies sur le handicap",
+   "resume": "Article de réflexion générale sur les questions éthiques soulevées par les thérapies nouvelles et technologies génétiques vis-à-vis du handicap.",
+   "a_retenir": "",
+   "date_effet": ""
+  }
+ },
+ {
+  "id": "1d4f281686260773",
+  "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054992590",
+  "source": "jo",
+  "date": "2026-10-17",
+  "collecte": "2026-10-20T09:56:36+00:00",
+  "titre_officiel": "Arrêté du 14 octobre 2026 portant maintien dans les fonctions de présidente de la commission de recours de l'invalidité",
+  "extrait": "",
+  "themes": [
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "invalidité"
+  ],
+  "score": 4,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "protection_sociale"
+   ],
+   "type": "Arrêté",
+   "titre": "Maintien de la présidente de la commission de recours de l'invalidité",
+   "resume": "Nomination administrative concernant le maintien dans ses fonctions de la présidente de la commission de recours de l'invalidité pour les armées.",
+   "a_retenir": "",
+   "date_effet": ""
+  }
+ },
+ {
+  "id": "3f4bb2526e9238d1",
+  "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054992794",
+  "source": "jo",
+  "date": "2026-10-17",
+  "collecte": "2026-10-20T09:56:36+00:00",
+  "titre_officiel": "Décision n° 2026-VP-38 du 13 octobre 2026 portant approbation du transfert par voie de fusion-absorption du portefeuille d'opérations d'une mutuelle",
+  "extrait": "",
+  "themes": [
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "mutuelle"
+  ],
+  "score": 4,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "protection_sociale"
+   ],
+   "type": "Arrêté",
+   "titre": "Transfert de portefeuille de la mutuelle La Protection Mutuelle et Familiale",
+   "resume": "Approbation du transfert par voie de fusion-absorption du portefeuille d'opérations d'une mutuelle vers une autre à compter du 31 décembre 2026.",
+   "a_retenir": "",
+   "date_effet": "2026-12-31"
+  }
+ },
+ {
+  "id": "24add1f52293f8f0",
+  "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054988993",
+  "source": "jo",
+  "date": "2026-10-16",
+  "collecte": "2026-10-20T09:56:36+00:00",
+  "titre_officiel": "Avis de vacance de l'emploi de directeur ou de directrice du Fonds pour l'insertion des personnes handicapées dans la fonction publique",
+  "extrait": "",
+  "themes": [
+   "handicap"
+  ],
+  "mots_cles": [
+   "handicap"
+  ],
+  "score": 4,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "handicap"
+   ],
+   "type": "Actualité",
+   "titre": "Avis de vacance de l'emploi de directeur du FIPHFP",
+   "resume": "Extrait insuffisant : consulter la source.",
+   "a_retenir": "",
+   "date_effet": ""
+  }
+ },
+ {
+  "id": "2926b9df290ea231",
+  "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054989051",
+  "source": "jo",
+  "date": "2026-10-16",
+  "collecte": "2026-10-20T09:56:36+00:00",
+  "titre_officiel": "Avis relatif à la décision de l'Union nationale des caisses d'assurance maladie portant fixation du taux de participation de l'assuré applicable à une spécialité pharmaceutique",
+  "extrait": "",
+  "themes": [
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "assurance maladie"
+  ],
+  "score": 4,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "protection_sociale"
+   ],
+   "type": "Arrêté",
+   "titre": "Fixation du taux de participation de l'assuré pour une spécialité pharmaceutique",
+   "resume": "Extrait insuffisant : consulter la source.",
+   "a_retenir": "",
+   "date_effet": ""
+  }
+ },
+ {
+  "id": "f16ba35c07c2d886",
+  "url": "https://www.agirc-arrco.fr/nous-connaitre/nos-actualites/decouvrez-lespace-personnel-mon-agirc-arrco-en-video/",
+  "source": "agirc-arrco",
+  "date": "2026-10-16",
+  "collecte": "2026-10-20T09:56:36+00:00",
+  "titre_officiel": "Découvrez l’espace personnel Mon Agirc-Arrco en vidéo",
+  "extrait": "Retraite, services, démarches, prévention : les fonctionnalités de l’espace personnel Mon Agirc-Arrco se dévoile dans une vidéo.",
+  "themes": [
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "retraite"
+  ],
+  "score": 1,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "protection_sociale"
+   ],
+   "type": "Démarche / info pratique",
+   "titre": "Présentation vidéo de l'espace personnel Mon Agirc-Arrco",
+   "resume": "Extrait insuffisant : consulter la source.",
+   "a_retenir": "",
+   "date_effet": ""
+  }
+ },
+ {
+  "id": "6ea0fd2ae52b3b1d",
+  "url": "https://www.cnsa.fr/actualites/plfss-2027-le-conseil-de-la-cnsa-alerte-sur-un-financement-de-lautonomie-en-retard-sur",
+  "source": "cnsa",
+  "date": "2026-10-16",
+  "collecte": "2026-10-20T09:56:36+00:00",
+  "titre_officiel": "PLFSS 2027 : le Conseil de la CNSA alerte sur un financement de l’autonomie en retard sur les besoins et un risque de fragilisation de la branche Autonomie",
+  "extrait": "Réuni le 15 octobre en présence de Camille Galliard-Minier, ministre déléguée chargée de l’Autonomie et des personnes handicapées, le Conseil de la CNSA, présidé par Paul Christophe, a appelé à un changement de cap. Son constat est sans appel : les moyens prévus ne sont pas à la hauteur des besoins des personnes âgées, des personnes en situation de handicap, de leurs proches et des professionnels qui les accompagnent. Le Conseil demande des ressources nouvelles pour la branche Autonomie, la mobilisation effective des crédits votés et la suppression du transfert de 300 millions d’euros de CSG aux départements prévu par l’article 13 du projet de loi de financement de la Sécurité sociale.",
+  "themes": [
+   "handicap"
+  ],
+  "mots_cles": [
+   "branche autonomie",
+   "CNSA",
+   "financement de la sécurité sociale",
+   "handicap",
+   "PLFSS"
+  ],
+  "score": 8,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "handicap"
+   ],
+   "type": "Projet de loi / réforme",
+   "titre": "Alerte du Conseil de la CNSA sur le financement de l'autonomie dans le PLFSS 2027",
+   "resume": "Extrait insuffisant : consulter la source.",
+   "a_retenir": "",
+   "date_effet": ""
+  }
+ },
+ {
+  "id": "a797160810f688f2",
+  "url": "https://www.ash.tm.fr/management-reseaux/olivia-plantevin-envoludia-le-recrutement-ce-nest-pas-quun-cv-975372.php",
+  "source": "ash",
+  "date": "2026-10-16",
+  "collecte": "2026-10-20T09:56:36+00:00",
+  "titre_officiel": "Olivia Plantevin (Envoludia) : \"Le recrutement, ce n’est pas qu’un CV\"",
+  "extrait": "[INTERVIEW] Olivia Plantevin est chargée de recrutement chez Envoludia, association spécialisée dans l’accompagnement des personnes porteuses de handicap. Elle revient sur l’importance du contact direct dans un secteur confronté à une crise de l’attractivité.",
+  "themes": [
+   "handicap"
+  ],
+  "mots_cles": [
+   "handicap"
+  ],
+  "score": 1,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "handicap"
+   ],
+   "type": "Actualité",
+   "titre": "Interview sur le recrutement des personnes en situation de handicap",
+   "resume": "Extrait insuffisant : consulter la source.",
+   "a_retenir": "",
+   "date_effet": ""
+  }
+ },
+ {
+  "id": "8151e84679f89caa",
+  "url": "https://www.editions-tissot.fr/actualite/sante-securite/semaine-europeenne-pour-la-securite-et-la-sante-au-travail-2026-un-coup-de-projecteur-sur-les-risques-psychosociaux-et-la-sante-mentale",
+  "source": "tissot-sante-securite",
+  "date": "2026-10-16",
+  "collecte": "2026-10-20T09:56:36+00:00",
+  "titre_officiel": "Semaine européenne pour la sécurité et la santé au travail 2026 : un coup de projecteur sur les risques psychosociaux et la santé mentale",
+  "extrait": "Du 19 au 24 octobre 2026 se déroule la Semaine européenne pour la sécurité et la santé au travail (SST). Cette année, l’événement met l’accent sur la prévention des risques psychosociaux et la santé mentale au travail. L’occasion pour les employeurs de sensibiliser leurs salariés et de renforcer leurs actions de prévention.",
+  "themes": [
+   "maintien_emploi",
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "risques psychosociaux",
+   "santé au travail"
+  ],
+  "score": 5,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": true,
+   "importance": 2,
+   "themes": [
+    "maintien_emploi",
+    "protection_sociale"
+   ],
+   "type": "Actualité",
+   "titre": "Semaine européenne de la sécurité et de la santé au travail sur les RPS",
+   "resume": "La Semaine européenne pour la sécurité et la santé au travail se déroule du 19 au 24 octobre 2026 et met l'accent sur la prévention des risques psychosociaux et de la santé mentale. C'est l'occasion pour les employeurs de renforcer leurs actions de sensibilisation et de prévention.",
+   "a_retenir": "Utiliser cette semaine thématique pour sensibiliser les employeurs et salariés sur la prévention des risques psychosociaux et de la santé mentale au travail.",
+   "date_effet": "2026-10-19"
+  }
+ },
+ {
+  "id": "52e9e6c59a4c3640",
+  "url": "https://www.editions-tissot.fr/actualite/sante-securite/conge-supplementaire-de-naissance-quel-sort-pour-les-avantages-des-salaries",
+  "source": "tissot-sante-securite",
+  "date": "2026-10-16",
+  "collecte": "2026-10-20T09:56:36+00:00",
+  "titre_officiel": "Congé supplémentaire de naissance : quel sort pour les avantages des salariés ?",
+  "extrait": "Pendant le congé supplémentaire de naissance, le contrat de travail est suspendu. Quelles conséquences cette suspension entraîne-t-elle sur les avantages acquis par les salariés avant le début de ce congé ? Dans une réponse à une question parlementaire, le ministère du Travail apporte des précisions concernant notamment le véhicule de fonction et la complémentaire santé.",
+  "themes": [
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "complémentaire santé"
+  ],
+  "score": 1,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": true,
+   "importance": 2,
+   "themes": [
+    "protection_sociale"
+   ],
+   "type": "Jurisprudence",
+   "titre": "Précisions sur les avantages des salariés en congé supplémentaire de naissance",
+   "resume": "Le ministère du Travail apporte des précisions sur le sort des avantages acquis, comme le véhicule de fonction et la complémentaire santé, pendant la suspension du contrat de travail liée au congé supplémentaire de naissance.",
+   "a_retenir": "Vérifier l'impact du congé supplémentaire de naissance sur le maintien de la complémentaire santé et des avantages en nature des salariés concernés.",
+   "date_effet": ""
+  }
+ },
+ {
+  "id": "93b2e044b327af8d",
+  "url": "https://occitanie.dreets.gouv.fr/Nouvel-appel-a-projets-pour-la-labellisation-des-Points-Conseil-Budget-PCB",
+  "source": "dreets-occitanie",
+  "date": "2026-10-15",
+  "collecte": "2026-10-20T09:56:36+00:00",
+  "titre_officiel": "Nouvel appel à projets pour la labellisation des Points Conseil Budget (PCB)",
+  "extrait": "La DREETS Occitanie lance un nouvel appel à projets pour la labellisation des Points Conseil Budget (PCB). Créés en 2016, les Points Conseil Budget proposent un accompagnement gratuit, confidentiel et de proximité aux personnes souhaitant mieux gérer leur budget ou rencontrant des difficultés financières. Ils jouent un rôle essentiel dans la prévention du surendettement et l'inclusion financière. Un dispositif rénové à partir de 2027 À compter de janvier 2027, le dispositif PCB évolue (…) - Cohésion sociale",
+  "themes": [
+   "aides_sociales",
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "surendettement"
+  ],
+  "score": 1,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": true,
+   "importance": 2,
+   "themes": [
+    "aides_sociales",
+    "protection_sociale"
+   ],
+   "type": "Démarche / info pratique",
+   "titre": "Renouvellement et évolution des Points Conseil Budget en Occitanie pour 2027",
+   "resume": "La DREETS Occitanie lance un appel à projets pour labelliser des Points Conseil Budget, qui proposent un accompagnement gratuit aux personnes rencontrant des difficultés financières. Ce dispositif d'aide à la gestion budgétaire et de prévention du surendettement évolue à compter de janvier 2027.",
+   "a_retenir": "Orienter les salariés en difficulté financière vers les Points Conseil Budget en Occitanie pour un accompagnement gratuit et confidentiel.",
+   "date_effet": "2027-01-01"
+  }
+ },
+ {
+  "id": "f5700c88750bb0c6",
+  "url": "https://www.cnsa.fr/actualites/residences-autonomie-30-millions-deuros-mobilises-en-2026-pour-renforcer-loffre-dans-les",
+  "source": "cnsa",
+  "date": "2026-10-15",
+  "collecte": "2026-10-20T09:56:36+00:00",
+  "titre_officiel": "Résidences autonomie : 30 millions d’euros mobilisés en 2026 pour renforcer l’offre dans les territoires",
+  "extrait": "Face au vieillissement de la population et à l’évolution des aspirations des personnes âgées, les résidences autonomie apportent une réponse adaptée en proposant des logements individuels, sécurisés et ouverts sur leur environnement, qui contribuent à prévenir la perte d’autonomie et à lutter contre l’isolement. Pour soutenir la création de nouvelles places, la CNSA et l’Assurance retraite lancent une nouvelle édition de l’Initiative pour le développement des résidences autonomie (IDRA).",
+  "themes": [
+   "aides_sociales"
+  ],
+  "mots_cles": [
+   "CNSA",
+   "perte d'autonomie",
+   "retraite"
+  ],
+  "score": 3,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "aides_sociales"
+   ],
+   "type": "Actualité",
+   "titre": "Financement des résidences autonomie",
+   "resume": "Extrait insuffisant : consulter la source.",
+   "a_retenir": "",
+   "date_effet": ""
+  }
+ },
+ {
+  "id": "f1d63880a5d44e16",
+  "url": "https://www.cnsa.fr/actualites/intelligence-artificielle-dans-la-branche-autonomie-un-apres-son-lancement-80-de-la",
+  "source": "cnsa",
+  "date": "2026-10-15",
+  "collecte": "2026-10-20T09:56:36+00:00",
+  "titre_officiel": "Intelligence artificielle dans la branche Autonomie : un an après son lancement, 80 % de la feuille de route déjà déployée",
+  "extrait": "Recensement de plus de 100 cas d’usage, expérimentations en MDPH, outillage des médecins évaluateurs en EHPAD, acculturation des équipes… Un an après le lancement de sa feuille de route IA 2025-2026, la CNSA dresse un premier bilan des actions engagées au sein de la branche Autonomie.",
+  "themes": [
+   "handicap"
+  ],
+  "mots_cles": [
+   "branche autonomie",
+   "CNSA",
+   "MDPH"
+  ],
+  "score": 6,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "handicap"
+   ],
+   "type": "Actualité",
+   "titre": "Bilan de la feuille de route IA de la CNSA",
+   "resume": "Extrait insuffisant : consulter la source.",
+   "a_retenir": "",
+   "date_effet": ""
+  }
+ },
+ {
+  "id": "21bba5192c6be318",
+  "url": "https://www.agirc-arrco.fr/nous-connaitre/nos-actualites/retraites-complementaires-agirc-arrco-une-revalorisation-de-14-au-1er-novembre-2026/",
+  "source": "agirc-arrco",
+  "date": "2026-10-14",
+  "collecte": "2026-10-20T09:56:36+00:00",
+  "titre_officiel": "Retraites complémentaires Agirc-Arrco : une revalorisation de +1,4 % au 1er novembre 2026",
+  "extrait": "Chaque année, le Conseil d’administration de la fédération Agirc-Arrco décide du niveau de revalorisation des retraites complémentaires des salariés du secteur privé.",
+  "themes": [
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "retraite",
+   "revalorisation"
+  ],
+  "score": 5,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": true,
+   "importance": 2,
+   "themes": [
+    "protection_sociale"
+   ],
+   "type": "Revalorisation / barème",
+   "titre": "Revalorisation des retraites complémentaires Agirc-Arrco de 1,4 %",
+   "resume": "Les pensions de retraite complémentaire Agirc-Arrco des salariés du secteur privé sont revalorisées de 1,4 % à compter du 1er novembre 2026.",
+   "a_retenir": "Informer les salariés concernés que leur retraite complémentaire Agirc-Arrco est revalorisée à partir de novembre 2026.",
+   "date_effet": "2026-11-01"
+  }
+ },
+ {
+  "id": "de4209627ff8077f",
+  "url": "https://www.editions-tissot.fr/actualite/sante-securite/indemnisation-des-jours-de-carence-pour-arret-maladie-la-dares-leve-le-voile-sur-les-pratiques-des-entreprises",
+  "source": "tissot-sante-securite",
+  "date": "2026-10-14",
+  "collecte": "2026-10-20T09:56:36+00:00",
+  "titre_officiel": "Indemnisation des jours de carence pour arrêt maladie : la DARES lève le voile sur les pratiques des entreprises",
+  "extrait": "Les trois premiers jours d'arrêt maladie ne sont, en principe, pas indemnisés par la Sécurité sociale. Les employeurs peuvent toutefois compenser tout ou partie de la perte de revenu qui en résulte. Dans une étude publiée en septembre 2026, la DARES revient sur les pratiques observées dans les entreprises en 2024. Résultat : la prise en charge varie fortement selon leur taille, leur branche professionnelle, et la présence d’instances représentatives du personnel.",
+  "themes": [
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "arrêt maladie",
+   "jour de carence"
+  ],
+  "score": 5,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": true,
+   "importance": 2,
+   "themes": [
+    "protection_sociale"
+   ],
+   "type": "Actualité",
+   "titre": "Pratiques des entreprises en matière d'indemnisation du délai de carence maladie",
+   "resume": "Une étude de la DARES publiée en septembre 2026 montre que la compensation par les employeurs des trois jours de carence de la Sécurité sociale varie fortement selon la taille de l'entreprise, la branche et les représentants du personnel.",
+   "a_retenir": "Vérifier la convention collective et les accords d'entreprise pour connaître les modalités exactes de prise en charge du délai de carence en cas d'arrêt maladie.",
+   "date_effet": ""
+  }
+ },
+ {
+  "id": "e24c569a4097d662",
+  "url": "https://www.editions-tissot.fr/actualite/sante-securite/sante-au-travail-un-dirigeant-peut-exercer-son-pouvoir-sans-risquer-de-derives",
+  "source": "tissot-sante-securite",
+  "date": "2026-10-13",
+  "collecte": "2026-10-20T09:56:36+00:00",
+  "titre_officiel": "Santé au travail : un dirigeant peut exercer son pouvoir sans risquer de dérives",
+  "extrait": "",
+  "themes": [
+   "maintien_emploi",
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "santé au travail"
+  ],
+  "score": 4,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "maintien_emploi",
+    "protection_sociale"
+   ],
+   "type": "Actualité",
+   "titre": "Extrait insuffisant sur l'exercice du pouvoir dirigeant en santé au travail",
+   "resume": "Extrait insuffisant : consulter la source.",
+   "a_retenir": "",
+   "date_effet": ""
+  }
+ },
+ {
   "id": "85077bf1a1951e54",
   "url": "https://www.editions-tissot.fr/actualite/sante-securite/plfss-2027-les-propositions-pour-prevenir-la-desinsertion-professionnelle-des-salaries-en-arrets-maladie-de-longue-duree",
   "source": "tissot-sante-securite",
@@ -154,6 +940,36 @@
    "type": "Actualité",
    "titre": "Enquête de l'Unccas sur la massification de la pauvreté",
    "resume": "À l'occasion de son centenaire, l'Unccas a présenté les premiers résultats d'une enquête sur la pauvreté et annonce la parution d'un baromètre de l'action sociale locale pour février 2027.",
+   "a_retenir": "",
+   "date_effet": ""
+  }
+ },
+ {
+  "id": "b6914198f899d221",
+  "url": "https://www.presanse.fr/actualites/video-80eme-anniversaire-de-la-medecine-du-travail/",
+  "source": "presanse",
+  "date": "2026-10-12",
+  "collecte": "2026-10-20T09:56:36+00:00",
+  "titre_officiel": "[Vidéo] 80ème anniversaire de la médecine du travail",
+  "extrait": "80 ans de médecine du travail : le travail évolue, et la prévention en santé… The post [Vidéo] 80ème anniversaire de la médecine du travail appeared first on Presanse .",
+  "themes": [
+   "maintien_emploi"
+  ],
+  "mots_cles": [
+   "médecine du travail"
+  ],
+  "score": 4,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "maintien_emploi"
+   ],
+   "type": "Actualité",
+   "titre": "Vidéo sur le 80ème anniversaire de la médecine du travail",
+   "resume": "Extrait insuffisant : consulter la source.",
    "a_retenir": "",
    "date_effet": ""
   }
