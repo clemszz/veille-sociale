@@ -174,6 +174,73 @@ def rediger_avec_ia(config: dict, items: dict, etat: dict) -> None:
     print(f"[IA] {etat['ia']['traites']} fiche(s) rédigée(s), {etat['ia']['restants']} en attente")
 
 
+def _racine(items: dict, iid: str | None) -> str | None:
+    """Remonte une chaîne de doublons (A doublon de B, B doublon de C -> C)."""
+    vus = set()
+    while iid and iid in items and items[iid].get("doublon_de") and iid not in vus:
+        vus.add(iid)
+        iid = items[iid]["doublon_de"]
+    return iid if iid in items else None
+
+
+def regrouper_doublons(config: dict, items: dict, etat: dict) -> None:
+    """Regroupe, SANS RIEN SUPPRIMER, les éléments qui reprennent la même
+    information publiée par plusieurs sites (ex. décret au JO + article
+    Service-Public qui l'explique). Le plus ancien reste la fiche principale ;
+    les autres y sont rattachés (champ doublon_de) et restent consultables dans
+    sa rubrique « Aussi publié par » (voir rendu.py). Chaque élément n'est
+    examiné qu'une fois (doublons_verifie) ; au premier passage, tout
+    l'historique existant l'est."""
+    if not GEMINI_API_KEY:
+        return
+    noms = {s["id"]: s["nom"] for s in config["sources"]}
+    # Deux textes du JO ou deux arrêts sont par définition des textes distincts,
+    # même s'ils tranchent la même question : jamais regroupés entre eux.
+    sources_textes = {s["id"] for s in config["sources"] if s.get("type") == "dila"}
+
+    def resume(i):
+        titre = i["ia"]["titre"] or i["titre_officiel"]
+        return {"id": i["id"], "date": i["date"], "source": noms.get(i["source"], i["source"]),
+                "titre": f"{titre} (titre officiel : {i['titre_officiel'][:160]})", "resume": i["ia"]["resume"]}
+
+    eligibles = [i for i in items.values() if i["ia"]["statut"] == "ok" and i["ia"]["pertinent"]]
+    candidats = sorted((i for i in eligibles if not i.get("doublons_verifie")),
+                       key=lambda i: (i["date"], i["collecte"]))
+    if not candidats:
+        return
+    ordre = {i["id"]: n for n, i in enumerate(candidats)}
+    depuis = (date.fromisoformat(candidats[0]["date"]) - timedelta(days=60)).isoformat()
+    references = [resume(i) for i in eligibles
+                  if i["id"] not in ordre and not i.get("doublon_de") and i["date"] >= depuis]
+    ids_references = {r["id"] for r in references}
+    client = ia.ClientGemini(config["themes"], pause_s=config["ia"]["pause_entre_appels_s"])
+    regroupes = 0
+    for debut in range(0, len(candidats), 60):
+        lot = candidats[debut: debut + 60]
+        try:
+            doublons = client.reperer_doublons([resume(i) for i in lot], references)
+        except Exception as e:  # quota compris : les candidats restants seront revus au prochain passage
+            print(f"[IA] repérage des doublons interrompu : {e}")
+            break
+        for item in lot:
+            cible = doublons.get(item["id"])
+            # Prudence : on n'accepte qu'un rattachement à une référence ou à un
+            # candidat plus ancien (jamais l'inverse, pour éviter les boucles).
+            if cible and (cible in ids_references or ordre.get(cible, len(ordre)) < ordre[item["id"]]):
+                racine = _racine(items, cible)
+                meme_source_textes = (racine and items[racine]["source"] == item["source"]
+                                      and item["source"] in sources_textes)
+                if racine and racine != item["id"] and not meme_source_textes:
+                    item["doublon_de"] = racine
+                    regroupes += 1
+            item["doublons_verifie"] = True
+        nouvelles = [resume(i) for i in lot if not i.get("doublon_de")]
+        references += nouvelles
+        ids_references |= {r["id"] for r in nouvelles}
+    etat["ia"]["doublons_regroupes"] = regroupes
+    print(f"[IA] {regroupes} doublon(s) regroupé(s) sous une fiche existante")
+
+
 def purger(config: dict, items: dict) -> None:
     limite = (date.today() - timedelta(days=config["site"]["conserver_jours"])).isoformat()
     for iid in [iid for iid, i in items.items() if i["date"] < limite]:
@@ -199,6 +266,7 @@ def executer(sans_ia: bool = False, rendu_seul: bool = False) -> None:
         etat["nouveaux"] = nouveaux
         if not sans_ia:
             rediger_avec_ia(config, items, etat)
+            regrouper_doublons(config, items, etat)
         purger(config, items)
         tries = sorted(items.values(), key=lambda i: (i["date"], i["collecte"]), reverse=True)
         ecrire_json(ITEMS_PATH, tries)

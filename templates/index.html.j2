@@ -106,6 +106,8 @@
   .fiche .resume{margin:0 0 10px;color:var(--encre)}
   .retenir{background:var(--violet-pale);border-radius:8px;padding:8px 12px;margin:0 0 10px;font-size:.94rem}
   .retenir strong{color:var(--lien)}
+  .aussi{margin:0 0 10px;font-size:.86rem;color:var(--encre-douce)}
+  details.detail p.autre{padding-top:6px;border-top:1px dashed var(--trait)}
   .pied{display:flex;flex-wrap:wrap;align-items:center;gap:8px}
   .tag{display:inline-flex;align-items:center;gap:6px;font-size:.78rem;padding:2px 9px;border-radius:999px;background:var(--fond);border:1px solid var(--trait)}
   .tag .pastille{width:8px;height:8px;border-radius:50%}
@@ -302,7 +304,9 @@
   });
 
   // Filtres : sources (celles qui ont au moins un élément)
-  var sources = Array.from(new Set(ELEMENTS.map(function(e){ return e.source; }))).sort();
+  var sources = Array.from(new Set([].concat.apply([], ELEMENTS.map(function(e){
+    return [e.source].concat(e.autres.map(function(a){ return a.source; }));
+  })))).sort();
   $("source").insertAdjacentHTML("beforeend", sources.map(function(s){ return '<option>' + esc(s) + '</option>'; }).join(""));
   $("source").value = sources.indexOf(etat.source) >= 0 ? etat.source : "";
 
@@ -335,10 +339,11 @@
       if (etat.favoris) return favoris.has(e.id);
       if (jour(e.date) < limite) return false;
       if (e.importance < etat.importance) return false;
-      if (etat.source && e.source !== etat.source) return false;
+      if (etat.source && e.source !== etat.source && !e.autres.some(function(a){ return a.source === etat.source; })) return false;
       if (e.themes.length && !e.themes.some(function(t){ return etat.themes.indexOf(t) >= 0; })) return false;
       if (mots.length){
-        var botte = sansAccents([e.titre, e.titreOfficiel, e.resume, e.aRetenir, e.source, e.type, e.motsCles.join(" ")].join(" "));
+        var botte = sansAccents([e.titre, e.titreOfficiel, e.resume, e.aRetenir, e.source, e.type, e.motsCles.join(" ")]
+          .concat(e.autres.map(function(a){ return [a.source, a.titre, a.resume, a.aRetenir].join(" "); })).join(" "));
         if (!mots.every(function(m){ return botte.indexOf(m) >= 0; })) return false;
       }
       return true;
@@ -368,6 +373,9 @@
       '<h3><a href="' + esc(e.url) + '" target="_blank" rel="noopener">' + esc(e.titre) + '</a></h3>' +
       (e.resume ? '<p class="resume">' + esc(e.resume) + '</p>' : "") +
       (e.aRetenir ? '<p class="retenir"><strong>À retenir :</strong> ' + esc(e.aRetenir) + '</p>' : "") +
+      (e.autres.length ? '<p class="aussi">Aussi publié par : ' + e.autres.map(function(a){
+        return '<a href="' + esc(a.url) + '" target="_blank" rel="noopener">' + esc(a.source) + '</a>';
+      }).join(", ") + '</p>' : "") +
       '<div class="pied">' + themes +
         (e.dateEffet ? '<span class="effet">En vigueur le ' + court(jour(e.dateEffet)) + '</span>' : "") +
         '<span class="outils">' +
@@ -378,6 +386,11 @@
         (e.titre !== e.titreOfficiel ? '<p><strong>Titre officiel :</strong> ' + esc(e.titreOfficiel) + '</p>' : "") +
         '<p><strong>Mots-clés détectés :</strong> ' + (esc(e.motsCles.join(", ")) || "—") + '</p>' +
         '<p>' + (e.ia ? "Titre et résumé rédigés par IA." : "Extrait fourni par la source (pas de résumé IA).") + '</p>' +
+        e.autres.map(function(a){
+          return '<p class="autre"><strong>Même information chez ' + esc(a.source) + '</strong> (' + court(jour(a.date)) + ') : ' +
+            '<a href="' + esc(a.url) + '" target="_blank" rel="noopener">' + esc(a.titre) + '</a>' +
+            (a.resume ? '<br>' + esc(a.resume) : "") + (a.aRetenir ? '<br><em>À retenir : ' + esc(a.aRetenir) + '</em>' : "") + '</p>';
+        }).join("") +
       '</details></article>';
   }
 
@@ -448,7 +461,8 @@
   function texteFiche(e){
     return "★".repeat(e.importance) + " " + e.titre + "\n" + e.source + " — " + court(jour(e.date)) + "\n" +
       (e.resume ? e.resume + "\n" : "") + (e.aRetenir ? "À retenir : " + e.aRetenir + "\n" : "") +
-      (e.dateEffet ? "En vigueur le " + court(jour(e.dateEffet)) + "\n" : "") + e.url;
+      (e.dateEffet ? "En vigueur le " + court(jour(e.dateEffet)) + "\n" : "") + e.url +
+      e.autres.map(function(a){ return "\nAussi publié par " + a.source + " : " + a.url; }).join("");
   }
   function copier(texte, message){
     var fin = function(){ toast(message); };
@@ -547,7 +561,8 @@
       var meta = [e.type, e.source, court(jour(e.date))].filter(Boolean).join("  -  ") +
                  (e.dateEffet ? "  -  en vigueur le " + court(jour(e.dateEffet)) : "");
       var hT = lt.length * hauteurLigne(11), hR = lr.length * hauteurLigne(9.5), hA = la.length ? la.length * hauteurLigne(9.5) + 4 : 0;
-      var total = 5 + hT + (hR ? hR + 2 : 0) + (hA ? hA + 2 : 0) + 6;
+      var hAussi = e.autres.length ? e.autres.length * hauteurLigne(8.5) + 2 : 0;
+      var total = 5 + hT + (hR ? hR + 2 : 0) + (hA ? hA + 2 : 0) + hAussi + 6;
       place(Math.min(total, BAS - 30));
       var debut = y, c = COUL_NIVEAU[e.importance];
       doc.setFont("helvetica", "normal"); doc.setFontSize(8); couleur(RVB.pale);
@@ -574,6 +589,20 @@
           yy += hauteurLigne(9.5);
         });
         y += hA;
+      }
+      if (e.autres.length){
+        // Même information publiée ailleurs : une ligne cliquable par source.
+        y += 2; doc.setFontSize(8.5);
+        e.autres.forEach(function(a){
+          place(hauteurLigne(8.5));
+          var debutLigne = latin1("Aussi publié par " + a.source + " : ");
+          doc.setFont("helvetica", "bold"); couleur(RVB.doux); doc.text(debutLigne, X, y + 3);
+          var dx = doc.getTextWidth(debutLigne);
+          doc.setFont("helvetica", "normal"); couleur(RVB.violet);
+          var morceaux = doc.splitTextToSize(latin1(a.titre), W - dx - 5);
+          doc.textWithLink(morceaux[0] + (morceaux.length > 1 ? "..." : ""), X + dx, y + 3, {url: a.url});
+          y += hauteurLigne(8.5);
+        });
       }
       // Liseret d'importance à gauche (sur la page courante).
       doc.setFillColor(c[0], c[1], c[2]); doc.rect(M, Math.max(debut - 3, 22), 1.4, y - Math.max(debut - 3, 22), "F");

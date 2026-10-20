@@ -233,6 +233,9 @@ themes:
 #             false = tout garder (source déjà 100 % ciblée)
 #  lire_page: true = l'IA lit la page complète (extrait du flux trop court)
 #  actif    : false pour désactiver une source sans la supprimer
+#  Ordre : quand une même information vient de plusieurs sources, la fiche
+#  principale est celle de la source placée le plus haut (les autres restent
+#  accessibles dans « Aussi publié par »).
 # -----------------------------------------------------------------------------
 sources:
   # --- Sources officielles généralistes ---------------------------------------

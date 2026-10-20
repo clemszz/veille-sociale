@@ -74,6 +74,26 @@ texte fourni. Si l'extrait est trop pauvre pour un résumé fiable, écris \
 - Une fiche par élément, dans le même ordre."""
 
 
+DOUBLONS_PROMPT = """Tu dédoublonnes une veille juridique sociale alimentée par \
+plusieurs sites. Pour chaque CANDIDAT, indique s'il reprend la MÊME \
+information qu'une RÉFÉRENCE ou qu'un candidat situé AVANT lui dans la liste.
+
+Même information = le même texte juridique (même décret, même loi, même \
+arrêté, même arrêt) ou la même annonce/mesure précise, même si les sites et \
+les formulations diffèrent. Exemple : le décret publié au Journal officiel et \
+l'article de Service-Public ou d'un éditeur qui explique ce décret.
+
+Ce ne sont PAS des doublons : deux textes différents sur un même thème (ex. \
+deux décrets distincts), un projet et le texte définitivement adopté, une \
+mesure et sa modification ultérieure, deux étapes d'une même réforme, deux \
+actualités générales sur un même sujet. EN CAS DE DOUTE, CE N'EST PAS UN \
+DOUBLON : mieux vaut une information en double qu'une information masquée.
+
+Réponds par une liste JSON ne contenant QUE les candidats doublons : \
+{"id": id du candidat, "doublon_de": id de l'élément qu'il reprend}. \
+Liste vide si aucun doublon. Recopie les id exactement."""
+
+
 def _schema(themes: list[str]) -> dict:
     return {
         "type": "ARRAY",
@@ -165,6 +185,46 @@ class ClientGemini:
             raise QuotaAtteint("quota gratuit du jour épuisé sur tous les modèles")
         raise RuntimeError("Aucun modèle Gemini disponible (voir GEMINI_MODEL)")
 
+    def _generer_json(self, systeme: str, consigne: str, schema: dict) -> str:
+        corps = {
+            "systemInstruction": {"parts": [{"text": systeme}]},
+            "contents": [{"role": "user", "parts": [{"text": consigne}]}],
+            "generationConfig": {"temperature": 0.2, "responseMimeType": "application/json"},
+        }
+        if self.avec_schema:
+            corps["generationConfig"]["responseSchema"] = schema
+        try:
+            reponse = self._generer(corps)
+        except RuntimeError as e:
+            # Filet de sécurité : si un futur modèle refuse le schéma JSON, on
+            # se contente de la consigne (qui décrit déjà chaque champ).
+            if not self.avec_schema or "HTTP 400" not in str(e):
+                raise
+            print(f"  [IA] schéma JSON refusé, nouvel essai sans : {e}")
+            self.avec_schema = False
+            del corps["generationConfig"]["responseSchema"]
+            reponse = self._generer(corps)
+        return _nettoyer_json(reponse)
+
+    def reperer_doublons(self, candidats: list[dict], references: list[dict]) -> dict[str, str]:
+        """Repère parmi les candidats ceux qui reprennent la même information
+        qu'une référence ou qu'un candidat PLUS ANCIEN (liste triée du plus
+        ancien au plus récent). Chaque dict : id, date, source, titre, resume.
+        Renvoie {id du doublon: id de l'élément d'origine}."""
+        def ligne(e):
+            return f"{e['id']} | {e['date']} | {e['source']} | {e['titre']} | {e['resume'][:280]}"
+        consigne = (
+            "RÉFÉRENCES (déjà publiées dans la veille) :\n"
+            + ("\n".join(ligne(e) for e in references) or "(aucune)")
+            + "\n\nCANDIDATS (du plus ancien au plus récent) :\n"
+            + "\n".join(ligne(e) for e in candidats)
+        )
+        schema = {"type": "ARRAY", "items": {"type": "OBJECT", "properties": {
+            "id": {"type": "STRING"}, "doublon_de": {"type": "STRING"}}, "required": ["id", "doublon_de"]}}
+        resultats = json.loads(self._generer_json(DOUBLONS_PROMPT, consigne, schema))
+        return {r["id"]: r["doublon_de"] for r in resultats
+                if isinstance(r, dict) and r.get("id") and r.get("doublon_de")}
+
     def rediger_fiches(self, elements: list[dict]) -> dict[str, dict]:
         """elements : dicts avec id, source, date, titre, texte. Renvoie {id: fiche}."""
         blocs = []
@@ -179,25 +239,8 @@ class ClientGemini:
             + "\n\nTypes (liste fermée) : " + ", ".join(TYPES)
             + "\n\nÉléments à traiter :\n\n" + "\n\n".join(blocs)
         )
-        corps = {
-            "systemInstruction": {"parts": [{"text": SYSTEM_PROMPT}]},
-            "contents": [{"role": "user", "parts": [{"text": consigne}]}],
-            "generationConfig": {"temperature": 0.2, "responseMimeType": "application/json"},
-        }
-        if self.avec_schema:
-            corps["generationConfig"]["responseSchema"] = _schema(list(self.themes))
-        try:
-            reponse = self._generer(corps)
-        except RuntimeError as e:
-            # Filet de sécurité : si un futur modèle refuse le schéma JSON, on
-            # se contente de la consigne (qui décrit déjà chaque champ).
-            if not self.avec_schema or "HTTP 400" not in str(e):
-                raise
-            print(f"  [IA] schéma JSON refusé, nouvel essai sans : {e}")
-            self.avec_schema = False
-            del corps["generationConfig"]["responseSchema"]
-            reponse = self._generer(corps)
-        fiches = json.loads(_nettoyer_json(reponse))
+        reponse = self._generer_json(SYSTEM_PROMPT, consigne, _schema(list(self.themes)))
+        fiches = json.loads(reponse)
         return {f["id"]: _valider(f, self.themes) for f in fiches if isinstance(f, dict) and "id" in f}
 
 

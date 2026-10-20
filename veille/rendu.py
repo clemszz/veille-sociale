@@ -43,10 +43,44 @@ def _pour_affichage(item: dict, noms_sources: dict) -> dict:
     }
 
 
+def _regrouper(items: list[dict], elements: list[dict], rang_source: dict) -> list[dict]:
+    """Réunit chaque groupe de doublons (voir run.regrouper_doublons) en une
+    fiche : rien n'est perdu, la fiche liste les autres sources avec leur lien,
+    leur titre et leur résumé, et prend l'importance la plus haute et l'union
+    des thèmes du groupe. La fiche principale est celle de la source placée le
+    plus haut dans config.yaml (sources officielles avant la presse)."""
+    doublon_de = {i["id"]: i.get("doublon_de") for i in items}
+    source_de = {i["id"]: i["source"] for i in items}
+    par_id = {e["id"]: e for e in elements}
+    groupes = {}
+    for e in elements:
+        racine, vus = e["id"], set()
+        while doublon_de.get(racine) and racine not in vus:
+            vus.add(racine)
+            racine = doublon_de[racine]
+        if racine not in par_id:
+            racine = e["id"]  # fiche d'origine purgée de l'historique : l'élément reste seul
+        groupes.setdefault(racine, []).append(e)
+    resultat = []
+    for membres in groupes.values():
+        membres.sort(key=lambda e: (rang_source.get(source_de[e["id"]], len(rang_source)), e["date"]))
+        principal = membres[0]
+        principal["autres"] = []
+        for e in membres[1:]:
+            principal["autres"].append({k: e[k] for k in ("source", "url", "titre", "date", "resume", "aRetenir")})
+            principal["importance"] = max(principal["importance"], e["importance"])
+            principal["themes"] += [t for t in e["themes"] if t not in principal["themes"]]
+            principal["motsCles"] += [m for m in e["motsCles"] if m not in principal["motsCles"]]
+            principal["dateEffet"] = principal["dateEffet"] or e["dateEffet"]
+        resultat.append(principal)
+    return resultat
+
+
 def _flux_rss(config: dict, elements: list[dict], url_site: str) -> str:
     entrees = []
     for e in elements:
         description = e["resume"] + (f"\n\nÀ retenir : {e['aRetenir']}" if e["aRetenir"] else "")
+        description += "".join(f"\nAussi publié par {a['source']} : {a['url']}" for a in e["autres"])
         publie = datetime.fromisoformat(e["collecte"])
         etoiles = "★" * e["importance"]
         entrees.append(
@@ -72,7 +106,8 @@ def _flux_rss(config: dict, elements: list[dict], url_site: str) -> str:
 
 def generer_site(config: dict, items: list[dict], etat: dict) -> None:
     noms = {s["id"]: s["nom"] for s in config["sources"]}
-    elements = [_pour_affichage(i, noms) for i in items]
+    rang_source = {s["id"]: n for n, s in enumerate(config["sources"])}
+    elements = _regrouper(items, [_pour_affichage(i, noms) for i in items], rang_source)
     elements.sort(key=lambda e: (e["date"], e["collecte"]), reverse=True)
 
     env = Environment(loader=FileSystemLoader(TEMPLATES_DIR), autoescape=select_autoescape(["html", "j2"]))
