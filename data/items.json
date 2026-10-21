@@ -1,5 +1,315 @@
 [
  {
+  "id": "2b85a88f94329ce4",
+  "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055002852",
+  "source": "jo",
+  "date": "2026-10-21",
+  "collecte": "2026-10-21T07:25:25+00:00",
+  "titre_officiel": "Décret n° 2026-972 du 20 octobre 2026 relatif aux conditions d'application de l'article 191 de la loi n° 2026-103 du 19 février 2026 de finances pour 2026",
+  "extrait": "Publics concernés : entreprises de la filière des imprimeries concourant à la fabrication et à la production des titres de presse quotidienne. Objet : le décret organise le régime du congé d'accompagnement spécifique pour le maintien dans l'emploi au profit des salariés des imprimeries de presse quotidienne. Il prévoit les modalités de définition des actions de formation et de validation des acquis de l'expérience des salariés concernés. Il définit le taux de maintien de rémunération, son montant de revalorisation. Il définit également le montant maximal par an et par salarié de prise en charge par l'Etat et sa procédure de demande. Il détermine les conditions dans lesquelles le salarié…",
+  "themes": [
+   "maintien_emploi",
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "maintien dans l'emploi",
+   "revalorisation"
+  ],
+  "score": 2,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": true,
+   "importance": 2,
+   "themes": [
+    "maintien_emploi",
+    "protection_sociale"
+   ],
+   "type": "Décret",
+   "titre": "Mise en place du congé d'accompagnement spécifique pour les salariés des imprimeries de presse",
+   "resume": "Ce décret organise le congé d'accompagnement spécifique pour le maintien dans l'emploi des salariés des imprimeries de presse quotidienne en fin de congé de reclassement ou de mobilité. Il précise les conditions de proposition par l'employeur, la convention individuelle, le financement et le maintien de la rémunération et de certains avantages.",
+   "a_retenir": "Vérifier les conditions de proposition de ce congé spécifique pour les salariés d'imprimeries de presse concernés en fin de congé de reclassement ou de mobilité.",
+   "date_effet": "2026-10-22"
+  },
+  "doublons_verifie": true
+ },
+ {
+  "id": "2743d1ed36249d19",
+  "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055003271",
+  "source": "jo",
+  "date": "2026-10-21",
+  "collecte": "2026-10-21T07:25:25+00:00",
+  "titre_officiel": "Décision n° 2026-VP-37 du 13 octobre 2026 portant approbation du transfert partiel du portefeuille d'opérations d'une mutuelle",
+  "extrait": "",
+  "themes": [
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "mutuelle"
+  ],
+  "score": 4,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "protection_sociale"
+   ],
+   "type": "Arrêté",
+   "titre": "Approbation de transfert de portefeuille d'une mutuelle",
+   "resume": "Extrait insuffisant : consulter la source.",
+   "a_retenir": "",
+   "date_effet": ""
+  }
+ },
+ {
+  "id": "db6dd9f75d41b1d1",
+  "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055003279",
+  "source": "jo",
+  "date": "2026-10-21",
+  "collecte": "2026-10-21T07:25:25+00:00",
+  "titre_officiel": "Décision n° 2026-VP-39 du 15 octobre 2026 portant approbation du transfert, par voie de fusion-absorption, du portefeuille d'opérations d'une mutuelle",
+  "extrait": "",
+  "themes": [
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "mutuelle"
+  ],
+  "score": 4,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "protection_sociale"
+   ],
+   "type": "Arrêté",
+   "titre": "Approbation de fusion-absorption de mutuelle",
+   "resume": "Extrait insuffisant : consulter la source.",
+   "a_retenir": "",
+   "date_effet": ""
+  }
+ },
+ {
+  "id": "a1042ea28e089cab",
+  "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055003288",
+  "source": "jo",
+  "date": "2026-10-21",
+  "collecte": "2026-10-21T07:25:25+00:00",
+  "titre_officiel": "Décision n° 2026-VP-40 du 16 octobre 2026 portant approbation du transfert, par voie de fusion-absorption, du portefeuille d'opérations d'une mutuelle",
+  "extrait": "",
+  "themes": [
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "mutuelle"
+  ],
+  "score": 4,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "protection_sociale"
+   ],
+   "type": "Arrêté",
+   "titre": "Approbation de fusion-absorption de mutuelle",
+   "resume": "Extrait insuffisant : consulter la source.",
+   "a_retenir": "",
+   "date_effet": ""
+  }
+ },
+ {
+  "id": "a2f07085f9162aae",
+  "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055003296",
+  "source": "jo",
+  "date": "2026-10-21",
+  "collecte": "2026-10-21T07:25:25+00:00",
+  "titre_officiel": "Décision n° 2026-VP-41 du 16 octobre 2026 portant approbation du transfert par voie de fusion-absorption du portefeuille d'opérations d'une mutuelle",
+  "extrait": "",
+  "themes": [
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "mutuelle"
+  ],
+  "score": 4,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "protection_sociale"
+   ],
+   "type": "Actualité",
+   "titre": "Fusion entre Energie Mutuelle et Malakoff Humanis Mutuelle",
+   "resume": "Extrait insuffisant : consulter la source.",
+   "a_retenir": "",
+   "date_effet": ""
+  }
+ },
+ {
+  "id": "7f560fb046a5be9b",
+  "url": "https://www.editions-tissot.fr/actualite/sante-securite/obligation-de-prevention-du-harcelement-moral-deux-ans-pour-demander-reparation-dun-manquement",
+  "source": "tissot-sante-securite",
+  "date": "2026-10-21",
+  "collecte": "2026-10-21T07:25:25+00:00",
+  "titre_officiel": "Obligation de prévention du harcèlement moral : deux ans pour demander réparation d’un manquement",
+  "extrait": "L’employeur est tenu de prévenir les agissements de harcèlement moral dans l’entreprise. En cas de manquement à cette obligation, le salarié peut demander réparation du préjudice subi. Cette action est toutefois soumise à un délai de prescription différent de celui applicable à la réparation des agissements de harcèlement moral.",
+  "themes": [
+   "maintien_emploi",
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "harcèlement moral"
+  ],
+  "score": 4,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": true,
+   "importance": 2,
+   "themes": [
+    "maintien_emploi",
+    "protection_sociale"
+   ],
+   "type": "Jurisprudence",
+   "titre": "Délai de deux ans pour demander réparation d'un manquement à l'obligation de prévention du harcèlement moral",
+   "resume": "Le salarié dispose d'un délai spécifique de deux ans pour agir en justice en réparation d'un manquement de l'employeur à son obligation de prévention du harcèlement moral.",
+   "a_retenir": "Vérifier les délais de prescription lorsque des salariés signalent des manquements de l'employeur en matière de prévention des risques psychosociaux.",
+   "date_effet": ""
+  },
+  "doublons_verifie": true
+ },
+ {
+  "id": "f72aeb2a10ab88d3",
+  "url": "https://occitanie.dreets.gouv.fr/Soutien-aux-commerces-touches-par-les-degradations-des-17-et-18-octobre-2026-en",
+  "source": "dreets-occitanie",
+  "date": "2026-10-20",
+  "collecte": "2026-10-21T07:25:25+00:00",
+  "titre_officiel": "Soutien aux commerces touchés par les dégradations des 17 et 18 octobre 2026 en Occitanie",
+  "extrait": "À la suite des violences urbaines survenues les 17 et 18 octobre 2026, qui ont causé d'importants dommages à de nombreux commerces en France, le Gouvernement a annoncé un plan de soutien exceptionnel pour accompagner les entreprises impactées. Ces mesures visent à préserver l'emploi, soutenir la trésorerie et faciliter la reprise d'activité des commerçants, artisans et indépendants touchés. La DREETS Occitanie (Direction régionale de l'économie, de l'emploi, du travail et des solidarités) (…) - Actualités / article_une",
+  "themes": [
+   "aides_sociales"
+  ],
+  "mots_cles": [
+   "reprise d'activité"
+  ],
+  "score": 1,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "aides_sociales"
+   ],
+   "type": "Actualité",
+   "titre": "Plan de soutien exceptionnel pour les commerces touchés par les dégradations en Occitanie",
+   "resume": "Extrait insuffisant : consulter la source.",
+   "a_retenir": "",
+   "date_effet": ""
+  }
+ },
+ {
+  "id": "616d49bd4c6fc770",
+  "url": "https://www.lassuranceretraite.fr/portail-info/sites/pub/hors-menu/actualites-nationales/institutionnel/2026/service-public-durable-rso.html",
+  "source": "assurance-retraite",
+  "date": "2026-10-20",
+  "collecte": "2026-10-21T07:25:25+00:00",
+  "titre_officiel": "L’Assurance retraite renforce son engagement RSO pour un service public durable",
+  "extrait": "",
+  "themes": [
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "retraite"
+  ],
+  "score": 4,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "protection_sociale"
+   ],
+   "type": "Actualité",
+   "titre": "Renouvellement de la stratégie RSO de l'Assurance retraite",
+   "resume": "Extrait insuffisant : consulter la source.",
+   "a_retenir": "",
+   "date_effet": ""
+  }
+ },
+ {
+  "id": "f9c860bbcc717b05",
+  "url": "https://www.agirc-arrco.fr/nous-connaitre/nos-actualites/lagisme-ca-vous-parle/",
+  "source": "agirc-arrco",
+  "date": "2026-10-20",
+  "collecte": "2026-10-21T07:25:25+00:00",
+  "titre_officiel": "L’âgisme, ça vous parle ?…",
+  "extrait": "L’âgisme touche toutes les générations. Découvrez 4 témoignages inspirants qui mettent en lumière la place et l’engagement des retraités dans notre société.",
+  "themes": [
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "retraite"
+  ],
+  "score": 1,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "protection_sociale"
+   ],
+   "type": "Actualité",
+   "titre": "Témoignages sur l'âgisme et la place des retraités",
+   "resume": "Extrait insuffisant : consulter la source.",
+   "a_retenir": "",
+   "date_effet": ""
+  }
+ },
+ {
+  "id": "daecf8fa02a563b3",
+  "url": "https://www.editions-tissot.fr/actualite/sante-securite/cotisations-at-mp-le-taux-unique-devient-obligatoire-dans-les-entreprises-dau-moins-20-salaries-des-2027",
+  "source": "tissot-sante-securite",
+  "date": "2026-10-20",
+  "collecte": "2026-10-21T07:25:25+00:00",
+  "titre_officiel": "Cotisations AT/MP : le taux unique devient obligatoire dans les entreprises d’au moins 20 salariés dès 2027",
+  "extrait": "Jusqu’à présent facultatif, le taux unique de cotisation AT/MP s’imposera, à compter de 2027, aux entreprises soumises à une tarification individuelle ou mixte. Un décret du 13 octobre 2026 prévoit cette généralisation et modifie également les règles de tarification des établissements nouvellement créés.",
+  "themes": [
+   "protection_sociale",
+   "maintien_emploi"
+  ],
+  "mots_cles": [
+   "AT/MP"
+  ],
+  "score": 4,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": true,
+   "importance": 2,
+   "themes": [
+    "protection_sociale",
+    "maintien_emploi"
+   ],
+   "type": "Décret",
+   "titre": "Généralisation du taux unique de cotisation AT/MP dès 2027",
+   "resume": "Un décret du 13 octobre 2026 rend obligatoire le taux unique de cotisation AT/MP pour les entreprises soumises à tarification individuelle ou mixte à compter de 2027, tout en modifiant les règles pour les établissements nouvellement créés.",
+   "a_retenir": "Informer les employeurs concernés de la généralisation du taux unique de cotisation AT/MP à partir de 2027.",
+   "date_effet": "2027-01-01"
+  },
+  "doublons_verifie": true
+ },
+ {
   "id": "7dff4732ffc648c5",
   "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054999225",
   "source": "jo",
@@ -122,6 +432,40 @@
    "a_retenir": "",
    "date_effet": ""
   }
+ },
+ {
+  "id": "423173b6ed53fcc2",
+  "url": "https://www.service-public.gouv.fr/particuliers/actualites/A19066?xtor=RSS-111",
+  "source": "sp-particuliers",
+  "date": "2026-10-19",
+  "collecte": "2026-10-21T07:25:25+00:00",
+  "titre_officiel": "Arrêts maladie : baisse de la durée d’indemnisation de certains arrêts longs",
+  "extrait": "Deux textes parus au Journal officiel le 18 septembre 2026 modifient la durée d’indemnisation pour certains salariés en arrêt de travail de longue durée. Cette durée maximale passe de 3 à 1 an à compter du 15 octobre 2026. Service Public vous informe.",
+  "themes": [
+   "protection_sociale",
+   "maintien_emploi"
+  ],
+  "mots_cles": [
+   "arrêt de travail",
+   "arrêt maladie"
+  ],
+  "score": 5,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": true,
+   "importance": 3,
+   "themes": [
+    "protection_sociale",
+    "maintien_emploi"
+   ],
+   "type": "Décret",
+   "titre": "Baisse de la durée maximale d'indemnisation de certains arrêts longs à 1 an",
+   "resume": "La durée maximale dérogatoire d'indemnisation des arrêts de travail de longue durée hors ALD, AT/MP ou affection sévère passe de 3 ans à 1 an à compter du 15 octobre 2026 pour les salariés et divers régimes. Une reprise d'activité d'au moins 1 an est nécessaire pour ouvrir une nouvelle période d'indemnisation au titre de la même maladie.",
+   "a_retenir": "Vérifier la nature de l'arrêt de travail et la date de prescription des salariés en arrêt long pour anticiper la limitation des indemnités journalières à 1 an.",
+   "date_effet": "2026-10-15"
+  },
+  "doublons_verifie": true
  },
  {
   "id": "d95b621f3ba5fdfe",

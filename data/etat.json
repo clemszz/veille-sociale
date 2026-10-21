@@ -1,23 +1,23 @@
 {
- "derniere_execution": "2026-10-20T11:52:27+00:00",
+ "derniere_execution": "2026-10-21T07:25:25+00:00",
  "sources": {
   "sp-particuliers": {
    "nom": "Service-Public.fr (particuliers)",
    "ok": true,
    "lus": 10,
-   "nouveaux": 0
+   "nouveaux": 1
   },
   "sp-pro": {
    "nom": "Service-Public.fr (professionnels)",
    "ok": true,
-   "lus": 235,
+   "lus": 234,
    "nouveaux": 0
   },
   "jo": {
    "nom": "Journal officiel (Lois et décrets)",
    "ok": true,
-   "lus": 448,
-   "nouveaux": 0
+   "lus": 429,
+   "nouveaux": 5
   },
   "vie-publique-lois": {
    "nom": "Vie-publique.fr (lois)",
@@ -51,7 +51,7 @@
    "nom": "DREETS Occitanie",
    "ok": true,
    "lus": 10,
-   "nouveaux": 0
+   "nouveaux": 1
   },
   "ameli-assure": {
    "nom": "ameli.fr (assurés)",
@@ -66,14 +66,14 @@
   "assurance-retraite": {
    "nom": "L'Assurance retraite",
    "ok": true,
-   "lus": 192,
-   "nouveaux": 0
+   "lus": 193,
+   "nouveaux": 1
   },
   "agirc-arrco": {
    "nom": "Agirc-Arrco",
    "ok": true,
    "lus": 10,
-   "nouveaux": 0
+   "nouveaux": 1
   },
   "c2s": {
    "nom": "Complémentaire santé solidaire",
@@ -127,14 +127,15 @@
    "nom": "Éditions Tissot (santé-sécurité au travail)",
    "ok": true,
    "lus": 10,
-   "nouveaux": 0
+   "nouveaux": 2
   }
  },
  "ia": {
   "active": true,
-  "traites": 0,
+  "traites": 11,
   "restants": 0,
-  "doublons_regroupes": 2
+  "modele": "gemini-3.5-flash-lite",
+  "doublons_regroupes": 0
  },
- "nouveaux": 0
+ "nouveaux": 11
 }
