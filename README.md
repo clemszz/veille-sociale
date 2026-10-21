@@ -74,7 +74,7 @@ Favoris et « dernière visite » sont mémorisés dans son navigateur (pas de c
    passage (`https://clemszz.github.io/veille-sociale/`). La recopier
    dans `config.yaml` (`site.url`) pour le flux RSS.
 
-Ensuite tout est automatique (tous les jours vers 7 h).
+Ensuite tout est automatique (tous les jours vers 6 h 30, avec un passage de secours vers 12 h 30).
 
 > Le premier passage remonte 45 jours en arrière : beaucoup d'éléments à
 > résumer d'un coup. Si le quota gratuit de Gemini est atteint, le reste est

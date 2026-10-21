@@ -2,15 +2,19 @@ name: Veille quotidienne
 
 on:
   schedule:
-    # Tous les jours vers 7 h (heure de Paris en hiver, 8 h en été).
-    # GitHub peut décaler l'exécution de quelques dizaines de minutes.
-    - cron: "0 6 * * *"
+    # Tous les jours vers 6 h 30 (heure de Paris en hiver, 7 h 30 en été), plus un
+    # créneau de secours en début d'après-midi. GitHub retarde voire saute les
+    # tâches planifiées aux heures pile (trop demandées) : d'où ces minutes
+    # « impaires ». Un passage en double est sans effet (seules les nouveautés
+    # sont traitées).
+    - cron: "37 5 * * *"
+    - cron: "23 11 * * *"
   # Bouton "Run workflow" dans l'onglet Actions, pour lancer à la main.
   workflow_dispatch:
   # Après une modification de la config, du code ou de la page : régénère.
   push:
     branches: [main]
-    paths: ["config.yaml", "veille/**", "templates/**", "assets/**"]
+    paths: ["config.yaml", "veille/**", "templates/**", "assets/**", ".github/workflows/**"]
 
 permissions:
   contents: write   # enregistrer data/ (l'historique) dans le dépôt
