@@ -1,11 +1,11 @@
 {
- "derniere_execution": "2026-10-21T07:25:25+00:00",
+ "derniere_execution": "2026-10-21T15:59:52+00:00",
  "sources": {
   "sp-particuliers": {
    "nom": "Service-Public.fr (particuliers)",
    "ok": true,
    "lus": 10,
-   "nouveaux": 1
+   "nouveaux": 0
   },
   "sp-pro": {
    "nom": "Service-Public.fr (professionnels)",
@@ -17,19 +17,17 @@
    "nom": "Journal officiel (Lois et décrets)",
    "ok": true,
    "lus": 429,
-   "nouveaux": 5
+   "nouveaux": 0
   },
   "vie-publique-lois": {
    "nom": "Vie-publique.fr (lois)",
-   "ok": true,
-   "lus": 100,
-   "nouveaux": 0
+   "ok": false,
+   "erreur": "503 Server Error: Service Unavailable for url: https://www.vie-publique.fr/lois-feeds.xml"
   },
   "vie-publique-actu": {
    "nom": "Vie-publique.fr (actualités)",
-   "ok": true,
-   "lus": 10,
-   "nouveaux": 0
+   "ok": false,
+   "erreur": "503 Server Error: Service Unavailable for url: https://www.vie-publique.fr/actualites-feeds.xml"
   },
   "travail-emploi": {
    "nom": "Ministère du Travail",
@@ -51,7 +49,7 @@
    "nom": "DREETS Occitanie",
    "ok": true,
    "lus": 10,
-   "nouveaux": 1
+   "nouveaux": 0
   },
   "ameli-assure": {
    "nom": "ameli.fr (assurés)",
@@ -67,13 +65,12 @@
    "nom": "L'Assurance retraite",
    "ok": true,
    "lus": 193,
-   "nouveaux": 1
+   "nouveaux": 0
   },
   "agirc-arrco": {
    "nom": "Agirc-Arrco",
-   "ok": true,
-   "lus": 10,
-   "nouveaux": 1
+   "ok": false,
+   "erreur": "HTTPSConnectionPool(host='www.agirc-arrco.fr', port=443): Max retries exceeded with url: /feed/?post_type=post (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.agirc-arrco.fr', port=443) at 0x7f8a1156f350>, 'Connection to www.agirc-arrco.fr timed out. (connect timeout=45)'))"
   },
   "c2s": {
    "nom": "Complémentaire santé solidaire",
@@ -83,9 +80,8 @@
   },
   "agefiph": {
    "nom": "Agefiph",
-   "ok": true,
-   "lus": 10,
-   "nouveaux": 0
+   "ok": false,
+   "erreur": "503 Server Error: Service Unavailable for url: https://www.agefiph.fr/rss.xml"
   },
   "cnsa": {
    "nom": "CNSA",
@@ -107,9 +103,8 @@
   },
   "conseil-etat": {
    "nom": "Conseil d'État (analyses de jurisprudence)",
-   "ok": true,
-   "lus": 20,
-   "nouveaux": 0
+   "ok": false,
+   "erreur": "503 Server Error: Service Unavailable for url: https://www.conseil-etat.fr/rss/analyses-de-jurisprudence-rss"
   },
   "defenseur-droits": {
    "nom": "Défenseur des droits",
@@ -127,15 +122,13 @@
    "nom": "Éditions Tissot (santé-sécurité au travail)",
    "ok": true,
    "lus": 10,
-   "nouveaux": 2
+   "nouveaux": 0
   }
  },
  "ia": {
   "active": true,
-  "traites": 11,
-  "restants": 0,
-  "modele": "gemini-3.5-flash-lite",
-  "doublons_regroupes": 0
+  "traites": 0,
+  "restants": 0
  },
- "nouveaux": 11
+ "nouveaux": 0
 }
