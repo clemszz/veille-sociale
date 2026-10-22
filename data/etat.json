@@ -1,5 +1,5 @@
 {
- "derniere_execution": "2026-10-22T13:39:19+00:00",
+ "derniere_execution": "2026-10-22T13:45:26+00:00",
  "sources": {
   "sp-particuliers": {
    "nom": "Service-Public.fr (particuliers)",
@@ -61,7 +61,7 @@
    "nom": "ameli.fr (médecins : arrêts de travail, ALD...)",
    "ok": true,
    "lus": 10,
-   "nouveaux": 1
+   "nouveaux": 0
   },
   "assurance-retraite": {
    "nom": "L'Assurance retraite",
@@ -131,10 +131,8 @@
  },
  "ia": {
   "active": true,
-  "traites": 1,
-  "restants": 0,
-  "modele": "gemini-3.5-flash-lite",
-  "doublons_regroupes": 0
+  "traites": 0,
+  "restants": 0
  },
- "nouveaux": 1
+ "nouveaux": 0
 }
