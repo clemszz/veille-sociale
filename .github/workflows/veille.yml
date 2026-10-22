@@ -34,7 +34,12 @@ jobs:
       name: github-pages
       url: ${{ steps.deploiement.outputs.page_url }}
     steps:
+      # Toujours partir de la dernière version de main (pas du commit déclencheur) :
+      # les passages s'enchaînent (concurrency) et chacun reprend l'historique
+      # enregistré par le précédent, sans conflit.
       - uses: actions/checkout@v5
+        with:
+          ref: main
 
       - uses: actions/setup-python@v6
         with:
