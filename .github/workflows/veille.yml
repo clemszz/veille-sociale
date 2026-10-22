@@ -11,10 +11,11 @@ on:
     - cron: "23 11 * * *"
   # Bouton "Run workflow" dans l'onglet Actions, pour lancer à la main.
   workflow_dispatch:
-  # Après une modification de la config, du code ou de la page : régénère.
+  # Après une modification de la config, du code, de la page, ou un nouveau
+  # relevé du relais local (ameli, voir relais_local.py) : régénère.
   push:
     branches: [main]
-    paths: ["config.yaml", "veille/**", "templates/**", "assets/**", ".github/workflows/**"]
+    paths: ["config.yaml", "veille/**", "templates/**", "assets/**", ".github/workflows/**", "data/relais/**"]
 
 permissions:
   contents: write   # enregistrer data/ (l'historique) dans le dépôt

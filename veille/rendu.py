@@ -115,7 +115,11 @@ def generer_site(config: dict, items: list[dict], etat: dict) -> None:
         site=config["site"],
         themes={cle: t["libelle"] for cle, t in config["themes"].items()},
         etat=etat,
-        sources=[s for s in config["sources"] if s.get("actif") is not False],
+        # Une source « alerte: false » en échec n'est pas affichée (elle reste
+        # tentée chaque jour et son erreur est consignée dans data/etat.json).
+        sources=[s for s in config["sources"] if s.get("actif") is not False
+                 and not (s.get("alerte") is False
+                          and not (etat.get("sources") or {}).get(s["id"], {}).get("ok", True))],
         genere_le=datetime.now(timezone.utc).isoformat(timespec="seconds"),
         # Logo embarqué pour l'en-tête du PDF (un fichier local ne peut pas être
         # relu par le navigateur depuis une page ouverte en file://).

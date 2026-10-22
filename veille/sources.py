@@ -16,6 +16,8 @@ data/etat.json et signalée en pied de page du site.
 """
 import calendar
 import io
+import json
+import os
 import re
 import tarfile
 import xml.etree.ElementTree as ET
@@ -26,6 +28,9 @@ import feedparser
 from bs4 import BeautifulSoup
 
 from . import http
+from .config import DATA_DIR
+
+RELAIS_DIR = DATA_DIR / "relais"
 
 MOIS = {
     "janvier": 1, "fevrier": 2, "février": 2, "mars": 3, "avril": 4, "mai": 5,
@@ -209,7 +214,25 @@ def collecter_dila(source: dict) -> list[dict]:
 COLLECTEURS = {"rss": collecter_rss, "html": collecter_html, "dila": collecter_dila}
 
 
-def collecter(source: dict) -> list[dict]:
+def collecter_relais(source: dict) -> list[dict]:
+    """Relevé déposé dans data/relais/ par le relais local (relais_local.py),
+    pour les sites qui bloquent les serveurs de GitHub mais pas un PC ordinaire."""
+    chemin = RELAIS_DIR / f"{source['id']}.json"
+    if not chemin.exists():
+        raise ValueError("aucun relevé du relais local pour l'instant")
+    releve = json.loads(chemin.read_text(encoding="utf-8"))
+    age = (date.today() - date.fromisoformat(releve["releve_le"][:10])).days
+    if age > source.get("relais_max_jours", 4):
+        raise ValueError(f"relais local sans nouvelles depuis {age} jours (PC éteint ?)")
+    return [{**e, "date": date.fromisoformat(e["date"]) if e.get("date") else None}
+            for e in releve["elements"]]
+
+
+def collecter(source: dict, direct: bool = False) -> list[dict]:
+    """direct=True : interroge le site lui-même (relais local, exe). Sur GitHub,
+    une source relais_local est lue depuis le relevé déposé par le relais."""
+    if source.get("relais_local") and not direct and os.environ.get("GITHUB_ACTIONS") == "true":
+        return collecter_relais(source)
     if source.get("delai_s"):
         http.regler_delai(source["url"] if "url" in source else DILA_URL, source["delai_s"])
     return COLLECTEURS[source.get("type", "rss")](source)

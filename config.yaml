@@ -233,6 +233,8 @@ themes:
 #             false = tout garder (source déjà 100 % ciblée)
 #  lire_page: true = l'IA lit la page complète (extrait du flux trop court)
 #  actif    : false pour désactiver une source sans la supprimer
+#  alerte   : false = ne pas afficher ⚠ sur le site quand la source échoue
+#  relais_local: true = sur GitHub, lue via le relevé du PC relais (data/relais/)
 #  Ordre : quand une même information vient de plusieurs sources, la fiche
 #  principale est celle de la source placée le plus haut (les autres restent
 #  accessibles dans « Aussi publié par »).
@@ -318,6 +320,7 @@ sources:
     url: https://solidarites.gouv.fr/rss.xml
     site: https://solidarites.gouv.fr
     lire_page: true
+    alerte: false       # bloque les robots (oct. 2026) : tenté chaque jour, sans ⚠ sur le site
 
   - id: handicap-gouv
     nom: "Handicap.gouv.fr"
@@ -325,6 +328,7 @@ sources:
     url: https://handicap.gouv.fr/rss.xml
     site: https://handicap.gouv.fr
     lire_page: true
+    alerte: false       # bloque les robots (oct. 2026) : tenté chaque jour, sans ⚠ sur le site
 
   - id: dreets-occitanie
     nom: "DREETS Occitanie"
@@ -339,6 +343,7 @@ sources:
     url: https://www.ameli.fr/assure/actualites
     delai_s: 10          # imposé par le robots.txt d'ameli
     lire_page: true
+    relais_local: true  # ameli bloque les serveurs GitHub : lu depuis le PC de Clément (relais_local.py)
     selecteurs:
       item: div.wrapper-actualite
       titre: h2.titre-actus
@@ -351,6 +356,7 @@ sources:
     url: https://www.ameli.fr/medecin/actualites
     delai_s: 10
     lire_page: true
+    relais_local: true  # ameli bloque les serveurs GitHub : lu depuis le PC de Clément (relais_local.py)
     selecteurs:
       item: div.wrapper-actualite
       titre: h2.titre-actus
