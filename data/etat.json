@@ -1,5 +1,5 @@
 {
- "derniere_execution": "2026-10-21T15:59:52+00:00",
+ "derniere_execution": "2026-10-22T10:32:53+00:00",
  "sources": {
   "sp-particuliers": {
    "nom": "Service-Public.fr (particuliers)",
@@ -10,46 +10,46 @@
   "sp-pro": {
    "nom": "Service-Public.fr (professionnels)",
    "ok": true,
-   "lus": 234,
+   "lus": 235,
    "nouveaux": 0
   },
   "jo": {
    "nom": "Journal officiel (Lois et décrets)",
    "ok": true,
-   "lus": 429,
-   "nouveaux": 0
+   "lus": 462,
+   "nouveaux": 2
   },
   "vie-publique-lois": {
    "nom": "Vie-publique.fr (lois)",
-   "ok": false,
-   "erreur": "503 Server Error: Service Unavailable for url: https://www.vie-publique.fr/lois-feeds.xml"
+   "ok": true,
+   "lus": 100,
+   "nouveaux": 0
   },
   "vie-publique-actu": {
    "nom": "Vie-publique.fr (actualités)",
-   "ok": false,
-   "erreur": "503 Server Error: Service Unavailable for url: https://www.vie-publique.fr/actualites-feeds.xml"
+   "ok": true,
+   "lus": 10,
+   "nouveaux": 0
   },
   "travail-emploi": {
    "nom": "Ministère du Travail",
-   "ok": true,
-   "lus": 50,
-   "nouveaux": 0
+   "ok": false,
+   "erreur": "503 Server Error: Service Unavailable for url: https://travail-emploi.gouv.fr/rss.xml"
   },
   "solidarites": {
    "nom": "Ministère des Solidarités",
    "ok": false,
-   "erreur": "le site a renvoyé une page web au lieu du flux (blocage anti-robots, souvent temporaire)"
+   "erreur": "503 Server Error: Service Unavailable for url: https://solidarites.gouv.fr/rss.xml"
   },
   "handicap-gouv": {
    "nom": "Handicap.gouv.fr",
    "ok": false,
-   "erreur": "le site a renvoyé une page web au lieu du flux (blocage anti-robots, souvent temporaire)"
+   "erreur": "503 Server Error: Service Unavailable for url: https://handicap.gouv.fr/rss.xml"
   },
   "dreets-occitanie": {
    "nom": "DREETS Occitanie",
-   "ok": true,
-   "lus": 10,
-   "nouveaux": 0
+   "ok": false,
+   "erreur": "503 Server Error: Service Unavailable for url: https://occitanie.dreets.gouv.fr/spip.php?page=backend"
   },
   "ameli-assure": {
    "nom": "ameli.fr (assurés)",
@@ -64,24 +64,25 @@
   "assurance-retraite": {
    "nom": "L'Assurance retraite",
    "ok": true,
-   "lus": 193,
+   "lus": 195,
    "nouveaux": 0
   },
   "agirc-arrco": {
    "nom": "Agirc-Arrco",
-   "ok": false,
-   "erreur": "HTTPSConnectionPool(host='www.agirc-arrco.fr', port=443): Max retries exceeded with url: /feed/?post_type=post (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.agirc-arrco.fr', port=443) at 0x7f8a1156f350>, 'Connection to www.agirc-arrco.fr timed out. (connect timeout=45)'))"
-  },
-  "c2s": {
-   "nom": "Complémentaire santé solidaire",
    "ok": true,
    "lus": 10,
    "nouveaux": 0
   },
+  "c2s": {
+   "nom": "Complémentaire santé solidaire",
+   "ok": false,
+   "erreur": "503 Server Error: Service Unavailable for url: https://www.complementaire-sante-solidaire.gouv.fr/rss.xml"
+  },
   "agefiph": {
    "nom": "Agefiph",
-   "ok": false,
-   "erreur": "503 Server Error: Service Unavailable for url: https://www.agefiph.fr/rss.xml"
+   "ok": true,
+   "lus": 10,
+   "nouveaux": 0
   },
   "cnsa": {
    "nom": "CNSA",
@@ -103,8 +104,9 @@
   },
   "conseil-etat": {
    "nom": "Conseil d'État (analyses de jurisprudence)",
-   "ok": false,
-   "erreur": "503 Server Error: Service Unavailable for url: https://www.conseil-etat.fr/rss/analyses-de-jurisprudence-rss"
+   "ok": true,
+   "lus": 20,
+   "nouveaux": 0
   },
   "defenseur-droits": {
    "nom": "Défenseur des droits",
@@ -127,8 +129,10 @@
  },
  "ia": {
   "active": true,
-  "traites": 0,
-  "restants": 0
+  "traites": 2,
+  "restants": 0,
+  "modele": "gemini-3.5-flash-lite",
+  "doublons_regroupes": 0
  },
- "nouveaux": 0
+ "nouveaux": 2
 }
