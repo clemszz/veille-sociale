@@ -35,6 +35,24 @@ officiel de la DILA, sans compte) ; **Mon Parcours Handicap** l'interdit dans
 son robots.txt. L'actualité CAF arrive tout de même via Service-Public et le
 ministère des Solidarités.
 
+## Relais ameli (PC de Clément)
+
+ameli bloque les serveurs de GitHub (mais autorise les robots polis dans son
+robots.txt). Le script `relais_local.py` lit donc ameli depuis un PC ordinaire
+et dépose le relevé dans `data/relais/`, ce qui relance aussitôt un passage
+GitHub qui l'intègre.
+
+- Tâche planifiée Windows « Veille AIPALS - relais ameli », installée par
+  `installer_relais.ps1` : chaque jour à 8 h 45 et 5 min après chaque ouverture
+  de session, sans fenêtre.
+- Journal : `%LOCALAPPDATA%\VeilleRelaiselais.log` (clone dédié du dépôt dans le
+  même dossier).
+- PC éteint : pas d'ameli ce jour-là ; au-delà de 4 jours sans relevé, ameli
+  apparaît en ⚠ sur le site.
+- Sources `alerte: false` (Solidarités, Handicap.gouv.fr, qui bloquent les
+  robots) : tentées chaque jour, sans ⚠ sur le site ; elles reviennent seules si
+  le blocage est levé.
+
 ## Ce que voit l'assistante sociale
 
 - Les éléments regroupés par jour, avec un niveau **Essentiel / Utile / Contexte**,
