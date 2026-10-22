@@ -250,6 +250,40 @@
   "doublons_verifie": true
  },
  {
+  "id": "dce6d7179614aa1a",
+  "url": "https://www.ameli.fr/medecin/actualites/sos-ij-un-nouvel-outil-de-l-assurance-maladie-au-service-des-medecins",
+  "source": "ameli-medecin",
+  "date": "2026-10-20",
+  "collecte": "2026-10-22T13:39:19+00:00",
+  "titre_officiel": "SOS IJ : un nouvel outil de l’Assurance Maladie au service des médecins",
+  "extrait": "",
+  "themes": [
+   "protection_sociale",
+   "maintien_emploi"
+  ],
+  "mots_cles": [
+   "assurance maladie",
+   "IJ"
+  ],
+  "score": 5,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": true,
+   "importance": 2,
+   "themes": [
+    "protection_sociale",
+    "maintien_emploi"
+   ],
+   "type": "Démarche / info pratique",
+   "titre": "Lancement de SOS IJ : un nouveau téléservice pour les médecins sur amelipro",
+   "resume": "L'Assurance Maladie lance SOS IJ, un téléservice sur amelipro permettant aux médecins de signaler les situations complexes d'arrêt de travail liées à l'emploi, aux IJ ou à la précarité. Un retour est assuré par la Sécurité sociale sous 48 heures pour accompagner les patients concernés.",
+   "a_retenir": "Informer les médecins traitants qu'ils peuvent mobiliser le dispositif SOS IJ via amelipro en cas de difficulté liée au poste de travail ou de fragilité sociale du salarié en arrêt.",
+   "date_effet": "2026-10-20"
+  },
+  "doublons_verifie": true
+ },
+ {
   "id": "f72aeb2a10ab88d3",
   "url": "https://occitanie.dreets.gouv.fr/Soutien-aux-commerces-touches-par-les-degradations-des-17-et-18-octobre-2026-en",
   "source": "dreets-occitanie",
