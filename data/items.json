@@ -1,5 +1,35 @@
 [
  {
+  "id": "43957afd28fdf6ca",
+  "url": "https://www.ash.tm.fr/management-reseaux/pour-un-nouveau-pacte-avec-les-associations-975472.php",
+  "source": "ash",
+  "date": "2026-10-22",
+  "collecte": "2026-10-22T15:55:31+00:00",
+  "titre_officiel": "Pour un nouveau pacte avec les associations",
+  "extrait": "[TRIBUNE] À l’initiative du Mouvess , fédérant les entreprises qui placent l'utilité sociale et écologique au cœur de leur modèle, et d’ APF France handicap , des dirigeants associatifs alertent sur la dégradation accélérée de la situation de l’ESS, et plus spécifiquement des associations d’intérêt général ou reconnues d’utilité publique.",
+  "themes": [
+   "aides_sociales"
+  ],
+  "mots_cles": [
+   "handicap"
+  ],
+  "score": 1,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "aides_sociales"
+   ],
+   "type": "Actualité",
+   "titre": "Alerte des dirigeants associatifs sur la situation de l économie sociale et solidaire",
+   "resume": "Extrait insuffisant : consulter la source.",
+   "a_retenir": "",
+   "date_effet": ""
+  }
+ },
+ {
   "id": "13e6cad2f7867000",
   "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055005831",
   "source": "jo",

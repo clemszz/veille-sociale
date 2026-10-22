@@ -1,5 +1,5 @@
 {
- "derniere_execution": "2026-10-22T13:46:47+00:00",
+ "derniere_execution": "2026-10-22T15:55:31+00:00",
  "sources": {
   "sp-particuliers": {
    "nom": "Service-Public.fr (particuliers)",
@@ -33,23 +33,25 @@
   },
   "travail-emploi": {
    "nom": "Ministère du Travail",
-   "ok": false,
-   "erreur": "503 Server Error: Service Unavailable for url: https://travail-emploi.gouv.fr/rss.xml"
+   "ok": true,
+   "lus": 50,
+   "nouveaux": 0
   },
   "solidarites": {
    "nom": "Ministère des Solidarités",
    "ok": false,
-   "erreur": "503 Server Error: Service Unavailable for url: https://solidarites.gouv.fr/rss.xml"
+   "erreur": "le site a renvoyé une page web au lieu du flux (blocage anti-robots, souvent temporaire)"
   },
   "handicap-gouv": {
    "nom": "Handicap.gouv.fr",
    "ok": false,
-   "erreur": "503 Server Error: Service Unavailable for url: https://handicap.gouv.fr/rss.xml"
+   "erreur": "le site a renvoyé une page web au lieu du flux (blocage anti-robots, souvent temporaire)"
   },
   "dreets-occitanie": {
    "nom": "DREETS Occitanie",
-   "ok": false,
-   "erreur": "503 Server Error: Service Unavailable for url: https://occitanie.dreets.gouv.fr/spip.php?page=backend"
+   "ok": true,
+   "lus": 10,
+   "nouveaux": 0
   },
   "ameli-assure": {
    "nom": "ameli.fr (assurés)",
@@ -77,8 +79,9 @@
   },
   "c2s": {
    "nom": "Complémentaire santé solidaire",
-   "ok": false,
-   "erreur": "503 Server Error: Service Unavailable for url: https://www.complementaire-sante-solidaire.gouv.fr/rss.xml"
+   "ok": true,
+   "lus": 10,
+   "nouveaux": 0
   },
   "agefiph": {
    "nom": "Agefiph",
@@ -120,7 +123,7 @@
    "nom": "ASH (Actualités sociales hebdomadaires)",
    "ok": true,
    "lus": 10,
-   "nouveaux": 0
+   "nouveaux": 1
   },
   "tissot-sante-securite": {
    "nom": "Éditions Tissot (santé-sécurité au travail)",
@@ -131,8 +134,9 @@
  },
  "ia": {
   "active": true,
-  "traites": 0,
-  "restants": 0
+  "traites": 1,
+  "restants": 0,
+  "modele": "gemini-3.5-flash-lite"
  },
- "nouveaux": 0
+ "nouveaux": 1
 }
