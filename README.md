@@ -45,8 +45,8 @@ GitHub qui l'intègre.
 - Tâche planifiée Windows « Veille AIPALS - relais ameli », installée par
   `installer_relais.ps1` : chaque jour à 8 h 45 et 5 min après chaque ouverture
   de session, sans fenêtre.
-- Journal : `%LOCALAPPDATA%\VeilleRelaiselais.log` (clone dédié du dépôt dans le
-  même dossier).
+- Journal : `%LOCALAPPDATA%\VeilleRelais\relais.log` (clone dédié du dépôt dans
+  le même dossier).
 - PC éteint : pas d'ameli ce jour-là ; au-delà de 4 jours sans relevé, ameli
   apparaît en ⚠ sur le site.
 - Sources `alerte: false` (Solidarités, Handicap.gouv.fr, qui bloquent les
