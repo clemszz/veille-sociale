@@ -1,11 +1,11 @@
 {
- "derniere_execution": "2026-10-23T06:42:56+00:00",
+ "derniere_execution": "2026-10-23T10:27:14+00:00",
  "sources": {
   "sp-particuliers": {
    "nom": "Service-Public.fr (particuliers)",
    "ok": true,
    "lus": 10,
-   "nouveaux": 0
+   "nouveaux": 1
   },
   "sp-pro": {
    "nom": "Service-Public.fr (professionnels)",
@@ -51,7 +51,7 @@
    "nom": "DREETS Occitanie",
    "ok": true,
    "lus": 10,
-   "nouveaux": 1
+   "nouveaux": 0
   },
   "ameli-assure": {
    "nom": "ameli.fr (assurés)",
@@ -68,8 +68,8 @@
   "assurance-retraite": {
    "nom": "L'Assurance retraite",
    "ok": true,
-   "lus": 196,
-   "nouveaux": 1
+   "lus": 195,
+   "nouveaux": 0
   },
   "agirc-arrco": {
    "nom": "Agirc-Arrco",
@@ -85,9 +85,8 @@
   },
   "agefiph": {
    "nom": "Agefiph",
-   "ok": true,
-   "lus": 10,
-   "nouveaux": 0
+   "ok": false,
+   "erreur": "HTTPSConnectionPool(host='www.agefiph.fr', port=443): Max retries exceeded with url: /rss.xml (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))"
   },
   "cnsa": {
    "nom": "CNSA",
@@ -123,21 +122,21 @@
    "nom": "ASH (Actualités sociales hebdomadaires)",
    "ok": true,
    "lus": 10,
-   "nouveaux": 1
+   "nouveaux": 0
   },
   "tissot-sante-securite": {
    "nom": "Éditions Tissot (santé-sécurité au travail)",
    "ok": true,
    "lus": 10,
-   "nouveaux": 1
+   "nouveaux": 0
   }
  },
  "ia": {
   "active": true,
-  "traites": 4,
+  "traites": 1,
   "restants": 0,
   "modele": "gemini-3.5-flash-lite",
   "doublons_regroupes": 0
  },
- "nouveaux": 4
+ "nouveaux": 1
 }

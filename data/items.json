@@ -126,6 +126,37 @@
   "doublons_verifie": true
  },
  {
+  "id": "b925966bc173ae81",
+  "url": "https://www.service-public.gouv.fr/particuliers/actualites/A19103?xtor=RSS-111",
+  "source": "sp-particuliers",
+  "date": "2026-10-22",
+  "collecte": "2026-10-23T10:27:14+00:00",
+  "titre_officiel": "Retraite de réversion : la procédure pour bénéficier du dispositif a été simplifiée",
+  "extrait": "Après le décès de votre époux ou de votre épouse, vous pouvez percevoir, sous certaines conditions, une partie de sa retraite. C’est le dispositif de retraite de réversion. Depuis quelques mois, le formulaire de demande est en partie prérempli. Cela doit notamment permettre de réduire les délais de traitement des demandes et le nombre d’erreurs potentielles au sein des formulaires. Service Public vous en dit plus sur les démarches pour obtenir la retraite de réversion.",
+  "themes": [
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "retraite"
+  ],
+  "score": 4,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": true,
+   "importance": 2,
+   "themes": [
+    "protection_sociale"
+   ],
+   "type": "Démarche / info pratique",
+   "titre": "Simplification de la procédure de demande de retraite de réversion",
+   "resume": "Le formulaire de demande de retraite de réversion est désormais en partie prérempli afin de réduire les délais de traitement et les erreurs. Cette prestation est accessible sous conditions d'âge (55 ans minimum) et de ressources aux conjoints et ex-conjoints mariés d'un salarié du secteur privé, indépendant ou contractuel.",
+   "a_retenir": "Informer les salariés veufs ou veuves que la démarche pour la retraite de réversion est simplifiée grâce à un formulaire désormais prérempli.",
+   "date_effet": "2026-10-23"
+  },
+  "doublons_verifie": true
+ },
+ {
   "id": "43957afd28fdf6ca",
   "url": "https://www.ash.tm.fr/management-reseaux/pour-un-nouveau-pacte-avec-les-associations-975472.php",
   "source": "ash",
