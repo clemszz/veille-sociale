@@ -1,5 +1,131 @@
 [
  {
+  "id": "f4fa4613c1d7a20e",
+  "url": "https://occitanie.dreets.gouv.fr/Les-laureats-de-l-appel-a-projets-regional-Mieux-Manger-Pour-Tous-2026",
+  "source": "dreets-occitanie",
+  "date": "2026-10-23",
+  "collecte": "2026-10-23T06:42:56+00:00",
+  "titre_officiel": "Les lauréats de l'appel à projets régional « Mieux Manger Pour Tous » 2026",
+  "extrait": "Dans le cadre de la 4 e année de mise en œuvre du programme national « Mieux Manger Pour Tous », la DREETS Occitanie a lancé en juin dernier un nouvel appel à projets. Ce dernier vise à soutenir des initiatives facilitant l'accès des personnes en situation de précarité à une alimentation saine et durable, et transformant l'organisation de la solidarité alimentaire. Au total, 115 projets ont été déposés, représentant une demande de financement de près de 6,7 millions d'euros. A l'issue de (…) - Cohésion sociale",
+  "themes": [
+   "aides_sociales"
+  ],
+  "mots_cles": [
+   "précarité"
+  ],
+  "score": 1,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "aides_sociales"
+   ],
+   "type": "Actualité",
+   "titre": "Appel à projets régional Mieux Manger Pour Tous en Occitanie",
+   "resume": "La DREETS Occitanie soutient des initiatives favorisant l'accès à une alimentation saine pour les personnes précaires.",
+   "a_retenir": "",
+   "date_effet": ""
+  }
+ },
+ {
+  "id": "6b561b0b4ab193b7",
+  "url": "https://www.lassuranceretraite.fr/portail-info/sites/pub/hors-menu/actualites-nationales/actif/2026/webinaire-interruptions-de-carri.html",
+  "source": "assurance-retraite",
+  "date": "2026-10-23",
+  "collecte": "2026-10-23T06:42:56+00:00",
+  "titre_officiel": "Webinaire Interruptions de carrière : quelles prises en compte pour ma retraite ?",
+  "extrait": "",
+  "themes": [
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "retraite"
+  ],
+  "score": 4,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": true,
+   "importance": 1,
+   "themes": [
+    "protection_sociale"
+   ],
+   "type": "Démarche / info pratique",
+   "titre": "Webinaire de l'Assurance retraite sur les interruptions de carrière",
+   "resume": "L'Assurance retraite organise un webinaire le 12 novembre 2026 pour expliquer l'impact des interruptions de carrière sur le calcul de la retraite.",
+   "a_retenir": "Orienter les salariés proches de la retraite s'interrogeant sur l'impact de leurs arrêts sur leur future pension vers les outils et webinaires de l'Assurance retraite.",
+   "date_effet": "2026-11-12"
+  },
+  "doublons_verifie": true
+ },
+ {
+  "id": "96f41afdebb2123b",
+  "url": "https://www.ash.tm.fr/juridique/jeunes-majeurs-proteges-une-proposition-de-loi-pour-leur-offrir-un-soutien-continu-975473.php",
+  "source": "ash",
+  "date": "2026-10-23",
+  "collecte": "2026-10-23T06:42:56+00:00",
+  "titre_officiel": "Jeunes majeurs protégés : une proposition de loi pour leur offrir un soutien continu",
+  "extrait": "Soumis aux députés pour examen le 29 octobre 2026, un texte déposé par Marianne Maximi (LFI) réclame une protection durable pour les jeunes majeurs de l’aide sociale à l'enfance et de la protection de l’enfance, dont la situation de précarité extrême a déjà été démontrée.",
+  "themes": [
+   "aides_sociales"
+  ],
+  "mots_cles": [
+   "aide sociale",
+   "précarité"
+  ],
+  "score": 2,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "aides_sociales"
+   ],
+   "type": "Projet de loi / réforme",
+   "titre": "Proposition de loi pour un soutien continu des jeunes majeurs protégés",
+   "resume": "Une proposition de loi examinée fin octobre 2026 vise à assurer une protection durable aux jeunes majeurs issus de l'aide sociale à l'enfance.",
+   "a_retenir": "",
+   "date_effet": ""
+  }
+ },
+ {
+  "id": "ae51da43e1d10666",
+  "url": "https://www.editions-tissot.fr/actualite/sante-securite/reforme-de-lindemnisation-de-lincapacite-permanente-at-mp-le-nouveau-regime-applicable-est-precise",
+  "source": "tissot-sante-securite",
+  "date": "2026-10-23",
+  "collecte": "2026-10-23T06:42:56+00:00",
+  "titre_officiel": "Réforme de l’indemnisation de l’incapacité permanente AT/MP : entrée en vigueur du nouveau régime le 1er novembre 2026",
+  "extrait": "Deux décrets publiés le 10 mai 2026, constituent le socle réglementaire de la réforme de l’indemnisation de l’incapacité permanente. Ces textes mettent fin au système fondé sur un taux unique d’incapacité permanente et consacrent désormais une logique duale distinguant, d’une part l’incapacité permanente professionnelle et, d’autre part, l’incapacité permanente fonctionnelle.",
+  "themes": [
+   "protection_sociale",
+   "maintien_emploi"
+  ],
+  "mots_cles": [
+   "AT/MP",
+   "incapacité permanente"
+  ],
+  "score": 5,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": true,
+   "importance": 3,
+   "themes": [
+    "protection_sociale",
+    "maintien_emploi"
+   ],
+   "type": "Décret",
+   "titre": "Entrée en vigueur du nouveau régime d'indemnisation de l'incapacité permanente AT/MP",
+   "resume": "Un nouveau régime d'indemnisation de l'incapacité permanente entre en vigueur le 1er novembre 2026, instaurant une distinction entre l'incapacité professionnelle et l'incapacité fonctionnelle.",
+   "a_retenir": "Informer les salariés concernés par un accident du travail ou une maladie professionnelle que le mode d'indemnisation de l'incapacité permanente évolue à compter du 1er novembre 2026.",
+   "date_effet": "2026-11-01"
+  },
+  "doublons_verifie": true
+ },
+ {
   "id": "43957afd28fdf6ca",
   "url": "https://www.ash.tm.fr/management-reseaux/pour-un-nouveau-pacte-avec-les-associations-975472.php",
   "source": "ash",

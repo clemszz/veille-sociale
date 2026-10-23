@@ -1,5 +1,5 @@
 {
- "derniere_execution": "2026-10-22T15:55:31+00:00",
+ "derniere_execution": "2026-10-23T06:42:56+00:00",
  "sources": {
   "sp-particuliers": {
    "nom": "Service-Public.fr (particuliers)",
@@ -16,7 +16,7 @@
   "jo": {
    "nom": "Journal officiel (Lois et décrets)",
    "ok": true,
-   "lus": 462,
+   "lus": 510,
    "nouveaux": 0
   },
   "vie-publique-lois": {
@@ -51,7 +51,7 @@
    "nom": "DREETS Occitanie",
    "ok": true,
    "lus": 10,
-   "nouveaux": 0
+   "nouveaux": 1
   },
   "ameli-assure": {
    "nom": "ameli.fr (assurés)",
@@ -68,8 +68,8 @@
   "assurance-retraite": {
    "nom": "L'Assurance retraite",
    "ok": true,
-   "lus": 194,
-   "nouveaux": 0
+   "lus": 196,
+   "nouveaux": 1
   },
   "agirc-arrco": {
    "nom": "Agirc-Arrco",
@@ -129,14 +129,15 @@
    "nom": "Éditions Tissot (santé-sécurité au travail)",
    "ok": true,
    "lus": 10,
-   "nouveaux": 0
+   "nouveaux": 1
   }
  },
  "ia": {
   "active": true,
-  "traites": 1,
+  "traites": 4,
   "restants": 0,
-  "modele": "gemini-3.5-flash-lite"
+  "modele": "gemini-3.5-flash-lite",
+  "doublons_regroupes": 0
  },
- "nouveaux": 1
+ "nouveaux": 4
 }
