@@ -1,5 +1,97 @@
 [
  {
+  "id": "6a25008e8780b20c",
+  "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055011949",
+  "source": "jo",
+  "date": "2026-10-24",
+  "collecte": "2026-10-24T09:45:13+00:00",
+  "titre_officiel": "Arrêté du 21 octobre 2026 relatif au financement des missions prévues au III quinquies de l'article 40 de la loi n° 2000-1257 du 23 décembre 2000 modifiée de financement de la sécurité sociale pour 2001",
+  "extrait": "",
+  "themes": [
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "financement de la sécurité sociale"
+  ],
+  "score": 4,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "protection_sociale"
+   ],
+   "type": "Arrêté",
+   "titre": "Financement des missions du numérique en santé dans les territoires pour 2026",
+   "resume": "Cet arrêté fixe les montants régionaux des dotations annuelles pour le financement des emplois consacrés au déploiement de la politique du numérique en santé. Il attribue une dotation spécifique pour la région Occitanie. Ce texte ne concerne pas directement l'accompagnement juridique des salariés.",
+   "a_retenir": "",
+   "date_effet": ""
+  }
+ },
+ {
+  "id": "9eff17bc3972b7c3",
+  "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055012004",
+  "source": "jo",
+  "date": "2026-10-24",
+  "collecte": "2026-10-24T09:45:13+00:00",
+  "titre_officiel": "Décret n° 2026-986 du 23 octobre 2026 relatif à la protection sociale complémentaire en matière de prévoyance des agents des collectivités territoriales et de leurs établissements publics",
+  "extrait": "Publics concernés : fonctionnaires et contractuels des collectivités territoriales et de leurs établissements publics. Objet : le décret fixe les conditions de la participation des collectivités territoriales et de leurs établissements publics au financement du volet prévoyance de la protection sociale complémentaire. A ce titre, il définit le champ d'application et des bénéficiaires, les modalités de mise en œuvre des conventions de participation dans le cadre des règles de la commande publique, de la participation des collectivités ainsi que les principes de solidarité. Il abroge les dispositions afférentes à la prévoyance contenues dans le décret n° 2011-1474 du 8 novembre 2011 relatif à…",
+  "themes": [
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "prévoyance"
+  ],
+  "score": 4,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "protection_sociale"
+   ],
+   "type": "Décret",
+   "titre": "Protection sociale complémentaire en prévoyance des agents des collectivités territoriales",
+   "resume": "Ce décret fixe les conditions de participation des collectivités territoriales au financement de la prévoyance de leurs agents. Il s'applique exclusivement à la fonction publique territoriale. Il est donc hors champ pour l'accompagnement des salariés du secteur privé.",
+   "a_retenir": "",
+   "date_effet": "2029-01-01"
+  }
+ },
+ {
+  "id": "0e0fb18be8cd2e28",
+  "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055012074",
+  "source": "jo",
+  "date": "2026-10-24",
+  "collecte": "2026-10-24T09:45:13+00:00",
+  "titre_officiel": "Décret n° 2026-987 du 23 octobre 2026 relatif à la protection sociale complémentaire en matière de couverture du risque prévoyance des agents publics territoriaux",
+  "extrait": "Publics concernés : fonctionnaires et contractuels des collectivités territoriales et de leurs établissements publics. Objet : le décret définit les garanties minimales des contrats destinés à couvrir les risques en matière de prévoyance en matière d'incapacité temporaire de travail et d'invalidité pour les agents relevant du régime de la Caisse nationale de retraite des agents des collectivités locales et ceux relevant du régime général. Il prévoit une clause de réexamen à trois ans des garanties minimales et abroge les dispositions afférentes à la prévoyance contenues dans le décret n° 2022-581 du 20 avril 2022 relatif aux garanties de protection sociale complémentaire et à la…",
+  "themes": [
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "invalidité",
+   "prévoyance",
+   "retraite"
+  ],
+  "score": 6,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "protection_sociale"
+   ],
+   "type": "Décret",
+   "titre": "Garanties minimales de prévoyance des agents publics territoriaux",
+   "resume": "Ce décret définit les garanties minimales des contrats de prévoyance en matière d'incapacité et d'invalidité pour les agents de la fonction publique territoriale. Il ne concerne pas les salariés du secteur privé accompagnés dans les services de santé au travail interentreprises.",
+   "a_retenir": "",
+   "date_effet": ""
+  }
+ },
+ {
   "id": "f4fa4613c1d7a20e",
   "url": "https://occitanie.dreets.gouv.fr/Les-laureats-de-l-appel-a-projets-regional-Mieux-Manger-Pour-Tous-2026",
   "source": "dreets-occitanie",
