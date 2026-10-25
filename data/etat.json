@@ -1,5 +1,5 @@
 {
- "derniere_execution": "2026-10-24T14:38:47+00:00",
+ "derniere_execution": "2026-10-25T10:04:46+00:00",
  "sources": {
   "sp-particuliers": {
    "nom": "Service-Public.fr (particuliers)",
@@ -16,8 +16,8 @@
   "jo": {
    "nom": "Journal officiel (Lois et décrets)",
    "ok": true,
-   "lus": 563,
-   "nouveaux": 0
+   "lus": 620,
+   "nouveaux": 1
   },
   "vie-publique-lois": {
    "nom": "Vie-publique.fr (lois)",
@@ -68,7 +68,7 @@
   "assurance-retraite": {
    "nom": "L'Assurance retraite",
    "ok": true,
-   "lus": 195,
+   "lus": 196,
    "nouveaux": 0
   },
   "agirc-arrco": {
@@ -134,8 +134,9 @@
  },
  "ia": {
   "active": true,
-  "traites": 0,
-  "restants": 0
+  "traites": 1,
+  "restants": 0,
+  "modele": "gemini-3.5-flash-lite"
  },
- "nouveaux": 0
+ "nouveaux": 1
 }
