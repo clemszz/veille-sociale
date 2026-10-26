@@ -1,5 +1,5 @@
 {
- "derniere_execution": "2026-10-26T11:28:37+00:00",
+ "derniere_execution": "2026-10-26T17:27:10+00:00",
  "sources": {
   "sp-particuliers": {
    "nom": "Service-Public.fr (particuliers)",
@@ -10,7 +10,7 @@
   "sp-pro": {
    "nom": "Service-Public.fr (professionnels)",
    "ok": true,
-   "lus": 235,
+   "lus": 236,
    "nouveaux": 0
   },
   "jo": {
@@ -29,7 +29,7 @@
    "nom": "Vie-publique.fr (actualités)",
    "ok": true,
    "lus": 10,
-   "nouveaux": 1
+   "nouveaux": 0
   },
   "travail-emploi": {
    "nom": "Ministère du Travail",
@@ -91,9 +91,8 @@
   },
   "cnsa": {
    "nom": "CNSA",
-   "ok": true,
-   "lus": 20,
-   "nouveaux": 0
+   "ok": false,
+   "erreur": "HTTPSConnectionPool(host='www.cnsa.fr', port=443): Max retries exceeded with url: /flux-rss.xml/article (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))"
   },
   "presanse": {
    "nom": "Présanse (fédération des SPSTI)",
@@ -129,15 +128,13 @@
    "nom": "Éditions Tissot (santé-sécurité au travail)",
    "ok": true,
    "lus": 10,
-   "nouveaux": 1
+   "nouveaux": 0
   }
  },
  "ia": {
   "active": true,
-  "traites": 2,
-  "restants": 0,
-  "modele": "gemini-3.5-flash-lite",
-  "doublons_regroupes": 0
+  "traites": 0,
+  "restants": 0
  },
- "nouveaux": 2
+ "nouveaux": 0
 }
