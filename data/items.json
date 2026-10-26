@@ -1,5 +1,70 @@
 [
  {
+  "id": "226dd0946bb4ec79",
+  "url": "https://www.editions-tissot.fr/actualite/sante-securite/inaptitude-a-quelles-conditions-lemployeur-peut-il-licencier-apres-un-refus-de-reclassement",
+  "source": "tissot-sante-securite",
+  "date": "2026-10-26",
+  "collecte": "2026-10-26T11:28:37+00:00",
+  "titre_officiel": "Inaptitude : à quelles conditions l’employeur peut-il licencier après un refus de reclassement ?",
+  "extrait": "Lorsqu’un salarié déclaré inapte refuse un poste de reclassement conforme aux exigences légales, l’employeur peut envisager son licenciement sans avoir à rechercher d’autres solutions. Il n’est pas non plus tenu de démontrer l’absence d’autres postes disponibles. Une précision importante sur l’étendue de son obligation de reclassement.",
+  "themes": [
+   "maintien_emploi",
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "inapte",
+   "inaptitude",
+   "reclassement"
+  ],
+  "score": 6,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": true,
+   "importance": 2,
+   "themes": [
+    "maintien_emploi",
+    "protection_sociale"
+   ],
+   "type": "Jurisprudence",
+   "titre": "Licenciement pour inaptitude après refus d'un poste de reclassement conforme",
+   "resume": "Lorsqu'un salarié déclaré inapte refuse un poste de reclassement conforme, l'employeur peut engager la procédure de licenciement sans avoir à chercher d'autres postes ni à prouver leur absence. Cette précision clarifie la limite de l'obligation de reclassement de l'employeur.",
+   "a_retenir": "Vérifier si le poste de reclassement refusé par le salarié était bien conforme aux préconisations du médecin du travail pour sécuriser la procédure de l'employeur.",
+   "date_effet": ""
+  },
+  "doublons_verifie": true
+ },
+ {
+  "id": "5a9e1d0b2de9a00f",
+  "url": "https://www.vie-publique.fr/en-bref/305083-securite-sociale-la-cour-des-comptes-appelle-reduire-le-deficit?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
+  "source": "vie-publique-actu",
+  "date": "2026-10-25",
+  "collecte": "2026-10-26T11:28:37+00:00",
+  "titre_officiel": "Sécurité sociale : la Cour des comptes appelle à réduire le déficit en 2027",
+  "extrait": "La Cour des comptes a publié en mai 2026 son rapport sur l’application des lois de financement de la Sécurité sociale. En complément, la commission des affaires sociales de l’Assemblée nationale lui a demandé une actualisation de la situation financière de la Sécurité sociale à l’automne 2026. Le point sur ses conclusions.",
+  "themes": [
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "financement de la sécurité sociale"
+  ],
+  "score": 1,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "protection_sociale"
+   ],
+   "type": "Actualité",
+   "titre": "Rapport de la Cour des comptes sur le déficit de la Sécurité sociale",
+   "resume": "La Cour des comptes a publié ses observations sur l'application des lois de financement de la Sécurité sociale et appelle à réduire le déficit pour 2027.",
+   "a_retenir": "",
+   "date_effet": ""
+  }
+ },
+ {
   "id": "33585070b58f13ab",
   "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055013248",
   "source": "jo",
