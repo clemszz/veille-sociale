@@ -1,5 +1,69 @@
 [
  {
+  "id": "4e488122a8a5f205",
+  "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055018536",
+  "source": "jo",
+  "date": "2026-10-27",
+  "collecte": "2026-10-27T07:46:41+00:00",
+  "titre_officiel": "Décision du 1er octobre 2026 de l'Union nationale des caisses d'assurance maladie relative à la liste des actes et prestations pris en charge par l'assurance maladie",
+  "extrait": "",
+  "themes": [
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "assurance maladie"
+  ],
+  "score": 4,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "protection_sociale"
+   ],
+   "type": "Décret",
+   "titre": "Modification de la nomenclature des actes de biologie médicale pour certains cancers",
+   "resume": "Extrait insuffisant : consulter la source.",
+   "a_retenir": "",
+   "date_effet": ""
+  }
+ },
+ {
+  "id": "27ffeb34ff8561c1",
+  "url": "https://www.ash.tm.fr/insertion/les-acteurs-de-linsertion-alertent-sur-la-bombe-a-retardement-du-budget-2027-975460.php",
+  "source": "ash",
+  "date": "2026-10-27",
+  "collecte": "2026-10-27T07:46:41+00:00",
+  "titre_officiel": "Les acteurs de l’insertion alertent sur la bombe à retardement du budget 2027",
+  "extrait": "Si la trajectoire budgétaire pour 2027 se maintient, ce sont près de 5600 emplois dans les structures de l’inclusion qui risquent de disparaitre. Un danger qui pèse autant sur les dispositifs eux-mêmes que sur les 1,4 million de personnes en situation de handicap, allocataires du RSA ou jeunes sans diplômes accompagnés vers le retour à l’emploi.",
+  "themes": [
+   "aides_sociales",
+   "maintien_emploi"
+  ],
+  "mots_cles": [
+   "handicap",
+   "RSA"
+  ],
+  "score": 2,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": true,
+   "importance": 2,
+   "themes": [
+    "aides_sociales",
+    "maintien_emploi"
+   ],
+   "type": "Actualité",
+   "titre": "Alerte des acteurs de l'insertion sur les risques budgétaires pour 2027",
+   "resume": "Les acteurs de l'insertion alertent sur un risque de suppression de postes dans les structures de l'inclusion pour 2027, menaçant l'accompagnement des personnes en situation de handicap, allocataires du RSA et jeunes sans diplôme. Aucun détail précis sur de nouvelles mesures ou des textes officiels n'est fourni à ce stade.",
+   "a_retenir": "Rester vigilant sur l'évolution des budgets et des dispositifs d'insertion professionnelle pour les publics fragiles.",
+   "date_effet": ""
+  },
+  "doublons_verifie": true
+ },
+ {
   "id": "226dd0946bb4ec79",
   "url": "https://www.editions-tissot.fr/actualite/sante-securite/inaptitude-a-quelles-conditions-lemployeur-peut-il-licencier-apres-un-refus-de-reclassement",
   "source": "tissot-sante-securite",
