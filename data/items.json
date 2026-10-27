@@ -1,5 +1,69 @@
 [
  {
+  "id": "4fb9476766bc1dee",
+  "url": "https://www.lassuranceretraite.fr/portail-info/sites/pub/hors-menu/actualites-nationales/actif/2026/avis-avenir-processus-retraite.html",
+  "source": "assurance-retraite",
+  "date": "2026-10-27",
+  "collecte": "2026-10-27T16:44:08+00:00",
+  "titre_officiel": "Construisons ensemble l’Assurance retraite de demain",
+  "extrait": "",
+  "themes": [
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "retraite"
+  ],
+  "score": 4,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "protection_sociale"
+   ],
+   "type": "Actualité",
+   "titre": "Consultation publique de l'Assurance retraite pour la période 2028-2032",
+   "resume": "L'Assurance retraite lance une consultation publique ouverte jusqu'au 9 novembre pour recueillir l'avis des usagers sur le service public de la retraite de demain. Cette démarche vise à adapter les futurs services aux attentes des actifs et futurs retraités.",
+   "a_retenir": "",
+   "date_effet": ""
+  }
+ },
+ {
+  "id": "96b472c0f63c1a54",
+  "url": "https://www.editions-tissot.fr/actualite/sante-securite/maladie-professionnelle-hors-tableau-lemployeur-peut-desormais-contester-le-taux-dipp-previsible",
+  "source": "tissot-sante-securite",
+  "date": "2026-10-27",
+  "collecte": "2026-10-27T16:44:08+00:00",
+  "titre_officiel": "Maladie professionnelle hors tableau : l’employeur peut désormais contester le taux d’IPP prévisible",
+  "extrait": "Pendant près de dix ans, la contestation du taux d'incapacité permanente prévisible, conditionnant la reconnaissance d'une maladie professionnelle hors tableau, était exclue. Un revirement jurisprudentiel majeur vient de changer la donne : l'employeur peut désormais discuter le bien-fondé de ce taux devant le juge.",
+  "themes": [
+   "protection_sociale",
+   "maintien_emploi"
+  ],
+  "mots_cles": [
+   "incapacité permanente",
+   "maladie professionnelle"
+  ],
+  "score": 5,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": true,
+   "importance": 2,
+   "themes": [
+    "protection_sociale",
+    "maintien_emploi"
+   ],
+   "type": "Jurisprudence",
+   "titre": "Contestation du taux d'IPP prévisible pour une maladie professionnelle hors tableau",
+   "resume": "Un revirement jurisprudentiel permet désormais à l'employeur de contester le taux d'incapacité permanente prévisible conditionnant la reconnaissance d'une maladie professionnelle hors tableau devant le juge.",
+   "a_retenir": "Informer les acteurs de l'entreprise de cette possibilité nouvelle pour l'employeur de contester le taux d'IPP prévisible dans les dossiers de maladies professionnelles hors tableau.",
+   "date_effet": ""
+  },
+  "doublons_verifie": true
+ },
+ {
   "id": "4e488122a8a5f205",
   "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055018536",
   "source": "jo",
