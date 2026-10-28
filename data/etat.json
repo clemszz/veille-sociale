@@ -1,5 +1,5 @@
 {
- "derniere_execution": "2026-10-28T11:33:46+00:00",
+ "derniere_execution": "2026-10-28T17:12:33+00:00",
  "sources": {
   "sp-particuliers": {
    "nom": "Service-Public.fr (particuliers)",
@@ -10,7 +10,7 @@
   "sp-pro": {
    "nom": "Service-Public.fr (professionnels)",
    "ok": true,
-   "lus": 237,
+   "lus": 238,
    "nouveaux": 0
   },
   "jo": {
@@ -51,7 +51,7 @@
    "nom": "DREETS Occitanie",
    "ok": true,
    "lus": 10,
-   "nouveaux": 1
+   "nouveaux": 0
   },
   "ameli-assure": {
    "nom": "ameli.fr (assurés)",
@@ -68,7 +68,7 @@
   "assurance-retraite": {
    "nom": "L'Assurance retraite",
    "ok": true,
-   "lus": 198,
+   "lus": 197,
    "nouveaux": 0
   },
   "agirc-arrco": {
@@ -133,9 +133,8 @@
  },
  "ia": {
   "active": true,
-  "traites": 1,
-  "restants": 0,
-  "modele": "gemini-3.5-flash-lite"
+  "traites": 0,
+  "restants": 0
  },
- "nouveaux": 1
+ "nouveaux": 0
 }
