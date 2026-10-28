@@ -1,11 +1,11 @@
 {
- "derniere_execution": "2026-10-28T07:44:35+00:00",
+ "derniere_execution": "2026-10-28T11:33:46+00:00",
  "sources": {
   "sp-particuliers": {
    "nom": "Service-Public.fr (particuliers)",
    "ok": true,
    "lus": 10,
-   "nouveaux": 1
+   "nouveaux": 0
   },
   "sp-pro": {
    "nom": "Service-Public.fr (professionnels)",
@@ -17,7 +17,7 @@
    "nom": "Journal officiel (Lois et décrets)",
    "ok": true,
    "lus": 554,
-   "nouveaux": 3
+   "nouveaux": 0
   },
   "vie-publique-lois": {
    "nom": "Vie-publique.fr (lois)",
@@ -51,7 +51,7 @@
    "nom": "DREETS Occitanie",
    "ok": true,
    "lus": 10,
-   "nouveaux": 0
+   "nouveaux": 1
   },
   "ameli-assure": {
    "nom": "ameli.fr (assurés)",
@@ -68,8 +68,8 @@
   "assurance-retraite": {
    "nom": "L'Assurance retraite",
    "ok": true,
-   "lus": 197,
-   "nouveaux": 1
+   "lus": 198,
+   "nouveaux": 0
   },
   "agirc-arrco": {
    "nom": "Agirc-Arrco",
@@ -122,21 +122,20 @@
    "nom": "ASH (Actualités sociales hebdomadaires)",
    "ok": true,
    "lus": 10,
-   "nouveaux": 1
+   "nouveaux": 0
   },
   "tissot-sante-securite": {
    "nom": "Éditions Tissot (santé-sécurité au travail)",
    "ok": true,
    "lus": 11,
-   "nouveaux": 1
+   "nouveaux": 0
   }
  },
  "ia": {
   "active": true,
-  "traites": 7,
+  "traites": 1,
   "restants": 0,
-  "modele": "gemini-3.5-flash-lite",
-  "doublons_regroupes": 0
+  "modele": "gemini-3.5-flash-lite"
  },
- "nouveaux": 7
+ "nouveaux": 1
 }

@@ -1,5 +1,35 @@
 [
  {
+  "id": "0c4416218f3cbbb8",
+  "url": "https://occitanie.dreets.gouv.fr/Inscrits-a-France-Travail-en-Occitanie-3e-trimestre-2026",
+  "source": "dreets-occitanie",
+  "date": "2026-10-28",
+  "collecte": "2026-10-28T11:33:46+00:00",
+  "titre_officiel": "Inscrits à France Travail en Occitanie – 3e trimestre 2026",
+  "extrait": "Au troisième trimestre 2026, en Occitanie, le nombre moyen de demandeurs d'emploi inscrits en catégories ABC augmente de 0,8 % sur un trimestre. Sur un an, la demande d'emploi augmente également en catégories ABC. - Demande d'emploi",
+  "themes": [
+   "maintien_emploi"
+  ],
+  "mots_cles": [
+   "France Travail"
+  ],
+  "score": 4,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "maintien_emploi"
+   ],
+   "type": "Actualité",
+   "titre": "Chiffres du chômage en Occitanie pour le troisième trimestre 2026",
+   "resume": "Extrait insuffisant : consulter la source.",
+   "a_retenir": "",
+   "date_effet": "2026-10-28"
+  }
+ },
+ {
   "id": "c61f18e186613b55",
   "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055020492",
   "source": "jo",
