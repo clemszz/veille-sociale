@@ -1,5 +1,5 @@
 {
- "derniere_execution": "2026-10-29T07:56:39+00:00",
+ "derniere_execution": "2026-10-29T07:58:07+00:00",
  "sources": {
   "sp-particuliers": {
    "nom": "Service-Public.fr (particuliers)",
@@ -17,7 +17,7 @@
    "nom": "Journal officiel (Lois et décrets)",
    "ok": true,
    "lus": 551,
-   "nouveaux": 2
+   "nouveaux": 0
   },
   "vie-publique-lois": {
    "nom": "Vie-publique.fr (lois)",
@@ -68,7 +68,7 @@
   "assurance-retraite": {
    "nom": "L'Assurance retraite",
    "ok": true,
-   "lus": 199,
+   "lus": 200,
    "nouveaux": 0
   },
   "agirc-arrco": {
@@ -128,15 +128,13 @@
    "nom": "Éditions Tissot (santé-sécurité au travail)",
    "ok": true,
    "lus": 11,
-   "nouveaux": 1
+   "nouveaux": 0
   }
  },
  "ia": {
   "active": true,
-  "traites": 3,
-  "restants": 0,
-  "modele": "gemini-3.5-flash-lite",
-  "doublons_regroupes": 0
+  "traites": 0,
+  "restants": 0
  },
- "nouveaux": 3
+ "nouveaux": 0
 }
