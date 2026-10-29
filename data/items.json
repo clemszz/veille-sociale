@@ -121,6 +121,36 @@
   "doublons_verifie": true
  },
  {
+  "id": "39d00ba9ba6b2675",
+  "url": "https://www.vie-publique.fr/loi/305162-aesh-corps-de-fonctionnaires-de-categorie-b-proposition-de-loi?egn-publisher=dila_vp&egn-name=informer_rss_lois",
+  "source": "vie-publique-lois",
+  "date": "2026-10-28",
+  "collecte": "2026-10-29T17:27:48+00:00",
+  "titre_officiel": "Proposition de loi visant à créer un corps de fonctionnaires de catégorie B pour les accompagnants d'élèves en situation de handicap",
+  "extrait": "La proposition de loi crée un corps de fonctionnaires de catégorie B pour les accompagnants des élèves en situation de handicap (AESH). Les AESH en poste à la rentrée 2026 seront titularisés, sans besoin de passer le concours. Ils seront rémunérés sur la base d'un équivalent temps plein, pour intégrer le travail accompli en dehors de la classe.",
+  "themes": [
+   "handicap"
+  ],
+  "mots_cles": [
+   "handicap"
+  ],
+  "score": 4,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "handicap"
+   ],
+   "type": "Projet de loi / réforme",
+   "titre": "Creation d un corps de fonctionnaires de categorie B pour les AESH",
+   "resume": "Extrait insuffisant : consulter la source.",
+   "a_retenir": "",
+   "date_effet": ""
+  }
+ },
+ {
   "id": "0c4416218f3cbbb8",
   "url": "https://occitanie.dreets.gouv.fr/Inscrits-a-France-Travail-en-Occitanie-3e-trimestre-2026",
   "source": "dreets-occitanie",

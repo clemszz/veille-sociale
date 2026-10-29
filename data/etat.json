@@ -1,5 +1,5 @@
 {
- "derniere_execution": "2026-10-29T11:42:32+00:00",
+ "derniere_execution": "2026-10-29T17:27:48+00:00",
  "sources": {
   "sp-particuliers": {
    "nom": "Service-Public.fr (particuliers)",
@@ -23,7 +23,7 @@
    "nom": "Vie-publique.fr (lois)",
    "ok": true,
    "lus": 100,
-   "nouveaux": 0
+   "nouveaux": 1
   },
   "vie-publique-actu": {
    "nom": "Vie-publique.fr (actualités)",
@@ -87,7 +87,7 @@
    "nom": "Agefiph",
    "ok": true,
    "lus": 10,
-   "nouveaux": 1
+   "nouveaux": 0
   },
   "cnsa": {
    "nom": "CNSA",
