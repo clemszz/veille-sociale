@@ -1,5 +1,96 @@
 [
  {
+  "id": "ce6eca231516bb57",
+  "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055023297",
+  "source": "jo",
+  "date": "2026-10-29",
+  "collecte": "2026-10-29T07:56:39+00:00",
+  "titre_officiel": "Arrêté du 27 octobre 2026 accordant aux militaires participant à l'opération « EUTM Somalie » le bénéfice des dispositions de l'article L. 4123-4 du code de la défense",
+  "extrait": "Publics concernés : militaires servant dans le cadre de l'opération « EUTM Somalie ». Objet : le texte permet d'accorder aux militaires, ainsi qu'à leurs ayants cause, servant dans le cadre de l'opération extérieure « EUTM Somalie », du 1er janvier 2027 au 31 décembre 2029, le bénéfice de la couverture majorée des risques invalidité et décès prévue par l'article L. 4123-4 du code de la défense. Entrée en vigueur : le texte entre en vigueur le lendemain de sa publication. Application : le présent arrêté est un texte autonome.",
+  "themes": [
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "invalidité"
+  ],
+  "score": 1,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "protection_sociale"
+   ],
+   "type": "Arrêté",
+   "titre": "Couverture majorée invalidité et décès pour les militaires de l'opération EUTM Somalie",
+   "resume": "Cet arrêté accorde la couverture majorée des risques invalidité et décès aux militaires participant à l'opération EUTM Somalie du 1er janvier 2027 au 31 décembre 2029.",
+   "a_retenir": "",
+   "date_effet": "2027-01-01"
+  }
+ },
+ {
+  "id": "777d6a419ab1429d",
+  "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055023444",
+  "source": "jo",
+  "date": "2026-10-29",
+  "collecte": "2026-10-29T07:56:39+00:00",
+  "titre_officiel": "Arrêté du 20 octobre 2026 relatif au référentiel sur la base duquel le point d'accueil départemental unique conduit un entretien avec toute personne accueillie au sein du réseau France services agriculture",
+  "extrait": "Publics concernés : les conseillers du point d'accueil départemental unique, les usagers du réseau France services agricultures. Objet : l'arrêté définit le référentiel sur la base duquel le conseiller du point d'accueil départemental unique conduit un entretien avec toute personne accueillie au sein du réseau France services agriculture. La fiche projet installation a pour objet de permettre l'identification des principales caractéristiques, atouts et limites du projet de la personne accueillie au sein du réseau France services agriculture et souhaitant s'installer en agriculture. La fiche projet transmission a pour objet de permettre l'identification des principales caractéristiques,…",
+  "themes": [
+   "maintien_emploi"
+  ],
+  "mots_cles": [
+   "France Services"
+  ],
+  "score": 4,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "maintien_emploi"
+   ],
+   "type": "Arrêté",
+   "titre": "Référentiel d'entretien pour le réseau France services agriculture",
+   "resume": "Cet arrêté définit les fiches projets d'installation et de transmission utilisées lors des entretiens du point d'accueil départemental unique pour les personnes souhaitant s'installer ou transmettre leur exploitation agricole.",
+   "a_retenir": "",
+   "date_effet": "2027-01-01"
+  }
+ },
+ {
+  "id": "b909b9ec439335eb",
+  "url": "https://www.editions-tissot.fr/actualite/sante-securite/ai-je-le-droit-de-creer-un-poste-de-travail-afin-de-reclasser-un-salarie-inapte",
+  "source": "tissot-sante-securite",
+  "date": "2026-10-29",
+  "collecte": "2026-10-29T07:56:39+00:00",
+  "titre_officiel": "Ai-je le droit de créer un poste de travail afin de reclasser un salarié inapte ?",
+  "extrait": "",
+  "themes": [
+   "maintien_emploi"
+  ],
+  "mots_cles": [
+   "inapte"
+  ],
+  "score": 4,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": true,
+   "importance": 2,
+   "themes": [
+    "maintien_emploi"
+   ],
+   "type": "Actualité",
+   "titre": "Création d'un poste de travail pour le reclassement d'un salarié inapte",
+   "resume": "Extrait insuffisant : consulter la source.",
+   "a_retenir": "",
+   "date_effet": ""
+  },
+  "doublons_verifie": true
+ },
+ {
   "id": "0c4416218f3cbbb8",
   "url": "https://occitanie.dreets.gouv.fr/Inscrits-a-France-Travail-en-Occitanie-3e-trimestre-2026",
   "source": "dreets-occitanie",
