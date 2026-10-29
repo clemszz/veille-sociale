@@ -1,5 +1,5 @@
 {
- "derniere_execution": "2026-10-29T07:58:07+00:00",
+ "derniere_execution": "2026-10-29T11:42:32+00:00",
  "sources": {
   "sp-particuliers": {
    "nom": "Service-Public.fr (particuliers)",
@@ -87,7 +87,7 @@
    "nom": "Agefiph",
    "ok": true,
    "lus": 10,
-   "nouveaux": 0
+   "nouveaux": 1
   },
   "cnsa": {
    "nom": "CNSA",
@@ -127,14 +127,15 @@
   "tissot-sante-securite": {
    "nom": "Éditions Tissot (santé-sécurité au travail)",
    "ok": true,
-   "lus": 11,
+   "lus": 10,
    "nouveaux": 0
   }
  },
  "ia": {
   "active": true,
-  "traites": 0,
-  "restants": 0
+  "traites": 1,
+  "restants": 0,
+  "modele": "gemini-3.5-flash-lite"
  },
- "nouveaux": 0
+ "nouveaux": 1
 }

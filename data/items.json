@@ -1,5 +1,35 @@
 [
  {
+  "id": "84f4e061bec07ab5",
+  "url": "https://www.agefiph.fr/espace-presse/tous-les-documents-presse/trophees-de-linnovation-lagefiph-recompense-4-reussites",
+  "source": "agefiph",
+  "date": "2026-10-29",
+  "collecte": "2026-10-29T11:42:32+00:00",
+  "titre_officiel": "Trophées de l’innovation : l'Agefiph récompense 4 réussites pour l’inclusion au travail",
+  "extrait": "Trophées de l’innovation : l'Agefiph récompense 4 réussites pour l’inclusion au travail b-rouhier@agef…",
+  "themes": [
+   "handicap"
+  ],
+  "mots_cles": [
+   "Agefiph"
+  ],
+  "score": 4,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "handicap"
+   ],
+   "type": "Actualité",
+   "titre": "Trophées de l'innovation de l'Agefiph",
+   "resume": "Extrait insuffisant : consulter la source.",
+   "a_retenir": "",
+   "date_effet": ""
+  }
+ },
+ {
   "id": "ce6eca231516bb57",
   "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055023297",
   "source": "jo",
