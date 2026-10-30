@@ -1,5 +1,66 @@
 [
  {
+  "id": "a69bb0d6a7ac19af",
+  "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055029959",
+  "source": "jo",
+  "date": "2026-10-30",
+  "collecte": "2026-10-30T07:45:16+00:00",
+  "titre_officiel": "Décret n°2026-1010 du 28 octobre 2026 relatif à la représentation de la direction générale de la recherche, de l'innovation et du numérique en santé à diverses instances du système de santé",
+  "extrait": "Publics concernés : personnels et administrations du ministère chargé de la santé, de l'action sociale et de la sécurité sociale. Objet : l'objet principal du décret est de prendre en compte les attributions de la nouvelle direction générale de la recherche, de l'innovation et du numérique en santé dans la représentation du ministère chargé de la santé à diverses instances consultatives. Entrée en vigueur : le texte entre en vigueur au 1er novembre 2026. Application : le présent décret est un texte autonome.",
+  "themes": [
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "action sociale"
+  ],
+  "score": 1,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "protection_sociale"
+   ],
+   "type": "Décret",
+   "titre": "Modification de la représentation ministérielle dans diverses instances du système de santé",
+   "resume": "Ce décret modifie la représentation de l'administration sanitaire dans plusieurs instances consultatives pour intégrer la nouvelle direction générale de la recherche, de l'innovation et du numérique en santé. Il entre en vigueur le 1er novembre 2026.",
+   "a_retenir": "",
+   "date_effet": "2026-11-01"
+  }
+ },
+ {
+  "id": "e2baccd1385391c5",
+  "url": "https://www.ash.tm.fr/juridique/aesh-un-nouveau-statut-de-fonctionnaire-pour-les-sortir-de-la-precarite-975555.php",
+  "source": "ash",
+  "date": "2026-10-30",
+  "collecte": "2026-10-30T07:45:16+00:00",
+  "titre_officiel": "AESH : un nouveau statut de fonctionnaire pour les sortir de la précarité",
+  "extrait": "Le 29 octobre 2026, à l'occasion de la niche parlementaire de La France insoumise (LFI), les députés ont étudié un texte créant un statut de fonctionnaire de catégorie B pour les accompagnants des élèves en situation de handicap (AESH). Une proposition adoptée à 166 voix contre 16.",
+  "themes": [
+   "handicap"
+  ],
+  "mots_cles": [
+   "handicap",
+   "précarité"
+  ],
+  "score": 5,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "handicap"
+   ],
+   "type": "Projet de loi / réforme",
+   "titre": "Proposition de création d'un statut de fonctionnaire de catégorie B pour les AESH",
+   "resume": "Les députés ont adopté en première lecture une proposition de loi visant à créer un statut de fonctionnaire de catégorie B pour les accompagnants des élèves en situation de handicap (AESH) afin de lutter contre leur précarité.",
+   "a_retenir": "",
+   "date_effet": ""
+  }
+ },
+ {
   "id": "84f4e061bec07ab5",
   "url": "https://www.agefiph.fr/espace-presse/tous-les-documents-presse/trophees-de-linnovation-lagefiph-recompense-4-reussites",
   "source": "agefiph",

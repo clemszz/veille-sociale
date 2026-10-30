@@ -1,5 +1,5 @@
 {
- "derniere_execution": "2026-10-29T17:27:48+00:00",
+ "derniere_execution": "2026-10-30T07:45:16+00:00",
  "sources": {
   "sp-particuliers": {
    "nom": "Service-Public.fr (particuliers)",
@@ -10,20 +10,20 @@
   "sp-pro": {
    "nom": "Service-Public.fr (professionnels)",
    "ok": true,
-   "lus": 238,
+   "lus": 237,
    "nouveaux": 0
   },
   "jo": {
    "nom": "Journal officiel (Lois et décrets)",
    "ok": true,
-   "lus": 551,
-   "nouveaux": 0
+   "lus": 555,
+   "nouveaux": 1
   },
   "vie-publique-lois": {
    "nom": "Vie-publique.fr (lois)",
    "ok": true,
    "lus": 100,
-   "nouveaux": 1
+   "nouveaux": 0
   },
   "vie-publique-actu": {
    "nom": "Vie-publique.fr (actualités)",
@@ -122,7 +122,7 @@
    "nom": "ASH (Actualités sociales hebdomadaires)",
    "ok": true,
    "lus": 10,
-   "nouveaux": 0
+   "nouveaux": 1
   },
   "tissot-sante-securite": {
    "nom": "Éditions Tissot (santé-sécurité au travail)",
@@ -133,9 +133,9 @@
  },
  "ia": {
   "active": true,
-  "traites": 1,
+  "traites": 2,
   "restants": 0,
   "modele": "gemini-3.5-flash-lite"
  },
- "nouveaux": 1
+ "nouveaux": 2
 }
