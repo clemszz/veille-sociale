@@ -61,6 +61,36 @@
   }
  },
  {
+  "id": "ed3c17b637f0ac43",
+  "url": "https://www.service-public.gouv.fr/particuliers/actualites/A19121?xtor=RSS-111",
+  "source": "sp-particuliers",
+  "date": "2026-10-29",
+  "collecte": "2026-10-30T11:34:03+00:00",
+  "titre_officiel": "Donnez votre avis sur l’Assurance retraite",
+  "extrait": "L'Assurance retraite va bientôt définir ses orientations stratégiques pour les années 2028 à 2032. Afin de répondre le plus justement possible aux attentes des usagers, l’organisme vous propose de donner votre avis jusqu’au 9 novembre.",
+  "themes": [
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "retraite"
+  ],
+  "score": 4,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "protection_sociale"
+   ],
+   "type": "Actualité",
+   "titre": "Consultation publique de l'Assurance retraite sur ses orientations stratégiques",
+   "resume": "L'Assurance retraite propose aux usagers de donner leur avis pour définir ses orientations stratégiques futures. Cette consultation citoyenne est ouverte jusqu'au 9 novembre 2026.",
+   "a_retenir": "",
+   "date_effet": ""
+  }
+ },
+ {
   "id": "84f4e061bec07ab5",
   "url": "https://www.agefiph.fr/espace-presse/tous-les-documents-presse/trophees-de-linnovation-lagefiph-recompense-4-reussites",
   "source": "agefiph",
