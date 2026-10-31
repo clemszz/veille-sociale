@@ -1,5 +1,5 @@
 {
- "derniere_execution": "2026-10-30T17:03:19+00:00",
+ "derniere_execution": "2026-10-31T11:09:09+00:00",
  "sources": {
   "sp-particuliers": {
    "nom": "Service-Public.fr (particuliers)",
@@ -10,14 +10,14 @@
   "sp-pro": {
    "nom": "Service-Public.fr (professionnels)",
    "ok": true,
-   "lus": 237,
+   "lus": 236,
    "nouveaux": 0
   },
   "jo": {
    "nom": "Journal officiel (Lois et décrets)",
    "ok": true,
-   "lus": 555,
-   "nouveaux": 0
+   "lus": 583,
+   "nouveaux": 1
   },
   "vie-publique-lois": {
    "nom": "Vie-publique.fr (lois)",
@@ -68,7 +68,7 @@
   "assurance-retraite": {
    "nom": "L'Assurance retraite",
    "ok": true,
-   "lus": 200,
+   "lus": 199,
    "nouveaux": 0
   },
   "agirc-arrco": {
@@ -114,9 +114,8 @@
   },
   "defenseur-droits": {
    "nom": "Défenseur des droits",
-   "ok": true,
-   "lus": 10,
-   "nouveaux": 0
+   "ok": false,
+   "erreur": "HTTPSConnectionPool(host='www.defenseurdesdroits.fr', port=443): Max retries exceeded with url: /rss/actualites (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.defenseurdesdroits.fr', port=443) at 0x7fe6543777d0>, 'Connection to www.defenseurdesdroits.fr timed out. (connect timeout=45)'))"
   },
   "ash": {
    "nom": "ASH (Actualités sociales hebdomadaires)",
@@ -133,8 +132,9 @@
  },
  "ia": {
   "active": true,
-  "traites": 0,
-  "restants": 0
+  "traites": 1,
+  "restants": 0,
+  "modele": "gemini-3.5-flash-lite"
  },
- "nouveaux": 0
+ "nouveaux": 1
 }
