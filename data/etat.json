@@ -1,5 +1,5 @@
 {
- "derniere_execution": "2026-10-31T16:10:15+00:00",
+ "derniere_execution": "2026-10-31T16:20:04+00:00",
  "sources": {
   "sp-particuliers": {
    "nom": "Service-Public.fr (particuliers)",
@@ -68,7 +68,7 @@
   "assurance-retraite": {
    "nom": "L'Assurance retraite",
    "ok": true,
-   "lus": 199,
+   "lus": 200,
    "nouveaux": 0
   },
   "agirc-arrco": {
