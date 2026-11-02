@@ -1,5 +1,41 @@
 [
  {
+  "id": "48c0c3b2d97a06b0",
+  "url": "https://www.editions-tissot.fr/actualite/sante-securite/at-mp-ce-que-revelent-les-chiffres-de-2025",
+  "source": "tissot-sante-securite",
+  "date": "2026-11-02",
+  "collecte": "2026-11-02T07:39:02+00:00",
+  "titre_officiel": "AT/MP : ce que révèlent les chiffres de 2025",
+  "extrait": "Le rapport annuel 2025 de l’Assurance Maladie - Risques professionnels dévoile les principaux chiffres de la sinistralité. Près de 700 000 accidents du travail, accidents de trajet et maladies professionnelles ont été reconnus et indemnisés en 2025. Si la fréquence des accidents du travail reste stable, les accidents de trajet et les maladies professionnelles poursuivent leur progression. Des résultats qui rappellent l’importance de la prévention dans les entreprises.",
+  "themes": [
+   "protection_sociale",
+   "maintien_emploi"
+  ],
+  "mots_cles": [
+   "accident du travail",
+   "assurance maladie",
+   "AT/MP",
+   "maladie professionnelle"
+  ],
+  "score": 7,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": true,
+   "importance": 1,
+   "themes": [
+    "protection_sociale",
+    "maintien_emploi"
+   ],
+   "type": "Actualité",
+   "titre": "Chiffres 2025 de la sinistralite des AT/MP et evolution des risques professionnels",
+   "resume": "Le rapport annuel 2025 de l'Assurance Maladie indique que pres de 700 000 accidents du travail, de trajet et maladies professionnelles ont ete reconnus. La frequence des accidents du travail reste stable, tandis que les accidents de trajet et les maladies professionnelles continuent de progresser.",
+   "a_retenir": "Utiliser ces donnees de sinistralite pour sensibiliser les employeurs et salaries a la prevention des risques professionnels et des maladies professionnelles.",
+   "date_effet": ""
+  },
+  "doublons_verifie": true
+ },
+ {
   "id": "fa004082e26c5d4e",
   "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055041164",
   "source": "jo",
