@@ -1,5 +1,35 @@
 [
  {
+  "id": "94d8f09e1d252a20",
+  "url": "https://www.agirc-arrco.fr/nous-connaitre/nos-actualites/lagirc-arrco-organise-une-edition-speciale-des-rencontres-retraite-dediee-a-la-parentalite/",
+  "source": "agirc-arrco",
+  "date": "2026-11-02",
+  "collecte": "2026-11-02T13:47:30+00:00",
+  "titre_officiel": "L’Agirc-Arrco organise une édition spéciale des Rencontres retraite dédiée à la parentalité",
+  "extrait": "Les Rencontres retraite reviennent du 21 au 27 novembre 2026 avec une édition spéciale dédiée à la parentalité : maternité, paternité, congé parental, adoption…",
+  "themes": [
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "retraite"
+  ],
+  "score": 4,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "protection_sociale"
+   ],
+   "type": "Actualité",
+   "titre": "Semaine d'information Agirc-Arrco sur la parentalité et la retraite",
+   "resume": "L'Agirc-Arrco organise une édition spéciale des Rencontres retraite du 21 au 27 novembre 2026, axée sur les impacts de la parentalité, comme la maternité ou le congé parental.",
+   "a_retenir": "",
+   "date_effet": "2026-11-21"
+  }
+ },
+ {
   "id": "48c0c3b2d97a06b0",
   "url": "https://www.editions-tissot.fr/actualite/sante-securite/at-mp-ce-que-revelent-les-chiffres-de-2025",
   "source": "tissot-sante-securite",
