@@ -1,5 +1,263 @@
 [
  {
+  "id": "f0efde09cb6caa15",
+  "url": "https://www.lassuranceretraite.fr/portail-info/sites/pub/hors-menu/actualites-nationales/retraite/2025/travailleurs-independants-le-cum.html",
+  "source": "assurance-retraite",
+  "date": "2026-11-02",
+  "collecte": "2026-11-02T20:49:03+00:00",
+  "titre_officiel": "Travailleurs indépendants : le cumul emploi-retraite",
+  "extrait": "",
+  "themes": [
+   "protection_sociale",
+   "maintien_emploi"
+  ],
+  "mots_cles": [
+   "cumul emploi-retraite",
+   "retraite"
+  ],
+  "score": 5,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": true,
+   "importance": 2,
+   "themes": [
+    "protection_sociale",
+    "maintien_emploi"
+   ],
+   "type": "Actualité",
+   "titre": "Conditions et modalités du cumul emploi-retraite pour les travailleurs indépendants",
+   "resume": "Les travailleurs indépendants retraités peuvent cumuler leur retraite avec des revenus d'activité de manière intégrale ou plafonnée selon certaines conditions d'âge et de durée d'assurance. Une seconde retraite peut parfois être attribuée en cas de poursuite ou de reprise d'activité. Les démarches s'effectuent directement en ligne via l'Assurance retraite.",
+   "a_retenir": "Vérifier que le travailleur indépendant retraité remplit les conditions de taux plein ou d'âge légal pour un cumul intégral de sa retraite avec ses nouveaux revenus d'activité.",
+   "date_effet": ""
+  },
+  "doublons_verifie": true
+ },
+ {
+  "id": "576a7cbbf8a2e490",
+  "url": "https://www.lassuranceretraite.fr/portail-info/sites/pub/hors-menu/actualites-nationales/retraite/2025/travailleurs-independants-la-rev.html",
+  "source": "assurance-retraite",
+  "date": "2026-11-02",
+  "collecte": "2026-11-02T20:49:03+00:00",
+  "titre_officiel": "Travailleurs indépendants : la revalorisation des retraites",
+  "extrait": "",
+  "themes": [
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "retraite",
+   "revalorisation"
+  ],
+  "score": 5,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": true,
+   "importance": 2,
+   "themes": [
+    "protection_sociale"
+   ],
+   "type": "Revalorisation / barème",
+   "titre": "Revalorisation des retraites de base et complémentaires des travailleurs indépendants",
+   "resume": "Les retraites des travailleurs indépendants font l'objet de revalorisations annuelles pour s'ajuster au coût de la vie. La retraite de base a été revalorisée de 0,9 % au 1er janvier 2026 et la retraite complémentaire de 1,4 % au 1er novembre 2026.",
+   "a_retenir": "Informer les retraités indépendants de la revalorisation de leur retraite complémentaire intervenue au 1er novembre 2026.",
+   "date_effet": "2026-11-01"
+  },
+  "doublons_verifie": true
+ },
+ {
+  "id": "0b6aa9a349471299",
+  "url": "https://www.lassuranceretraite.fr/portail-info/sites/pub/hors-menu/actualites-nationales/retraite/2025/travailleurs-independants-notre-.html",
+  "source": "assurance-retraite",
+  "date": "2026-11-02",
+  "collecte": "2026-11-02T20:49:03+00:00",
+  "titre_officiel": "Travailleurs indépendants : notre accompagnement pour une retraite sereine",
+  "extrait": "",
+  "themes": [
+   "aides_sociales",
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "retraite"
+  ],
+  "score": 4,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": true,
+   "importance": 2,
+   "themes": [
+    "aides_sociales",
+    "protection_sociale"
+   ],
+   "type": "Actualité",
+   "titre": "Aides sociales et dispositifs d'accompagnement pour les retraités indépendants",
+   "resume": "Les anciens travailleurs indépendants retraités peuvent bénéficier d'offres d'accompagnement et de prévention de l'Assurance retraite, telles que le plan d'aides OSCAR, l'accompagnement après hospitalisation ou l'aide aux situations de rupture. Une aide spécifique au conjoint survivant d'un montant maximal de 2 000 euros est également accessible sous conditions.",
+   "a_retenir": "Orienter les anciens indépendants fragilisés ou veufs vers l'Assurance retraite pour solliciter les plans d'aide ou l'aide au conjoint survivant.",
+   "date_effet": ""
+  },
+  "doublons_verifie": true
+ },
+ {
+  "id": "301022925a990686",
+  "url": "https://www.lassuranceretraite.fr/portail-info/sites/pub/hors-menu/actualites-nationales/retraite/2025/travailleurs-independants-la-r-1.html",
+  "source": "assurance-retraite",
+  "date": "2026-11-02",
+  "collecte": "2026-11-02T20:49:03+00:00",
+  "titre_officiel": "Travailleurs indépendants : la retraite de réversion",
+  "extrait": "",
+  "themes": [
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "retraite"
+  ],
+  "score": 4,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": true,
+   "importance": 2,
+   "themes": [
+    "protection_sociale"
+   ],
+   "type": "Actualité",
+   "titre": "Attribution et conditions de la retraite de réversion pour les travailleurs indépendants",
+   "resume": "Le conjoint ou l'ex-conjoint survivant d'un travailleur indépendant décédé peut percevoir une retraite de réversion sous condition d'âge, de durée de mariage et de ressources. La demande doit être effectuée en ligne auprès de l'ensemble des régimes de retraite concernés.",
+   "a_retenir": "Conseiller aux conjoints survivants d'effectuer leur demande de réversion en ligne dans l'année suivant le décès pour fixer le point de départ au premier jour du mois suivant.",
+   "date_effet": ""
+  },
+  "doublons_verifie": true
+ },
+ {
+  "id": "af4fe0b7482b625a",
+  "url": "https://www.lassuranceretraite.fr/portail-info/sites/pub/hors-menu/actualites-nationales/retraite/2025/travailleurs-independants-retrai.html",
+  "source": "assurance-retraite",
+  "date": "2026-11-02",
+  "collecte": "2026-11-02T20:49:03+00:00",
+  "titre_officiel": "Travailleurs indépendants retraités : connaissez-vous Mon espace personnel ?",
+  "extrait": "",
+  "themes": [
+   "protection_sociale",
+   "aides_sociales"
+  ],
+  "mots_cles": [
+   "retraite"
+  ],
+  "score": 4,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": true,
+   "importance": 1,
+   "themes": [
+    "protection_sociale",
+    "aides_sociales"
+   ],
+   "type": "Démarche / info pratique",
+   "titre": "Services en ligne de l'Assurance retraite pour les travailleurs indépendants retraités",
+   "resume": "Les travailleurs indépendants retraités disposent d'un espace personnel en ligne sur le site de l'Assurance retraite. Cet outil gratuit permet de consulter les paiements, de modifier ses coordonnées, de télécharger des attestations fiscales et de demander une retraite de réversion.",
+   "a_retenir": "Orienter les travailleurs indépendants retraités vers leur espace personnel en ligne pour leurs démarches et justificatifs.",
+   "date_effet": ""
+  },
+  "doublons_verifie": true
+ },
+ {
+  "id": "0eed4cb8ba875213",
+  "url": "https://www.lassuranceretraite.fr/portail-info/sites/pub/hors-menu/actualites-nationales/actif/2025/travailleurs-independants-la-r-2.html",
+  "source": "assurance-retraite",
+  "date": "2026-11-02",
+  "collecte": "2026-11-02T20:49:03+00:00",
+  "titre_officiel": "Travailleurs indépendants : la retraite complémentaire",
+  "extrait": "",
+  "themes": [
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "retraite"
+  ],
+  "score": 4,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": true,
+   "importance": 1,
+   "themes": [
+    "protection_sociale"
+   ],
+   "type": "Actualité",
+   "titre": "Historique et fonctionnement de la retraite complémentaire des travailleurs indépendants",
+   "resume": "L'Assurance retraite fait le point sur l'historique des régimes de retraite complémentaire des travailleurs indépendants avant leur intégration au régime général en 2020. Les points accumulés au fil de la carrière déterminent le montant de la retraite complémentaire.",
+   "a_retenir": "Rappeler aux assurés que la gestion de leur retraite de base et complémentaire est centralisée par l'Assurance retraite depuis 2020.",
+   "date_effet": ""
+  },
+  "doublons_verifie": true
+ },
+ {
+  "id": "17aa2795d3be8151",
+  "url": "https://www.lassuranceretraite.fr/portail-info/sites/pub/hors-menu/actualites-nationales/actif/2025/travailleurs-independants-la-ret.html",
+  "source": "assurance-retraite",
+  "date": "2026-11-02",
+  "collecte": "2026-11-02T20:49:03+00:00",
+  "titre_officiel": "Travailleurs indépendants : la retraite progressive",
+  "extrait": "",
+  "themes": [
+   "maintien_emploi",
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "retraite"
+  ],
+  "score": 4,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": true,
+   "importance": 2,
+   "themes": [
+    "maintien_emploi",
+    "protection_sociale"
+   ],
+   "type": "Démarche / info pratique",
+   "titre": "Conditions et modalités de la retraite progressive pour les travailleurs indépendants",
+   "resume": "Le dispositif de retraite progressive permet aux travailleurs indépendants d'exercer à temps réduit tout en percevant une fraction de leur pension. Il faut avoir au moins 60 ans, totaliser 150 trimestres et réduire ses revenus professionnels selon des seuils réglementaires.",
+   "a_retenir": "Vérifier que les conditions d'âge, de trimestres et de baisse de revenus sont remplies pour accompagner un indépendant vers la retraite progressive.",
+   "date_effet": ""
+  },
+  "doublons_verifie": true
+ },
+ {
+  "id": "9368779832d1259f",
+  "url": "https://www.lassuranceretraite.fr/portail-info/sites/pub/hors-menu/actualites-nationales/actif/2025/travailleurs-independants-decouv.html",
+  "source": "assurance-retraite",
+  "date": "2026-11-02",
+  "collecte": "2026-11-02T20:49:03+00:00",
+  "titre_officiel": "Travailleurs indépendants : découvrez nos services en ligne pour préparer votre retraite",
+  "extrait": "",
+  "themes": [
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "retraite"
+  ],
+  "score": 4,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": true,
+   "importance": 1,
+   "themes": [
+    "protection_sociale"
+   ],
+   "type": "Démarche / info pratique",
+   "titre": "Outils en ligne de l'Assurance retraite pour préparer la retraite des indépendants",
+   "resume": "L'Assurance retraite met à disposition des travailleurs indépendants des services en ligne pour préparer leur fin de carrière. L'espace personnel permet de simuler ses droits et de demander sa retraite, tandis que le service Mon agenda retraite offre un accompagnement personnalisé dès cinq ans avant le départ.",
+   "a_retenir": "Inviter les travailleurs indépendants à anticiper leur départ en activant les services en ligne et l'agenda retraite.",
+   "date_effet": ""
+  },
+  "doublons_verifie": true
+ },
+ {
   "id": "94d8f09e1d252a20",
   "url": "https://www.agirc-arrco.fr/nous-connaitre/nos-actualites/lagirc-arrco-organise-une-edition-speciale-des-rencontres-retraite-dediee-a-la-parentalite/",
   "source": "agirc-arrco",

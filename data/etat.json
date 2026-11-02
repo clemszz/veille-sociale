@@ -1,5 +1,5 @@
 {
- "derniere_execution": "2026-11-02T13:47:30+00:00",
+ "derniere_execution": "2026-11-02T20:49:03+00:00",
  "sources": {
   "sp-particuliers": {
    "nom": "Service-Public.fr (particuliers)",
@@ -69,13 +69,13 @@
    "nom": "L'Assurance retraite",
    "ok": true,
    "lus": 200,
-   "nouveaux": 0
+   "nouveaux": 8
   },
   "agirc-arrco": {
    "nom": "Agirc-Arrco",
    "ok": true,
    "lus": 10,
-   "nouveaux": 1
+   "nouveaux": 0
   },
   "c2s": {
    "nom": "Complémentaire santé solidaire",
@@ -133,9 +133,10 @@
  },
  "ia": {
   "active": true,
-  "traites": 1,
+  "traites": 8,
   "restants": 0,
-  "modele": "gemini-3.5-flash-lite"
+  "modele": "gemini-3.5-flash-lite",
+  "doublons_regroupes": 0
  },
- "nouveaux": 1
+ "nouveaux": 8
 }
