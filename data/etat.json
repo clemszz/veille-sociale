@@ -1,5 +1,5 @@
 {
- "derniere_execution": "2026-11-03T12:57:51+00:00",
+ "derniere_execution": "2026-11-03T18:29:05+00:00",
  "sources": {
   "sp-particuliers": {
    "nom": "Service-Public.fr (particuliers)",
@@ -10,7 +10,7 @@
   "sp-pro": {
    "nom": "Service-Public.fr (professionnels)",
    "ok": true,
-   "lus": 236,
+   "lus": 237,
    "nouveaux": 0
   },
   "jo": {
@@ -23,7 +23,7 @@
    "nom": "Vie-publique.fr (lois)",
    "ok": true,
    "lus": 100,
-   "nouveaux": 0
+   "nouveaux": 1
   },
   "vie-publique-actu": {
    "nom": "Vie-publique.fr (actualités)",
@@ -68,7 +68,7 @@
   "assurance-retraite": {
    "nom": "L'Assurance retraite",
    "ok": true,
-   "lus": 200,
+   "lus": 198,
    "nouveaux": 0
   },
   "agirc-arrco": {
@@ -98,7 +98,7 @@
    "nom": "Présanse (fédération des SPSTI)",
    "ok": true,
    "lus": 10,
-   "nouveaux": 1
+   "nouveaux": 0
   },
   "cassation": {
    "nom": "Cour de cassation (chambre sociale et 2e civile)",
@@ -114,9 +114,8 @@
   },
   "defenseur-droits": {
    "nom": "Défenseur des droits",
-   "ok": true,
-   "lus": 10,
-   "nouveaux": 0
+   "ok": false,
+   "erreur": "502 Server Error: Bad Gateway for url: https://www.defenseurdesdroits.fr/rss/actualites"
   },
   "ash": {
    "nom": "ASH (Actualités sociales hebdomadaires)",

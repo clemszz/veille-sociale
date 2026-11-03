@@ -135,6 +135,36 @@
   "doublons_verifie": true
  },
  {
+  "id": "c60ebb03db03a803",
+  "url": "https://www.vie-publique.fr/loi/303379-protection-des-enfants-projet-de-loi-2026-ase-controle-periscolaire?egn-publisher=dila_vp&egn-name=informer_rss_lois",
+  "source": "vie-publique-lois",
+  "date": "2026-11-02",
+  "collecte": "2026-11-03T18:29:05+00:00",
+  "titre_officiel": "Projet de loi relatif à la protection des enfants",
+  "extrait": "Peine de prison à perpétuité pour les auteurs de viols en série sur mineurs, renforcement du contrôle des antécédents judiciaires des adultes intervenant auprès d'enfants, parcours des enfants confiés à l'aide sociale à l'enfance sécurisé, nouvelle ordonnance de sûreté de l'enfant... Que contient le projet de loi sur la protection des enfants ?",
+  "themes": [
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "aide sociale"
+  ],
+  "score": 1,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "protection_sociale"
+   ],
+   "type": "Projet de loi / réforme",
+   "titre": "Projet de loi relatif à la protection des enfants",
+   "resume": "Extrait insuffisant : consulter la source.",
+   "a_retenir": "",
+   "date_effet": ""
+  }
+ },
+ {
   "id": "f0efde09cb6caa15",
   "url": "https://www.lassuranceretraite.fr/portail-info/sites/pub/hors-menu/actualites-nationales/retraite/2025/travailleurs-independants-le-cum.html",
   "source": "assurance-retraite",
