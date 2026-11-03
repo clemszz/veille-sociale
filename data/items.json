@@ -1,5 +1,108 @@
 [
  {
+  "id": "f4809726f9de1895",
+  "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055047286",
+  "source": "jo",
+  "date": "2026-11-03",
+  "collecte": "2026-11-03T09:06:38+00:00",
+  "titre_officiel": "Décret n° 2026-1016 du 2 novembre 2026 relatif au cumul emploi retraite",
+  "extrait": "Publics concernés : assurés et pensionnés relevant du régime général, des régimes spéciaux de la fonction publique et des ouvriers de l'Etat, des industries électriques et gazières, des clercs et employés de notaire, de la Société nationale des chemins de fer français, de la Régie autonome des transports parisiens, de la Banque de France, de l'Opéra national de Paris, de la Comédie-Française et des mines, du régime des professions libérales, du régime des avocats, du régime des non-salariés agricoles et du régime des salariés agricoles. Objet : le décret vise à harmoniser, entre les régimes de retraite, le dispositif de cumul emploi-retraite, en déterminant notamment les professions pour…",
+  "themes": [
+   "protection_sociale",
+   "maintien_emploi"
+  ],
+  "mots_cles": [
+   "cumul emploi-retraite",
+   "retraite"
+  ],
+  "score": 5,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": true,
+   "importance": 2,
+   "themes": [
+    "protection_sociale",
+    "maintien_emploi"
+   ],
+   "type": "Décret",
+   "titre": "Harmonisation du dispositif de cumul emploi-retraite entre les régimes",
+   "resume": "Ce décret harmonise le dispositif de cumul emploi-retraite entre les différents régimes de protection sociale en précisant les dérogations aux règles de cessation d'activité pour certaines professions. Il s'applique aux assurés dont la première pension de vieillesse prend effet à compter du 1er janvier 2027.",
+   "a_retenir": "Vérifier les conditions de cumul emploi-retraite spécifiques à l'activité des salariés concernés à partir de janvier 2027.",
+   "date_effet": "2027-01-01"
+  },
+  "doublons_verifie": true
+ },
+ {
+  "id": "679f2e43a583be56",
+  "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055047344",
+  "source": "jo",
+  "date": "2026-11-03",
+  "collecte": "2026-11-03T09:06:38+00:00",
+  "titre_officiel": "Décret n° 2026-1017 du 2 novembre 2026 relatif au cumul emploi retraite",
+  "extrait": "Publics concernés : assurés et pensionnés relevant du régime général, des régimes spéciaux de la fonction publique et des ouvriers de l'Etat, des industries électriques et gazières, des clercs et employés de notaire, de la Société nationale des chemins de fer français, de la Régie autonome des transports parisiens, de la Banque de France, de l'Opéra national de Paris, de la Comédie-Française et des mines, du régime des professions libérales, du régime des avocats, du régime des non-salariés agricoles et du régime des salariés agricoles. Objet : le présent décret vise principalement à harmoniser entre régimes le dispositif de cumul emploi-retraite, en déterminant notamment les modalités de…",
+  "themes": [
+   "protection_sociale",
+   "maintien_emploi"
+  ],
+  "mots_cles": [
+   "cumul emploi-retraite",
+   "retraite"
+  ],
+  "score": 5,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": true,
+   "importance": 2,
+   "themes": [
+    "protection_sociale",
+    "maintien_emploi"
+   ],
+   "type": "Décret",
+   "titre": "Modalités de réduction des pensions et obligations déclaratives du cumul emploi-retraite",
+   "resume": "Ce texte fixe les modalités pratiques de réduction des pensions de vieillesse et les obligations déclaratives pour les travailleurs non-salariés en situation de cumul emploi-retraite. Il s'applique aux assurés dont la première pension prend effet à compter du 1er janvier 2027.",
+   "a_retenir": "Informer les assurés non-salariés sur leurs nouvelles obligations déclaratives en cas de cumul emploi-retraite.",
+   "date_effet": "2027-01-01"
+  },
+  "doublons_verifie": true
+ },
+ {
+  "id": "60ab4a07113262ce",
+  "url": "https://www.editions-tissot.fr/actualite/sante-securite/1er-novembre-2026-ce-quil-faut-retenir-en-sante-et-securite-au-travail",
+  "source": "tissot-sante-securite",
+  "date": "2026-11-03",
+  "collecte": "2026-11-03T09:06:38+00:00",
+  "titre_officiel": "1er novembre 2026 : ce qu’il faut retenir en santé et sécurité au travail",
+  "extrait": "Le 1er novembre ne marque pas seulement le retour des pneus hiver et du Mois sans tabac ! Il s’accompagne aussi de plusieurs changements pour les employeurs : baisse du plafond des indemnités journalières AT/MP, réforme de l’indemnisation de l’incapacité permanente, ou encore nouvelles modalités de déclaration du congé supplémentaire de naissance.",
+  "themes": [
+   "protection_sociale",
+   "maintien_emploi"
+  ],
+  "mots_cles": [
+   "AT/MP",
+   "incapacité permanente",
+   "indemnités journalières"
+  ],
+  "score": 3,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": true,
+   "importance": 3,
+   "themes": [
+    "protection_sociale",
+    "maintien_emploi"
+   ],
+   "type": "Actualité",
+   "titre": "Changements en santé et sécurité au travail au 1er novembre 2026",
+   "resume": "Plusieurs évolutions entrent en vigueur au 1er novembre 2026, notamment la baisse du plafond des indemnités journalières AT/MP, une réforme de l'indemnisation de l'incapacité permanente et de nouvelles modalités pour le congé de naissance.",
+   "a_retenir": "Vérifier l'impact de la baisse du plafond des indemnités journalières AT/MP et de la réforme de l'incapacité permanente sur le budget des salariés en arrêt.",
+   "date_effet": "2026-11-01"
+  },
+  "doublons_verifie": true
+ },
+ {
   "id": "f0efde09cb6caa15",
   "url": "https://www.lassuranceretraite.fr/portail-info/sites/pub/hors-menu/actualites-nationales/retraite/2025/travailleurs-independants-le-cum.html",
   "source": "assurance-retraite",
