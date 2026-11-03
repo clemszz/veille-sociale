@@ -1,5 +1,37 @@
 [
  {
+  "id": "4e9161b694c0d1d1",
+  "url": "https://www.presanse.fr/actualites/passage-de-la-naf-2008-a-la-naf-2025-une-evolution-a-anticiper-dans-les-logiciels-metier-des-spsti/",
+  "source": "presanse",
+  "date": "2026-11-03",
+  "collecte": "2026-11-03T12:57:51+00:00",
+  "titre_officiel": "Passage de la NAF 2008 à la NAF 2025 : une évolution à anticiper dans les logiciels métier des SPSTI",
+  "extrait": "La NAF 2025 (Nomenclature d’Activités Française) remplace progressivement la NAF 2008 afin de mieux refléter… The post Passage de la NAF 2008 à la NAF 2025 : une évolution à anticiper dans les logiciels métier des SPSTI appeared first on Presanse .",
+  "themes": [
+   "maintien_emploi",
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "SPSTI"
+  ],
+  "score": 4,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "maintien_emploi",
+    "protection_sociale"
+   ],
+   "type": "Actualité",
+   "titre": "Passage de la NAF 2008 à la NAF 2025 pour les SPSTI",
+   "resume": "Extrait insuffisant : consulter la source.",
+   "a_retenir": "",
+   "date_effet": ""
+  }
+ },
+ {
   "id": "f4809726f9de1895",
   "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055047286",
   "source": "jo",
