@@ -1,5 +1,5 @@
 {
- "derniere_execution": "2026-11-04T13:14:07+00:00",
+ "derniere_execution": "2026-11-04T18:42:16+00:00",
  "sources": {
   "sp-particuliers": {
    "nom": "Service-Public.fr (particuliers)",
@@ -68,7 +68,7 @@
   "assurance-retraite": {
    "nom": "L'Assurance retraite",
    "ok": true,
-   "lus": 198,
+   "lus": 199,
    "nouveaux": 0
   },
   "agirc-arrco": {
@@ -92,7 +92,7 @@
   "cnsa": {
    "nom": "CNSA",
    "ok": false,
-   "erreur": "HTTPSConnectionPool(host='www.cnsa.fr', port=443): Max retries exceeded with url: /flux-rss.xml/article (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)')))"
+   "erreur": "HTTPSConnectionPool(host='www.cnsa.fr', port=443): Max retries exceeded with url: /flux-rss.xml/article (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))"
   },
   "presanse": {
    "nom": "Présanse (fédération des SPSTI)",
