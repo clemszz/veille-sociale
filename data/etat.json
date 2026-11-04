@@ -1,5 +1,5 @@
 {
- "derniere_execution": "2026-11-04T12:47:17+00:00",
+ "derniere_execution": "2026-11-04T13:14:07+00:00",
  "sources": {
   "sp-particuliers": {
    "nom": "Service-Public.fr (particuliers)",
@@ -17,7 +17,7 @@
    "nom": "Journal officiel (Lois et décrets)",
    "ok": true,
    "lus": 415,
-   "nouveaux": 2
+   "nouveaux": 0
   },
   "vie-publique-lois": {
    "nom": "Vie-publique.fr (lois)",
@@ -75,7 +75,7 @@
    "nom": "Agirc-Arrco",
    "ok": true,
    "lus": 10,
-   "nouveaux": 1
+   "nouveaux": 0
   },
   "c2s": {
    "nom": "Complémentaire santé solidaire",
@@ -92,7 +92,7 @@
   "cnsa": {
    "nom": "CNSA",
    "ok": false,
-   "erreur": "HTTPSConnectionPool(host='www.cnsa.fr', port=443): Max retries exceeded with url: /flux-rss.xml/article (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))"
+   "erreur": "HTTPSConnectionPool(host='www.cnsa.fr', port=443): Max retries exceeded with url: /flux-rss.xml/article (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)')))"
   },
   "presanse": {
    "nom": "Présanse (fédération des SPSTI)",
@@ -133,10 +133,8 @@
  },
  "ia": {
   "active": true,
-  "traites": 3,
-  "restants": 0,
-  "modele": "gemini-3.5-flash-lite",
-  "doublons_regroupes": 0
+  "traites": 0,
+  "restants": 0
  },
- "nouveaux": 3
+ "nouveaux": 0
 }
