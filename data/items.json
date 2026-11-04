@@ -1,5 +1,98 @@
 [
  {
+  "id": "1aa8bc849358fef5",
+  "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055053573",
+  "source": "jo",
+  "date": "2026-11-04",
+  "collecte": "2026-11-04T12:47:17+00:00",
+  "titre_officiel": "Décret n° 2026-1025 du 2 novembre 2026 modifiant le décret n° 2022-739 du 28 avril 2022 relatif à l'aide aux départements versée par la Caisse nationale de solidarité pour l'autonomie au titre de l'article 43 de la loi n° 2021-1754 du 23 décembre 2021 de financement de la sécurité sociale pour 2022",
+  "extrait": "Publics concernés : départements, caisse nationale de solidarité pour l'autonomie. Objet : le décret modifie le décret n° 2022-739 du 28 avril 2022 afin d'y ajouter les modalités d'application de l'aide prévue au II de l'article 43 de la loi n° 2021-1754 du 23 décembre 2021 de financement de la sécurité sociale pour 2022. Entrée en vigueur : le décret entre en vigueur le lendemain de sa publication. Application : le présent décret est pris en application de l'article 43 de la loi n° 2021-1754 du 23 décembre 2021 de financement de la sécurité sociale pour 2022.",
+  "themes": [
+   "aides_sociales"
+  ],
+  "mots_cles": [
+   "financement de la sécurité sociale"
+  ],
+  "score": 4,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "aides_sociales"
+   ],
+   "type": "Décret",
+   "titre": "Modalités d'attribution de l'aide de la CNSA aux départements",
+   "resume": "Extrait insuffisant : consulter la source.",
+   "a_retenir": "",
+   "date_effet": "2026-11-05"
+  }
+ },
+ {
+  "id": "6802b617e1d9178c",
+  "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055053933",
+  "source": "jo",
+  "date": "2026-11-04",
+  "collecte": "2026-11-04T12:47:17+00:00",
+  "titre_officiel": "Décision n° 2026-VP-48 du 2 novembre 2026 portant approbation du transfert, par voie de fusion-absorption, du portefeuille d'opérations d'une mutuelle",
+  "extrait": "",
+  "themes": [
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "mutuelle"
+  ],
+  "score": 4,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "protection_sociale"
+   ],
+   "type": "Actualité",
+   "titre": "Fusion-absorption et transfert de portefeuille entre mutuelles",
+   "resume": "La Société Mutualiste SEPR transfère son portefeuille de contrats à la mutuelle Sereina mutuelle, entraînant la caducité de son agrément à compter du 31 décembre 2026.",
+   "a_retenir": "",
+   "date_effet": "2026-12-31"
+  }
+ },
+ {
+  "id": "a9d6693c59d0dcc0",
+  "url": "https://www.agirc-arrco.fr/nous-connaitre/nos-actualites/departs-anticipes-pour-carriere-longue-tendances-et-evolutions/",
+  "source": "agirc-arrco",
+  "date": "2026-11-04",
+  "collecte": "2026-11-04T12:47:17+00:00",
+  "titre_officiel": "Départs anticipés pour carrière longue : tendances et évolutions",
+  "extrait": "Instaurée par la réforme des retraites de 2003, la retraite anticipée pour carrière longue a concerné plus de 2,4 millions de retraités Agirc-Arrco en 20 ans.",
+  "themes": [
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "carrière longue",
+   "départ anticipé",
+   "retraite"
+  ],
+  "score": 6,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": true,
+   "importance": 1,
+   "themes": [
+    "protection_sociale"
+   ],
+   "type": "Actualité",
+   "titre": "Bilan de la retraite anticipée pour carrière longue à l'Agirc-Arrco",
+   "resume": "Ce texte statistique indique que le dispositif de retraite anticipée pour carrière longue a bénéficié à plus de 2,4 millions de retraités du régime Agirc-Arrco en vingt ans depuis sa création en 2003.",
+   "a_retenir": "",
+   "date_effet": ""
+  },
+  "doublons_verifie": true
+ },
+ {
   "id": "4e9161b694c0d1d1",
   "url": "https://www.presanse.fr/actualites/passage-de-la-naf-2008-a-la-naf-2025-une-evolution-a-anticiper-dans-les-logiciels-metier-des-spsti/",
   "source": "presanse",

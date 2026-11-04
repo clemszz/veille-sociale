@@ -1,5 +1,5 @@
 {
- "derniere_execution": "2026-11-03T18:29:05+00:00",
+ "derniere_execution": "2026-11-04T12:47:17+00:00",
  "sources": {
   "sp-particuliers": {
    "nom": "Service-Public.fr (particuliers)",
@@ -16,14 +16,14 @@
   "jo": {
    "nom": "Journal officiel (Lois et décrets)",
    "ok": true,
-   "lus": 447,
-   "nouveaux": 0
+   "lus": 415,
+   "nouveaux": 2
   },
   "vie-publique-lois": {
    "nom": "Vie-publique.fr (lois)",
    "ok": true,
    "lus": 100,
-   "nouveaux": 1
+   "nouveaux": 0
   },
   "vie-publique-actu": {
    "nom": "Vie-publique.fr (actualités)",
@@ -75,7 +75,7 @@
    "nom": "Agirc-Arrco",
    "ok": true,
    "lus": 10,
-   "nouveaux": 0
+   "nouveaux": 1
   },
   "c2s": {
    "nom": "Complémentaire santé solidaire",
@@ -114,8 +114,9 @@
   },
   "defenseur-droits": {
    "nom": "Défenseur des droits",
-   "ok": false,
-   "erreur": "502 Server Error: Bad Gateway for url: https://www.defenseurdesdroits.fr/rss/actualites"
+   "ok": true,
+   "lus": 10,
+   "nouveaux": 0
   },
   "ash": {
    "nom": "ASH (Actualités sociales hebdomadaires)",
@@ -132,9 +133,10 @@
  },
  "ia": {
   "active": true,
-  "traites": 1,
+  "traites": 3,
   "restants": 0,
-  "modele": "gemini-3.5-flash-lite"
+  "modele": "gemini-3.5-flash-lite",
+  "doublons_regroupes": 0
  },
- "nouveaux": 1
+ "nouveaux": 3
 }
