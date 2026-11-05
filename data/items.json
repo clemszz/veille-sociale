@@ -1,5 +1,35 @@
 [
  {
+  "id": "89f7261e77a52b23",
+  "url": "https://travail-emploi.gouv.fr/semaine-europeenne-pour-lemploi-des-personnes-en-situation-de-handicap",
+  "source": "travail-emploi",
+  "date": "2026-11-05",
+  "collecte": "2026-11-05T18:49:29+00:00",
+  "titre_officiel": "Semaine européenne pour l’emploi des personnes en situation de handicap",
+  "extrait": "",
+  "themes": [
+   "handicap"
+  ],
+  "mots_cles": [
+   "handicap"
+  ],
+  "score": 4,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "handicap"
+   ],
+   "type": "Actualité",
+   "titre": "Semaine européenne pour l'emploi des personnes en situation de handicap",
+   "resume": "Extrait insuffisant : consulter la source.",
+   "a_retenir": "",
+   "date_effet": ""
+  }
+ },
+ {
   "id": "45cb94fa1986ea86",
   "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055057725",
   "source": "jo",
