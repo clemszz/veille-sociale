@@ -1,5 +1,193 @@
 [
  {
+  "id": "45cb94fa1986ea86",
+  "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055057725",
+  "source": "jo",
+  "date": "2026-11-05",
+  "collecte": "2026-11-05T13:27:07+00:00",
+  "titre_officiel": "Décret n° 2026-1026 du 3 novembre 2026 révisant et complétant les tableaux des maladies professionnelles annexés au livre IV du code de la sécurité sociale",
+  "extrait": "Publics concernés : personnes exposées aux risques professionnels mentionnés au tableau des maladies professionnelles n° 25 annexé au livre IV du code de la sécurité sociale, personnes atteintes d'un cancer broncho-pulmonaire primitif provoqué par l'inhalation de poussières de silice cristalline sous certaines conditions, employeurs, organismes de sécurité sociale, médecins. Objet : le décret modifie le tableau des maladies professionnelles n° 25 relatif aux « affections consécutives à l'inhalation de poussières minérales renfermant de la silice cristalline (quartz, cristobalite, tridymite), des silicates cristallins (kaolin, talc), du graphite ou de la houille ». Il supprime la mention «…",
+  "themes": [
+   "protection_sociale",
+   "maintien_emploi"
+  ],
+  "mots_cles": [
+   "maladie professionnelle"
+  ],
+  "score": 4,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": true,
+   "importance": 2,
+   "themes": [
+    "protection_sociale",
+    "maintien_emploi"
+   ],
+   "type": "Décret",
+   "titre": "Evolution des tableaux des maladies professionnelles liés à la silice et aux silicates",
+   "resume": "Ce décret modifie le tableau n° 25 des maladies professionnelles en y intégrant le lupus érythémateux systémique et crée un nouveau tableau n° 25 ter reconnaissant le cancer broncho-pulmonaire primitif provoqué par la silice cristalline, indépendamment de la silicose.",
+   "a_retenir": "Vérifier l'exposition professionnelle à la silice ou aux silicates pour les salariés atteints de pathologies respiratoires ou auto-immunes nouvellement reconnues.",
+   "date_effet": "2026-11-06"
+  },
+  "doublons_verifie": true
+ },
+ {
+  "id": "02856bb58c3f039f",
+  "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055057737",
+  "source": "jo",
+  "date": "2026-11-05",
+  "collecte": "2026-11-05T13:27:07+00:00",
+  "titre_officiel": "Décret n° 2026-1027 du 4 novembre 2026 relatif au transfert du financement des fonds dédiés aux projets de transition professionnelle à l'instance paritaire nationale mentionnée à l'article L. 6323-17-5-1 du code du travail",
+  "extrait": "Publics concernés : salariés de droit privé, instance paritaire nationale mentionnée à l'article L. 6323-17-5-1, France compétences, opérateurs de compétences, commissions paritaires interprofessionnelles régionales. Objet : le texte organise le circuit financier pour le financement des projets de transition professionnelle. Il prévoit ainsi le versement de l'enveloppe dédiée par France compétences à l'instance paritaire nationale, qui sera chargée de répartir et de verser l'enveloppe aux commissions paritaires interprofessionnelles régionales à partir du 1er janvier 2027. Il prévoit ainsi que l'instance paritaire nationale fixe les critères de répartition de cette dotation ainsi que le…",
+  "themes": [
+   "maintien_emploi"
+  ],
+  "mots_cles": [
+   "projet de transition professionnelle"
+  ],
+  "score": 4,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": true,
+   "importance": 1,
+   "themes": [
+    "maintien_emploi"
+   ],
+   "type": "Décret",
+   "titre": "Transfert de la gestion financière des projets de transition professionnelle à une instance paritaire nationale",
+   "resume": "Ce texte réorganise le circuit financier des projets de transition professionnelle en confiant à une instance paritaire nationale la répartition des enveloppes financières destinées aux commissions régionales à compter de 2027.",
+   "a_retenir": "",
+   "date_effet": "2027-01-01"
+  },
+  "doublons_verifie": true
+ },
+ {
+  "id": "f5572275f239e86d",
+  "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055057766",
+  "source": "jo",
+  "date": "2026-11-05",
+  "collecte": "2026-11-05T13:27:07+00:00",
+  "titre_officiel": "Décret n° 2026-1028 du 4 novembre 2026 portant diverses mesures relatives au financement du projet de transition professionnelle",
+  "extrait": "Publics concernés : salariés de droit privé, opérateurs de compétences, commissions paritaires interprofessionnelles régionales, instance paritaire nationale mentionnée à l'article L. 6323-17-5-1 du code du travail, France compétences. Objet : le décret précise les modalités de financement des projets de transition professionnelle par les commissions paritaires interprofessionnelles régionales et définit les modalités de versement par France compétences aux commissions paritaires interprofessionnelle régionales de la dotation consacrée au financement de ces projets. Il prévoit, en outre, l'association de l'instance paritaire nationale mentionnée à l'article L. 6323-17-5-1 du code du travail…",
+  "themes": [
+   "maintien_emploi"
+  ],
+  "mots_cles": [
+   "projet de transition professionnelle"
+  ],
+  "score": 4,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": true,
+   "importance": 1,
+   "themes": [
+    "maintien_emploi"
+   ],
+   "type": "Décret",
+   "titre": "Modalités de financement et de gestion des projets de transition professionnelle",
+   "resume": "Ce décret précise les modalités de versement des dotations par France compétences et l'implication de l'instance paritaire nationale dans le financement des projets de transition professionnelle.",
+   "a_retenir": "",
+   "date_effet": "2027-01-01"
+  },
+  "doublons_verifie": true
+ },
+ {
+  "id": "f255d929c85a0b87",
+  "url": "https://www.ash.tm.fr/protection-enfance/violences-conjugales-un-deces-enregistre-tous-les-trois-jours-975639.php",
+  "source": "ash",
+  "date": "2026-11-05",
+  "collecte": "2026-11-05T13:27:07+00:00",
+  "titre_officiel": "Violences conjugales : un décès enregistré tous les trois jours",
+  "extrait": "Sur la base d’un questionnaire envoyé aux services d’enquête, la délégation aux victimes, service du ministère de l'Intérieur chargé d'améliorer l'accueil, l'écoute et la prise en charge des victimes, a recueilli des éléments permettant de mettre en lumière les statistiques concernant les victimes de morts violentes au sein d’un couple au cours de l’année 2025.",
+  "themes": [
+   "aides_sociales"
+  ],
+  "mots_cles": [
+   "violences conjugales"
+  ],
+  "score": 4,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "aides_sociales"
+   ],
+   "type": "Actualité",
+   "titre": "Publication de statistiques sur les violences conjugales en 2025",
+   "resume": "Extrait insuffisant : consulter la source.",
+   "a_retenir": "",
+   "date_effet": ""
+  }
+ },
+ {
+  "id": "f464ba9137a45971",
+  "url": "https://www.editions-tissot.fr/actualite/sante-securite/semaine-europeenne-pour-lemploi-des-personnes-handicapees",
+  "source": "tissot-sante-securite",
+  "date": "2026-11-05",
+  "collecte": "2026-11-05T13:27:07+00:00",
+  "titre_officiel": "Semaine pour l’emploi des personnes handicapées : les temps forts à ne pas manquer !",
+  "extrait": "La 30e Semaine européenne pour l’emploi des personnes handicapées se tiendra du 16 au 22 novembre 2026. Pour cette édition anniversaire, de nombreux événements sont au programme partout en France, autour du thème « Démystifier, simplifier, accompagner. L’emploi pour toutes et tous ». Parmi les rendez-vous incontournables, le Duo Day sera une nouvelle fois à l’honneur.",
+  "themes": [
+   "handicap",
+   "maintien_emploi"
+  ],
+  "mots_cles": [
+   "handicap"
+  ],
+  "score": 4,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": true,
+   "importance": 1,
+   "themes": [
+    "handicap",
+    "maintien_emploi"
+   ],
+   "type": "Actualité",
+   "titre": "Semaine européenne pour l’emploi des personnes handicapées : du 16 au 22 novembre 2026",
+   "resume": "La 30e Semaine européenne pour l'emploi des personnes handicapées aura lieu du 16 au 22 novembre 2026 sur le thème de la simplification et de l'accompagnement. Cet événement national mettra notamment à l'honneur le dispositif Duo Day.",
+   "a_retenir": "Informer les employeurs et salariés des événements organisés localement durant cette semaine pour promouvoir l'emploi des personnes handicapées et le dispositif Duo Day.",
+   "date_effet": "2026-11-16"
+  },
+  "doublons_verifie": true
+ },
+ {
+  "id": "6258158bf38cb4bd",
+  "url": "https://www.service-public.gouv.fr/particuliers/actualites/A19126?xtor=RSS-111",
+  "source": "sp-particuliers",
+  "date": "2026-11-04",
+  "collecte": "2026-11-05T13:27:07+00:00",
+  "titre_officiel": "Une couverture prévoyance obligatoire pour les agents territoriaux d’ici 2029",
+  "extrait": "Deux décrets publiés au Journal officiel du 24 octobre 2026 précisent les modalités de la protection sociale complémentaire en matière de prévoyance des agents territoriaux. Ils définissent les conditions de mise en place d’un contrat collectif obligatoire, les cas de dispense d’adhésion ainsi que les garanties minimales qui devront être proposées aux agents d’ici le 1 er janvier 2029.",
+  "themes": [
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "prévoyance"
+  ],
+  "score": 4,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "protection_sociale"
+   ],
+   "type": "Décret",
+   "titre": "Mise en place d'une prévoyance obligatoire pour les agents territoriaux d'ici 2029",
+   "resume": "Deux décrets encadrent la mise en place d'un contrat collectif de prévoyance obligatoire dans la fonction publique territoriale couvrant l'incapacité, l'invalidité, l'inaptitude et le décès, avec une participation financière minimale des employeurs publics.",
+   "a_retenir": "",
+   "date_effet": "2029-01-01"
+  }
+ },
+ {
   "id": "1aa8bc849358fef5",
   "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055053573",
   "source": "jo",
