@@ -98,6 +98,39 @@
   "doublons_verifie": true
  },
  {
+  "id": "a427319c849b4f14",
+  "url": "https://www.vie-publique.fr/loi/305267-proposition-de-loi-demandeurs-logement-sollicitations-sexuelles-abusives?egn-publisher=dila_vp&egn-name=informer_rss_lois",
+  "source": "vie-publique-lois",
+  "date": "2026-11-05",
+  "collecte": "2026-11-06T18:05:37+00:00",
+  "titre_officiel": "Proposition de loi visant à protéger les demandeurs de logement contre les sollicitations sexuelles abusives",
+  "extrait": "La proposition de loi vise à renforcer la répression du délit d'abus de faiblesse en cas de précarité économique ou sociale en sanctionnant le fait de proposer un logement en contrepartie d'actes sexuels.",
+  "themes": [
+   "aides_sociales",
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "précarité"
+  ],
+  "score": 1,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": true,
+   "importance": 2,
+   "themes": [
+    "aides_sociales",
+    "protection_sociale"
+   ],
+   "type": "Projet de loi / réforme",
+   "titre": "Proposition de loi pour sanctionner l'obtention de faveurs sexuelles contre un logement",
+   "resume": "Cette proposition de loi vise à renforcer la répression de l'abus de faiblesse en pénalisant spécifiquement le fait de proposer un logement à une personne en situation de précarité en contrepartie d'actes sexuels.",
+   "a_retenir": "Orienter les salariés en grande précarité de logement vers les structures d'accompagnement juridique et associatif en cas de chantage au logement.",
+   "date_effet": ""
+  },
+  "doublons_verifie": true
+ },
+ {
   "id": "89f7261e77a52b23",
   "url": "https://travail-emploi.gouv.fr/semaine-europeenne-pour-lemploi-des-personnes-en-situation-de-handicap",
   "source": "travail-emploi",

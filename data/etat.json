@@ -1,5 +1,5 @@
 {
- "derniere_execution": "2026-11-06T13:10:59+00:00",
+ "derniere_execution": "2026-11-06T18:05:37+00:00",
  "sources": {
   "sp-particuliers": {
    "nom": "Service-Public.fr (particuliers)",
@@ -17,13 +17,13 @@
    "nom": "Journal officiel (Lois et décrets)",
    "ok": true,
    "lus": 397,
-   "nouveaux": 2
+   "nouveaux": 0
   },
   "vie-publique-lois": {
    "nom": "Vie-publique.fr (lois)",
    "ok": true,
    "lus": 100,
-   "nouveaux": 0
+   "nouveaux": 1
   },
   "vie-publique-actu": {
    "nom": "Vie-publique.fr (actualités)",
@@ -68,7 +68,7 @@
   "assurance-retraite": {
    "nom": "L'Assurance retraite",
    "ok": true,
-   "lus": 199,
+   "lus": 200,
    "nouveaux": 0
   },
   "agirc-arrco": {
@@ -114,15 +114,14 @@
   },
   "defenseur-droits": {
    "nom": "Défenseur des droits",
-   "ok": true,
-   "lus": 10,
-   "nouveaux": 0
+   "ok": false,
+   "erreur": "HTTPSConnectionPool(host='www.defenseurdesdroits.fr', port=443): Max retries exceeded with url: /rss/actualites (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.defenseurdesdroits.fr', port=443) at 0x7f7942d62720>, 'Connection to www.defenseurdesdroits.fr timed out. (connect timeout=45)'))"
   },
   "ash": {
    "nom": "ASH (Actualités sociales hebdomadaires)",
    "ok": true,
    "lus": 10,
-   "nouveaux": 1
+   "nouveaux": 0
   },
   "tissot-sante-securite": {
    "nom": "Éditions Tissot (santé-sécurité au travail)",
@@ -133,10 +132,10 @@
  },
  "ia": {
   "active": true,
-  "traites": 3,
+  "traites": 1,
   "restants": 0,
   "modele": "gemini-3.5-flash-lite",
   "doublons_regroupes": 0
  },
- "nouveaux": 3
+ "nouveaux": 1
 }
