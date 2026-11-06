@@ -1,5 +1,103 @@
 [
  {
+  "id": "069fc2051f26816a",
+  "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055063722",
+  "source": "jo",
+  "date": "2026-11-06",
+  "collecte": "2026-11-06T13:10:59+00:00",
+  "titre_officiel": "Arrêté du 29 octobre 2026 fixant pour l'année 2027 la dotation de la branche accidents du travail et maladies professionnelles du régime général au fonds d'investissement dans la prévention de l'usure professionnelle prévu à l'article L. 221-1-5 du code de la sécurité sociale",
+  "extrait": "",
+  "themes": [
+   "maintien_emploi",
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "accident du travail",
+   "maladie professionnelle",
+   "usure professionnelle"
+  ],
+  "score": 6,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": true,
+   "importance": 2,
+   "themes": [
+    "maintien_emploi",
+    "protection_sociale"
+   ],
+   "type": "Arrêté",
+   "titre": "Dotation de la branche AT/MP au fonds d'investissement dans la prévention de l'usure professionnelle pour 2027",
+   "resume": "Cet arrêté fixe à deux cents millions d'euros le montant de la dotation de la branche accidents du travail et maladies professionnelles au fonds d'investissement dans la prévention de l'usure professionnelle pour l'année 2027. Ce financement soutient les actions de prévention de l'usure professionnelle et du maintien dans l'emploi des salariés exposés à des facteurs de risques ergonomiques.",
+   "a_retenir": "Informer les employeurs que des financements existent pour prévenir l'usure professionnelle et accompagner le maintien dans l'emploi.",
+   "date_effet": "2027-01-01"
+  },
+  "doublons_verifie": true
+ },
+ {
+  "id": "ad26cd48961e92b0",
+  "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055064150",
+  "source": "jo",
+  "date": "2026-11-06",
+  "collecte": "2026-11-06T13:10:59+00:00",
+  "titre_officiel": "Arrêté du 2 novembre 2026 portant fixation au titre de l'année 2025 du montant des attributions individuelles revenant aux communes et groupements à fiscalité propre bénéficiaires de la dotation exceptionnelle pour la mise en œuvre d'une prime ou d'une revalorisation des personnels employés dans les centres de santé",
+  "extrait": "",
+  "themes": [
+   "aides_sociales"
+  ],
+  "mots_cles": [
+   "revalorisation"
+  ],
+  "score": 4,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "aides_sociales"
+   ],
+   "type": "Arrêté",
+   "titre": "Répartition des attributions individuelles de la dotation exceptionnelle pour les centres de santé au titre de 2025",
+   "resume": "Extrait insuffisant : consulter la source.",
+   "a_retenir": "",
+   "date_effet": ""
+  }
+ },
+ {
+  "id": "f59cd40cf6599611",
+  "url": "https://www.ash.tm.fr/insertion/plf-2027-les-acteurs-de-logement-dinsertion-unis-pour-presenter-leurs-preconisations-975650.php",
+  "source": "ash",
+  "date": "2026-11-06",
+  "collecte": "2026-11-06T13:10:59+00:00",
+  "titre_officiel": "PLF 2027 : les acteurs du logement d'insertion unis pour présenter leurs préconisations",
+  "extrait": "Alors que les débats sur le budget 2027 patinent, les acteurs du logement d’insertion défendent leurs propositions d’amendements pour rendre l’offre plus abordable. Parmi leurs principales demandes figurent le renforcement des APL et le financement de logements très sociaux.",
+  "themes": [
+   "aides_sociales",
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "APL"
+  ],
+  "score": 1,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": true,
+   "importance": 1,
+   "themes": [
+    "aides_sociales",
+    "protection_sociale"
+   ],
+   "type": "Actualité",
+   "titre": "Projet de loi de finances 2027 : propositions des acteurs du logement d'insertion",
+   "resume": "Les acteurs du logement d'insertion formulent des préconisations d'amendements dans le cadre du projet de loi de finances 2027, demandant notamment un renforcement des aides personnalisées au logement et un meilleur financement des logements très sociaux.",
+   "a_retenir": "Suivre l'évolution des débats budgétaires sur les APL pour l'accompagnement des salariés en précarité de logement.",
+   "date_effet": ""
+  },
+  "doublons_verifie": true
+ },
+ {
   "id": "89f7261e77a52b23",
   "url": "https://travail-emploi.gouv.fr/semaine-europeenne-pour-lemploi-des-personnes-en-situation-de-handicap",
   "source": "travail-emploi",
