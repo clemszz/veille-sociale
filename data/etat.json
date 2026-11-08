@@ -1,5 +1,5 @@
 {
- "derniere_execution": "2026-11-07T16:54:02+00:00",
+ "derniere_execution": "2026-11-08T12:08:30+00:00",
  "sources": {
   "sp-particuliers": {
    "nom": "Service-Public.fr (particuliers)",
@@ -10,13 +10,13 @@
   "sp-pro": {
    "nom": "Service-Public.fr (professionnels)",
    "ok": true,
-   "lus": 236,
+   "lus": 235,
    "nouveaux": 0
   },
   "jo": {
    "nom": "Journal officiel (Lois et décrets)",
    "ok": true,
-   "lus": 418,
+   "lus": 470,
    "nouveaux": 0
   },
   "vie-publique-lois": {
