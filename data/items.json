@@ -33,6 +33,36 @@
   "doublons_verifie": true
  },
  {
+  "id": "58b8dcf05ecb30f2",
+  "url": "https://www.vie-publique.fr/questions-reponses/281551-le-smic-en-7-questions?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
+  "source": "vie-publique-actu",
+  "date": "2026-11-08",
+  "collecte": "2026-11-09T21:28:57+00:00",
+  "titre_officiel": "Le SMIC en sept questions",
+  "extrait": "Le SMIC est le salaire minimum interprofessionnel de croissance. À combien s'élève-t-il actuellement ? Comment le SMIC est-il revalorisé ? Quand a-t-il été instauré ? Existe-t-il une législation européenne sur un salaire minimum ? Vie publique fait le point en sept questions.",
+  "themes": [
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "Smic"
+  ],
+  "score": 4,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "protection_sociale"
+   ],
+   "type": "Actualité",
+   "titre": "Le SMIC en sept questions",
+   "resume": "Extrait insuffisant : consulter la source.",
+   "a_retenir": "",
+   "date_effet": ""
+  }
+ },
+ {
   "id": "069fc2051f26816a",
   "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055063722",
   "source": "jo",

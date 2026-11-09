@@ -1,5 +1,5 @@
 {
- "derniere_execution": "2026-11-09T14:15:12+00:00",
+ "derniere_execution": "2026-11-09T21:28:57+00:00",
  "sources": {
   "sp-particuliers": {
    "nom": "Service-Public.fr (particuliers)",
@@ -16,7 +16,7 @@
   "jo": {
    "nom": "Journal officiel (Lois et décrets)",
    "ok": true,
-   "lus": 43,
+   "lus": 60,
    "nouveaux": 0
   },
   "vie-publique-lois": {
@@ -29,7 +29,7 @@
    "nom": "Vie-publique.fr (actualités)",
    "ok": true,
    "lus": 10,
-   "nouveaux": 0
+   "nouveaux": 1
   },
   "travail-emploi": {
    "nom": "Ministère du Travail",
@@ -126,15 +126,14 @@
    "nom": "Éditions Tissot (santé-sécurité au travail)",
    "ok": true,
    "lus": 11,
-   "nouveaux": 1
+   "nouveaux": 0
   }
  },
  "ia": {
   "active": true,
   "traites": 1,
   "restants": 0,
-  "modele": "gemini-3.5-flash-lite",
-  "doublons_regroupes": 0
+  "modele": "gemini-3.5-flash-lite"
  },
  "nouveaux": 1
 }
