@@ -1,5 +1,172 @@
 [
  {
+  "id": "9396a26207846f37",
+  "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055075316",
+  "source": "jo",
+  "date": "2026-11-10",
+  "collecte": "2026-11-10T13:43:31+00:00",
+  "titre_officiel": "Arrêté du 5 novembre 2026 modifiant la définition de la précarité énergétique dans le cadre du dispositif des certificats d'économies d'énergie et adaptant les bonifications des secteurs résidentiel et du transport",
+  "extrait": "Publics concernés : demandeurs de certificats d'économies d'énergie et bénéficiaires, dans le cadre du dispositif des certificats d'économies d'énergie. Objet : le présent arrêté modifie la définition de la précarité énergétique, dans le cadre du dispositif des certificats d'économies d'énergie. Il adapte, en conséquence, les bonifications des secteurs résidentiel et du transport et les modalités de déclaration des revenus des ménages. Il rehausse, pour les ménages en situation de précarité énergétique et les autres ménages, les bonifications pour la rénovation d'ampleur des maisons individuelles et des appartements. Entrée en vigueur : Les dispositions du présent arrêté entrent en vigueur…",
+  "themes": [
+   "aides_sociales",
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "précarité"
+  ],
+  "score": 4,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": true,
+   "importance": 2,
+   "themes": [
+    "aides_sociales",
+    "protection_sociale"
+   ],
+   "type": "Arrêté",
+   "titre": "Modification de la précarité énergétique et des bonifications pour la rénovation énergétique",
+   "resume": "Cet arrêté modifie la définition de la précarité énergétique et rehausse les bonifications pour la rénovation d'ampleur des logements. Ces dispositions s'appliquent aux opérations engagées à compter du 16 novembre 2026.",
+   "a_retenir": "Informer les salariés engagés dans des projets de rénovation énergétique des nouvelles conditions de bonification applicables dès novembre 2026.",
+   "date_effet": "2026-11-16"
+  },
+  "doublons_verifie": true
+ },
+ {
+  "id": "faaf1a44b533870e",
+  "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055075660",
+  "source": "jo",
+  "date": "2026-11-10",
+  "collecte": "2026-11-10T13:43:31+00:00",
+  "titre_officiel": "Avis relatif à l'agrément de l'avenant n° 3 du 8 octobre 2026 à la convention du 15 novembre 2024 relative à l'assurance chômage, portant modification de la liste relative au champ d'application de l'annexe VIII",
+  "extrait": "",
+  "themes": [
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "assurance chômage"
+  ],
+  "score": 4,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "protection_sociale"
+   ],
+   "type": "Actualité",
+   "titre": "Avis relatif à l'agrément de l'avenant n° 3 sur l'assurance chômage",
+   "resume": "Publication d'un avis de consultation publique concernant l'agrément d'un avenant modifiant la liste du champ d'application de l'annexe VIII de la convention d'assurance chômage.",
+   "a_retenir": "",
+   "date_effet": ""
+  }
+ },
+ {
+  "id": "48da9962aa7f3a25",
+  "url": "https://www.agirc-arrco.fr/nous-connaitre/nos-actualites/participer-au-webinaire-connaitre-lessentiel-de-ma-retraite/",
+  "source": "agirc-arrco",
+  "date": "2026-11-10",
+  "collecte": "2026-11-10T13:43:31+00:00",
+  "titre_officiel": "Participer au webinaire « Connaître l’essentiel de ma retraite »",
+  "extrait": "Inscrivez-vous à notre webinaire du vendredi 20 novembre 2026 à 13h30 pour comprendre l'essentiel de la retraite en 45 minutes. Des conseillers retraite répondront à toutes vos questions à la fin de la conférence.",
+  "themes": [
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "retraite"
+  ],
+  "score": 4,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": true,
+   "importance": 1,
+   "themes": [
+    "protection_sociale"
+   ],
+   "type": "Démarche / info pratique",
+   "titre": "Webinaire Agirc-Arrco sur l'essentiel de la retraite",
+   "resume": "L'Agirc-Arrco organise un webinaire d'information sur la retraite le 20 novembre 2026, avec un temps de questions-réponses.",
+   "a_retenir": "Orienter les salariés proches de la retraite vers ce type de webinaire pour les aider dans leurs démarches d'information.",
+   "date_effet": "2026-11-20"
+  },
+  "doublons_verifie": true
+ },
+ {
+  "id": "41f6db864723fc32",
+  "url": "https://www.ash.tm.fr/management-reseaux/conference-sociale-nexem-sinquiete-du-risque-de-smicardisation-du-secteur-975710.php",
+  "source": "ash",
+  "date": "2026-11-10",
+  "collecte": "2026-11-10T13:43:31+00:00",
+  "titre_officiel": "Conférence sociale : Nexem s’inquiète du risque de \"smicardisation\" du secteur",
+  "extrait": "Alors que le Premier ministre a promis une nouvelle augmentation du Smic, enjoignant aux branches de renégocier leurs grilles de salaires à la hausse, les employeurs du social et du médico-social à but non lucratif craignent que cette revalorisation du salaire minimum, en l’absence de compensation par l’État, n'entraîne un nouveau tassement des rémunérations.",
+  "themes": [
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "revalorisation",
+   "Smic"
+  ],
+  "score": 2,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "protection_sociale"
+   ],
+   "type": "Actualité",
+   "titre": "Conférence sociale : inquiétudes des employeurs du secteur médico-social face à la hausse du Smic",
+   "resume": "Les employeurs du secteur social et médico-social redoutent une 'smicardisation' en raison de la hausse du Smic et de l'absence de compensation étatique pour revaloriser les grilles de salaires.",
+   "a_retenir": "",
+   "date_effet": ""
+  }
+ },
+ {
+  "id": "f64cf9c0781b6036",
+  "url": "https://www.editions-tissot.fr/actualite/sante-securite/harcelement-moral-la-repetition-dun-meme-comportement-peut-elle-suffire",
+  "source": "tissot-sante-securite",
+  "date": "2026-11-10",
+  "collecte": "2026-11-10T13:43:31+00:00",
+  "titre_officiel": "Harcèlement moral : la répétition d’un même comportement peut-elle suffire ?",
+  "extrait": "Des agissements répétés peuvent caractériser un harcèlement moral, même lorsqu’ils sont de même nature. Pour apprécier une telle situation, les juges doivent examiner l'ensemble des faits invoqués par le salarié, en tenant compte notamment des éléments médicaux produits.",
+  "themes": [
+   "maintien_emploi"
+  ],
+  "mots_cles": [
+   "harcèlement moral"
+  ],
+  "score": 4,
+  "ia": {
+   "statut": "en_attente",
+   "essais": 1
+  }
+ },
+ {
+  "id": "cd851ed8ecbc5e25",
+  "url": "https://www.service-public.gouv.fr/particuliers/actualites/A18914?xtor=RSS-111",
+  "source": "sp-particuliers",
+  "date": "2026-11-09",
+  "collecte": "2026-11-10T13:43:31+00:00",
+  "titre_officiel": "Des nouvelles règles pour le cumul emploi-retraite à partir de 2027",
+  "extrait": "Le cumul emploi-retraite vous permet de reprendre ou de poursuivre une activité professionnelle pendant votre retraite, sous certaines conditions. La loi de financement de la Sécurité sociale pour 2026 modifie le dispositif à compter du 1 er janvier 2027. Les 2 décrets attendus concernant les modalités de la réforme sont parus au Journal officiel du 3 novembre 2026.",
+  "themes": [
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "cumul emploi-retraite",
+   "financement de la sécurité sociale",
+   "retraite"
+  ],
+  "score": 6,
+  "ia": {
+   "statut": "en_attente",
+   "essais": 1
+  }
+ },
+ {
   "id": "5f4faf42fbbc57a1",
   "url": "https://www.editions-tissot.fr/actualite/sante-securite/preconisations-du-medecin-du-travail-leur-justification-medicale-doit-etre-examinee-en-cas-de-contestation",
   "source": "tissot-sante-securite",

@@ -1,11 +1,11 @@
 {
- "derniere_execution": "2026-11-09T21:28:57+00:00",
+ "derniere_execution": "2026-11-10T13:43:31+00:00",
  "sources": {
   "sp-particuliers": {
    "nom": "Service-Public.fr (particuliers)",
    "ok": true,
    "lus": 10,
-   "nouveaux": 0
+   "nouveaux": 1
   },
   "sp-pro": {
    "nom": "Service-Public.fr (professionnels)",
@@ -16,8 +16,8 @@
   "jo": {
    "nom": "Journal officiel (Lois et décrets)",
    "ok": true,
-   "lus": 60,
-   "nouveaux": 0
+   "lus": 108,
+   "nouveaux": 2
   },
   "vie-publique-lois": {
    "nom": "Vie-publique.fr (lois)",
@@ -29,7 +29,7 @@
    "nom": "Vie-publique.fr (actualités)",
    "ok": true,
    "lus": 10,
-   "nouveaux": 1
+   "nouveaux": 0
   },
   "travail-emploi": {
    "nom": "Ministère du Travail",
@@ -56,24 +56,24 @@
   "ameli-assure": {
    "nom": "ameli.fr (assurés)",
    "ok": false,
-   "erreur": "relais local sans nouvelles depuis 5 jours (PC éteint ?)"
+   "erreur": "relais local sans nouvelles depuis 6 jours (PC éteint ?)"
   },
   "ameli-medecin": {
    "nom": "ameli.fr (médecins : arrêts de travail, ALD...)",
    "ok": false,
-   "erreur": "relais local sans nouvelles depuis 5 jours (PC éteint ?)"
+   "erreur": "relais local sans nouvelles depuis 6 jours (PC éteint ?)"
   },
   "assurance-retraite": {
    "nom": "L'Assurance retraite",
    "ok": true,
-   "lus": 200,
+   "lus": 199,
    "nouveaux": 0
   },
   "agirc-arrco": {
    "nom": "Agirc-Arrco",
    "ok": true,
    "lus": 10,
-   "nouveaux": 0
+   "nouveaux": 1
   },
   "c2s": {
    "nom": "Complémentaire santé solidaire",
@@ -120,20 +120,22 @@
    "nom": "ASH (Actualités sociales hebdomadaires)",
    "ok": true,
    "lus": 10,
-   "nouveaux": 0
+   "nouveaux": 1
   },
   "tissot-sante-securite": {
    "nom": "Éditions Tissot (santé-sécurité au travail)",
    "ok": true,
    "lus": 11,
-   "nouveaux": 0
+   "nouveaux": 1
   }
  },
  "ia": {
   "active": true,
-  "traites": 1,
-  "restants": 0,
-  "modele": "gemini-3.5-flash-lite"
+  "traites": 4,
+  "restants": 2,
+  "message": "Dernière erreur IA : Gemini HTTP 503 : {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNA",
+  "modele": "gemini-3.5-flash-lite",
+  "doublons_regroupes": 0
  },
- "nouveaux": 1
+ "nouveaux": 6
 }
