@@ -133,16 +133,29 @@
   "titre_officiel": "Harcèlement moral : la répétition d’un même comportement peut-elle suffire ?",
   "extrait": "Des agissements répétés peuvent caractériser un harcèlement moral, même lorsqu’ils sont de même nature. Pour apprécier une telle situation, les juges doivent examiner l'ensemble des faits invoqués par le salarié, en tenant compte notamment des éléments médicaux produits.",
   "themes": [
-   "maintien_emploi"
+   "maintien_emploi",
+   "protection_sociale"
   ],
   "mots_cles": [
    "harcèlement moral"
   ],
   "score": 4,
   "ia": {
-   "statut": "en_attente",
-   "essais": 1
-  }
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": true,
+   "importance": 2,
+   "themes": [
+    "maintien_emploi",
+    "protection_sociale"
+   ],
+   "type": "Jurisprudence",
+   "titre": "Harcèlement moral : la répétition d'un même comportement peut suffire à le caractériser",
+   "resume": "La jurisprudence rappelle que des agissements répétés de même nature peuvent constituer un harcèlement moral. Les juges doivent examiner l'ensemble des faits invoqués par le salarié en s'appuyant notamment sur les documents médicaux.",
+   "a_retenir": "Conseiller au salarié qui s'estime harcelé de consigner tous les faits précis et de rassembler les éléments médicaux attestant de l'impact sur sa santé.",
+   "date_effet": ""
+  },
+  "doublons_verifie": true
  },
  {
   "id": "cd851ed8ecbc5e25",
@@ -153,7 +166,8 @@
   "titre_officiel": "Des nouvelles règles pour le cumul emploi-retraite à partir de 2027",
   "extrait": "Le cumul emploi-retraite vous permet de reprendre ou de poursuivre une activité professionnelle pendant votre retraite, sous certaines conditions. La loi de financement de la Sécurité sociale pour 2026 modifie le dispositif à compter du 1 er janvier 2027. Les 2 décrets attendus concernant les modalités de la réforme sont parus au Journal officiel du 3 novembre 2026.",
   "themes": [
-   "protection_sociale"
+   "protection_sociale",
+   "maintien_emploi"
   ],
   "mots_cles": [
    "cumul emploi-retraite",
@@ -162,9 +176,22 @@
   ],
   "score": 6,
   "ia": {
-   "statut": "en_attente",
-   "essais": 1
-  }
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": true,
+   "importance": 3,
+   "themes": [
+    "protection_sociale",
+    "maintien_emploi"
+   ],
+   "type": "Décret",
+   "titre": "Nouvelles règles et harmonisation du cumul emploi-retraite à compter de 2027",
+   "resume": "Les décrets d'application de la réforme du cumul emploi-retraite fixent les nouvelles conditions applicables aux assurés obtenant leur première pension à partir de 2027. Le dispositif supprime l'ancienne distinction entre cumul intégral et plafonné au profit de critères liés à l'âge et à des plafonds de revenus.",
+   "a_retenir": "Informer les salariés proches de la retraite que les règles du cumul emploi-retraite changent pour les primo-pensionnés à partir du 1er janvier 2027.",
+   "date_effet": "2027-01-01"
+  },
+  "doublon_de": "f4809726f9de1895",
+  "doublons_verifie": true
  },
  {
   "id": "5f4faf42fbbc57a1",
