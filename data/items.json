@@ -1,5 +1,35 @@
 [
  {
+  "id": "7c70384b076fbd42",
+  "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055078634",
+  "source": "jo",
+  "date": "2026-11-11",
+  "collecte": "2026-11-11T12:54:57+00:00",
+  "titre_officiel": "Arrêté du 8 novembre 2026 fixant pour 2026 le montant de la dotation des régimes obligatoires d'assurance maladie versée à l'Agence de service et de paiement (ASP) au titre de la gestion administrative et financière des contrats d'engagement de service public (CESP) mentionnés à l'article L. 632-6 du code de l'éducation",
+  "extrait": "",
+  "themes": [
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "assurance maladie"
+  ],
+  "score": 4,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "protection_sociale"
+   ],
+   "type": "Arrêté",
+   "titre": "Montant de la dotation versée à l'ASP pour les contrats d'engagement de service public",
+   "resume": "Extrait insuffisant : consulter la source.",
+   "a_retenir": "",
+   "date_effet": ""
+  }
+ },
+ {
   "id": "9396a26207846f37",
   "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055075316",
   "source": "jo",
