@@ -1,5 +1,25 @@
 [
  {
+  "id": "6093a3498e72c4ea",
+  "url": "https://www.ash.tm.fr/protection-enfance/le-statut-denfant-confie-amene-les-jeunes-a-reduire-leurs-ambitions-scolaires-975733.php",
+  "source": "ash",
+  "date": "2026-11-12",
+  "collecte": "2026-11-12T18:59:09+00:00",
+  "titre_officiel": "\"Le statut d’enfant confié amène les jeunes à réduire leurs ambitions scolaires\"",
+  "extrait": "[SUR QUOI TRAVAILLEZ-VOUS?] Quels sont les effets sur la scolarité d’un parcours à l’aide sociale à l’enfance ? Le sociologue de l’éducation Benjamin Denecheau y observe des difficultés plus récurrentes, en comparaison avec le reste de la population. Il insiste sur l’importance du rôle des professionnels pour ne pas brider les aspirations de ces futurs adultes.",
+  "themes": [
+   "aides_sociales"
+  ],
+  "mots_cles": [
+   "aide sociale"
+  ],
+  "score": 1,
+  "ia": {
+   "statut": "en_attente",
+   "essais": 1
+  }
+ },
+ {
   "id": "db77e253782d97af",
   "url": "https://www.ash.tm.fr/insertion/la-precarite-energetique-se-repercute-sur-le-systeme-de-soins-les-arrets-maladie-ou-labsenteisme-scolaire-975726.php",
   "source": "ash",
@@ -30,6 +50,26 @@
    "resume": "Extrait insuffisant : consulter la source.",
    "a_retenir": "",
    "date_effet": ""
+  }
+ },
+ {
+  "id": "e1772434c778a346",
+  "url": "https://www.vie-publique.fr/en-bref/305323-depenses-des-menages-pour-leur-sante-les-effets-des-complementaires?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
+  "source": "vie-publique-actu",
+  "date": "2026-11-11",
+  "collecte": "2026-11-12T18:59:09+00:00",
+  "titre_officiel": "Dépenses des ménages pour leur santé : les effets des complémentaires santé",
+  "extrait": "Une étude de la Direction de la recherche, des études, de l'évaluation et des statistiques (Drees) analyse le reste à charge en santé et le coût de la complémentaire pour les assurés en 2023.",
+  "themes": [
+   "aides_sociales"
+  ],
+  "mots_cles": [
+   "complémentaire santé"
+  ],
+  "score": 4,
+  "ia": {
+   "statut": "en_attente",
+   "essais": 1
   }
  },
  {

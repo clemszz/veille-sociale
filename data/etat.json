@@ -1,5 +1,5 @@
 {
- "derniere_execution": "2026-11-12T13:57:26+00:00",
+ "derniere_execution": "2026-11-12T18:59:09+00:00",
  "sources": {
   "sp-particuliers": {
    "nom": "Service-Public.fr (particuliers)",
@@ -29,7 +29,7 @@
    "nom": "Vie-publique.fr (actualités)",
    "ok": true,
    "lus": 10,
-   "nouveaux": 0
+   "nouveaux": 1
   },
   "travail-emploi": {
    "nom": "Ministère du Travail",
@@ -66,7 +66,7 @@
   "assurance-retraite": {
    "nom": "L'Assurance retraite",
    "ok": true,
-   "lus": 200,
+   "lus": 201,
    "nouveaux": 0
   },
   "agirc-arrco": {
@@ -131,9 +131,10 @@
  },
  "ia": {
   "active": true,
-  "traites": 1,
-  "restants": 0,
-  "modele": "gemini-3.5-flash-lite"
+  "traites": 0,
+  "restants": 2,
+  "message": "Dernière erreur IA : Gemini HTTP 503 : {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNA",
+  "modele": null
  },
- "nouveaux": 1
+ "nouveaux": 2
 }
