@@ -1,5 +1,5 @@
 {
- "derniere_execution": "2026-11-13T13:23:31+00:00",
+ "derniere_execution": "2026-11-13T18:35:41+00:00",
  "sources": {
   "sp-particuliers": {
    "nom": "Service-Public.fr (particuliers)",
@@ -17,7 +17,7 @@
    "nom": "Journal officiel (Lois et décrets)",
    "ok": true,
    "lus": 343,
-   "nouveaux": 1
+   "nouveaux": 0
   },
   "vie-publique-lois": {
    "nom": "Vie-publique.fr (lois)",
@@ -66,14 +66,14 @@
   "assurance-retraite": {
    "nom": "L'Assurance retraite",
    "ok": true,
-   "lus": 200,
+   "lus": 201,
    "nouveaux": 0
   },
   "agirc-arrco": {
    "nom": "Agirc-Arrco",
    "ok": true,
    "lus": 10,
-   "nouveaux": 1
+   "nouveaux": 0
   },
   "c2s": {
    "nom": "Complémentaire santé solidaire",
@@ -131,10 +131,9 @@
  },
  "ia": {
   "active": true,
-  "traites": 5,
+  "traites": 1,
   "restants": 0,
-  "modele": "gemini-3.5-flash-lite",
-  "doublons_regroupes": 0
+  "modele": "gemini-3.5-flash-lite"
  },
- "nouveaux": 3
+ "nouveaux": 1
 }

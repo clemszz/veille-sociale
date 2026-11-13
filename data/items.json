@@ -1,5 +1,35 @@
 [
  {
+  "id": "f0780c3e350edbe3",
+  "url": "https://www.ash.tm.fr/protection-enfance/ase-les-6-axes-cles-pour-mener-a-bien-les-placements-hors-departement-975752.php",
+  "source": "ash",
+  "date": "2026-11-13",
+  "collecte": "2026-11-13T18:35:41+00:00",
+  "titre_officiel": "ASE : les 6 axes clés pour mener à bien les placements hors département",
+  "extrait": "Quelles conséquences pour les mineurs confiés à l’aide sociale à l’enfance et accueillis en dehors de leur département d’origine ? C’est la problématique sur laquelle s’est penchée l’Igas dans son rapport paru le 10 novembre 2026. De cet état des lieux, le service a tiré 42 recommandations, réparties en ­6 catégories.",
+  "themes": [
+   "aides_sociales"
+  ],
+  "mots_cles": [
+   "aide sociale"
+  ],
+  "score": 1,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "aides_sociales"
+   ],
+   "type": "Actualité",
+   "titre": "Rapport de l'Igas sur les placements hors département de l'aide sociale à l'enfance",
+   "resume": "Extrait insuffisant : consulter la source.",
+   "a_retenir": "",
+   "date_effet": ""
+  }
+ },
+ {
   "id": "720719d2243f7674",
   "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055081323",
   "source": "jo",
