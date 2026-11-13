@@ -1,5 +1,99 @@
 [
  {
+  "id": "720719d2243f7674",
+  "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055081323",
+  "source": "jo",
+  "date": "2026-11-13",
+  "collecte": "2026-11-13T13:23:31+00:00",
+  "titre_officiel": "Arrêté du 3 novembre 2026 modifiant l'arrêté du 11 août 2020 fixant les conditions de recrutement et de formation des praticiens-conseils et des médecins-conseils chefs de service du contrôle médical des régimes agricoles de protection sociale",
+  "extrait": "",
+  "themes": [
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "contrôle médical"
+  ],
+  "score": 4,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "protection_sociale"
+   ],
+   "type": "Arrêté",
+   "titre": "Modification des conditions de recrutement et de formation des praticiens-conseils de la MSA",
+   "resume": "Extrait insuffisant : consulter la source.",
+   "a_retenir": "",
+   "date_effet": ""
+  }
+ },
+ {
+  "id": "469d0071b844e8d5",
+  "url": "https://www.agirc-arrco.fr/nous-connaitre/nos-actualites/forum-seniors-atlantique-nantes-2026/",
+  "source": "agirc-arrco",
+  "date": "2026-11-13",
+  "collecte": "2026-11-13T13:23:31+00:00",
+  "titre_officiel": "Forum des Seniors Atlantique à Nantes 2026",
+  "extrait": "Vous habitez Alès ou ses environs et vous vous posez des questions à l’approche de la retraite ? Préparez votre retraite en toute sérénité en réservant votre rendez-vous avec un conseiller retraite.",
+  "themes": [
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "retraite"
+  ],
+  "score": 1,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "protection_sociale"
+   ],
+   "type": "Démarche / info pratique",
+   "titre": "Forum des Seniors Atlantique à Nantes et rendez-vous retraite",
+   "resume": "Extrait insuffisant : consulter la source.",
+   "a_retenir": "",
+   "date_effet": ""
+  }
+ },
+ {
+  "id": "6b925e79e97a21d6",
+  "url": "https://www.ash.tm.fr/metiers-formations/emploi-presque-trois-fois-plus-de-travailleurs-handicapes-ouvriers-que-cadres-975734.php",
+  "source": "ash",
+  "date": "2026-11-13",
+  "collecte": "2026-11-13T13:23:31+00:00",
+  "titre_officiel": "Emploi : presque trois fois plus de travailleurs handicapés ouvriers que cadres",
+  "extrait": "D'après une enquête de la Drees s'appuyant sur des données de 2022, la reconnaissance du handicap cantonne plus souvent les salariés concernés à des postes de moindre responsabilité et à changer d’employeur ou de métier plus fréquemment que les valides.",
+  "themes": [
+   "handicap",
+   "maintien_emploi"
+  ],
+  "mots_cles": [
+   "handicap",
+   "travailleur handicapé"
+  ],
+  "score": 5,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": true,
+   "importance": 1,
+   "themes": [
+    "handicap",
+    "maintien_emploi"
+   ],
+   "type": "Actualité",
+   "titre": "Enquête de la Drees sur l'emploi des travailleurs handicapés et les inégalités de poste",
+   "resume": "Une enquête de la Drees montre que la reconnaissance du handicap cantonne plus souvent les salariés à des postes ouvriers et à une plus grande instabilité professionnelle. Cet éclairage contextuel aide à comprendre les freins rencontrés par les travailleurs handicapés dans leur parcours professionnel.",
+   "a_retenir": "Prendre en compte les difficultés d'évolution professionnelle et la surreprésentation des travailleurs handicapés dans les postes d'ouvriers lors des accompagnements au maintien dans l'emploi.",
+   "date_effet": ""
+  },
+  "doublons_verifie": true
+ },
+ {
   "id": "6093a3498e72c4ea",
   "url": "https://www.ash.tm.fr/protection-enfance/le-statut-denfant-confie-amene-les-jeunes-a-reduire-leurs-ambitions-scolaires-975733.php",
   "source": "ash",
@@ -15,8 +109,18 @@
   ],
   "score": 1,
   "ia": {
-   "statut": "en_attente",
-   "essais": 1
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "aides_sociales"
+   ],
+   "type": "Actualité",
+   "titre": "Impact du statut d'enfant confié sur la scolarité et les ambitions scolaires",
+   "resume": "Extrait insuffisant : consulter la source.",
+   "a_retenir": "",
+   "date_effet": ""
   }
  },
  {
@@ -61,15 +165,25 @@
   "titre_officiel": "Dépenses des ménages pour leur santé : les effets des complémentaires santé",
   "extrait": "Une étude de la Direction de la recherche, des études, de l'évaluation et des statistiques (Drees) analyse le reste à charge en santé et le coût de la complémentaire pour les assurés en 2023.",
   "themes": [
-   "aides_sociales"
+   "protection_sociale"
   ],
   "mots_cles": [
    "complémentaire santé"
   ],
   "score": 4,
   "ia": {
-   "statut": "en_attente",
-   "essais": 1
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "protection_sociale"
+   ],
+   "type": "Actualité",
+   "titre": "Etude de la Drees sur les dépenses de santé et les complémentaires",
+   "resume": "Extrait insuffisant : consulter la source.",
+   "a_retenir": "",
+   "date_effet": ""
   }
  },
  {

@@ -1,5 +1,5 @@
 {
- "derniere_execution": "2026-11-12T18:59:09+00:00",
+ "derniere_execution": "2026-11-13T13:23:31+00:00",
  "sources": {
   "sp-particuliers": {
    "nom": "Service-Public.fr (particuliers)",
@@ -16,8 +16,8 @@
   "jo": {
    "nom": "Journal officiel (Lois et décrets)",
    "ok": true,
-   "lus": 216,
-   "nouveaux": 0
+   "lus": 343,
+   "nouveaux": 1
   },
   "vie-publique-lois": {
    "nom": "Vie-publique.fr (lois)",
@@ -29,7 +29,7 @@
    "nom": "Vie-publique.fr (actualités)",
    "ok": true,
    "lus": 10,
-   "nouveaux": 1
+   "nouveaux": 0
   },
   "travail-emploi": {
    "nom": "Ministère du Travail",
@@ -56,24 +56,24 @@
   "ameli-assure": {
    "nom": "ameli.fr (assurés)",
    "ok": false,
-   "erreur": "relais local sans nouvelles depuis 8 jours (PC éteint ?)"
+   "erreur": "relais local sans nouvelles depuis 9 jours (PC éteint ?)"
   },
   "ameli-medecin": {
    "nom": "ameli.fr (médecins : arrêts de travail, ALD...)",
    "ok": false,
-   "erreur": "relais local sans nouvelles depuis 8 jours (PC éteint ?)"
+   "erreur": "relais local sans nouvelles depuis 9 jours (PC éteint ?)"
   },
   "assurance-retraite": {
    "nom": "L'Assurance retraite",
    "ok": true,
-   "lus": 201,
+   "lus": 200,
    "nouveaux": 0
   },
   "agirc-arrco": {
    "nom": "Agirc-Arrco",
    "ok": true,
    "lus": 10,
-   "nouveaux": 0
+   "nouveaux": 1
   },
   "c2s": {
    "nom": "Complémentaire santé solidaire",
@@ -131,10 +131,10 @@
  },
  "ia": {
   "active": true,
-  "traites": 0,
-  "restants": 2,
-  "message": "Dernière erreur IA : Gemini HTTP 503 : {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNA",
-  "modele": null
+  "traites": 5,
+  "restants": 0,
+  "modele": "gemini-3.5-flash-lite",
+  "doublons_regroupes": 0
  },
- "nouveaux": 2
+ "nouveaux": 3
 }
