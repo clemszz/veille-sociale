@@ -1,5 +1,35 @@
 [
  {
+  "id": "09468e6ea27678f6",
+  "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055087644",
+  "source": "jo",
+  "date": "2026-11-14",
+  "collecte": "2026-11-14T12:27:25+00:00",
+  "titre_officiel": "Décision n° 2026-42 du 12 novembre 2026 du directeur de la CNSA modifiant la décision n° 2026-19 du 15 juin 2026 du directeur de la CNSA relative aux dotations régionales limitatives et à la moyenne nationale des besoins en soins requis pour l'année 2026",
+  "extrait": "",
+  "themes": [
+   "handicap"
+  ],
+  "mots_cles": [
+   "CNSA"
+  ],
+  "score": 4,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "handicap"
+   ],
+   "type": "Arrêté",
+   "titre": "Modification des dotations régionales limitatives de la CNSA pour 2026",
+   "resume": "Extrait insuffisant : consulter la source.",
+   "a_retenir": "",
+   "date_effet": ""
+  }
+ },
+ {
   "id": "f0780c3e350edbe3",
   "url": "https://www.ash.tm.fr/protection-enfance/ase-les-6-axes-cles-pour-mener-a-bien-les-placements-hors-departement-975752.php",
   "source": "ash",

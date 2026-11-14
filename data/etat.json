@@ -1,5 +1,5 @@
 {
- "derniere_execution": "2026-11-13T18:35:41+00:00",
+ "derniere_execution": "2026-11-14T12:27:25+00:00",
  "sources": {
   "sp-particuliers": {
    "nom": "Service-Public.fr (particuliers)",
@@ -10,14 +10,14 @@
   "sp-pro": {
    "nom": "Service-Public.fr (professionnels)",
    "ok": true,
-   "lus": 234,
+   "lus": 233,
    "nouveaux": 0
   },
   "jo": {
    "nom": "Journal officiel (Lois et décrets)",
    "ok": true,
-   "lus": 343,
-   "nouveaux": 0
+   "lus": 374,
+   "nouveaux": 1
   },
   "vie-publique-lois": {
    "nom": "Vie-publique.fr (lois)",
@@ -56,17 +56,17 @@
   "ameli-assure": {
    "nom": "ameli.fr (assurés)",
    "ok": false,
-   "erreur": "relais local sans nouvelles depuis 9 jours (PC éteint ?)"
+   "erreur": "relais local sans nouvelles depuis 10 jours (PC éteint ?)"
   },
   "ameli-medecin": {
    "nom": "ameli.fr (médecins : arrêts de travail, ALD...)",
    "ok": false,
-   "erreur": "relais local sans nouvelles depuis 9 jours (PC éteint ?)"
+   "erreur": "relais local sans nouvelles depuis 10 jours (PC éteint ?)"
   },
   "assurance-retraite": {
    "nom": "L'Assurance retraite",
    "ok": true,
-   "lus": 201,
+   "lus": 200,
    "nouveaux": 0
   },
   "agirc-arrco": {
@@ -120,7 +120,7 @@
    "nom": "ASH (Actualités sociales hebdomadaires)",
    "ok": true,
    "lus": 10,
-   "nouveaux": 1
+   "nouveaux": 0
   },
   "tissot-sante-securite": {
    "nom": "Éditions Tissot (santé-sécurité au travail)",
