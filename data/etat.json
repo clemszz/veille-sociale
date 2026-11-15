@@ -1,5 +1,5 @@
 {
- "derniere_execution": "2026-11-14T17:12:46+00:00",
+ "derniere_execution": "2026-11-15T12:55:50+00:00",
  "sources": {
   "sp-particuliers": {
    "nom": "Service-Public.fr (particuliers)",
@@ -16,8 +16,8 @@
   "jo": {
    "nom": "Journal officiel (Lois et décrets)",
    "ok": true,
-   "lus": 374,
-   "nouveaux": 0
+   "lus": 434,
+   "nouveaux": 1
   },
   "vie-publique-lois": {
    "nom": "Vie-publique.fr (lois)",
@@ -56,17 +56,17 @@
   "ameli-assure": {
    "nom": "ameli.fr (assurés)",
    "ok": false,
-   "erreur": "relais local sans nouvelles depuis 10 jours (PC éteint ?)"
+   "erreur": "relais local sans nouvelles depuis 11 jours (PC éteint ?)"
   },
   "ameli-medecin": {
    "nom": "ameli.fr (médecins : arrêts de travail, ALD...)",
    "ok": false,
-   "erreur": "relais local sans nouvelles depuis 10 jours (PC éteint ?)"
+   "erreur": "relais local sans nouvelles depuis 11 jours (PC éteint ?)"
   },
   "assurance-retraite": {
    "nom": "L'Assurance retraite",
    "ok": true,
-   "lus": 200,
+   "lus": 201,
    "nouveaux": 0
   },
   "agirc-arrco": {
@@ -131,8 +131,9 @@
  },
  "ia": {
   "active": true,
-  "traites": 0,
-  "restants": 0
+  "traites": 1,
+  "restants": 0,
+  "modele": "gemini-3.5-flash-lite"
  },
- "nouveaux": 0
+ "nouveaux": 1
 }
