@@ -1,5 +1,5 @@
 {
- "derniere_execution": "2026-11-15T12:55:50+00:00",
+ "derniere_execution": "2026-11-15T17:49:55+00:00",
  "sources": {
   "sp-particuliers": {
    "nom": "Service-Public.fr (particuliers)",
@@ -17,7 +17,7 @@
    "nom": "Journal officiel (Lois et décrets)",
    "ok": true,
    "lus": 434,
-   "nouveaux": 1
+   "nouveaux": 0
   },
   "vie-publique-lois": {
    "nom": "Vie-publique.fr (lois)",
@@ -131,9 +131,8 @@
  },
  "ia": {
   "active": true,
-  "traites": 1,
-  "restants": 0,
-  "modele": "gemini-3.5-flash-lite"
+  "traites": 0,
+  "restants": 0
  },
- "nouveaux": 1
+ "nouveaux": 0
 }
