@@ -1,5 +1,39 @@
 [
  {
+  "id": "ca1f7ccabc4afa64",
+  "url": "https://www.ash.tm.fr/metiers-formations/les-salaires-plancher-de-deux-secteurs-du-social-passeront-sous-le-smic-au-1er-decembre-975753.php",
+  "source": "ash",
+  "date": "2026-11-16",
+  "collecte": "2026-11-16T13:56:29+00:00",
+  "titre_officiel": "Les salaires plancher de deux secteurs du social passeront sous le Smic au 1er décembre 2026",
+  "extrait": "La troisième hausse du salaire minimum, annoncée le 9 novembre 2026, risque de faire basculer environ 5 millions de salariés, situés sur les échelons de rémunération les plus bas de leurs grilles conventionnelles, en dessous de la barre des 1 502 € mensuels. Un effet pervers qui concerne notamment les professionnels de la branche des établissements et services pour personnes inadaptées et handicapées.",
+  "themes": [
+   "protection_sociale",
+   "aides_sociales"
+  ],
+  "mots_cles": [
+   "handicap",
+   "Smic"
+  ],
+  "score": 5,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": true,
+   "importance": 2,
+   "themes": [
+    "protection_sociale",
+    "aides_sociales"
+   ],
+   "type": "Actualité",
+   "titre": "Risque de salaires conventionnels sous le Smic pour certains professionnels du secteur social",
+   "resume": "Suite à la hausse du salaire minimum, de nombreux salariés aux échelons les plus bas de certaines grilles conventionnelles, notamment dans le secteur des personnes handicapées, risquent de voir leur plancher salarial passer sous le Smic à compter du 1er décembre 2026. Cette situation concerne environ 5 millions de salariés en France.",
+   "a_retenir": "Vérifier la conformité des rémunérations des salariés concernés au regard du nouveau montant du Smic applicable.",
+   "date_effet": "2026-12-01"
+  },
+  "doublons_verifie": true
+ },
+ {
   "id": "f4bba9ac3e7a01c6",
   "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055088825",
   "source": "jo",
