@@ -1,11 +1,11 @@
 {
- "derniere_execution": "2026-11-16T13:56:29+00:00",
+ "derniere_execution": "2026-11-16T21:06:14+00:00",
  "sources": {
   "sp-particuliers": {
    "nom": "Service-Public.fr (particuliers)",
    "ok": true,
    "lus": 10,
-   "nouveaux": 0
+   "nouveaux": 1
   },
   "sp-pro": {
    "nom": "Service-Public.fr (professionnels)",
@@ -29,7 +29,7 @@
    "nom": "Vie-publique.fr (actualités)",
    "ok": true,
    "lus": 10,
-   "nouveaux": 0
+   "nouveaux": 1
   },
   "travail-emploi": {
    "nom": "Ministère du Travail",
@@ -120,21 +120,21 @@
    "nom": "ASH (Actualités sociales hebdomadaires)",
    "ok": true,
    "lus": 10,
-   "nouveaux": 1
+   "nouveaux": 0
   },
   "tissot-sante-securite": {
    "nom": "Éditions Tissot (santé-sécurité au travail)",
    "ok": true,
    "lus": 10,
-   "nouveaux": 0
+   "nouveaux": 1
   }
  },
  "ia": {
   "active": true,
-  "traites": 1,
+  "traites": 3,
   "restants": 0,
   "modele": "gemini-3.5-flash-lite",
-  "doublons_regroupes": 0
+  "doublons_regroupes": 1
  },
- "nouveaux": 1
+ "nouveaux": 3
 }

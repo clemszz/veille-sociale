@@ -1,5 +1,39 @@
 [
  {
+  "id": "9f75fd41451e01e1",
+  "url": "https://www.editions-tissot.fr/actualite/sante-securite/prevention-des-risques-ergonomiques-200-millions-deuros-pour-le-fipu-en-2027",
+  "source": "tissot-sante-securite",
+  "date": "2026-11-16",
+  "collecte": "2026-11-16T21:06:14+00:00",
+  "titre_officiel": "Prévention des risques ergonomiques : 200 millions d’euros pour le FIPU en 2027",
+  "extrait": "Le fonds d’investissement dans la prévention de l’usure professionnelle (FIPU) permet de financer les projets des employeurs visant à réduire l'exposition de leurs salariés aux risques ergonomiques. Un arrêté est venu fixer le montant alloué à ce fonds pour l'année 2027.",
+  "themes": [
+   "maintien_emploi",
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "usure professionnelle"
+  ],
+  "score": 1,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": true,
+   "importance": 2,
+   "themes": [
+    "maintien_emploi",
+    "protection_sociale"
+   ],
+   "type": "Arrêté",
+   "titre": "Financement du fonds de prévention de l'usure professionnelle pour 2027",
+   "resume": "Un arrêté fixe à 200 millions d'euros le montant alloué au fonds d’investissement dans la prévention de l’usure professionnelle (FIPU) pour l'année 2027 afin de financer les projets des employeurs réduisant l'exposition aux risques ergonomiques.",
+   "a_retenir": "Informer les employeurs sur l'existence du FIPU pour soutenir leurs projets de prévention des risques ergonomiques et de maintien dans l'emploi.",
+   "date_effet": "2027-01-01"
+  },
+  "doublon_de": "069fc2051f26816a",
+  "doublons_verifie": true
+ },
+ {
   "id": "ca1f7ccabc4afa64",
   "url": "https://www.ash.tm.fr/metiers-formations/les-salaires-plancher-de-deux-secteurs-du-social-passeront-sous-le-smic-au-1er-decembre-975753.php",
   "source": "ash",
@@ -32,6 +66,67 @@
    "date_effet": "2026-12-01"
   },
   "doublons_verifie": true
+ },
+ {
+  "id": "2f23d3ed2466c1a9",
+  "url": "https://www.service-public.gouv.fr/particuliers/actualites/A15281?xtor=RSS-111",
+  "source": "sp-particuliers",
+  "date": "2026-11-15",
+  "collecte": "2026-11-16T21:06:14+00:00",
+  "titre_officiel": "Des rendez-vous d’information gratuits dédiés à votre future retraite",
+  "extrait": "Vous souhaitez savoir à partir de quel âge vous pourrez prendre votre retraite, et quel sera le montant de votre pension ? L'Agirc-Arrco organise du 21 au 27 novembre 2026 une nouvelle édition des Rencontres retraite. Cette année, l’événement est consacré plus spécifiquement à la parentalité et aux conséquences de celle-ci sur la retraite. Les inscriptions sont ouvertes.",
+  "themes": [
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "retraite"
+  ],
+  "score": 4,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": true,
+   "importance": 2,
+   "themes": [
+    "protection_sociale"
+   ],
+   "type": "Démarche / info pratique",
+   "titre": "Rencontres retraite Agirc-Arrco : entretiens d'information gratuits sur la parentalité",
+   "resume": "L'Agirc-Arrco organise du 21 au 27 novembre 2026 une nouvelle édition de ses rendez-vous d'information retraite, consacrée cette année aux impacts de la parentalité. Douze mille cinq cents créneaux d'entretiens gratuits par téléphone ou en agence sont proposés aux salariés du secteur privé n'ayant pas encore déposé de demande de retraite.",
+   "a_retenir": "Orienter les salariés proches de la retraite vers ces entretiens pour faire le point sur leurs droits liés aux enfants et préparer leur départ.",
+   "date_effet": "2026-11-21"
+  },
+  "doublons_verifie": true
+ },
+ {
+  "id": "b708a6c213efe752",
+  "url": "https://www.vie-publique.fr/questions-reponses/295222-la-convention-internationale-des-droits-des-personnes-handicapees?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
+  "source": "vie-publique-actu",
+  "date": "2026-11-15",
+  "collecte": "2026-11-16T21:06:14+00:00",
+  "titre_officiel": "Qu'est-ce que la Convention internationale relative aux droits des personnes handicapées ?",
+  "extrait": "Quelques semaines après la 35e session du Comité des droits des personnes handicapées, le point en six questions sur la Convention internationale relative aux droits des personnes handicapées, ratifiée par la France en 2010.",
+  "themes": [
+   "handicap"
+  ],
+  "mots_cles": [
+   "handicap"
+  ],
+  "score": 4,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "handicap"
+   ],
+   "type": "Actualité",
+   "titre": "Présentation de la Convention internationale relative aux droits des personnes handicapées",
+   "resume": "Extrait insuffisant : consulter la source.",
+   "a_retenir": "",
+   "date_effet": ""
+  }
  },
  {
   "id": "f4bba9ac3e7a01c6",
