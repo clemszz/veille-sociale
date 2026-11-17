@@ -1,5 +1,38 @@
 [
  {
+  "id": "c83613c9eb35c0d1",
+  "url": "https://www.ash.tm.fr/management-reseaux/budget-des-departements-lecornu-lache-du-lest-sur-la-csg-975813.php",
+  "source": "ash",
+  "date": "2026-11-17",
+  "collecte": "2026-11-17T19:55:13+00:00",
+  "titre_officiel": "Budget des départements : Lecornu lâche du lest sur la CSG",
+  "extrait": "Un amendement gouvernemental au Projet de loi de financement de la sécurité sociale (PLFSS) adopté par le Sénat prévoit d’augmenter de 100 millions l’enveloppe de CSG dédiée à l’Allocation personnalisée d'autonomie (APA). Les départements, en froid avec le gouvernement depuis la présentation du projet de budget 2027, y voient le signe d'une reprise du dialogue avec l’exécutif.",
+  "themes": [
+   "aides_sociales"
+  ],
+  "mots_cles": [
+   "allocation personnalisée d'autonomie",
+   "APA",
+   "financement de la sécurité sociale",
+   "PLFSS"
+  ],
+  "score": 4,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "aides_sociales"
+   ],
+   "type": "Projet de loi / réforme",
+   "titre": "Augmentation de l'enveloppe de CSG dédiée à l'APA dans le PLFSS",
+   "resume": "Extrait insuffisant : consulter la source.",
+   "a_retenir": "",
+   "date_effet": ""
+  }
+ },
+ {
   "id": "ab8b945207ac7ffd",
   "url": "https://www.editions-tissot.fr/actualite/sante-securite/accidents-du-travail-quelles-actions-de-prevention-font-vraiment-la-difference",
   "source": "tissot-sante-securite",
