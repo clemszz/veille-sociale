@@ -1,11 +1,11 @@
 {
- "derniere_execution": "2026-11-16T21:06:14+00:00",
+ "derniere_execution": "2026-11-17T14:49:40+00:00",
  "sources": {
   "sp-particuliers": {
    "nom": "Service-Public.fr (particuliers)",
    "ok": true,
    "lus": 10,
-   "nouveaux": 1
+   "nouveaux": 2
   },
   "sp-pro": {
    "nom": "Service-Public.fr (professionnels)",
@@ -16,7 +16,7 @@
   "jo": {
    "nom": "Journal officiel (Lois et décrets)",
    "ok": true,
-   "lus": 386,
+   "lus": 350,
    "nouveaux": 0
   },
   "vie-publique-lois": {
@@ -29,7 +29,7 @@
    "nom": "Vie-publique.fr (actualités)",
    "ok": true,
    "lus": 10,
-   "nouveaux": 1
+   "nouveaux": 0
   },
   "travail-emploi": {
    "nom": "Ministère du Travail",
@@ -56,17 +56,17 @@
   "ameli-assure": {
    "nom": "ameli.fr (assurés)",
    "ok": false,
-   "erreur": "relais local sans nouvelles depuis 12 jours (PC éteint ?)"
+   "erreur": "relais local sans nouvelles depuis 13 jours (PC éteint ?)"
   },
   "ameli-medecin": {
    "nom": "ameli.fr (médecins : arrêts de travail, ALD...)",
    "ok": false,
-   "erreur": "relais local sans nouvelles depuis 12 jours (PC éteint ?)"
+   "erreur": "relais local sans nouvelles depuis 13 jours (PC éteint ?)"
   },
   "assurance-retraite": {
    "nom": "L'Assurance retraite",
    "ok": true,
-   "lus": 202,
+   "lus": 201,
    "nouveaux": 0
   },
   "agirc-arrco": {
@@ -134,7 +134,7 @@
   "traites": 3,
   "restants": 0,
   "modele": "gemini-3.5-flash-lite",
-  "doublons_regroupes": 1
+  "doublons_regroupes": 0
  },
  "nouveaux": 3
 }

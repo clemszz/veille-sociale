@@ -1,5 +1,98 @@
 [
  {
+  "id": "ab8b945207ac7ffd",
+  "url": "https://www.editions-tissot.fr/actualite/sante-securite/accidents-du-travail-quelles-actions-de-prevention-font-vraiment-la-difference",
+  "source": "tissot-sante-securite",
+  "date": "2026-11-17",
+  "collecte": "2026-11-17T14:49:40+00:00",
+  "titre_officiel": "Accidents du travail : quelles actions de prévention font vraiment la différence ?",
+  "extrait": "Les actions de prévention n’ont pas toutes les mêmes effets sur les accidents du travail. Dans une étude publiée en octobre 2026, la DARES met en évidence les mesures associées aux baisses les plus importantes, avec des résultats particulièrement marqués dans les petits établissements.",
+  "themes": [
+   "maintien_emploi"
+  ],
+  "mots_cles": [
+   "accident du travail"
+  ],
+  "score": 4,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "maintien_emploi"
+   ],
+   "type": "Actualité",
+   "titre": "Étude de la DARES sur les actions de prévention des accidents du travail",
+   "resume": "Extrait insuffisant : consulter la source.",
+   "a_retenir": "",
+   "date_effet": ""
+  }
+ },
+ {
+  "id": "0116622cce0dd3b9",
+  "url": "https://www.service-public.gouv.fr/particuliers/actualites/A19138?xtor=RSS-111",
+  "source": "sp-particuliers",
+  "date": "2026-11-16",
+  "collecte": "2026-11-17T14:49:40+00:00",
+  "titre_officiel": "Infertilité : un courriel envoyé pour sensibiliser les femmes et les hommes de 29 ans",
+  "extrait": "La fertilité dépend de nombreux paramètres médicaux, environnementaux et comportementaux. L’âge constitue également un facteur déterminant d’infertilité, selon des études. Les femmes et les hommes de 29 ans vont recevoir, de la part de l’Assurance maladie, un courriel pour les sensibiliser sur le sujet au cours de la semaine du 16 novembre.",
+  "themes": [
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "assurance maladie"
+  ],
+  "score": 1,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "protection_sociale"
+   ],
+   "type": "Actualité",
+   "titre": "Campagne d'information de l'Assurance maladie sur l'infertilité auprès des jeunes de 29 ans",
+   "resume": "L'Assurance maladie envoie un courriel de sensibilisation aux femmes et aux hommes de 29 ans concernant la fertilité, les facteurs de risque et la consultation préconceptionnelle. Cette action s'inscrit dans le cadre du Plan national de lutte contre l'infertilité.",
+   "a_retenir": "",
+   "date_effet": "2026-11-16"
+  }
+ },
+ {
+  "id": "9d7f00387d70adb7",
+  "url": "https://entreprendre.service-public.gouv.fr/actualites/A19137?xtor=RSS-111",
+  "source": "sp-particuliers",
+  "date": "2026-11-16",
+  "collecte": "2026-11-17T14:49:40+00:00",
+  "titre_officiel": "Micro-entrepreneur utilisant les plateformes numériques : justificatif à fournir pour le paiement de l’ARE",
+  "extrait": "Micro-entrepreneur utilisant les plateformes numériques : justificatif à fournir pour le paiement de l’ARE",
+  "themes": [
+   "protection_sociale",
+   "aides_sociales"
+  ],
+  "mots_cles": [
+   "ARE"
+  ],
+  "score": 4,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": true,
+   "importance": 2,
+   "themes": [
+    "protection_sociale",
+    "aides_sociales"
+   ],
+   "type": "Démarche / info pratique",
+   "titre": "Justificatif ARE pour les micro-entrepreneurs utilisant des plateformes numériques",
+   "resume": "Les micro-entrepreneurs demandeurs d'emploi utilisant des plateformes numériques doivent désormais transmettre à France Travail l'attestation de déclaration de chiffre d'affaires fournie par l'Urssaf. Ce document intègre les données déclarées par les plateformes dans le cadre du prélèvement à la source des cotisations pour le calcul de l'ARE.",
+   "a_retenir": "Vérifier que les demandeurs d'emploi en micro-entreprise transmettent bien l'attestation Urssaf globale et non plus le simple récapitulatif pour percevoir leur ARE.",
+   "date_effet": ""
+  },
+  "doublons_verifie": true
+ },
+ {
   "id": "9f75fd41451e01e1",
   "url": "https://www.editions-tissot.fr/actualite/sante-securite/prevention-des-risques-ergonomiques-200-millions-deuros-pour-le-fipu-en-2027",
   "source": "tissot-sante-securite",
