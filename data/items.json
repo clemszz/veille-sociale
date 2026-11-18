@@ -1,5 +1,39 @@
 [
  {
+  "id": "25b4cef8b994b8c6",
+  "url": "https://www.ash.tm.fr/juridique/quelles-reponses-apportees-aux-difficultes-des-proches-aidants-actifs-975833.php",
+  "source": "ash",
+  "date": "2026-11-18",
+  "collecte": "2026-11-18T19:26:56+00:00",
+  "titre_officiel": "Quelles réponses apportées aux difficultés des proches aidants actifs ?",
+  "extrait": "Examiné par les députés en séance publique le 19 novembre 2026, un texte propose diverses mesures afin de reconnaître et valoriser les proches aidants ayant un emploi, notamment en inscrivant dans le code du travail la reconnaissance de ce statut et en étendant la durée du congé dont ils peuvent bénéficier.",
+  "themes": [
+   "maintien_emploi",
+   "handicap"
+  ],
+  "mots_cles": [
+   "aidant",
+   "proche aidant"
+  ],
+  "score": 5,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": true,
+   "importance": 2,
+   "themes": [
+    "maintien_emploi",
+    "handicap"
+   ],
+   "type": "Projet de loi / réforme",
+   "titre": "Proposition de loi pour la reconnaissance et l'extension des droits des proches aidants actifs",
+   "resume": "Un texte examiné par les députés propose d'inscrire le statut de proche aidant dans le code du travail et d'étendre la durée de leur congé spécifique. Cette mesure vise à mieux accompagner les salariés confrontés à la conciliation entre emploi et aide à un proche.",
+   "a_retenir": "Informer les salariés concernés qu'une évolution législative est en cours pour renforcer les droits et le congé des proches aidants actifs.",
+   "date_effet": ""
+  },
+  "doublons_verifie": true
+ },
+ {
   "id": "f30488d653cdc208",
   "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055098931",
   "source": "jo",

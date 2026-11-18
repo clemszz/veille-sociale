@@ -1,5 +1,5 @@
 {
- "derniere_execution": "2026-11-18T14:29:43+00:00",
+ "derniere_execution": "2026-11-18T19:26:56+00:00",
  "sources": {
   "sp-particuliers": {
    "nom": "Service-Public.fr (particuliers)",
@@ -17,35 +17,32 @@
    "nom": "Journal officiel (Lois et décrets)",
    "ok": true,
    "lus": 459,
-   "nouveaux": 1
+   "nouveaux": 0
   },
   "vie-publique-lois": {
    "nom": "Vie-publique.fr (lois)",
-   "ok": true,
-   "lus": 100,
-   "nouveaux": 0
+   "ok": false,
+   "erreur": "503 Server Error: Service Unavailable for url: https://www.vie-publique.fr/lois-feeds.xml"
   },
   "vie-publique-actu": {
    "nom": "Vie-publique.fr (actualités)",
-   "ok": true,
-   "lus": 10,
-   "nouveaux": 0
+   "ok": false,
+   "erreur": "503 Server Error: Service Unavailable for url: https://www.vie-publique.fr/actualites-feeds.xml"
   },
   "travail-emploi": {
    "nom": "Ministère du Travail",
-   "ok": true,
-   "lus": 50,
-   "nouveaux": 0
+   "ok": false,
+   "erreur": "503 Server Error: Service Unavailable for url: https://travail-emploi.gouv.fr/rss.xml"
   },
   "solidarites": {
    "nom": "Ministère des Solidarités",
    "ok": false,
-   "erreur": "le site a renvoyé une page web au lieu du flux (blocage anti-robots, souvent temporaire)"
+   "erreur": "503 Server Error: Service Unavailable for url: https://solidarites.gouv.fr/rss.xml"
   },
   "handicap-gouv": {
    "nom": "Handicap.gouv.fr",
    "ok": false,
-   "erreur": "le site a renvoyé une page web au lieu du flux (blocage anti-robots, souvent temporaire)"
+   "erreur": "503 Server Error: Service Unavailable for url: https://handicap.gouv.fr/rss.xml"
   },
   "dreets-occitanie": {
    "nom": "DREETS Occitanie",
@@ -66,7 +63,7 @@
   "assurance-retraite": {
    "nom": "L'Assurance retraite",
    "ok": true,
-   "lus": 200,
+   "lus": 199,
    "nouveaux": 0
   },
   "agirc-arrco": {
@@ -120,7 +117,7 @@
    "nom": "ASH (Actualités sociales hebdomadaires)",
    "ok": true,
    "lus": 10,
-   "nouveaux": 0
+   "nouveaux": 1
   },
   "tissot-sante-securite": {
    "nom": "Éditions Tissot (santé-sécurité au travail)",
@@ -133,7 +130,8 @@
   "active": true,
   "traites": 1,
   "restants": 0,
-  "modele": "gemini-3.5-flash-lite"
+  "modele": "gemini-3.5-flash-lite",
+  "doublons_regroupes": 0
  },
  "nouveaux": 1
 }
