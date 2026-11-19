@@ -1,5 +1,69 @@
 [
  {
+  "id": "2fe7116fc1d8a059",
+  "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055102864",
+  "source": "jo",
+  "date": "2026-11-19",
+  "collecte": "2026-11-19T14:39:15+00:00",
+  "titre_officiel": "Arrêté du 17 novembre 2026 relatif à l'affectation, en vue de l'accomplissement d'un parcours de consolidation des compétences, de praticiens associés candidats à la profession de médecin dans la spécialité « chirurgie orthopédique et traumatologique » en application des dispositions du B du IV de l'article 83 de la loi n° 2006-1640 du 21 décembre 2006 de financement de la sécurité sociale pour…",
+  "extrait": "",
+  "themes": [
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "financement de la sécurité sociale"
+  ],
+  "score": 4,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "protection_sociale"
+   ],
+   "type": "Arrêté",
+   "titre": "Affectation individuelle d'un praticien associé en chirurgie orthopédique",
+   "resume": "Extrait insuffisant : consulter la source.",
+   "a_retenir": "",
+   "date_effet": ""
+  }
+ },
+ {
+  "id": "d34a2074e432fe72",
+  "url": "https://www.vie-publique.fr/en-bref/305391-salaries-handicapes-des-situations-professionnelles-moins-favorables?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
+  "source": "vie-publique-actu",
+  "date": "2026-11-18",
+  "collecte": "2026-11-19T14:39:15+00:00",
+  "titre_officiel": "Salariés handicapés : des situations professionnelles moins favorables",
+  "extrait": "Deux à trois personnes handicapées sur cinq ont un emploi en 2022 contre près de trois quarts des valides. Dans le même temps, les travailleurs handicapés sont moins souvent cadres et plus souvent ouvriers que les travailleurs sans handicap souligne une étude de la Direction de l'animation de la recherche, des études et des statistiques (Dares).",
+  "themes": [
+   "handicap",
+   "maintien_emploi"
+  ],
+  "mots_cles": [
+   "handicap",
+   "travailleur handicapé"
+  ],
+  "score": 5,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": true,
+   "importance": 1,
+   "themes": [
+    "handicap",
+    "maintien_emploi"
+   ],
+   "type": "Actualité",
+   "titre": "Étude de la Dares sur la situation professionnelle des salariés handicapés",
+   "resume": "Une étude de la Dares met en lumière des situations professionnelles moins favorables pour les travailleurs handicapés en 2022, avec un taux d'emploi plus faible et une surreprésentation parmi les ouvriers par rapport aux personnes valides.",
+   "a_retenir": "Prendre en compte les difficultés d'accès et de maintien dans l'emploi qualifié pour les travailleurs handicapés lors des accompagnements.",
+   "date_effet": ""
+  },
+  "doublons_verifie": true
+ },
+ {
   "id": "25b4cef8b994b8c6",
   "url": "https://www.ash.tm.fr/juridique/quelles-reponses-apportees-aux-difficultes-des-proches-aidants-actifs-975833.php",
   "source": "ash",

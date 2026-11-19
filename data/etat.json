@@ -1,5 +1,5 @@
 {
- "derniere_execution": "2026-11-18T19:26:56+00:00",
+ "derniere_execution": "2026-11-19T14:39:15+00:00",
  "sources": {
   "sp-particuliers": {
    "nom": "Service-Public.fr (particuliers)",
@@ -10,39 +10,42 @@
   "sp-pro": {
    "nom": "Service-Public.fr (professionnels)",
    "ok": true,
-   "lus": 232,
+   "lus": 229,
    "nouveaux": 0
   },
   "jo": {
    "nom": "Journal officiel (Lois et décrets)",
    "ok": true,
-   "lus": 459,
-   "nouveaux": 0
+   "lus": 463,
+   "nouveaux": 1
   },
   "vie-publique-lois": {
    "nom": "Vie-publique.fr (lois)",
-   "ok": false,
-   "erreur": "503 Server Error: Service Unavailable for url: https://www.vie-publique.fr/lois-feeds.xml"
+   "ok": true,
+   "lus": 100,
+   "nouveaux": 0
   },
   "vie-publique-actu": {
    "nom": "Vie-publique.fr (actualités)",
-   "ok": false,
-   "erreur": "503 Server Error: Service Unavailable for url: https://www.vie-publique.fr/actualites-feeds.xml"
+   "ok": true,
+   "lus": 10,
+   "nouveaux": 1
   },
   "travail-emploi": {
    "nom": "Ministère du Travail",
-   "ok": false,
-   "erreur": "503 Server Error: Service Unavailable for url: https://travail-emploi.gouv.fr/rss.xml"
+   "ok": true,
+   "lus": 50,
+   "nouveaux": 0
   },
   "solidarites": {
    "nom": "Ministère des Solidarités",
    "ok": false,
-   "erreur": "503 Server Error: Service Unavailable for url: https://solidarites.gouv.fr/rss.xml"
+   "erreur": "le site a renvoyé une page web au lieu du flux (blocage anti-robots, souvent temporaire)"
   },
   "handicap-gouv": {
    "nom": "Handicap.gouv.fr",
    "ok": false,
-   "erreur": "503 Server Error: Service Unavailable for url: https://handicap.gouv.fr/rss.xml"
+   "erreur": "le site a renvoyé une page web au lieu du flux (blocage anti-robots, souvent temporaire)"
   },
   "dreets-occitanie": {
    "nom": "DREETS Occitanie",
@@ -53,17 +56,17 @@
   "ameli-assure": {
    "nom": "ameli.fr (assurés)",
    "ok": false,
-   "erreur": "relais local sans nouvelles depuis 14 jours (PC éteint ?)"
+   "erreur": "relais local sans nouvelles depuis 15 jours (PC éteint ?)"
   },
   "ameli-medecin": {
    "nom": "ameli.fr (médecins : arrêts de travail, ALD...)",
    "ok": false,
-   "erreur": "relais local sans nouvelles depuis 14 jours (PC éteint ?)"
+   "erreur": "relais local sans nouvelles depuis 15 jours (PC éteint ?)"
   },
   "assurance-retraite": {
    "nom": "L'Assurance retraite",
    "ok": true,
-   "lus": 199,
+   "lus": 193,
    "nouveaux": 0
   },
   "agirc-arrco": {
@@ -80,9 +83,8 @@
   },
   "agefiph": {
    "nom": "Agefiph",
-   "ok": true,
-   "lus": 10,
-   "nouveaux": 0
+   "ok": false,
+   "erreur": "503 Server Error: Service Unavailable for url: https://www.agefiph.fr/rss.xml"
   },
   "cnsa": {
    "nom": "CNSA",
@@ -117,7 +119,7 @@
    "nom": "ASH (Actualités sociales hebdomadaires)",
    "ok": true,
    "lus": 10,
-   "nouveaux": 1
+   "nouveaux": 0
   },
   "tissot-sante-securite": {
    "nom": "Éditions Tissot (santé-sécurité au travail)",
@@ -128,10 +130,10 @@
  },
  "ia": {
   "active": true,
-  "traites": 1,
+  "traites": 2,
   "restants": 0,
   "modele": "gemini-3.5-flash-lite",
   "doublons_regroupes": 0
  },
- "nouveaux": 1
+ "nouveaux": 2
 }
