@@ -1,5 +1,5 @@
 {
- "derniere_execution": "2026-11-19T14:39:15+00:00",
+ "derniere_execution": "2026-11-19T19:31:10+00:00",
  "sources": {
   "sp-particuliers": {
    "nom": "Service-Public.fr (particuliers)",
@@ -17,7 +17,7 @@
    "nom": "Journal officiel (Lois et décrets)",
    "ok": true,
    "lus": 463,
-   "nouveaux": 1
+   "nouveaux": 0
   },
   "vie-publique-lois": {
    "nom": "Vie-publique.fr (lois)",
@@ -29,7 +29,7 @@
    "nom": "Vie-publique.fr (actualités)",
    "ok": true,
    "lus": 10,
-   "nouveaux": 1
+   "nouveaux": 0
   },
   "travail-emploi": {
    "nom": "Ministère du Travail",
@@ -71,9 +71,8 @@
   },
   "agirc-arrco": {
    "nom": "Agirc-Arrco",
-   "ok": true,
-   "lus": 10,
-   "nouveaux": 0
+   "ok": false,
+   "erreur": "HTTPSConnectionPool(host='www.agirc-arrco.fr', port=443): Max retries exceeded with url: /feed/?post_type=post (Caused by NewConnectionError(\"HTTPSConnection(host='www.agirc-arrco.fr', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))"
   },
   "c2s": {
    "nom": "Complémentaire santé solidaire",
@@ -83,8 +82,9 @@
   },
   "agefiph": {
    "nom": "Agefiph",
-   "ok": false,
-   "erreur": "503 Server Error: Service Unavailable for url: https://www.agefiph.fr/rss.xml"
+   "ok": true,
+   "lus": 10,
+   "nouveaux": 0
   },
   "cnsa": {
    "nom": "CNSA",
@@ -130,10 +130,8 @@
  },
  "ia": {
   "active": true,
-  "traites": 2,
-  "restants": 0,
-  "modele": "gemini-3.5-flash-lite",
-  "doublons_regroupes": 0
+  "traites": 0,
+  "restants": 0
  },
- "nouveaux": 2
+ "nouveaux": 0
 }
