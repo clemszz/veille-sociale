@@ -1,5 +1,5 @@
 {
- "derniere_execution": "2026-11-20T14:18:07+00:00",
+ "derniere_execution": "2026-11-20T19:09:34+00:00",
  "sources": {
   "sp-particuliers": {
    "nom": "Service-Public.fr (particuliers)",
@@ -10,14 +10,14 @@
   "sp-pro": {
    "nom": "Service-Public.fr (professionnels)",
    "ok": true,
-   "lus": 228,
+   "lus": 229,
    "nouveaux": 0
   },
   "jo": {
    "nom": "Journal officiel (Lois et décrets)",
    "ok": true,
    "lus": 522,
-   "nouveaux": 2
+   "nouveaux": 0
   },
   "vie-publique-lois": {
    "nom": "Vie-publique.fr (lois)",
@@ -66,13 +66,14 @@
   "assurance-retraite": {
    "nom": "L'Assurance retraite",
    "ok": true,
-   "lus": 193,
-   "nouveaux": 0
+   "lus": 194,
+   "nouveaux": 1
   },
   "agirc-arrco": {
    "nom": "Agirc-Arrco",
-   "ok": false,
-   "erreur": "500 Server Error: Internal Server Error for url: https://www.agirc-arrco.fr/feed/?post_type=post"
+   "ok": true,
+   "lus": 10,
+   "nouveaux": 0
   },
   "c2s": {
    "nom": "Complémentaire santé solidaire",
@@ -111,8 +112,9 @@
   },
   "defenseur-droits": {
    "nom": "Défenseur des droits",
-   "ok": false,
-   "erreur": "503 Server Error: Service Unavailable for url: https://www.defenseurdesdroits.fr/rss/actualites"
+   "ok": true,
+   "lus": 10,
+   "nouveaux": 0
   },
   "ash": {
    "nom": "ASH (Actualités sociales hebdomadaires)",
@@ -129,10 +131,9 @@
  },
  "ia": {
   "active": true,
-  "traites": 2,
+  "traites": 1,
   "restants": 0,
-  "modele": "gemini-3.5-flash-lite",
-  "doublons_regroupes": 0
+  "modele": "gemini-3.5-flash-lite"
  },
- "nouveaux": 2
+ "nouveaux": 1
 }
