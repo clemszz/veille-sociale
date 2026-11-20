@@ -1,5 +1,5 @@
 {
- "derniere_execution": "2026-11-19T19:31:10+00:00",
+ "derniere_execution": "2026-11-20T14:18:07+00:00",
  "sources": {
   "sp-particuliers": {
    "nom": "Service-Public.fr (particuliers)",
@@ -10,14 +10,14 @@
   "sp-pro": {
    "nom": "Service-Public.fr (professionnels)",
    "ok": true,
-   "lus": 229,
+   "lus": 228,
    "nouveaux": 0
   },
   "jo": {
    "nom": "Journal officiel (Lois et décrets)",
    "ok": true,
-   "lus": 463,
-   "nouveaux": 0
+   "lus": 522,
+   "nouveaux": 2
   },
   "vie-publique-lois": {
    "nom": "Vie-publique.fr (lois)",
@@ -56,12 +56,12 @@
   "ameli-assure": {
    "nom": "ameli.fr (assurés)",
    "ok": false,
-   "erreur": "relais local sans nouvelles depuis 15 jours (PC éteint ?)"
+   "erreur": "relais local sans nouvelles depuis 16 jours (PC éteint ?)"
   },
   "ameli-medecin": {
    "nom": "ameli.fr (médecins : arrêts de travail, ALD...)",
    "ok": false,
-   "erreur": "relais local sans nouvelles depuis 15 jours (PC éteint ?)"
+   "erreur": "relais local sans nouvelles depuis 16 jours (PC éteint ?)"
   },
   "assurance-retraite": {
    "nom": "L'Assurance retraite",
@@ -72,7 +72,7 @@
   "agirc-arrco": {
    "nom": "Agirc-Arrco",
    "ok": false,
-   "erreur": "HTTPSConnectionPool(host='www.agirc-arrco.fr', port=443): Max retries exceeded with url: /feed/?post_type=post (Caused by NewConnectionError(\"HTTPSConnection(host='www.agirc-arrco.fr', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))"
+   "erreur": "500 Server Error: Internal Server Error for url: https://www.agirc-arrco.fr/feed/?post_type=post"
   },
   "c2s": {
    "nom": "Complémentaire santé solidaire",
@@ -111,9 +111,8 @@
   },
   "defenseur-droits": {
    "nom": "Défenseur des droits",
-   "ok": true,
-   "lus": 10,
-   "nouveaux": 0
+   "ok": false,
+   "erreur": "503 Server Error: Service Unavailable for url: https://www.defenseurdesdroits.fr/rss/actualites"
   },
   "ash": {
    "nom": "ASH (Actualités sociales hebdomadaires)",
@@ -130,8 +129,10 @@
  },
  "ia": {
   "active": true,
-  "traites": 0,
-  "restants": 0
+  "traites": 2,
+  "restants": 0,
+  "modele": "gemini-3.5-flash-lite",
+  "doublons_regroupes": 0
  },
- "nouveaux": 0
+ "nouveaux": 2
 }

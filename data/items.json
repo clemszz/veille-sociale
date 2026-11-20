@@ -1,5 +1,68 @@
 [
  {
+  "id": "ed6bbb2e2f121149",
+  "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055111693",
+  "source": "jo",
+  "date": "2026-11-20",
+  "collecte": "2026-11-20T14:18:07+00:00",
+  "titre_officiel": "Décret n° 2026-1066 du 17 novembre 2026 fixant le cahier des charges relatif aux équipes locales d'accompagnement sur les aides techniques",
+  "extrait": "Publics concernés : équipes locales d'accompagnement sur les aides techniques. Objet : le décret fixe le cahier des charges applicable aux équipes locales d'accompagnement sur les aides techniques, qui précise notamment la composition de ces équipes, leurs missions et leurs ressources, ainsi que les modalités de suivi et d'évaluation. Entrée en vigueur : le texte entre en vigueur au lendemain de sa publication. Application : le présent décret est pris pour l'application de l'article L. 282-1 du code de l'action sociale et des familles créé par l'article 3 de la loi n° 2024-317 du 8 avril 2024 portant mesures pour bâtir la société du bien-vieillir et de l'autonomie.",
+  "themes": [
+   "handicap",
+   "maintien_emploi"
+  ],
+  "mots_cles": [
+   "action sociale"
+  ],
+  "score": 1,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": true,
+   "importance": 2,
+   "themes": [
+    "handicap",
+    "maintien_emploi"
+   ],
+   "type": "Décret",
+   "titre": "Création du cahier des charges des équipes locales d'accompagnement sur les aides techniques",
+   "resume": "Ce décret fixe le cahier des charges des équipes locales d'accompagnement sur les aides techniques destinées à évaluer les besoins, choisir les équipements et adapter le logement des personnes handicapées et âgées. Il s'applique à compter du lendemain de sa publication.",
+   "a_retenir": "Identifier les équipes locales d'accompagnement sur les aides techniques pour orienter les salariés en situation de handicap nécessitant un accompagnement sur leurs équipements ou l'adaptation de leur cadre de vie.",
+   "date_effet": "2026-11-21"
+  },
+  "doublons_verifie": true
+ },
+ {
+  "id": "fcafbf107cc8635c",
+  "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055111805",
+  "source": "jo",
+  "date": "2026-11-20",
+  "collecte": "2026-11-20T14:18:07+00:00",
+  "titre_officiel": "Décision n° 2026-48 du 17 novembre 2026 du directeur de la CNSA modifiant la décision n° 2026-46 du 10 novembre 2026 du directeur de la CNSA relative aux modalités de financement des nouveaux services autonomie à domicile au titre de l'activité de soins",
+  "extrait": "",
+  "themes": [
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "CNSA"
+  ],
+  "score": 4,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "protection_sociale"
+   ],
+   "type": "Actualité",
+   "titre": "Modification des modalités de financement des services autonomie à domicile par la CNSA",
+   "resume": "Cette décision technique modifie une date de référence pour le financement des services autonomie à domicile par la Caisse nationale de solidarité pour l'autonomie.",
+   "a_retenir": "",
+   "date_effet": ""
+  }
+ },
+ {
   "id": "2fe7116fc1d8a059",
   "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055102864",
   "source": "jo",
