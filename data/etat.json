@@ -1,5 +1,5 @@
 {
- "derniere_execution": "2026-11-20T19:09:34+00:00",
+ "derniere_execution": "2026-11-21T13:40:28+00:00",
  "sources": {
   "sp-particuliers": {
    "nom": "Service-Public.fr (particuliers)",
@@ -10,14 +10,14 @@
   "sp-pro": {
    "nom": "Service-Public.fr (professionnels)",
    "ok": true,
-   "lus": 229,
+   "lus": 228,
    "nouveaux": 0
   },
   "jo": {
    "nom": "Journal officiel (Lois et décrets)",
    "ok": true,
-   "lus": 522,
-   "nouveaux": 0
+   "lus": 548,
+   "nouveaux": 2
   },
   "vie-publique-lois": {
    "nom": "Vie-publique.fr (lois)",
@@ -56,18 +56,18 @@
   "ameli-assure": {
    "nom": "ameli.fr (assurés)",
    "ok": false,
-   "erreur": "relais local sans nouvelles depuis 16 jours (PC éteint ?)"
+   "erreur": "relais local sans nouvelles depuis 17 jours (PC éteint ?)"
   },
   "ameli-medecin": {
    "nom": "ameli.fr (médecins : arrêts de travail, ALD...)",
    "ok": false,
-   "erreur": "relais local sans nouvelles depuis 16 jours (PC éteint ?)"
+   "erreur": "relais local sans nouvelles depuis 17 jours (PC éteint ?)"
   },
   "assurance-retraite": {
    "nom": "L'Assurance retraite",
    "ok": true,
    "lus": 194,
-   "nouveaux": 1
+   "nouveaux": 0
   },
   "agirc-arrco": {
    "nom": "Agirc-Arrco",
@@ -131,9 +131,9 @@
  },
  "ia": {
   "active": true,
-  "traites": 1,
+  "traites": 2,
   "restants": 0,
   "modele": "gemini-3.5-flash-lite"
  },
- "nouveaux": 1
+ "nouveaux": 2
 }
