@@ -1,5 +1,5 @@
 {
- "derniere_execution": "2026-11-23T16:24:21+00:00",
+ "derniere_execution": "2026-11-23T22:44:28+00:00",
  "sources": {
   "sp-particuliers": {
    "nom": "Service-Public.fr (particuliers)",
@@ -10,7 +10,7 @@
   "sp-pro": {
    "nom": "Service-Public.fr (professionnels)",
    "ok": true,
-   "lus": 227,
+   "lus": 228,
    "nouveaux": 0
   },
   "jo": {
@@ -51,7 +51,7 @@
    "nom": "DREETS Occitanie",
    "ok": true,
    "lus": 10,
-   "nouveaux": 1
+   "nouveaux": 0
   },
   "ameli-assure": {
    "nom": "ameli.fr (assurés)",
@@ -85,13 +85,13 @@
    "nom": "Agefiph",
    "ok": true,
    "lus": 10,
-   "nouveaux": 1
+   "nouveaux": 0
   },
   "cnsa": {
    "nom": "CNSA",
    "ok": true,
    "lus": 20,
-   "nouveaux": 1
+   "nouveaux": 0
   },
   "presanse": {
    "nom": "Présanse (fédération des SPSTI)",
@@ -102,8 +102,8 @@
   "cassation": {
    "nom": "Cour de cassation (chambre sociale et 2e civile)",
    "ok": true,
-   "lus": 0,
-   "nouveaux": 0
+   "lus": 19,
+   "nouveaux": 4
   },
   "conseil-etat": {
    "nom": "Conseil d'État (analyses de jurisprudence)",
@@ -113,15 +113,14 @@
   },
   "defenseur-droits": {
    "nom": "Défenseur des droits",
-   "ok": true,
-   "lus": 10,
-   "nouveaux": 0
+   "ok": false,
+   "erreur": "HTTPSConnectionPool(host='www.defenseurdesdroits.fr', port=443): Max retries exceeded with url: /rss/actualites (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.defenseurdesdroits.fr', port=443) at 0x7cedcd9c78f0>, 'Connection to www.defenseurdesdroits.fr timed out. (connect timeout=45)'))"
   },
   "ash": {
    "nom": "ASH (Actualités sociales hebdomadaires)",
    "ok": true,
    "lus": 10,
-   "nouveaux": 1
+   "nouveaux": 0
   },
   "tissot-sante-securite": {
    "nom": "Éditions Tissot (santé-sécurité au travail)",
@@ -132,10 +131,10 @@
  },
  "ia": {
   "active": true,
-  "traites": 0,
-  "restants": 4,
-  "message": "Dernière erreur IA : Gemini HTTP 503 : {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNA",
-  "modele": null
+  "traites": 8,
+  "restants": 0,
+  "modele": "gemini-3.5-flash-lite",
+  "doublons_regroupes": 0
  },
  "nouveaux": 4
 }

@@ -1,5 +1,137 @@
 [
  {
+  "id": "bdb2f55b212e1090",
+  "url": "https://www.legifrance.gouv.fr/juri/id/JURITEXT000055128301",
+  "source": "cassation",
+  "date": "2026-11-23",
+  "collecte": "2026-11-23T22:44:28+00:00",
+  "titre_officiel": "Cour de cassation, civile, Chambre civile 2, 15 octobre 2026, 25-15.843 25-15.864, Publié au bulletin",
+  "extrait": "SECURITE SOCIALE, ACCIDENT DU TRAVAIL - Faute inexcusable de l'employeur - Effets - Réparation du préjudice - Déficit fonctionnel permanent - Définition Le déficit fonctionnel permanent à la réparation duquel peut prétendre la victime d'une faute inexcusable de l'employeur inclut, pour la période postérieure à la date de consolidation, les atteintes aux fonctions physiologiques et à l'intégrité psychique, les souffrances physiques et morales endurées, la perte de la qualité de vie et les troubles ressentis par la victime dans ses conditions d'existence personnelles, familiales et sociales",
+  "themes": [
+   "protection_sociale",
+   "maintien_emploi"
+  ],
+  "mots_cles": [
+   "accident du travail"
+  ],
+  "score": 1,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": true,
+   "importance": 2,
+   "themes": [
+    "protection_sociale",
+    "maintien_emploi"
+   ],
+   "type": "Jurisprudence",
+   "titre": "Faute inexcusable : réparation du déficit fonctionnel permanent en AT/MP",
+   "resume": "La Cour de cassation rappelle qu'en cas de faute inexcusable de l'employeur, la victime d'un accident du travail ou d'une maladie professionnelle peut prétendre à l'indemnisation de son déficit fonctionnel permanent. Ce poste inclut notamment les atteintes physiologiques, les souffrances et la perte de qualité de vie, qui ne sont pas couverts par la rente ou l'indemnité en capital classique.",
+   "a_retenir": "Informer les salariés victimes d'un AT/MP reconnu avec faute inexcusable qu'ils peuvent demander la réparation de leur déficit fonctionnel permanent.",
+   "date_effet": ""
+  },
+  "doublons_verifie": true
+ },
+ {
+  "id": "04c4c3d7d4259de7",
+  "url": "https://www.legifrance.gouv.fr/juri/id/JURITEXT000054167038",
+  "source": "cassation",
+  "date": "2026-11-23",
+  "collecte": "2026-11-23T22:44:28+00:00",
+  "titre_officiel": "Cour de cassation, civile, Chambre civile 2, 13 mai 2026, 23-21.052, Publié au bulletin",
+  "extrait": "SECURITE SOCIALE, ASSURANCES SOCIALES - Prestations (dispositions générales) - Prestations indues - Remboursement - Action en remboursement - Prescription - Prescription biennale - Domaine d'application Selon l'article L. 332-1 du code de la sécurité sociale, dans sa rédaction issue de la loi n° 2015-1702 du 21 décembre 2015, l'action intentée par un organisme payeur en recouvrement des prestations en espèces de l'assurance maladie indûment payées se prescrit par deux ans à compter du paiement des prestations entre les mains du bénéficiaire, sauf en cas de fraude ou fausse déclaration. Pour l'application de ce texte, la fausse déclaration s'entend d'une déclaration inexacte ou d'une…",
+  "themes": [
+   "protection_sociale",
+   "maintien_emploi"
+  ],
+  "mots_cles": [
+   "assurance maladie"
+  ],
+  "score": 1,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": true,
+   "importance": 2,
+   "themes": [
+    "protection_sociale",
+    "maintien_emploi"
+   ],
+   "type": "Jurisprudence",
+   "titre": "Recouvrement des prestations maladie indues : la prescription biennale suppose une fausse déclaration intentionnelle",
+   "resume": "La Cour de cassation rappelle que l'action d'un organisme payeur pour récupérer des prestations en espèces de l'assurance maladie indûment versées se prescrits par deux ans. La règle de la prescription biennale est écartée en cas de fraude ou de fausse déclaration, à condition toutefois que l'organisme démontre le caractère délibéré de l'inexactitude ou de l'omission commise par l'assuré.",
+   "a_retenir": "Vérifier le caractère intentionnel d'une déclaration erronée avant d'écarter la prescription biennale en cas de demande de remboursement de prestations indûtes.",
+   "date_effet": ""
+  },
+  "doublons_verifie": true
+ },
+ {
+  "id": "86efb8ba2e68b983",
+  "url": "https://www.legifrance.gouv.fr/juri/id/JURITEXT000055127865",
+  "source": "cassation",
+  "date": "2026-11-23",
+  "collecte": "2026-11-23T22:44:28+00:00",
+  "titre_officiel": "Cour de cassation, civile, Chambre sociale, 4 novembre 2026, 25-12.777, Publié au bulletin",
+  "extrait": "TRAVAIL REGLEMENTATION, DUREE DU TRAVAIL - Heures supplémentaires - Repos compensateur - Prise du repos - Défaut - Effets - Indemnité - Paiement - Action en justice - Juridiction compétente - Détermination - Portée L'indemnité au titre des repos compensateurs non pris, qui comporte le montant de l'indemnité de repos compensateur et le montant de l'indemnité de congés payés afférents, indemnise non un manquement à l'obligation de sécurité relatif à la durée du travail mais le manquement de l'employeur à son obligation de rémunérer un temps de repos comme du travail effectif, lequel est sans lien avec la maladie professionnelle du salarié. La demande formée à ce titre par le salarié ne relève…",
+  "themes": [
+   "protection_sociale",
+   "maintien_emploi"
+  ],
+  "mots_cles": [
+   "maladie professionnelle"
+  ],
+  "score": 1,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": true,
+   "importance": 2,
+   "themes": [
+    "protection_sociale",
+    "maintien_emploi"
+   ],
+   "type": "Jurisprudence",
+   "titre": "Compétence juridictionnelle pour l'indemnité de repos compensateur non pris",
+   "resume": "La Cour de cassation juge que l'indemnité pour repos compensateurs non pris relève du paiement d'un temps de repos comme du travail effectif et non d'un manquement à l'obligation de sécurité. Par conséquent, les litiges à ce sujet ne relèvent pas de la compétence exclusive du pôle social du tribunal judiciaire.",
+   "a_retenir": "Orienter les demandes relatives au paiement de repos compensateurs non pris vers le conseil de prud'hommes et non vers le contentieux général de la sécurité sociale.",
+   "date_effet": ""
+  },
+  "doublons_verifie": true
+ },
+ {
+  "id": "4d82f30d2c8c2b99",
+  "url": "https://www.legifrance.gouv.fr/juri/id/JURITEXT000055127908",
+  "source": "cassation",
+  "date": "2026-11-23",
+  "collecte": "2026-11-23T22:44:28+00:00",
+  "titre_officiel": "Cour de cassation, civile, Chambre sociale, 10 novembre 2026, 25-14.863, Publié au bulletin",
+  "extrait": "CONTRAT DE TRAVAIL, RUPTURE - Licenciement économique - Reclassement - Obligation de l'employeur - Diffusion de la liste des postes disponibles à l'ensemble des salariés concernés - Diffusion de la liste actualisée - Nécessité CONTRAT DE TRAVAIL, RUPTURE - Licenciement économique - Reclassement - Obligation de l'employeur - Diffusion de la liste des postes disponibles à l'ensemble des salariés concernés - Diffusion de la liste actualisée - Modalités - Détermination - Portée Il résulte des articles L. 1233-4 et D. 1233-2-1 du code du travail que l'employeur, tenu de poursuivre ses recherches de reclassement jusqu'au licenciement, qui diffuse les offres de reclassement par la communication…",
+  "themes": [
+   "maintien_emploi",
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "reclassement"
+  ],
+  "score": 1,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": true,
+   "importance": 2,
+   "themes": [
+    "maintien_emploi",
+    "protection_sociale"
+   ],
+   "type": "Jurisprudence",
+   "titre": "Licenciement économique : obligation pour l'employeur de diffuser les listes actualisées de postes de reclassement",
+   "resume": "La Cour de cassation rappelle que dans le cadre d'un licenciement économique, l'employeur qui communique une liste de postes disponibles pour le reclassement interne doit obligatoirement transmettre toutes les actualisations successives de cette liste à l'ensemble des salariés concernés jusqu'au prononcé du licenciement.",
+   "a_retenir": "Vérifier en cas de licenciement économique que l'employeur a bien communiqué toutes les listes actualisées de postes de reclassement jusqu'au terme de la procédure.",
+   "date_effet": ""
+  },
+  "doublons_verifie": true
+ },
+ {
   "id": "92f9075524e4ae76",
   "url": "https://occitanie.dreets.gouv.fr/L-apprentissage-un-levier-de-reussite-pour-les-jeunes-et-les-entreprises-en",
   "source": "dreets-occitanie",
@@ -8,15 +140,25 @@
   "titre_officiel": "L'apprentissage : un levier de réussite pour les jeunes et les entreprises en Occitanie",
   "extrait": "Découvrez comment recruter un apprenti en Occitanie avec les aides financières et l'accompagnement des CFA et de France Travail. Déposez votre offre sur 1jeune1solution ! - Emploi / actus_regionales_5 , slide , A migrer , Entreprise, emploi, économie",
   "themes": [
-   "protection_sociale"
+   "maintien_emploi"
   ],
   "mots_cles": [
    "France Travail"
   ],
   "score": 1,
   "ia": {
-   "statut": "en_attente",
-   "essais": 1
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "maintien_emploi"
+   ],
+   "type": "Actualité",
+   "titre": "Information sur l'apprentissage en Occitanie",
+   "resume": "Extrait insuffisant : consulter la source.",
+   "a_retenir": "",
+   "date_effet": ""
   }
  },
  {
@@ -28,16 +170,29 @@
   "titre_officiel": "RECADRE, la campagne qui donne la parole aux cadres en situation de handicap",
   "extrait": "RECADRE, la campagne qui donne la parole aux cadres en situation de handicap v-florentin@ag…",
   "themes": [
-   "handicap"
+   "handicap",
+   "maintien_emploi"
   ],
   "mots_cles": [
    "handicap"
   ],
   "score": 4,
   "ia": {
-   "statut": "en_attente",
-   "essais": 1
-  }
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": true,
+   "importance": 1,
+   "themes": [
+    "handicap",
+    "maintien_emploi"
+   ],
+   "type": "Actualité",
+   "titre": "Campagne de sensibilisation RECADRE pour les cadres en situation de handicap",
+   "resume": "L'Agefiph lance une campagne de communication intitulée RECADRE pour donner la parole aux cadres en situation de handicap. Cette initiative vise à sensibiliser sur leur parcours et l'intégration du handicap à un niveau d'encadrement.",
+   "a_retenir": "",
+   "date_effet": ""
+  },
+  "doublons_verifie": true
  },
  {
   "id": "8e5c0a2b15f2c152",
@@ -48,7 +203,8 @@
   "titre_officiel": "Le Secours catholique alerte sur une pauvreté \"qui s’intensifie et se durcit\"",
   "extrait": "Précarisation du marché du travail, conditions d’emploi de plus en plus dégradées, baisse du pouvoir d’achat, problèmes de santé, de logement ou d’autorisation de séjour, les raisons de la précarité sont plus multifactorielles que jamais. Avec un taux de non-recours aux droits sociaux en nette augmentation.",
   "themes": [
-   "aides_sociales"
+   "aides_sociales",
+   "protection_sociale"
   ],
   "mots_cles": [
    "non-recours",
@@ -57,9 +213,21 @@
   ],
   "score": 6,
   "ia": {
-   "statut": "en_attente",
-   "essais": 1
-  }
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": true,
+   "importance": 1,
+   "themes": [
+    "aides_sociales",
+    "protection_sociale"
+   ],
+   "type": "Actualité",
+   "titre": "Alerte sur l'intensification de la pauvreté et le non-recours aux droits",
+   "resume": "Le Secours catholique met en garde contre une pauvreté qui s'intensifie sous l'effet de la précarisation du marché du travail, des conditions de vie dégradées et d'une hausse du non-recours aux droits sociaux.",
+   "a_retenir": "Être particulièrement vigilant face aux risques de non-recours aux droits sociaux lors de l'accompagnement des salariés en situation de précarité.",
+   "date_effet": ""
+  },
+  "doublons_verifie": true
  },
  {
   "id": "99fc9779e5943a0e",
@@ -167,8 +335,18 @@
   ],
   "score": 4,
   "ia": {
-   "statut": "en_attente",
-   "essais": 1
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "handicap"
+   ],
+   "type": "Actualité",
+   "titre": "Financement du dossier usager informatisé pour les établissements médico-sociaux du handicap",
+   "resume": "Une instruction de la CNSA débloque des fonds supplémentaires pour le déploiement du dossier de l'usager informatisé dans les établissements et services pour enfants en situation de handicap et de protection de l'enfance.",
+   "a_retenir": "",
+   "date_effet": ""
   }
  },
  {
