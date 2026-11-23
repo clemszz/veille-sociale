@@ -1,5 +1,5 @@
 {
- "derniere_execution": "2026-11-22T18:34:28+00:00",
+ "derniere_execution": "2026-11-23T16:24:21+00:00",
  "sources": {
   "sp-particuliers": {
    "nom": "Service-Public.fr (particuliers)",
@@ -16,7 +16,7 @@
   "jo": {
    "nom": "Journal officiel (Lois et décrets)",
    "ok": true,
-   "lus": 613,
+   "lus": 541,
    "nouveaux": 0
   },
   "vie-publique-lois": {
@@ -51,17 +51,17 @@
    "nom": "DREETS Occitanie",
    "ok": true,
    "lus": 10,
-   "nouveaux": 0
+   "nouveaux": 1
   },
   "ameli-assure": {
    "nom": "ameli.fr (assurés)",
    "ok": false,
-   "erreur": "relais local sans nouvelles depuis 18 jours (PC éteint ?)"
+   "erreur": "relais local sans nouvelles depuis 19 jours (PC éteint ?)"
   },
   "ameli-medecin": {
    "nom": "ameli.fr (médecins : arrêts de travail, ALD...)",
    "ok": false,
-   "erreur": "relais local sans nouvelles depuis 18 jours (PC éteint ?)"
+   "erreur": "relais local sans nouvelles depuis 19 jours (PC éteint ?)"
   },
   "assurance-retraite": {
    "nom": "L'Assurance retraite",
@@ -85,12 +85,13 @@
    "nom": "Agefiph",
    "ok": true,
    "lus": 10,
-   "nouveaux": 0
+   "nouveaux": 1
   },
   "cnsa": {
    "nom": "CNSA",
-   "ok": false,
-   "erreur": "HTTPSConnectionPool(host='www.cnsa.fr', port=443): Max retries exceeded with url: /flux-rss.xml/article (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)')))"
+   "ok": true,
+   "lus": 20,
+   "nouveaux": 1
   },
   "presanse": {
    "nom": "Présanse (fédération des SPSTI)",
@@ -120,7 +121,7 @@
    "nom": "ASH (Actualités sociales hebdomadaires)",
    "ok": true,
    "lus": 10,
-   "nouveaux": 0
+   "nouveaux": 1
   },
   "tissot-sante-securite": {
    "nom": "Éditions Tissot (santé-sécurité au travail)",
@@ -132,7 +133,9 @@
  "ia": {
   "active": true,
   "traites": 0,
-  "restants": 0
+  "restants": 4,
+  "message": "Dernière erreur IA : Gemini HTTP 503 : {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNA",
+  "modele": null
  },
- "nouveaux": 0
+ "nouveaux": 4
 }

@@ -1,5 +1,67 @@
 [
  {
+  "id": "92f9075524e4ae76",
+  "url": "https://occitanie.dreets.gouv.fr/L-apprentissage-un-levier-de-reussite-pour-les-jeunes-et-les-entreprises-en",
+  "source": "dreets-occitanie",
+  "date": "2026-11-23",
+  "collecte": "2026-11-23T16:24:21+00:00",
+  "titre_officiel": "L'apprentissage : un levier de réussite pour les jeunes et les entreprises en Occitanie",
+  "extrait": "Découvrez comment recruter un apprenti en Occitanie avec les aides financières et l'accompagnement des CFA et de France Travail. Déposez votre offre sur 1jeune1solution ! - Emploi / actus_regionales_5 , slide , A migrer , Entreprise, emploi, économie",
+  "themes": [
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "France Travail"
+  ],
+  "score": 1,
+  "ia": {
+   "statut": "en_attente",
+   "essais": 1
+  }
+ },
+ {
+  "id": "9eba7230bf906b01",
+  "url": "https://www.agefiph.fr/espace-presse/tous-les-documents-presse/recadre-la-campagne-qui-donne-la-parole-aux-cadres-en",
+  "source": "agefiph",
+  "date": "2026-11-23",
+  "collecte": "2026-11-23T16:24:21+00:00",
+  "titre_officiel": "RECADRE, la campagne qui donne la parole aux cadres en situation de handicap",
+  "extrait": "RECADRE, la campagne qui donne la parole aux cadres en situation de handicap v-florentin@ag…",
+  "themes": [
+   "handicap"
+  ],
+  "mots_cles": [
+   "handicap"
+  ],
+  "score": 4,
+  "ia": {
+   "statut": "en_attente",
+   "essais": 1
+  }
+ },
+ {
+  "id": "8e5c0a2b15f2c152",
+  "url": "https://www.ash.tm.fr/societe/le-secours-catholique-alerte-sur-une-pauvrete-qui-sintensifie-et-se-durcit-975863.php",
+  "source": "ash",
+  "date": "2026-11-23",
+  "collecte": "2026-11-23T16:24:21+00:00",
+  "titre_officiel": "Le Secours catholique alerte sur une pauvreté \"qui s’intensifie et se durcit\"",
+  "extrait": "Précarisation du marché du travail, conditions d’emploi de plus en plus dégradées, baisse du pouvoir d’achat, problèmes de santé, de logement ou d’autorisation de séjour, les raisons de la précarité sont plus multifactorielles que jamais. Avec un taux de non-recours aux droits sociaux en nette augmentation.",
+  "themes": [
+   "aides_sociales"
+  ],
+  "mots_cles": [
+   "non-recours",
+   "pauvreté",
+   "précarité"
+  ],
+  "score": 6,
+  "ia": {
+   "statut": "en_attente",
+   "essais": 1
+  }
+ },
+ {
   "id": "99fc9779e5943a0e",
   "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055119879",
   "source": "jo",
@@ -87,6 +149,26 @@
    "resume": "L'arrêté définit les modalités de l'outil de diagnostic régional et du projet personnalisé d'installation pour les usagers du réseau France services agriculture à compter du 1er janvier 2027.",
    "a_retenir": "",
    "date_effet": "2027-01-01"
+  }
+ },
+ {
+  "id": "4954c6c3828f62ae",
+  "url": "https://www.cnsa.fr/actualites/10-millions-deuros-supplementaires-pour-deployer-le-dui-dans-les-essms-de-la-protection",
+  "source": "cnsa",
+  "date": "2026-11-20",
+  "collecte": "2026-11-23T16:24:21+00:00",
+  "titre_officiel": "10 millions d’euros supplémentaires pour déployer le DUI dans les ESSMS de la protection de l’enfance et du handicap",
+  "extrait": "Une nouvelle instruction porte à plus de 18 millions d’euros le montant total mobilisé en 2026 pour accélérer le déploiement et les usages du dossier de l’usager informatisé (DUI) dans les établissements et services accompagnant des enfants en situation de handicap ou relevant de la protection de l’enfance. Cette enveloppe complémentaire doit permettre de financer davantage de projets et d’élargir la couverture de ces établissements.",
+  "themes": [
+   "handicap"
+  ],
+  "mots_cles": [
+   "handicap"
+  ],
+  "score": 4,
+  "ia": {
+   "statut": "en_attente",
+   "essais": 1
   }
  },
  {
