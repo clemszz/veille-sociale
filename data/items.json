@@ -1,5 +1,49 @@
 [
  {
+  "id": "58caeb1a64562a58",
+  "url": "https://www.editions-tissot.fr/actualite/sante-securite/inaptitude-jusquou-setend-lobligation-de-reclassement-de-lemployeur",
+  "source": "tissot-sante-securite",
+  "date": "2026-11-24",
+  "collecte": "2026-11-24T16:15:19+00:00",
+  "titre_officiel": "Inaptitude : jusqu’où s’étend l’obligation de reclassement de l’employeur ?",
+  "extrait": "Lorsqu’un salarié est déclaré inapte à son poste de travail, l’employeur doit, sauf dispense, rechercher une solution de reclassement avant d’envisager son licenciement. Si le Code du travail encadre le périmètre et les modalités de ces recherches, l’employeur reste libre d’aller au-delà de ses obligations légales. Une récente décision apporte des précisions sur la manière dont ces démarches supplémentaires sont prises en compte pour apprécier le respect de son obligation.",
+  "themes": [
+   "maintien_emploi"
+  ],
+  "mots_cles": [
+   "inapte",
+   "inaptitude",
+   "reclassement"
+  ],
+  "score": 6,
+  "ia": {
+   "statut": "en_attente",
+   "essais": 1
+  }
+ },
+ {
+  "id": "8ef57bba9bcd953e",
+  "url": "https://www.editions-tissot.fr/actualite/sante-securite/handicap-au-travail-des-besoins-dadaptation-encore-insuffisamment-pris-en-compte",
+  "source": "tissot-sante-securite",
+  "date": "2026-11-24",
+  "collecte": "2026-11-24T16:15:19+00:00",
+  "titre_officiel": "Handicap au travail : des besoins d’adaptation encore insuffisamment pris en compte",
+  "extrait": "L’adaptation des situations de travail contribue au maintien dans l’emploi des salariés handicapés. Pourtant, ces derniers ne bénéficient pas tous des mêmes mesures, y compris lorsqu’ils rencontrent des difficultés importantes dans leur activité. Une étude de la DARES et de la DREES met en évidence des écarts marqués selon l’existence, ou non, d’une reconnaissance administrative du handicap.",
+  "themes": [
+   "maintien_emploi",
+   "handicap"
+  ],
+  "mots_cles": [
+   "handicap",
+   "maintien dans l'emploi"
+  ],
+  "score": 5,
+  "ia": {
+   "statut": "en_attente",
+   "essais": 1
+  }
+ },
+ {
   "id": "0724bd6297b2f910",
   "url": "https://www.agirc-arrco.fr/nous-connaitre/nos-actualites/le-replay-connaitre-lessentiel-de-ma-retraite-est-disponible-3/",
   "source": "agirc-arrco",
