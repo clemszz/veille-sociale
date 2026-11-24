@@ -1,5 +1,5 @@
 {
- "derniere_execution": "2026-11-23T22:44:28+00:00",
+ "derniere_execution": "2026-11-24T08:33:58+00:00",
  "sources": {
   "sp-particuliers": {
    "nom": "Service-Public.fr (particuliers)",
@@ -16,7 +16,7 @@
   "jo": {
    "nom": "Journal officiel (Lois et décrets)",
    "ok": true,
-   "lus": 541,
+   "lus": 532,
    "nouveaux": 0
   },
   "vie-publique-lois": {
@@ -55,25 +55,27 @@
   },
   "ameli-assure": {
    "nom": "ameli.fr (assurés)",
-   "ok": false,
-   "erreur": "relais local sans nouvelles depuis 19 jours (PC éteint ?)"
+   "ok": true,
+   "lus": 10,
+   "nouveaux": 0
   },
   "ameli-medecin": {
    "nom": "ameli.fr (médecins : arrêts de travail, ALD...)",
-   "ok": false,
-   "erreur": "relais local sans nouvelles depuis 19 jours (PC éteint ?)"
+   "ok": true,
+   "lus": 10,
+   "nouveaux": 1
   },
   "assurance-retraite": {
    "nom": "L'Assurance retraite",
    "ok": true,
-   "lus": 195,
+   "lus": 194,
    "nouveaux": 0
   },
   "agirc-arrco": {
    "nom": "Agirc-Arrco",
    "ok": true,
    "lus": 10,
-   "nouveaux": 0
+   "nouveaux": 1
   },
   "c2s": {
    "nom": "Complémentaire santé solidaire",
@@ -103,7 +105,7 @@
    "nom": "Cour de cassation (chambre sociale et 2e civile)",
    "ok": true,
    "lus": 19,
-   "nouveaux": 4
+   "nouveaux": 0
   },
   "conseil-etat": {
    "nom": "Conseil d'État (analyses de jurisprudence)",
@@ -113,8 +115,9 @@
   },
   "defenseur-droits": {
    "nom": "Défenseur des droits",
-   "ok": false,
-   "erreur": "HTTPSConnectionPool(host='www.defenseurdesdroits.fr', port=443): Max retries exceeded with url: /rss/actualites (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.defenseurdesdroits.fr', port=443) at 0x7cedcd9c78f0>, 'Connection to www.defenseurdesdroits.fr timed out. (connect timeout=45)'))"
+   "ok": true,
+   "lus": 10,
+   "nouveaux": 0
   },
   "ash": {
    "nom": "ASH (Actualités sociales hebdomadaires)",
@@ -131,10 +134,9 @@
  },
  "ia": {
   "active": true,
-  "traites": 8,
+  "traites": 2,
   "restants": 0,
-  "modele": "gemini-3.5-flash-lite",
-  "doublons_regroupes": 0
+  "modele": "gemini-3.5-flash-lite"
  },
- "nouveaux": 4
+ "nouveaux": 2
 }
