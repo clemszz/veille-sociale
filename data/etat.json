@@ -1,5 +1,5 @@
 {
- "derniere_execution": "2026-11-24T21:22:14+00:00",
+ "derniere_execution": "2026-11-25T15:58:33+00:00",
  "sources": {
   "sp-particuliers": {
    "nom": "Service-Public.fr (particuliers)",
@@ -10,14 +10,14 @@
   "sp-pro": {
    "nom": "Service-Public.fr (professionnels)",
    "ok": true,
-   "lus": 228,
+   "lus": 227,
    "nouveaux": 0
   },
   "jo": {
    "nom": "Journal officiel (Lois et décrets)",
    "ok": true,
-   "lus": 532,
-   "nouveaux": 0
+   "lus": 468,
+   "nouveaux": 3
   },
   "vie-publique-lois": {
    "nom": "Vie-publique.fr (lois)",
@@ -68,8 +68,8 @@
   "assurance-retraite": {
    "nom": "L'Assurance retraite",
    "ok": true,
-   "lus": 196,
-   "nouveaux": 1
+   "lus": 195,
+   "nouveaux": 0
   },
   "agirc-arrco": {
    "nom": "Agirc-Arrco",
@@ -105,7 +105,7 @@
    "nom": "Cour de cassation (chambre sociale et 2e civile)",
    "ok": true,
    "lus": 20,
-   "nouveaux": 1
+   "nouveaux": 0
   },
   "conseil-etat": {
    "nom": "Conseil d'État (analyses de jurisprudence)",
@@ -134,10 +134,10 @@
  },
  "ia": {
   "active": true,
-  "traites": 5,
-  "restants": 0,
-  "modele": "gemini-3.5-flash-lite",
-  "doublons_regroupes": 0
+  "traites": 0,
+  "restants": 4,
+  "message": "Dernière erreur IA : Gemini HTTP 503 : {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNA",
+  "modele": null
  },
- "nouveaux": 3
+ "nouveaux": 4
 }
