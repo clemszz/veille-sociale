@@ -1,11 +1,11 @@
 {
- "derniere_execution": "2026-11-25T20:30:25+00:00",
+ "derniere_execution": "2026-11-26T15:41:05+00:00",
  "sources": {
   "sp-particuliers": {
    "nom": "Service-Public.fr (particuliers)",
    "ok": true,
    "lus": 10,
-   "nouveaux": 0
+   "nouveaux": 1
   },
   "sp-pro": {
    "nom": "Service-Public.fr (professionnels)",
@@ -16,8 +16,8 @@
   "jo": {
    "nom": "Journal officiel (Lois et décrets)",
    "ok": true,
-   "lus": 468,
-   "nouveaux": 0
+   "lus": 472,
+   "nouveaux": 1
   },
   "vie-publique-lois": {
    "nom": "Vie-publique.fr (lois)",
@@ -35,7 +35,7 @@
    "nom": "Ministère du Travail",
    "ok": true,
    "lus": 50,
-   "nouveaux": 1
+   "nouveaux": 0
   },
   "solidarites": {
    "nom": "Ministère des Solidarités",
@@ -68,14 +68,14 @@
   "assurance-retraite": {
    "nom": "L'Assurance retraite",
    "ok": true,
-   "lus": 196,
-   "nouveaux": 1
+   "lus": 197,
+   "nouveaux": 0
   },
   "agirc-arrco": {
    "nom": "Agirc-Arrco",
    "ok": true,
    "lus": 10,
-   "nouveaux": 0
+   "nouveaux": 1
   },
   "c2s": {
    "nom": "Complémentaire santé solidaire",
@@ -104,8 +104,8 @@
   "cassation": {
    "nom": "Cour de cassation (chambre sociale et 2e civile)",
    "ok": true,
-   "lus": 20,
-   "nouveaux": 0
+   "lus": 23,
+   "nouveaux": 1
   },
   "conseil-etat": {
    "nom": "Conseil d'État (analyses de jurisprudence)",
@@ -134,10 +134,10 @@
  },
  "ia": {
   "active": true,
-  "traites": 6,
+  "traites": 4,
   "restants": 0,
   "modele": "gemini-3.5-flash-lite",
-  "doublons_regroupes": 0
+  "doublons_regroupes": 2
  },
- "nouveaux": 2
+ "nouveaux": 4
 }

@@ -1,5 +1,137 @@
 [
  {
+  "id": "46d344f4a6891561",
+  "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055143987",
+  "source": "jo",
+  "date": "2026-11-26",
+  "collecte": "2026-11-26T15:41:05+00:00",
+  "titre_officiel": "Décret n° 2026-1082 du 25 novembre 2026 portant relèvement du salaire minimum de croissance",
+  "extrait": "Publics concernés : employeurs et salariés de droit privé. Objet : fixation des montants applicables au 1er décembre 2026 du salaire minimum de croissance national et du minimum garanti. A compter du 1er décembre 2026, le décret porte : - en métropole, en Guadeloupe, en Guyane, en Martinique, à La Réunion, à Saint-Barthélemy, à Saint-Martin et à Saint-Pierre-et-Miquelon, le montant du SMIC brut horaire à 12,51 euros (augmentation de 1,6 %), soit 1 897,35 euros mensuels sur la base de la durée légale du travail de 35 heures hebdomadaires ; - à Mayotte, le montant du SMIC brut horaire à 9,71 euros (augmentation de 1,6 %), soit 1 472,68 euros mensuels sur la base de la durée légale du travail…",
+  "themes": [
+   "protection_sociale",
+   "maintien_emploi"
+  ],
+  "mots_cles": [
+   "Smic"
+  ],
+  "score": 1,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": true,
+   "importance": 3,
+   "themes": [
+    "protection_sociale",
+    "maintien_emploi"
+   ],
+   "type": "Décret",
+   "titre": "Revalorisation du SMIC et du minimum garanti au 1er décembre 2026",
+   "resume": "Le décret fixe les nouveaux montants du SMIC et du minimum garanti applicables à compter du 1er décembre 2026. Le SMIC horaire brut passe à 12,51 euros en métropole et dans les outre-mer, et à 9,71 euros à Mayotte. Cette revalorisation anticipée de 1,6 % concerne l'ensemble des salariés de droit privé.",
+   "a_retenir": "Vérifier l'application de la hausse du SMIC sur les bulletins de paie des salariés à temps partiel ou complet payés au minimum légal dès le mois de décembre 2026.",
+   "date_effet": "2026-12-01"
+  },
+  "doublon_de": "b82ce9c7a3982bff",
+  "doublons_verifie": true
+ },
+ {
+  "id": "d12986e8edd3e6e7",
+  "url": "https://www.agirc-arrco.fr/nous-connaitre/nos-actualites/lutter-pour-lacces-au-droit/",
+  "source": "agirc-arrco",
+  "date": "2026-11-26",
+  "collecte": "2026-11-26T15:41:05+00:00",
+  "titre_officiel": "Lutter pour l’accès au droit",
+  "extrait": "Le 25 novembre, à l’occasion du Salon des maires, l’Agirc-Arrco et l’Union nationale des centres communaux d’action sociale (UNCCAS) ont signé une convention de partenariat.",
+  "themes": [
+   "aides_sociales"
+  ],
+  "mots_cles": [
+   "action sociale"
+  ],
+  "score": 1,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "aides_sociales"
+   ],
+   "type": "Actualité",
+   "titre": "Signature d'une convention de partenariat entre l'Agirc-Arrco et l'UNCCAS",
+   "resume": "L'Agirc-Arrco et l'Union nationale des centres communaux d'action sociale ont signé une convention de partenariat pour lutter pour l'accès au droit lors du Salon des maires.",
+   "a_retenir": "",
+   "date_effet": ""
+  }
+ },
+ {
+  "id": "e71b88ef213dcffb",
+  "url": "https://www.service-public.gouv.fr/particuliers/actualites/A17008?xtor=RSS-111",
+  "source": "sp-particuliers",
+  "date": "2026-11-25",
+  "collecte": "2026-11-26T15:41:05+00:00",
+  "titre_officiel": "Quelle revalorisation pour le Smic à compter du 1er décembre ?",
+  "extrait": "Le 9 novembre dernier, le Premier ministre a annoncé une augmentation du Smic (salaire minimum interprofessionnel de croissance). Le 1 er décembre, soit un mois avant sa revalorisation annuelle automatique, le Smic augmentera donc de 1,6 %. Quels sont les nouveaux montants ? Quels sont les critères de calcul pour l’évolution annuelle du Smic ? Service Public vous informe.",
+  "themes": [
+   "protection_sociale",
+   "maintien_emploi"
+  ],
+  "mots_cles": [
+   "revalorisation",
+   "Smic"
+  ],
+  "score": 5,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": true,
+   "importance": 3,
+   "themes": [
+    "protection_sociale",
+    "maintien_emploi"
+   ],
+   "type": "Démarche / info pratique",
+   "titre": "Hausse anticipée du SMIC au 1er décembre 2026 : nouveaux montants",
+   "resume": "Suite à une revalorisation anticipée de 1,6 %, le SMIC net mensuel s'établit à 1 501,94 euros à compter du 1er décembre 2026. Le texte détaille les montants bruts et nets applicables en métropole, dans les départements d'outre-mer et à Mayotte.",
+   "a_retenir": "Informer les salariés concernés par les bas salaires de la revalorisation de leur rémunération nette à compter de la paie de décembre 2026.",
+   "date_effet": "2026-12-01"
+  },
+  "doublon_de": "b82ce9c7a3982bff",
+  "doublons_verifie": true
+ },
+ {
+  "id": "32d04df3b9f54619",
+  "url": "https://www.legifrance.gouv.fr/juri/id/JURITEXT000055128157",
+  "source": "cassation",
+  "date": "2026-11-25",
+  "collecte": "2026-11-26T15:41:05+00:00",
+  "titre_officiel": "Cour de cassation, civile, Chambre civile 2, 19 novembre 2026, 24-10.115, Publié au bulletin",
+  "extrait": "PROTECTION DES CONSOMMATEURS Il résulte de la combinaison des articles L. 211-2 du code des procédures civiles d'exécution, L. 722-2 du code de la consommation et L. 741-2 du même code que le transfert de la créance du débiteur saisi à l'égard du tiers saisi, objet de la saisie-attribution, dans le patrimoine du créancier saisissant, rendant ce dernier titulaire de cette créance au jour de l'acte de saisie-attribution, n'est pas remis en cause par une décision postérieure de recevabilité du débiteur saisi à la procédure de surendettement des particuliers, ni par une procédure postérieure de rétablissement personnel entraînant l'effacement de la créance, cause de la saisie. Il en découle que…",
+  "themes": [
+   "aides_sociales",
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "surendettement"
+  ],
+  "score": 1,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": true,
+   "importance": 2,
+   "themes": [
+    "aides_sociales",
+    "protection_sociale"
+   ],
+   "type": "Jurisprudence",
+   "titre": "Articulation entre saisie-attribution et procédure de surendettement",
+   "resume": "La Cour de cassation précise que le transfert de créance résultant d'une saisie-attribution antérieure n'est pas remis en cause par une décision de recevabilité ou un effacement de dettes prononcé ultérieurement dans le cadre d'une procédure de surendettement.",
+   "a_retenir": "Être vigilant sur le fait qu'une procédure de surendettement postérieure ne remet pas systématiquement en cause les effets d'une saisie-attribution déjà exécutée.",
+   "date_effet": "2026-11-19"
+  },
+  "doublons_verifie": true
+ },
+ {
   "id": "b82ce9c7a3982bff",
   "url": "https://travail-emploi.gouv.fr/communique-du-conseil-des-ministres-sur-le-projet-de-decret-portant-relevement-du-salaire-minimum-de-croissance",
   "source": "travail-emploi",
