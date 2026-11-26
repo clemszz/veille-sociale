@@ -1,11 +1,11 @@
 {
- "derniere_execution": "2026-11-26T15:41:05+00:00",
+ "derniere_execution": "2026-11-26T20:15:41+00:00",
  "sources": {
   "sp-particuliers": {
    "nom": "Service-Public.fr (particuliers)",
    "ok": true,
    "lus": 10,
-   "nouveaux": 1
+   "nouveaux": 0
   },
   "sp-pro": {
    "nom": "Service-Public.fr (professionnels)",
@@ -17,7 +17,7 @@
    "nom": "Journal officiel (Lois et décrets)",
    "ok": true,
    "lus": 472,
-   "nouveaux": 1
+   "nouveaux": 0
   },
   "vie-publique-lois": {
    "nom": "Vie-publique.fr (lois)",
@@ -75,7 +75,7 @@
    "nom": "Agirc-Arrco",
    "ok": true,
    "lus": 10,
-   "nouveaux": 1
+   "nouveaux": 0
   },
   "c2s": {
    "nom": "Complémentaire santé solidaire",
@@ -105,7 +105,7 @@
    "nom": "Cour de cassation (chambre sociale et 2e civile)",
    "ok": true,
    "lus": 23,
-   "nouveaux": 1
+   "nouveaux": 0
   },
   "conseil-etat": {
    "nom": "Conseil d'État (analyses de jurisprudence)",
@@ -134,10 +134,8 @@
  },
  "ia": {
   "active": true,
-  "traites": 4,
-  "restants": 0,
-  "modele": "gemini-3.5-flash-lite",
-  "doublons_regroupes": 2
+  "traites": 0,
+  "restants": 0
  },
- "nouveaux": 4
+ "nouveaux": 0
 }
