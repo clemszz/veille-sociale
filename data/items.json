@@ -1,5 +1,207 @@
 [
  {
+  "id": "1bf1936e6234e4be",
+  "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055150180",
+  "source": "jo",
+  "date": "2026-11-27",
+  "collecte": "2026-11-27T15:29:59+00:00",
+  "titre_officiel": "Décret n° 2026-1090 du 24 novembre 2026 relatif aux diverses dispositions relatives aux déclarations de changement de situation des demandeurs d'emploi, à leur disponibilité et au renouvellement périodique de leur demande d'emploi",
+  "extrait": "Publics concernés : personnes inscrites sur la liste des demandeurs d'emploi, bénéficiaires du revenu de solidarité active, opérateur France Travail, missions locales, Cap emploi, conseils départementaux et leurs délégataires. Objet : le décret procède à l'adaptation de diverses dispositions du code du travail relatives aux conditions de renouvellement périodique de la demande d'emploi, au contenu et aux modalités de déclaration des changements affectant la situation des demandeurs d'emploi ainsi qu'aux conditions de leur disponibilité. Notamment, le texte tire les conséquences de l'allongement du congé de paternité, passé de sept à vingt-cinq jours, en considérant désormais les demandeurs…",
+  "themes": [
+   "protection_sociale",
+   "aides_sociales"
+  ],
+  "mots_cles": [
+   "Cap emploi",
+   "France Travail",
+   "revenu de solidarité active"
+  ],
+  "score": 3,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": true,
+   "importance": 2,
+   "themes": [
+    "protection_sociale",
+    "aides_sociales"
+   ],
+   "type": "Décret",
+   "titre": "Adaptation des règles d'inscription et de disponibilité des demandeurs d'emploi",
+   "resume": "Ce décret intègre le congé de paternité allongé, le congé d'adoption et le nouveau congé de naissance parmi les motifs d'indisponibilité immédiate pour les demandeurs d'emploi. Il simplifie également la transmission des changements d'adresse pour les bénéficiaires du RSA entre la CAF et France Travail, et prolonge une mesure transitoire de prévention de la désinscription jusqu'en décembre 2028.",
+   "a_retenir": "Informer les demandeurs d'emploi en congé de paternité, d'adoption ou de naissance qu'ils sont reconnus indisponibles pour un emploi sans perdre leur inscription.",
+   "date_effet": ""
+  },
+  "doublons_verifie": true
+ },
+ {
+  "id": "5816a1531a594a06",
+  "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055150598",
+  "source": "jo",
+  "date": "2026-11-27",
+  "collecte": "2026-11-27T15:29:59+00:00",
+  "titre_officiel": "Décret n° 2026-1095 du 26 novembre 2026 modifiant les règles de calcul de la participation restant à la charge des bénéficiaires de l'allocation personnalisée d'autonomie à domicile et augmentant la participation de certains bénéficiaires",
+  "extrait": "Publics concernés : personnes âgées bénéficiaires ou demandeuses de l'allocation personnalisée d'autonomie résidant à domicile, départements et autres collectivités territoriales compétentes pour l'attribution et le service de cette allocation. Objet : le décret modifie les modalités de calcul de la participation financière des bénéficiaires de l'allocation personnalisée d'autonomie à domicile prévues à l'article R. 232-11 du code de l'action sociale et des familles. Il modifie les seuils délimitant les trois fractions du plan d'aide prises en compte pour le calcul de la participation du bénéficiaire. Il adapte la formule de calcul applicable aux bénéficiaires dont les ressources sont…",
+  "themes": [
+   "aides_sociales"
+  ],
+  "mots_cles": [
+   "action sociale",
+   "allocation personnalisée d'autonomie"
+  ],
+  "score": 5,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "aides_sociales"
+   ],
+   "type": "Décret",
+   "titre": "Modification du calcul de la participation financière à l'APA à domicile",
+   "resume": "Extrait insuffisant : consulter la source.",
+   "a_retenir": "",
+   "date_effet": "2027-01-01"
+  }
+ },
+ {
+  "id": "da8f850381ccc2a3",
+  "url": "https://www.defenseurdesdroits.fr/remise-du-prix-de-these-2026-du-defenseur-des-droits-1261",
+  "source": "defenseur-droits",
+  "date": "2026-11-27",
+  "collecte": "2026-11-27T15:29:59+00:00",
+  "titre_officiel": "Remise du Prix de thèse 2026 du Défenseur des droits",
+  "extrait": "Remise du Prix de thèse 2026 du Défenseur des droits Éducation Discrimination Santé Accès aux droits JBRAMI ven 27/11/2026 - 10:24 Le 26 novembre 2026, le douzième Prix de thèse du Défenseur des droits a été remis par François-Noël Buffet à deux co-lauréat·es.",
+  "themes": [
+   "aides_sociales"
+  ],
+  "mots_cles": [
+   "accès aux droits"
+  ],
+  "score": 1,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "aides_sociales"
+   ],
+   "type": "Actualité",
+   "titre": "Remise du Prix de thèse 2026 du Défenseur des droits",
+   "resume": "Extrait insuffisant : consulter la source.",
+   "a_retenir": "",
+   "date_effet": ""
+  }
+ },
+ {
+  "id": "3100cd798678f7b6",
+  "url": "https://www.service-public.gouv.fr/particuliers/actualites/A14502?xtor=RSS-111",
+  "source": "sp-particuliers",
+  "date": "2026-11-26",
+  "collecte": "2026-11-27T15:29:59+00:00",
+  "titre_officiel": "Prime de Noël 2026 : quel montant et quelle date de versement ?",
+  "extrait": "La prime de Noël est une aide exceptionnelle attribuée à certains bénéficiaires de minima sociaux (revenu de solidarité active, allocation de solidarité spécifique, allocation équivalent retraite). Cette année, il est prévu qu’elle soit versée à ces foyers modestes à partir du 15 décembre.",
+  "themes": [
+   "aides_sociales",
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "allocation de solidarité spécifique",
+   "minima sociaux",
+   "retraite",
+   "revenu de solidarité active"
+  ],
+  "score": 4,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": true,
+   "importance": 2,
+   "themes": [
+    "aides_sociales",
+    "protection_sociale"
+   ],
+   "type": "Démarche / info pratique",
+   "titre": "Versement de la prime de Noël 2026 pour les bénéficiaires de minima sociaux",
+   "resume": "La prime de Noël 2026 est versée automatiquement à partir du 15 décembre 2026 aux bénéficiaires du RSA, de l'ASS ou de l'AER en novembre 2026. Son versement dépend des ressources et de la composition du foyer, sans démarche nécessaire de la part des allocataires.",
+   "a_retenir": "Vérifier auprès des salariés précaires ou bénéficiaires du RSA qu'ils remplissent les conditions pour percevoir automatiquement la prime de Noël à partir du 15 décembre.",
+   "date_effet": "2026-12-15"
+  },
+  "doublons_verifie": true
+ },
+ {
+  "id": "988762c0d830245f",
+  "url": "https://www.service-public.gouv.fr/particuliers/actualites/A19160?xtor=RSS-111",
+  "source": "sp-particuliers",
+  "date": "2026-11-26",
+  "collecte": "2026-11-27T15:29:59+00:00",
+  "titre_officiel": "CAF : le calendrier 2027 des versements de prestations est paru",
+  "extrait": "Vous êtes bénéficiaire des allocations familiales ? Vous êtes allocataire du RSA (Revenu de solidarité active), des APL (Aides au logement) ou de la prime d'activité ? Découvrez le calendrier des versements des prestations de la Caisse d'allocations familiales pour l'année 2027.",
+  "themes": [
+   "aides_sociales",
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "aides au logement",
+   "allocations familiales",
+   "APL",
+   "Caf",
+   "caisse d'allocations familiales",
+   "prime d'activité",
+   "revenu de solidarité active",
+   "RSA"
+  ],
+  "score": 11,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": true,
+   "importance": 1,
+   "themes": [
+    "aides_sociales",
+    "protection_sociale"
+   ],
+   "type": "Démarche / info pratique",
+   "titre": "Calendrier 2027 des versements des prestations de la CAF",
+   "resume": "Le calendrier 2027 des paiements de la Caisse d'allocations familiales précise les dates de versement des prestations comme le RSA, la prime d'activité ou les APL. Les versements interviennent par principe le 5 de chaque mois, sauf adaptation lorsque celui-ci tombe un week-end.",
+   "a_retenir": "Consulter le calendrier pour informer les salariés bénéficiaires des dates exactes de versement des prestations en 2027.",
+   "date_effet": "2027-01-01"
+  },
+  "doublons_verifie": true
+ },
+ {
+  "id": "145be49f6e7a351f",
+  "url": "https://www.vie-publique.fr/en-bref/305512-systeme-de-retraite-les-preconisations-de-la-cour-des-comptes?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
+  "source": "vie-publique-actu",
+  "date": "2026-11-26",
+  "collecte": "2026-11-27T15:29:59+00:00",
+  "titre_officiel": "Système de retraite : que préconise la Cour des comptes pour revenir à l'équilibre financier ?",
+  "extrait": "En 2025, le déficit du système de retraite français était de 5,1 milliards d'euros (Md€). Selon les projections du Conseil d'orientation des retraites de juin 2026, ce déficit devrait s'accroître pour atteindre (en euros de 2025) 12,8 Md€ en 2035 et 44,6 Md€ en 2050.",
+  "themes": [
+   "protection_sociale"
+  ],
+  "mots_cles": [
+   "retraite"
+  ],
+  "score": 4,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": false,
+   "importance": 1,
+   "themes": [
+    "protection_sociale"
+   ],
+   "type": "Actualité",
+   "titre": "Préconisations de la Cour des comptes sur le déficit du système de retraite",
+   "resume": "Extrait insuffisant : consulter la source.",
+   "a_retenir": "",
+   "date_effet": ""
+  }
+ },
+ {
   "id": "46d344f4a6891561",
   "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055143987",
   "source": "jo",
@@ -62,6 +264,39 @@
    "a_retenir": "",
    "date_effet": ""
   }
+ },
+ {
+  "id": "40ff4c9c46ed1a66",
+  "url": "https://www.lassuranceretraite.fr/portail-info/sites/pub/hors-menu/actualites-nationales/actif/2026/je-prepare-ma-retraite-le-webina.html",
+  "source": "assurance-retraite",
+  "date": "2026-11-25",
+  "collecte": "2026-11-27T15:29:59+00:00",
+  "titre_officiel": "Je prépare ma retraite : le webinaire",
+  "extrait": "",
+  "themes": [
+   "protection_sociale",
+   "maintien_emploi"
+  ],
+  "mots_cles": [
+   "retraite"
+  ],
+  "score": 4,
+  "ia": {
+   "statut": "ok",
+   "modele": "gemini-3.5-flash-lite",
+   "pertinent": true,
+   "importance": 1,
+   "themes": [
+    "protection_sociale",
+    "maintien_emploi"
+   ],
+   "type": "Démarche / info pratique",
+   "titre": "Webinaire d'information de l'Assurance retraite sur la préparation au départ",
+   "resume": "L'Assurance retraite propose un webinaire d'information pour accompagner les futurs retraités dans leurs démarches, l'estimation de leur âge de départ et le calcul du montant de leur pension.",
+   "a_retenir": "Orienter les salariés proches de la retraite vers les outils et webinaires de l'Assurance retraite pour anticiper leurs démarches de fin de carrière.",
+   "date_effet": "2026-12-01"
+  },
+  "doublons_verifie": true
  },
  {
   "id": "e71b88ef213dcffb",
