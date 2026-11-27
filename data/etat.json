@@ -1,11 +1,11 @@
 {
- "derniere_execution": "2026-11-27T15:29:59+00:00",
+ "derniere_execution": "2026-11-27T20:02:36+00:00",
  "sources": {
   "sp-particuliers": {
    "nom": "Service-Public.fr (particuliers)",
    "ok": true,
    "lus": 10,
-   "nouveaux": 2
+   "nouveaux": 0
   },
   "sp-pro": {
    "nom": "Service-Public.fr (professionnels)",
@@ -17,7 +17,7 @@
    "nom": "Journal officiel (Lois et décrets)",
    "ok": true,
    "lus": 500,
-   "nouveaux": 2
+   "nouveaux": 0
   },
   "vie-publique-lois": {
    "nom": "Vie-publique.fr (lois)",
@@ -29,7 +29,7 @@
    "nom": "Vie-publique.fr (actualités)",
    "ok": true,
    "lus": 10,
-   "nouveaux": 1
+   "nouveaux": 0
   },
   "travail-emploi": {
    "nom": "Ministère du Travail",
@@ -68,8 +68,8 @@
   "assurance-retraite": {
    "nom": "L'Assurance retraite",
    "ok": true,
-   "lus": 197,
-   "nouveaux": 1
+   "lus": 196,
+   "nouveaux": 0
   },
   "agirc-arrco": {
    "nom": "Agirc-Arrco",
@@ -117,7 +117,7 @@
    "nom": "Défenseur des droits",
    "ok": true,
    "lus": 10,
-   "nouveaux": 1
+   "nouveaux": 0
   },
   "ash": {
    "nom": "ASH (Actualités sociales hebdomadaires)",
@@ -134,10 +134,8 @@
  },
  "ia": {
   "active": true,
-  "traites": 7,
-  "restants": 0,
-  "modele": "gemini-3.5-flash-lite",
-  "doublons_regroupes": 0
+  "traites": 0,
+  "restants": 0
  },
- "nouveaux": 7
+ "nouveaux": 0
 }
